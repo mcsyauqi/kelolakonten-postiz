@@ -1,5 +1,5 @@
 (function () {
-  const measurementId = 'G-ZTD9XVENS1';
+  const measurementId = 'G-N3GL8Q20VC';
   window.dataLayer = window.dataLayer || [];
   window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };
   window.gtag('js', new Date());
@@ -16,3 +16,4 @@
     if (source) window.kelolaTrack('source_link_click', { placement: source.dataset.sourcePlacement || 'unknown' });
   });
 }());
+
