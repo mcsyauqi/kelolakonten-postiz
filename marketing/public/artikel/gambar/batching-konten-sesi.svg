@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" width="1200" height="560" role="img" aria-labelledby="t d"><title id="t">Contoh pembagian waktu satu sesi batching</title><desc id="d">Garis waktu contoh satu hari kerja: brief, pengambilan foto dan video, istirahat, edit, caption, lalu review dan penjadwalan.</desc>
+<rect width="1200" height="560" fill="#FBFCFE"/>
+<text x="60" y="70" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700" fill="#172338">Contoh satu sesi batching (ilustrasi, bukan patokan)</text>
+<text x="60" y="108" font-family="Segoe UI, Arial, sans-serif" font-size="20" fill="#454C5C">Blok kerja dikelompokkan menurut jenis tugas agar tidak terus berganti peralatan</text>
+<g font-family="Segoe UI, Arial, sans-serif" font-size="17" fill="#676E7B" text-anchor="middle"><text x="100" y="170">09.00</text><text x="225" y="170">10.00</text><text x="350" y="170">11.00</text><text x="475" y="170">12.00</text><text x="600" y="170">13.00</text><text x="725" y="170">14.00</text><text x="850" y="170">15.00</text><text x="975" y="170">16.00</text><text x="1100" y="170">17.00</text></g>
+<path d="M100 185V470M225 185V470M350 185V470M475 185V470M600 185V470M725 185V470M850 185V470M975 185V470M1100 185V470" stroke="#E1E5EC"/>
+<g font-family="Segoe UI, Arial, sans-serif" font-size="18">
+<rect x="100" y="200" width="125" height="70" rx="10" fill="#DCE6FB"/><text x="112" y="232" font-weight="700" fill="#172338">Brief</text><text x="112" y="256" font-size="15" fill="#454C5C">shot list</text>
+<rect x="225" y="290" width="250" height="70" rx="10" fill="#1E5BD8"/><text x="240" y="322" font-weight="700" fill="#fff">Foto dan video</text><text x="240" y="346" font-size="15" fill="#DCE6FB">semua aset mentah</text>
+<rect x="475" y="200" width="125" height="70" rx="10" fill="#fff" stroke="#676E7B" stroke-dasharray="6 5"/><text x="487" y="242" fill="#676E7B">Istirahat</text>
+<rect x="600" y="380" width="187" height="70" rx="10" fill="#B3CCFF"/><text x="612" y="412" font-weight="700" fill="#172338">Edit visual</text><text x="612" y="436" font-size="15" fill="#454C5C">potong, subtitle</text>
+<rect x="787" y="290" width="125" height="70" rx="10" fill="#DCE6FB"/><text x="799" y="322" font-weight="700" fill="#172338">Caption</text><text x="799" y="346" font-size="15" fill="#454C5C">hook, CTA</text>
+<rect x="912" y="200" width="188" height="70" rx="10" fill="#172338"/><text x="926" y="232" font-weight="700" fill="#fff">Review, jadwal</text><text x="926" y="256" font-size="15" fill="#DCE6FB">simpan sebagai draft</text>
+</g>
+<text x="60" y="520" font-family="Segoe UI, Arial, sans-serif" font-size="17" fill="#454C5C">Sesuaikan dengan kapasitas tim. Pengelola tunggal bisa memecahnya menjadi dua setengah hari.</text>
+</svg>

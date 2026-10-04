@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" width="1200" height="600" role="img" aria-labelledby="t d"><title id="t">Matriks pilar konten dan format untuk satu batch</title><desc id="d">Tabel empat pilar konten (edukasi, demonstrasi, cerita pelanggan, penawaran) terhadap tiga format (foto tunggal, carousel, video pendek), dengan sel yang dipilih untuk satu batch.</desc>
+<rect width="1200" height="600" fill="#FBFCFE"/>
+<text x="60" y="70" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700" fill="#172338">Pilih sel, bukan isi semua kotak</text>
+<text x="60" y="108" font-family="Segoe UI, Arial, sans-serif" font-size="20" fill="#454C5C">Contoh satu batch berisi tujuh konten dari empat pilar dan tiga format</text>
+<g font-family="Segoe UI, Arial, sans-serif" font-size="20">
+<g fill="#172338" font-weight="700" text-anchor="middle"><text x="530" y="170">Foto tunggal</text><text x="770" y="170">Carousel</text><text x="1010" y="170">Video pendek</text></g>
+<g fill="#172338" font-weight="700"><text x="70" y="241">Edukasi</text><text x="70" y="341">Demonstrasi</text><text x="70" y="441">Cerita pelanggan</text><text x="70" y="541">Penawaran</text></g>
+<g stroke="#E1E5EC" fill="#fff">
+<rect x="420" y="195" width="220" height="80" rx="10"/><rect x="660" y="195" width="220" height="80" rx="10" fill="#1E5BD8" stroke="none"/><rect x="900" y="195" width="220" height="80" rx="10" fill="#1E5BD8" stroke="none"/>
+<rect x="420" y="295" width="220" height="80" rx="10"/><rect x="660" y="295" width="220" height="80" rx="10"/><rect x="900" y="295" width="220" height="80" rx="10" fill="#1E5BD8" stroke="none"/>
+<rect x="420" y="395" width="220" height="80" rx="10" fill="#1E5BD8" stroke="none"/><rect x="660" y="395" width="220" height="80" rx="10" fill="#1E5BD8" stroke="none"/><rect x="900" y="395" width="220" height="80" rx="10"/>
+<rect x="420" y="495" width="220" height="80" rx="10" fill="#1E5BD8" stroke="none"/><rect x="660" y="495" width="220" height="80" rx="10"/><rect x="900" y="495" width="220" height="80" rx="10" fill="#B3CCFF" stroke="none"/>
+</g>
+<g fill="#fff" text-anchor="middle" font-size="18"><text x="770" y="241">tips memilih ukuran</text><text x="1010" y="241">jawab satu pertanyaan</text><text x="1010" y="341">proses pembuatan</text><text x="530" y="441">foto dan kutipan</text><text x="770" y="441">sebelum dan sesudah</text><text x="530" y="541">promo stok aktif</text></g>
+<text x="1010" y="541" fill="#172338" text-anchor="middle" font-size="18">cadangan</text>
+</g></svg>
