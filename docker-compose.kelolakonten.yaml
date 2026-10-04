@@ -3,11 +3,13 @@
 # Coolify injects every `${...:?}` variable from the application environment.
 services:
   postiz:
-    build:`n    expose:`n      - "5000"
+    build:
       context: .
       dockerfile: Dockerfile.dev
       args:
         NEXT_PUBLIC_VERSION: ${NEXT_PUBLIC_VERSION:-v1.47.0}
+    expose:
+      - "5000"
     restart: always
     environment:
       MAIN_URL: ${MAIN_URL:?set https://app.kelolakonten.com}
@@ -144,6 +146,7 @@ networks:
     internal: true
   kelolakonten-temporal:
     internal: true
+
 
 
 
