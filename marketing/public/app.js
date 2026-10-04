@@ -83,6 +83,7 @@ document.querySelectorAll('[data-engagement-form]').forEach((form) => form.addEv
   const text = document.createElement('span');
   text.textContent = 'Rasio ini adalah interaksi dibagi jangkauan. Gunakan sebagai titik awal, lalu bandingkan per format dan periode.';
   result.append(strong, document.createElement('br'), text);
+  window.kelolaTrack?.('calculator_completed', { result: rate });
 }));
 
 document.querySelectorAll('[data-calendar-form]').forEach((form) => form.addEventListener('submit', (event) => {
@@ -110,6 +111,7 @@ document.querySelectorAll('[data-copy-calendar]').forEach((button) => button.add
   const text = button.dataset.copyText || button.closest('.tool-grid')?.querySelector('[data-tool-result]')?.innerText || '';
   try {
     await navigator.clipboard.writeText(text);
+    window.kelolaTrack?.('template_copied', { period: text.split('\n')[0] || 'calendar' });
     button.textContent = 'Tersalin';
     setTimeout(() => { button.textContent = 'Salin kerangka'; }, 1800);
   } catch {
