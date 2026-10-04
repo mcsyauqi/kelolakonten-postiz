@@ -75,7 +75,8 @@ document.querySelectorAll('[data-engagement-form]').forEach((form) => form.addEv
   const shares = Number(form.shares.value || 0);
   const reach = Number(form.reach.value || followers || 1);
   const rate = ((likes + comments + saves + shares) / Math.max(reach, 1) * 100).toFixed(2);
-  const result = form.querySelector('[data-tool-result]');
+  const result = form.parentElement?.querySelector('[data-tool-result]');
+  if (!result) return;
   result.replaceChildren();
   const strong = document.createElement('strong');
   strong.textContent = `${rate}%`;
@@ -89,7 +90,8 @@ document.querySelectorAll('[data-calendar-form]').forEach((form) => form.addEven
   const month = form.month.value;
   const goal = form.goal.value;
   const formats = ['Edukasi', 'Bukti proses', 'Penawaran', 'Cerita pelanggan', 'Di balik layar', 'Tanya jawab', 'Repurpose'];
-  const result = form.querySelector('[data-tool-result]');
+  const result = form.parentElement?.querySelector('[data-tool-result]');
+  if (!result) return;
   result.replaceChildren();
   const title = document.createElement('strong');
   title.textContent = `Rencana ${month}`;
@@ -100,4 +102,17 @@ document.querySelectorAll('[data-calendar-form]').forEach((form) => form.addEven
     result.append(line);
     if (index < formats.length - 1) result.append(document.createElement('br'));
   });
+  const copyButton = form.parentElement?.querySelector('[data-copy-calendar]');
+  if (copyButton) copyButton.dataset.copyText = Array.from(result.querySelectorAll('span')).map((line) => line.textContent).join('\n');
+}));
+
+document.querySelectorAll('[data-copy-calendar]').forEach((button) => button.addEventListener('click', async () => {
+  const text = button.dataset.copyText || button.closest('.tool-grid')?.querySelector('[data-tool-result]')?.innerText || '';
+  try {
+    await navigator.clipboard.writeText(text);
+    button.textContent = 'Tersalin';
+    setTimeout(() => { button.textContent = 'Salin kerangka'; }, 1800);
+  } catch {
+    button.textContent = 'Salin gagal, pilih teks manual';
+  }
 }));
