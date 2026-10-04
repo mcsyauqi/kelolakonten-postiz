@@ -1,3 +1,3 @@
 'use client';
 
-export const TestimonialComponent = () => null;
+export const TestimonialComponent = (): null => null;
