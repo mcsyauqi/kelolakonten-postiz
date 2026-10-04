@@ -5,4 +5,9 @@ export class RootController {
   getRoot(): string {
     return 'App is running!';
   }
+
+  @Get('/health')
+  getHealth(): { status: string; service: string } {
+    return { status: 'ok', service: 'kelola-konten-postiz' };
+  }
 }
