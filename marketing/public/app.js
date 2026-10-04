@@ -15,11 +15,13 @@ if (waitlist) {
     if (!email?.checkValidity()) {
       email?.setAttribute('aria-invalid', 'true');
       setMessage('Masukkan alamat email yang valid.', 'error');
+      window.kelolaTrack?.('waitlist_submit_error', { error: 'email_invalid' });
       email?.focus();
       return;
     }
     if (consent && !consent.checked) {
       setMessage('Centang persetujuan agar kami dapat mengirim kabar beta.', 'error');
+      window.kelolaTrack?.('waitlist_submit_error', { error: 'consent_required' });
       consent.focus();
       return;
     }
@@ -35,14 +37,17 @@ if (waitlist) {
       });
       const result = await response.json().catch(() => ({}));
       if (!response.ok) {
+        window.kelolaTrack?.('waitlist_submit_error', { error: result.error || 'request_failed' });
         if (result.error === 'email_invalid') setMessage('Masukkan alamat email yang valid.', 'error');
         else if (result.error === 'rate_limited') setMessage('Terlalu banyak percobaan. Coba lagi sebentar lagi.', 'error');
         else setMessage('Belum tersimpan. Coba lagi atau hubungi kami lewat WhatsApp.', 'error');
         return;
       }
       waitlist.reset();
+      window.kelolaTrack?.('waitlist_submit_success', { role: role?.value || 'UMKM', duplicate: Boolean(result.duplicate) });
       setMessage(result.duplicate ? 'Email ini sudah ada di daftar tunggu.' : 'Terima kasih. Kami simpan alamatmu untuk kabar beta berikutnya.', 'success');
     } catch {
+      window.kelolaTrack?.('waitlist_submit_error', { error: 'network_error' });
       setMessage('Belum tersambung. Coba lagi atau hubungi kami lewat WhatsApp.', 'error');
     } finally {
       button.disabled = false;
