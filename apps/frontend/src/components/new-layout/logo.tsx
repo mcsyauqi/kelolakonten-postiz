@@ -2,7 +2,7 @@
 
 export const Logo = () => (
   <img
-    src="/brand/kelola-mark.svg"
+    src="/logo.svg"
     alt="Kelola Konten"
     width={46}
     height={46}
