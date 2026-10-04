@@ -22,7 +22,7 @@ function rateLimited(ip) {
   if (now - row.started > 10 * 60 * 1000) { row.count = 0; row.started = now; }
   row.count += 1;
   attempts.set(ip, row);
-  return row.count > 5;
+  return row.count > 30;
 }
 function emailValid(value) { return value.length <= 254 && /^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(value); }
 
