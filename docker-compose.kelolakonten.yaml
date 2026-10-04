@@ -128,7 +128,6 @@ services:
       ES_SEEDS: kelolakonten-temporal-es
       ES_VERSION: v7
       TEMPORAL_NAMESPACE: default
-    volumes:
     networks: [kelolakonten-temporal]
 
 volumes:
