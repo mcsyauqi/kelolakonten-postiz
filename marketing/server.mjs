@@ -1,6 +1,6 @@
 import { createServer } from 'node:http';
 import { createReadStream, existsSync, mkdirSync, appendFileSync, readFileSync } from 'node:fs';
-import { join, normalize, extname, resolve } from 'node:path';
+import { join, normalize, extname, resolve, sep } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const projectRoot = fileURLToPath(new URL('.', import.meta.url));
@@ -60,7 +60,7 @@ const server = createServer(async (req, res) => {
   else if (!extname(pathname)) pathname += '.html';
   const safePath = normalize(pathname).replace(/^([.][.][/\\])+/, '');
   const file = resolve(root, `.${safePath.startsWith('/') ? safePath : `/${safePath}`}`);
-  if (!file.startsWith(root + '\\') && file !== root) return send(res, 403, 'text/plain; charset=utf-8', 'Forbidden');
+  if (!file.startsWith(root + sep) && file !== root) return send(res, 403, 'text/plain; charset=utf-8', 'Forbidden');
   if (!existsSync(file)) {
     const custom404 = join(root, '404.html');
     if (existsSync(custom404)) {
