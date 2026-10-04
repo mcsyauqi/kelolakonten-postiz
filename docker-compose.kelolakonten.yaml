@@ -128,9 +128,7 @@ services:
       ES_SEEDS: kelolakonten-temporal-es
       ES_VERSION: v7
       TEMPORAL_NAMESPACE: default
-      DYNAMIC_CONFIG_FILE_PATH: config/dynamicconfig/development-sql.yaml
     volumes:
-      - ./dynamicconfig:/etc/temporal/config/dynamicconfig:ro
     networks: [kelolakonten-temporal]
 
 volumes:
