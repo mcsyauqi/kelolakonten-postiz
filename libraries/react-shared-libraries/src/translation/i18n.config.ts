@@ -13,9 +13,11 @@ export const languages = [
   'ko',
   'ar',
   'tr',
-  'vi',\n  'id',
+  'vi',
+  'id',
 ];
 
 export const defaultNS = 'translation';
 export const cookieName = 'i18next';
 export const headerName = 'x-i18next-current-language';
+
