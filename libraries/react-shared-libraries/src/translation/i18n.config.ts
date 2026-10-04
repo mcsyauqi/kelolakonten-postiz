@@ -13,7 +13,7 @@ export const languages = [
   'ko',
   'ar',
   'tr',
-  'vi',
+  'vi',\n  'id',
 ];
 
 export const defaultNS = 'translation';

@@ -1,0 +1,14 @@
+# Kelola Konten
+
+Kelola Konten adalah ruang kerja konten sosial untuk UMKM, kreator, dan agensi Indonesia.
+
+## Produk
+- Kalender, draft, review, approval, penjadwalan, dan analitik sesuai koneksi platform.
+- TikTok dan YouTube otomatis hanya tayang setelah aplikasi lolos audit platform.
+- Unified external DM, competitor analytics, dan laporan PDF berlogo agensi berstatus segera.
+
+## Sumber
+- Public source fork: https://github.com/mcsyauqi/kelolakonten-postiz
+- AGPL-3.0: https://github.com/mcsyauqi/kelolakonten-postiz/blob/main/LICENSE
+- WhatsApp: https://wa.me/6285136212005
+- Artikel: https://kelolakonten.com/artikel/

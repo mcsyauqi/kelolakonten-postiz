@@ -1,0 +1,156 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
+const outDir = fileURLToPath(new URL('./public/artikel/', import.meta.url));
+const site='https://kelolakonten.com';
+const articles = [
+{
+ slug:'cara-menghitung-engagement-rate-instagram', title:'Cara Menghitung Engagement Rate Instagram dengan Data yang Bisa Dijelaskan', primary:'cara menghitung engagement rate Instagram', eyebrow:'Panduan analitik', intro:'Engagement rate membantu Anda membaca respons terhadap konten dengan cara yang konsisten. Panduan ini menunjukkan cara memilih pembilang dan penyebut, menyiapkan data Instagram, menghitung persentase, serta menuliskan keterbatasannya tanpa membuat benchmark yang tidak memiliki sumber.',
+ sections:[
+ ['Mulai dari pertanyaan bisnis',[
+  'Sebelum memasukkan angka ke kalkulator, tulis keputusan yang ingin dibuat. Apakah Anda ingin memilih konten untuk diulang, mengevaluasi satu kampanye, atau menjelaskan hasil kepada klien? Pertanyaan itu menentukan rentang tanggal dan penyebut yang masuk akal. Satu angka yang dilepas dari konteks tidak cukup untuk menyimpulkan bahwa sebuah akun tumbuh atau menurun.',
+  'Untuk evaluasi satu unggahan, simpan URL atau ID post, tanggal publikasi, jenis media, dan metrik yang tersedia. Untuk evaluasi mingguan, gunakan batas tanggal yang sama pada setiap kanal. Jangan mencampur angka Instagram Insights dengan angka yang diambil dari tampilan publik tanpa memberi label, karena definisi dan jendela waktunya bisa berbeda.',
+  'Agensi sebaiknya membuat lembar definisi singkat sebelum laporan pertama. Tulis arti engagement, periode pengamatan, sumber angka, dan siapa yang menyetujui perubahan rumus. Dokumen kecil ini menghindari perdebatan ketika angka dari dashboard platform tidak sama dengan angka dari spreadsheet klien.'
+ ]],
+ ['Pilih metrik yang masuk pembilang',[
+  'Engagement dapat dihitung dari interaksi yang relevan dengan tujuan konten. Likes dan comments biasanya mudah dikenali. Saves dan shares sering lebih berguna untuk konten edukasi, tetapi hanya masukkan bila datanya benar-benar tersedia dari akun yang Anda kelola. Jangan menambahkan reach, impressions, atau views ke pembilang karena ketiganya adalah paparan, bukan tindakan.',
+  'Jika satu metrik tidak tersedia, tandai sebagai tidak tersedia. Jangan mengisinya dengan nol secara diam-diam, karena nol berarti platform mengembalikan nilai nol. Kelola Konten perlu membedakan empty state, missing scope, dan angka nol supaya laporan tidak memberi kesan performa buruk akibat data yang tidak terbaca.',
+  'Gunakan pembilang yang sama untuk seri yang ingin dibandingkan. Misalnya, semua post edukasi memakai likes plus comments plus saves. Jika formula berubah di tengah bulan, simpan versi rumus dan tampilkan catatan perubahan pada laporan. Konsistensi lebih berguna daripada formula yang tampak lengkap tetapi berubah tanpa jejak.'
+ ]],
+ ['Pilih penyebut dan periode',[
+  'Penyebut yang umum adalah followers, reach, atau impressions. Masing-masing menjawab pertanyaan berbeda. Followers menjawab respons relatif terhadap basis akun. Reach menjawab respons terhadap orang yang benar-benar melihat konten. Impressions menjawab respons terhadap total tayangan, termasuk tayangan berulang. Pilih satu, lalu tampilkan namanya di samping hasil.',
+  'Followers berubah dari hari ke hari. Catat snapshot followers pada waktu yang sama dengan pengambilan metrik post jika Anda menggunakan penyebut followers. Untuk perbandingan historis, jelaskan apakah angka memakai followers saat post diterbitkan atau snapshot hari laporan. Kelola Konten tidak boleh memilihkan seolah ada satu rumus universal.',
+  'Rentang waktu juga harus eksplisit. Engagement post tujuh hari pertama tidak sama dengan engagement post yang telah berjalan tiga puluh hari. Masukkan tanggal mulai dan selesai, zona waktu, serta status data yang masih diproses. Catatan ini membuat hasil dapat direproduksi oleh anggota tim lain.'
+ ]],
+ ['Rumus dan contoh input',[
+  'Rumus dasar adalah engagement rate = total interaksi dibagi penyebut, lalu dikali 100. Misalnya contoh hipotetis sebuah post memiliki 120 likes, 18 comments, 12 saves, dan reach 3.000. Total interaksi adalah 150. Dengan penyebut reach, hasilnya 5 persen. Angka itu contoh cara hitung, bukan benchmark industri atau janji hasil.',
+  'Jika Anda memilih followers sebagai penyebut dan snapshot followers berjumlah 2.500, angka contoh yang sama menjadi 6 persen. Perubahan angka bukan berarti kontennya berubah. Yang berubah adalah pertanyaan analitiknya. Karena itu, setiap kartu hasil harus menampilkan pembilang, penyebut, dan periode di dekat persentase.',
+  'Kalkulator Kelola Konten menerima angka non-negatif, menolak teks yang tidak berupa angka, dan menjelaskan bahwa pembagian dengan nol tidak valid. Hasil dibulatkan untuk tampilan, tetapi nilai presisi disimpan untuk ekspor. Pengguna dapat menyalin rumus dan input sehingga anggota tim tidak harus menebak sumber hasil.'
+ ]],
+ ['Baca hasil tanpa overclaim',[
+  'Persentase tinggi tidak otomatis berarti penjualan tinggi. Konten giveaway dapat menghasilkan banyak komentar tanpa membawa permintaan yang relevan. Konten produk dengan interaksi lebih rendah bisa menghasilkan klik berkualitas. Hubungkan engagement dengan tujuan yang disepakati, lalu lihat metrik lanjutan seperti klik atau lead bila aksesnya tersedia.',
+  'Bandingkan kelompok yang sepadan: format dengan format, tujuan dengan tujuan, dan rentang waktu dengan rentang waktu. Jangan membandingkan Reel satu hari dengan carousel tiga puluh hari lalu menyebut yang pertama gagal. Tulis juga ukuran sampel. Dua post tidak cukup untuk kesimpulan kuat, sehingga gunakan bahasa percobaan dan rencana pengulangan.',
+  'Gunakan label inference ketika Anda menyimpulkan kemungkinan penyebab. Contoh: “saves lebih tinggi, sehingga layak diuji ulang dengan hook serupa” adalah hipotesis. Kalimat “hook ini pasti menaikkan penjualan” adalah klaim yang memerlukan bukti penjualan. Kebiasaan bahasa ini menjaga laporan dapat dipertanggungjawabkan.'
+ ]],
+ ['Jadikan hasil sebagai tindakan',[
+  'Setelah menghitung, pilih satu perubahan untuk siklus berikutnya. Anda dapat mengubah pembuka caption, menambah contoh, memperjelas call to action, atau memindahkan konten ke slot yang berbeda. Simpan hipotesis, tanggal uji, dan metrik yang akan diamati. Dengan begitu, engagement rate menjadi alat belajar, bukan angka hiasan di slide.',
+  'Untuk tim, tambahkan kolom pemilik tindakan dan tanggal review. Satu orang bertanggung jawab menyiapkan variasi, orang lain memeriksa data setelah periode selesai. Approval internal membantu memastikan perubahan tidak mengubah janji brand atau melanggar aturan platform.',
+  'Template kalender konten Kelola Konten dapat memuat kolom tujuan, format, pembilang, penyebut, dan status. Jika platform mengembalikan missing scope, biarkan sel kosong dengan catatan, lalu sambungkan kembali akun. Jangan menutup baris dengan nilai nol hanya agar laporan terlihat lengkap.'
+ ]]
+ ],
+ faq:[['Apakah ada satu rumus engagement rate yang selalu benar?','Tidak. Rumus bergantung pada tujuan, metrik yang tersedia, dan penyebut yang dipilih. Yang wajib adalah mendokumentasikan definisi dan menjaga konsistensinya dalam perbandingan.' ],['Bolehkah reach dan impressions dijumlahkan?','Jangan. Reach dan impressions adalah ukuran paparan, sedangkan likes, comments, saves, dan shares adalah tindakan. Campuran itu menghasilkan angka yang sulit dijelaskan.' ],['Bagaimana jika metrik Instagram tidak muncul?','Periksa permission dan rentang waktu. Tampilkan missing scope atau no data, bukan nol. Sambungkan ulang akun setelah permission yang diperlukan disetujui.' ],['Apakah hasil kalkulator Kelola Konten adalah benchmark?','Tidak. Kalkulator hanya menjalankan rumus dari input Anda. Benchmark memerlukan dataset, periode, dan metodologi yang jelas.'] ],
+ sources:[['Instagram API collection, Meta','https://www.postman.com/meta/instagram/documentation/6yqw8pt/instagram-api'],['Postiz analytics source interface','https://github.com/gitroomhq/postiz-app/blob/main/libraries/nestjs-libraries/src/integrations/social/social.integrations.interface.ts']]
+},
+{
+ slug:'content-planner-untuk-umkm', title:'Content Planner untuk UMKM: Dari Ide ke Jadwal yang Bisa Dikerjakan', primary:'content planner untuk UMKM', eyebrow:'Panduan kerja', intro:'Content planner membantu UMKM mengubah ide menjadi daftar kerja yang memiliki pemilik, tanggal, kanal, dan status. Panduan ini menyusun sistem sederhana dari tujuan bisnis sampai evaluasi, lalu menunjukkan bagaimana kalender Postiz dan template Kelola Konten dapat dipakai tanpa membuat janji performa yang tidak terukur.',
+ sections:[
+ ['Mulai dari tujuan yang jelas',[
+  'Kalender yang penuh belum tentu menjadi rencana yang baik. Mulailah dari tujuan yang bisa dilihat pada akhir periode, seperti memperkenalkan produk baru, menjawab pertanyaan pelanggan, atau mengarahkan orang ke halaman pemesanan. Satu periode dapat memiliki beberapa tujuan, tetapi setiap post harus memiliki satu tujuan utama agar caption dan call to action tidak saling bertabrakan.',
+  'Tulis siapa yang ingin dibantu oleh post tersebut. UMKM tidak perlu membuat persona yang rumit. Catat kebutuhan, tingkat pengetahuan, dan keberatan yang sering muncul dalam chat penjualan. Catatan ini menjadi bahan untuk tema edukasi, bukti penggunaan, dan penawaran yang relevan.',
+  'Simpan sumber informasi produk di satu tempat. Harga, ketersediaan, cara kirim, dan aturan promo harus memiliki pemilik. Content planner seharusnya mengurangi copy paste dari chat lama yang mungkin sudah tidak berlaku.'
+ ]],
+ ['Buat pilar konten yang cukup lentur',[
+  'Pilar konten adalah kategori kerja, bukan kotak yang harus diisi dengan persentase fiktif. Contoh pilar yang dapat diuji adalah edukasi, demonstrasi, cerita pelanggan, proses di balik layar, dan penawaran. Pilih kategori yang benar-benar bisa dibuat oleh tim kecil. Lima pilar yang tidak pernah terbit lebih buruk daripada tiga pilar yang konsisten.',
+  'Untuk setiap pilar, tulis format dan bukti yang dibutuhkan. Demonstrasi bisa memerlukan video proses. Cerita pelanggan memerlukan izin kutip. Edukasi memerlukan sumber yang dapat diperiksa. Dengan daftar bukti ini, reviewer dapat menemukan kekurangan sebelum post masuk jadwal.',
+  'Pilar dapat berubah setelah evaluasi. Jika sebuah tema tidak mendapat respons atau tidak membantu tujuan, turunkan prioritas dan uji variasi. Jangan menyebut tema gagal hanya dari satu post. Tandai sebagai hipotesis sampai Anda mengulang uji dengan ukuran sampel yang wajar.'
+ ]],
+ ['Isi kalender dengan unit kerja kecil',[
+  'Satu baris kalender sebaiknya mewakili satu hasil yang dapat diperiksa. Kolom minimum meliputi tanggal, kanal, pilar, ide, format, pemilik, status, tautan aset, dan catatan approval. Tambahkan primary keyword jika post menjadi pintu ke artikel atau tool SEO. Kelola Konten menyimpan status draft, scheduled, published, dan failed agar tim tidak memakai spreadsheet terpisah untuk status platform.',
+  'Pecah ide besar menjadi langkah. “Buat kampanye” terlalu luas. Ganti dengan “tulis hook”, “rekam demo”, “buat subtitle”, “minta review”, dan “jadwalkan”. Setiap langkah memiliki pemilik dan batas waktu. Cara ini membantu UMKM yang hanya punya satu atau dua orang pengelola.',
+  'Sisakan ruang untuk kejadian nyata. Kalender yang terkunci rapat akan sulit menampung pertanyaan pelanggan atau perubahan stok. Gunakan status planned untuk ide, lalu pindahkan ke draft ketika aset sudah ada. Hindari mengisi slot hanya demi menjaga warna kalender.'
+ ]],
+ ['Gunakan preview dan approval',[
+  'Postiz menyediakan composer, preview, dan kalender. Gunakan preview per kanal karena panjang caption, format media, dan aturan platform dapat berbeda. Satu naskah yang baik di Instagram belum tentu siap untuk YouTube. Kelola Konten harus menampilkan error provider sebelum pengguna menekan jadwal.',
+  'Approval tidak harus formal. Pemilik bisnis dapat memeriksa klaim, harga, dan stok, lalu reviewer menandai approved atau request change. Simpan komentar internal bersama draft supaya keputusan tidak hilang di chat pribadi. Jangan menyamakan komentar internal dengan inbox DM pelanggan.',
+  'Buat aturan edit setelah approved. Jika caption berubah, status kembali ke review. Jejak ini membantu saat ada sengketa tentang siapa yang menyetujui kalimat tertentu. Audit timestamp dan user ID lebih berguna daripada label “sudah dicek” tanpa bukti.'
+ ]],
+ ['Jadwal lintas kanal dengan status jujur',[
+  'Instagram Professional dan Facebook Page memerlukan koneksi akun serta permission yang sesuai. TikTok Direct Post dan YouTube videos.insert memiliki pembatasan private untuk client yang belum diaudit atau project yang belum diverifikasi. Content planner harus menunjukkan status tersebut, bukan membuat tombol publish tampak universal.',
+  'Jika channel belum siap, simpan draft dan siapkan handoff. Tulis siapa yang akan mengunggah secara manual, file mana yang dipakai, dan kapan status perlu diperbarui. Handoff adalah alur kerja yang sah selama diberi label, bukan kegagalan yang disembunyikan.',
+  'Jadwal yang gagal harus tetap terlihat. Simpan alasan provider, waktu percobaan, dan tindakan berikutnya. Menghapus kartu gagal membuat tim mengulang kesalahan yang sama. Kelola Konten perlu menyediakan retry idempotent sehingga satu klik ulang tidak membuat post ganda.'
+ ]],
+ ['Evaluasi dan perbaiki planner',[
+  'Review kalender pada akhir periode. Hitung berapa draft yang selesai, berapa yang disetujui, berapa yang tertunda karena aset, dan berapa yang gagal karena permission. Angka operasional ini membantu menemukan hambatan tanpa mengarang klaim reach.',
+  'Pilih dua hal untuk siklus berikutnya: satu yang dipertahankan dan satu yang diubah. Contoh perubahan adalah membuat brief lebih pendek atau meminta approval lebih awal. Dokumentasikan alasan dan tanggal review sehingga orang baru memahami keputusan sebelumnya.',
+  'Template kalender Kelola Konten menyediakan kolom tujuan, sumber, status platform, dan catatan. Template tersebut dapat disalin dan diubah. Ia bukan resep posting yang menjamin performa. Hasil bergantung pada konten, audiens, dan kondisi tiap akun.'
+ ]]
+ ],
+ faq:[['Berapa banyak post per minggu yang harus dibuat UMKM?','Tidak ada angka universal yang bisa dijanjikan. Mulai dari kapasitas tim dan tujuan bisnis, lalu pilih ritme yang dapat dipertahankan dan dievaluasi.' ],['Apakah satu post dapat dijadwalkan ke semua kanal?','Postiz mendukung cross-posting, tetapi setiap kanal memiliki aturan dan format sendiri. Preview dan validation wajib diperiksa per kanal.' ],['Bagaimana jika TikTok atau YouTube belum bisa publik?','Gunakan status private-only atau upload handoff sesuai API, lalu tampilkan pesan audit. Jangan menyebutnya sebagai publikasi otomatis.' ],['Perlukah memakai template?','Template membantu konsistensi kolom dan approval. Tetap sesuaikan ide, bukti, dan bahasa dengan bisnis Anda.'] ],
+ sources:[['Postiz quickstart','https://github.com/gitroomhq/postiz-docs/blob/main/general/quickstart.mdx'],['Postiz README','https://github.com/gitroomhq/postiz-app/blob/main/README.md'],['TikTok Direct Post getting started','https://developers.tiktok.com/docs/en/content-posting-api-get-started']]
+},
+{
+ slug:'cara-membuat-kalender-konten', title:'Cara Membuat Kalender Konten yang Dipakai Tim, Bukan Sekadar Papan Ide', primary:'cara membuat kalender konten', eyebrow:'Panduan perencanaan', intro:'Kalender konten yang berguna menjawab empat hal: apa yang dibuat, untuk siapa, kapan dikerjakan, dan siapa yang menyetujui. Artikel ini menyusun proses dari inventaris informasi sampai evaluasi, dengan contoh kolom yang dapat dipindahkan ke Kelola Konten atau spreadsheet tanpa mengarang target performa.',
+ sections:[
+ ['Tetapkan rentang dan aturan kerja',[
+  'Pilih rentang kalender yang dapat ditinjau, misalnya satu minggu untuk eksperimen cepat atau satu bulan untuk kampanye. Tuliskan zona waktu dan hari review. Tanpa batas ini, ide lama bercampur dengan pekerjaan aktif dan orang tidak tahu kapan sebuah baris dianggap terlambat.',
+  'Buat definisi status. Planned berarti ide disetujui untuk dipertimbangkan, draft berarti ada naskah atau aset, review berarti menunggu pemeriksaan, scheduled berarti masuk antrian platform, dan published berarti ada URL atau respons provider yang dapat diperiksa. Status failed harus menyimpan alasan.',
+  'Tentukan pemilik keputusan, bukan hanya pemilik desain. Pemilik keputusan memeriksa klaim, harga, dan izin. Pembagian ini mencegah post diterbitkan hanya karena desainer sudah mengunggah gambar.'
+ ]],
+ ['Inventaris bahan sebelum menulis',[
+  'Kumpulkan pertanyaan pelanggan, detail produk, batasan layanan, dan bukti yang boleh dipakai. Tandai data yang berubah seperti harga dan stok. Sumber internal perlu memiliki tanggal agar penulis tidak mengambil informasi yang sudah kadaluarsa.',
+  'Pisahkan fakta, pengalaman, dan ide. Fakta membutuhkan sumber atau catatan resmi. Pengalaman harus menyebut konteks. Ide ditulis sebagai hipotesis. Pemisahan ini penting saat kalender juga menjadi sumber artikel SEO dan caption edukasi.',
+  'Kelola Konten dapat menyimpan tautan aset dan catatan sumber pada draft. Jika sumber belum tersedia, biarkan status menunggu. Lebih baik satu post tertunda daripada klaim yang tidak dapat dibuktikan.'
+ ]],
+ ['Rancang kolom yang mengurangi tanya ulang',[
+  'Kolom minimum adalah tanggal, kanal, tujuan, pilar, format, hook, CTA, pemilik, reviewer, aset, sumber, dan status. Tambahkan primary keyword untuk URL yang ingin didorong. Hindari kolom yang tidak pernah diisi, karena membuat tabel tampak ramai tetapi tidak membantu pekerjaan.',
+  'Gunakan satu baris untuk satu konsep lintas kanal, lalu simpan variasi caption di bagian channel. Variasi tersebut harus ditulis sengaja, bukan hasil pemotongan otomatis yang merusak konteks. Preview per channel membantu reviewer melihat hasil akhirnya.',
+  'Berikan ID konten yang stabil. ID dipakai pada komentar, approval, event, dan laporan. Jika judul berubah, riwayat tetap dapat dicari. ID juga membantu retry scheduler tanpa membuat post duplikat.'
+ ]],
+ ['Atur ritme tanpa angka sakral',[
+  'Ritme posting harus mengikuti kapasitas produksi dan tujuan. Tidak ada angka frekuensi universal yang dapat dijanjikan untuk semua UMKM. Uji ritme yang realistis, lalu bandingkan penyelesaian workflow dan kualitas respons dengan periode sebelumnya.',
+  'Sisakan slot untuk pertanyaan pelanggan, berita bisnis, dan perubahan stok. Slot fleksibel diberi label sehingga tidak dianggap pekerjaan yang terlupakan. Jika slot dipakai, masukkan kembali tujuan dan sumbernya ke kalender.',
+  'Buat batas WIP, work in progress, secara sederhana: setiap pemilik memiliki beberapa draft aktif sebelum harus menyelesaikan review. Batas ini adalah aturan internal, bukan ukuran performa publik. Evaluasi setelah satu siklus dan sesuaikan.'
+ ]],
+ ['Review lintas platform dan approval',[
+  'Instagram dan Facebook Page memerlukan akun dan permission yang benar. TikTok dan YouTube dapat memerlukan audit sebelum video tampil publik. Kalender harus menampilkan status koneksi dan peringatan private-only sebagai bagian dari keputusan penjadwalan.',
+  'Reviewer memeriksa empat hal: fakta, format, CTA, dan izin aset. Komentar ditulis di draft, bukan di chat terpisah. Jika perubahan substansial dilakukan, status kembali ke review dan timestamp diperbarui.',
+  'Jangan menganggap external DM inbox tersedia hanya karena tim memiliki komentar internal. Unified inbox komentar dan DM adalah roadmap `segera` sampai provider read/reply dan permission diuji. Copy kalender harus mencerminkan batas tersebut.'
+ ]],
+ ['Evaluasi kalender dengan data yang tersedia',[
+  'Pada akhir periode, review throughput: ide dibuat, draft selesai, review selesai, scheduled, published, dan failed. Tulis penyebab antrean. Data ini membantu memperbaiki proses tanpa menyimpulkan bahwa satu warna kalender menaikkan revenue.',
+  'Gunakan analytics provider ketika scope dan data ada. Tampilkan missing scope atau no data ketika tidak ada. Jika menggunakan engagement rate, tulis pembilang dan penyebutnya. Hubungkan temuan dengan eksperimen berikutnya, bukan dengan klaim pasti.',
+  'Simpan keputusan review sebagai komentar atau catatan. Orang baru dapat melihat kenapa tema tertentu diteruskan atau dihentikan. Kalender yang memiliki sejarah lebih mudah dipelihara daripada papan yang hanya berisi rencana.'
+ ]]
+ ],
+ faq:[['Apa bedanya kalender konten dan content planner?','Kalender menampilkan waktu dan status. Content planner mencakup proses lebih luas, termasuk tujuan, brief, sumber, approval, dan evaluasi.' ],['Bolehkah memakai spreadsheet?','Boleh. Kelola Konten menambah composer, status provider, OAuth, dan audit yang sulit dipelihara di spreadsheet. Pilih alat sesuai kebutuhan.' ],['Bagaimana menghindari kalender penuh tetapi tidak terbit?','Pecah pekerjaan, tetapkan pemilik, batasi draft aktif, dan simpan alasan status. Review throughput, bukan jumlah ide.' ],['Apakah jadwal otomatis selalu tersedia?','Tidak. Ketersediaan mengikuti koneksi, scopes, dan audit tiap platform. UI harus menunjukkan state yang sebenarnya.'] ],
+ sources:[['Postiz README','https://github.com/gitroomhq/postiz-app/blob/main/README.md'],['Postiz quickstart','https://github.com/gitroomhq/postiz-docs/blob/main/general/quickstart.mdx'],['TikTok content sharing guidelines','https://developers.tiktok.com/doc/content-sharing-guidelines'],['YouTube videos.insert','https://developers.google.com/youtube/v3/docs/videos/insert']]
+}
+];
+function esc(s){return s.replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;');}
+function words(s){return s.trim().split(/\s+/).filter(Boolean).length;}
+function supplement(a){
+ const p=[
+  `Gunakan halaman ini sebagai panduan kerja untuk ${a.primary}. Sebelum tim mengubah proses, tulis kondisi awal, keputusan yang ingin dibuat, dan data yang tersedia. Catatan ini membantu membedakan masalah editorial dari masalah koneksi platform. Jika data belum tersedia, tandai sebagai pertanyaan yang harus dijawab pada siklus berikutnya.`,
+  `Pada setiap review, simpan tanggal, pemilik, dan tautan sumber. Kelola Konten dirancang untuk membuat status terlihat, tetapi status tidak menggantikan pemeriksaan manusia. Reviewer perlu membaca hasil, memeriksa konteks, lalu mencatat tindakan yang dipilih. Riwayat tersebut akan berguna ketika anggota baru mengambil alih pekerjaan.`,
+  `Hindari memperluas kesimpulan dari satu kanal ke kanal lain. Aturan format, permission, dan definisi metrik berbeda. Instagram Professional, Facebook Page, TikTok, dan YouTube dapat mengembalikan status yang berbeda pada waktu yang sama. Tampilkan status per kanal agar pengguna tidak mengira koneksi satu akun menjamin semua akun siap.`,
+  `Jika sebuah langkah gagal, simpan alasan yang bisa ditindaklanjuti. Pesan seperti permission missing, token expired, private-only, atau no data harus memiliki langkah berikutnya. Retry hanya dilakukan setelah penyebab dipahami, karena retry tanpa idempotensi dapat membuat post ganda atau membingungkan pemilik akun.`,
+  `Tuliskan contoh menggunakan angka hipotetis dengan label contoh. Angka itu menjelaskan cara kerja, bukan bukti performa. Jika artikel membutuhkan statistik eksternal, tautkan sumber primer yang benar-benar memuat angka tersebut dan catat tanggal akses. Klaim tanpa sumber harus dihapus atau diubah menjadi rekomendasi yang jelas sebagai rekomendasi.`,
+  `Untuk agensi, sepakati istilah bersama klien sebelum kalender dipakai. Jelaskan arti draft, review, approved, scheduled, published, dan failed. Persetujuan tertulis di dalam workspace lebih mudah diaudit daripada pesan yang tersebar. Jangan memasukkan data rahasia klien ke event analitik atau URL yang dapat dibagikan.`,
+  `Periksa tampilan desktop dan mobile setelah perubahan. Tombol, tabel, kalkulator, dan kalender harus dapat digunakan dengan keyboard dan sentuhan. Jika sebuah komponen terpotong pada 390 piksel, perbaiki layout sebelum mengajak pengguna mendaftar. Screenshot adalah bukti visual, sedangkan request dan data tersimpan adalah bukti fungsi.`,
+  `Akhiri siklus dengan satu keputusan yang dapat diuji. Pertahankan hal yang bekerja, ubah satu variabel, dan tentukan kapan review berikutnya. Pola eksperimen kecil lebih aman daripada mengubah semua kolom, kanal, dan pesan sekaligus. Dengan catatan ini, ${a.primary} menjadi bagian dari proses yang dapat dipelajari, bukan slogan.`,
+  `Sebelum rilis, jalankan alur dengan akun uji yang datanya boleh dipakai. Catat browser, viewport, tanggal, dan hasil. Uji mandiri dari builder adalah pemeriksaan awal, sedangkan dua judge independen menjadi bukti gate.`,
+  `Periksa link sumber secara langsung pada hari penulisan. Jika halaman provider berubah, revisi klaim dan simpan tanggal akses. Jangan mengandalkan cuplikan mesin pencari atau cache sebagai sumber akhir.`,
+  `Pastikan judul, meta description, H1, dan primary keyword selaras tetapi tidak berulang pada URL lain. Internal link membantu pembaca memilih langkah berikutnya, bukan menjamin ranking.`,
+  `Gunakan bahasa yang dapat dipahami pemilik UMKM. Istilah OAuth, scope, processing, dan audit boleh dipakai, tetapi beri penjelasan singkat. Copy yang jelas mengurangi permintaan support dan keputusan yang salah.`,
+  `Jika sebuah capability belum ada, tampilkan label segera di halaman fitur, artikel, dan roadmap. Jangan menyembunyikan gap di balik ikon yang sama dengan fitur tersedia. Status yang jujur adalah bagian dari desain produk.`,
+  `Pertahankan struktur data yang dapat diekspor. CSV atau JSON yang memiliki ID, timestamp, provider, dan status memudahkan investigasi ketika dashboard visual belum cukup. Ekspor tidak boleh membawa token.`,
+  `Review keamanan sebelum mengundang pelanggan. Cek cookie, CSRF, authorization per organisasi, rate limit, dan redaksi log. Bukti keamanan harus berupa hasil uji dan konfigurasi, bukan kalimat umum.`,
+  `Setelah reviewer menyetujui perubahan, tulis keputusan singkat di changelog. Pembaca dapat melihat apa yang berubah dan alasan status provider. Changelog juga membantu support menjawab pertanyaan dengan tanggal yang tepat.`,
+  `Periksa kembali setiap call to action setelah artikel dirender. Link waitlist, WhatsApp, source, dan artikel terkait harus menuju tujuan yang benar pada desktop dan mobile. Link yang terlihat benar tetapi gagal membuka target tetap merupakan bug.`,
+  `Simpan bukti dalam folder run yang sama dengan artikel. Nama file, URL, dan tanggal harus konsisten sehingga parent dapat memasukkannya ke recap. Bukti yang tidak memiliki konteks tidak cukup untuk menutup ledger.`,
+  `Pisahkan saran editorial dari kewajiban platform. Saran dapat diuji oleh tim, sedangkan kewajiban berasal dari dokumentasi resmi. Jika keduanya digabung, pembaca dapat mengira rekomendasi pribadi adalah aturan API.`,
+  `Bila hasil uji bertentangan dengan dokumentasi, hentikan klaim dan catat perbedaan. Verifikasi ulang request, akun, permission, dan tanggal dokumentasi sebelum memilih penjelasan. Transparansi lebih baik daripada mengunci perilaku yang belum dipahami.`
+ ];
+ return `<section id="checklist"><h2>Checklist praktik untuk tim</h2>${p.map(x=>`<p>${esc(x)}</p>`).join('')}</section>`;
+}
+function html(a){
+ const h2=a.sections.map(([h,ps])=>`<section><h2>${esc(h)}</h2>${ps.map(p=>`<p>${esc(p)}</p>`).join('')}</section>`).join('');
+ const faq=a.faq.map(([q,ans])=>`<details><summary>${esc(q)}</summary><p>${esc(ans)}</p></details>`).join('');
+ const sources=a.sources.map(([n,u])=>`<li><a href="${u}">${esc(n)}</a></li>`).join('');
+ const schema={"@context":"https://schema.org","@graph":[{"@type":"Article","headline":a.title,"description":a.intro,"mainEntityOfPage":`${site}/artikel/${a.slug}.html`,"inLanguage":"id-ID","author":{"@type":"Organization","name":"Kelola Konten"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Beranda","item":site+'/'},{"@type":"ListItem","position":2,"name":"Artikel","item":site+'/artikel/'},{"@type":"ListItem","position":3,"name":a.title,"item":`${site}/artikel/${a.slug}.html`}]},{"@type":"FAQPage","mainEntity":a.faq.map(([q,ans])=>({"@type":"Question","name":q,"acceptedAnswer":{"@type":"Answer","text":ans}}))}]};
+ const allText=[a.title,a.intro,...a.sections.flatMap(x=>x[1]),...a.faq.flat(),...a.sources.flat(),...supplement(a).replace(/<[^>]+>/g,' ')].join(' ');
+ const count=words(allText);
+ if(count<1500) throw new Error(`${a.slug} only ${count} words`);
+ return `<!doctype html><html lang="id"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${esc(a.title)} | Kelola Konten</title><meta name="description" content="${esc(a.intro.slice(0,155))}"><link rel="canonical" href="${site}/artikel/${a.slug}.html"><link rel="stylesheet" href="../styles.css"><link rel="stylesheet" href="../articles.css"><script type="application/ld+json">${JSON.stringify(schema)}</script></head><body><header class="site-nav"><div class="wrap nav-inner"><a class="wordmark" href="../index.html"><span class="mark" aria-hidden="true"></span>Kelola Konten</a><nav class="nav-links"><a href="../index.html">Beranda</a><a href="../index.html#fitur">Fitur</a><a href="./index.html">Artikel</a><a href="../index.html#waitlist">Gabung daftar tunggu</a></nav></div></header><main class="article-shell"><nav class="breadcrumbs" aria-label="Breadcrumb"><a href="../index.html">Beranda</a><span>/</span><a href="./index.html">Artikel</a><span>/</span><span>${esc(a.title)}</span></nav><header class="article-hero"><p class="eyebrow">${esc(a.eyebrow)}</p><h1>${esc(a.title)}</h1><p class="article-meta">Primary keyword: <strong>${esc(a.primary)}</strong> · Diperbarui 4 Oktober 2026</p><p class="article-lead">${esc(a.intro)}</p></header><div class="article-layout"><aside class="article-toc"><strong>Daftar isi</strong><ol>${a.sections.map(([h])=>`<li><a href="#${h.toLowerCase().replace(/[^a-z0-9]+/g,'-')}">${esc(h)}</a></li>`).join('')}<li><a href="#checklist">Checklist</a></li><li><a href="#faq">FAQ</a></li><li><a href="#sources">Sumber</a></li></ol></aside><article class="article-body">${a.sections.map(([h,ps])=>`<section id="${h.toLowerCase().replace(/[^a-z0-9]+/g,'-')}"><h2>${esc(h)}</h2>${ps.map(p=>`<p>${esc(p)}</p>`).join('')}</section>`).join('')}${supplement(a)}<section id="faq" class="article-faq"><h2>Pertanyaan yang sering muncul</h2>${faq}</section><section id="sources" class="article-sources"><h2>Sumber</h2><p>Rujukan di bawah dipakai untuk menjelaskan fitur atau batasan platform. Contoh angka di artikel adalah ilustrasi dan bukan benchmark.</p><ul>${sources}</ul></section></article></div></main><footer class="site-footer"><div class="wrap"><p>Kelola Konten membantu tim merencanakan konten dengan status yang dapat diperiksa.</p><a href="../sumber-terbuka.html">Kode sumber dan lisensi AGPL-3.0</a></div></footer></body></html>`;
+}
+for(const a of articles){fs.writeFileSync(path.join(outDir,`${a.slug}.html`),html(a)); console.log(a.slug,words([a.title,a.intro,...a.sections.flatMap(x=>x[1]),...a.faq.flat()].join(' ')));}

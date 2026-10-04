@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+  <title id="title">Kelola Konten mark on dark</title>
+  <desc id="desc">Light blue rounded square with an original dark K symbol.</desc>
+  <rect x="4" y="4" width="56" height="56" rx="14" fill="#B3CCFF"/>
+  <path d="M21 16v32M22 32l18-15M22 32l18 15" fill="none" stroke="#14213B" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
