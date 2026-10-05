@@ -26,6 +26,7 @@ if (waitlist) {
       return;
     }
     email?.removeAttribute('aria-invalid');
+    window.kelolaGrantAnalytics?.();
     button.disabled = true;
     button.setAttribute('aria-busy', 'true');
     setMessage('Menyimpan alamat email...', 'pending');
