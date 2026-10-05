@@ -23,12 +23,13 @@ export const GoogleProvider = () => {
     }
   }, []);
   return (
-    <button
-      type="button"
-      onClick={gotoLogin}
-      aria-label="Lanjutkan dengan Google"
-      className={`cursor-pointer flex-1 bg-white h-[52px] rounded-[10px] flex justify-center items-center text-[#0E0E0E] gap-[5px]`}
-    >
+    <div className="flex-1">
+      <button
+        type="button"
+        onClick={gotoLogin}
+        aria-label="Lanjutkan dengan Google"
+        className={`cursor-pointer w-full bg-white h-[52px] rounded-[10px] flex justify-center items-center text-[#0E0E0E] gap-[5px]`}
+      >
       <div>
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -54,8 +55,13 @@ export const GoogleProvider = () => {
           />
         </svg>
       </div>
-      <div className="block xs:hidden">{t('google', 'Google')}</div>
-      {error && <span role="alert" className="sr-only">{error}</span>}
-    </button>
+        <div className="block xs:hidden">{t('google', 'Google')}</div>
+      </button>
+      {error && (
+        <div role="alert" className="mt-2 rounded-md bg-amber-50 px-3 py-2 text-center text-xs text-amber-700">
+          {error}
+        </div>
+      )}
+    </div>
   );
 };
