@@ -1,18 +1,32 @@
 'use client';
 
-import { useCallback } from 'react';
+import { useCallback, useState } from 'react';
 import { useFetch } from '@gitroom/helpers/utils/custom.fetch';
 import { useT } from '@gitroom/react/translation/get.transation.service.client';
 export const GoogleProvider = () => {
   const fetch = useFetch();
   const t = useT();
+  const [error, setError] = useState<string | null>(null);
   const gotoLogin = useCallback(async () => {
-    const link = await (await fetch('/auth/oauth/GOOGLE')).text();
-    window.location.href = link;
+    setError(null);
+    try {
+      const response = await fetch('/auth/oauth/GOOGLE');
+      if (!response.ok) throw new Error('oauth unavailable');
+      const link = (await response.text()).trim();
+      const parsed = new URL(link);
+      if (parsed.origin !== 'https://accounts.google.com' || !parsed.searchParams.get('client_id')) {
+        throw new Error('oauth unavailable');
+      }
+      window.location.href = parsed.toString();
+    } catch {
+      setError('Google belum tersedia. Hubungi admin setelah OAuth dikonfigurasi.');
+    }
   }, []);
   return (
-    <div
+    <button
+      type="button"
       onClick={gotoLogin}
+      aria-label="Lanjutkan dengan Google"
       className={`cursor-pointer flex-1 bg-white h-[52px] rounded-[10px] flex justify-center items-center text-[#0E0E0E] gap-[5px]`}
     >
       <div>
@@ -41,6 +55,7 @@ export const GoogleProvider = () => {
         </svg>
       </div>
       <div className="block xs:hidden">{t('google', 'Google')}</div>
-    </div>
+      {error && <span role="alert" className="sr-only">{error}</span>}
+    </button>
   );
 };
