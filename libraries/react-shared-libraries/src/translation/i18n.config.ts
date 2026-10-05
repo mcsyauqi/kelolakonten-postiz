@@ -1,6 +1,7 @@
-export const fallbackLng = 'en';
+// Kelola Konten: Bahasa Indonesia adalah bahasa bawaan; pengguna tetap bisa memilih bahasa lain.
+export const fallbackLng = 'id';
 export const languages = [
-  fallbackLng,
+  'en',
   'he',
   'ru',
   'zh',

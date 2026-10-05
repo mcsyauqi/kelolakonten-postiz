@@ -10,7 +10,6 @@ import { classValidatorResolver } from '@hookform/resolvers/class-validator';
 import { LoginUserDto } from '@gitroom/nestjs-libraries/dtos/auth/login.user.dto';
 import { GithubProvider } from '@gitroom/frontend/components/auth/providers/github.provider';
 import { OauthProvider } from '@gitroom/frontend/components/auth/providers/oauth.provider';
-import { GoogleProvider } from '@gitroom/frontend/components/auth/providers/google.provider';
 import { AppleProvider } from '@gitroom/frontend/components/auth/providers/apple.provider';
 import { useVariables } from '@gitroom/react/helpers/variable.context';
 import { FarcasterProvider } from '@gitroom/frontend/components/auth/providers/farcaster.provider';
@@ -33,6 +32,8 @@ export function Login() {
     billingEnabled,
     genericOauth,
   } = useVariables();
+  // Kelola Konten: login Google belum dikonfigurasi, jadi blok "Lanjutkan dengan" hanya tampil bila ada provider lain yang aktif.
+  const showSocial = (isGeneral && !!genericOauth) || !isGeneral || !!appleClientId || !!neynarClientId || billingEnabled;
   const resolver = useMemo(() => {
     return classValidatorResolver(LoginUserDto);
   }, []);
@@ -75,9 +76,11 @@ export function Login() {
               {t('sign_in', 'Sign In')}
             </h1>
           </div>
-          <div className="text-[14px] mt-[32px] mb-[12px]">
-            {t('continue_with', 'Continue With')}
-          </div>
+          {showSocial && (
+            <div className="text-[14px] mt-[32px] mb-[12px]">
+              {t('continue_with', 'Continue With')}
+            </div>
+          )}
           <div className="flex flex-col">
             {isGeneral && genericOauth ? (
               <OauthProvider />
@@ -85,13 +88,12 @@ export function Login() {
               <GithubProvider />
             ) : (
               <div className="gap-[8px] flex">
-                <GoogleProvider />
                 {!!appleClientId && <AppleProvider />}
                 {!!neynarClientId && <FarcasterProvider />}
                 {billingEnabled && <WalletProvider />}
               </div>
             )}
-            <div className="h-[20px] mb-[24px] mt-[24px] relative">
+            <div className={showSocial ? "h-[20px] mb-[24px] mt-[24px] relative" : "hidden"}>
               <div className="absolute w-full h-[1px] bg-fifth top-[50%] -translate-y-[50%]" />
               <div
                 className={`absolute z-[1] justify-center items-center w-full start-0 -top-[4px] flex`}

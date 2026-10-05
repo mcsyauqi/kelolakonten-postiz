@@ -28,6 +28,10 @@ function emailValid(value) { return value.length <= 254 && /^[^@\s]+@[^@\s]+\.[^
 
 const server = createServer(async (req, res) => {
   const url = new URL(req.url || '/', 'http://localhost');
+  if (/^www\./i.test(req.headers.host || '')) {
+    res.writeHead(301, { Location: `https://kelolakonten.com${url.pathname}${url.search}`, ...headers(301, 'text/plain; charset=utf-8') });
+    return res.end();
+  }
   if (req.method === 'POST' && url.pathname === '/api/waitlist') {
     const ip = req.headers['x-forwarded-for']?.split(',')[0]?.trim() || req.socket.remoteAddress || 'unknown';
     if (rateLimited(ip)) return send(res, 429, 'application/json; charset=utf-8', JSON.stringify({ ok: false, error: 'rate_limited' }));
@@ -54,6 +58,10 @@ const server = createServer(async (req, res) => {
   if (/\/[^/]+\.html\/$/i.test(pathname)) {
     const clean = pathname.replace(/\/$/, '');
     res.writeHead(301, { Location: clean, ...headers(301, 'text/plain; charset=utf-8') });
+    return res.end();
+  }
+  if (!pathname.endsWith('/') && !extname(pathname) && existsSync(join(root, pathname, 'index.html'))) {
+    res.writeHead(301, { Location: `${pathname}/${url.search}`, ...headers(301, 'text/plain; charset=utf-8') });
     return res.end();
   }
   if (pathname.endsWith('/')) pathname += 'index.html';
