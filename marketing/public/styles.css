@@ -24,3 +24,7 @@
 .site-footer .footer-grid>div:not(.footer-brand) a{min-height:36px;margin-top:6px}
 .site-footer .footer-grid h3{margin-bottom:6px}
 .footer-brand .wordmark{margin-top:0;min-height:0}
+.wordmark .lockup{display:block;height:32px;width:auto}
+@media(max-width:620px){.wordmark .lockup{height:28px}}
+@media(max-width:380px){.wordmark .lockup{height:24px}.nav-actions .btn-primary{max-width:118px;font-size:11px;padding:9px 8px}}
+@media(max-width:340px){.nav-actions .btn-primary{display:none}}
