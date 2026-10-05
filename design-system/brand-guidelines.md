@@ -2,9 +2,13 @@
 
 ## Mark and wordmark
 
-The active mark is a new Kelola Konten “K” tile created for the product. It is a compact blue rounded square with a white K formed by a stem and two angled arms. The geometry is intentionally original and is not copied from Buffer or the concept page. Use `brand-assets/kelola-mark.svg` as the source artwork. Keep clear space equal to one quarter of the mark width. Minimum digital size is 20px; preferred navigation size is 30px desktop and 24px mobile.
+Logo final (5 Okt 2026, lolos juri independen 92/100): tile rounded-square biru #1E5BD8 berisi K putih bergaris bulat dengan grid kalender 2x2 #B3CCFF di antara lengan K, ditambah wordmark "Kelola Konten" sans geometris semibold #172338. Placeholder K polos versi 4 Okt sudah tidak dipakai.
 
-Use the wordmark in Figtree 700, 22px desktop and 15.5px mobile. Do not redraw the mark with text, add drop shadows, or stretch it. On dark footer surfaces use the provided dark-surface variant only.
+- Latar terang: `brand-assets/kelola-konten-lockup-transparent.png` (navbar memakai versi 32 px tinggi).
+- Latar gelap (footer, header gelap): `brand-assets/kelola-konten-lockup-on-dark.png`.
+- Ikon saja: `brand-assets/kelola-mark.svg`; 32 px ke bawah dan favicon: `brand-assets/kelola-konten-icon-small.svg`.
+- Ruang kosong minimal seperempat lebar ikon; ukuran digital minimal ikon 20 px.
+- Jangan menggambar ulang, memberi bayangan, meregangkan, atau membuat ulang logo dengan AI. Ekspor lengkap (PNG, JPG, ICO, cover FB dan LinkedIn) ada di build-everything/run-1/brand/exports dan Drive Projects/Creativism/Clients/Kelola Konten/Logo Final.
 
 ## Color use
 
