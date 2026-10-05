@@ -1,18 +1,614 @@
-<!doctype html><html lang="id"><head><meta name="msvalidate.01" content="996F171B0B725BB7D72F1A8C5E9D83A0"><meta name="google-site-verification" content="qZZOIiYj-QiCx5wjwTN1iNRUCTv_c9g9ehwZXMGgjUg"><meta name="google-site-verification" content="ia0ncvV7i4cLQvUaGMx_SsRRfnfCZLI-8auFg6DTUvY"><script defer src="/analytics.js"></script><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Kelola Konten | Jadwalkan konten tanpa pindah tab</title><meta name="description" content="Kelola Konten membantu tim UMKM dan agensi merencanakan, menjadwalkan, dan membaca performa konten dari satu ruang kerja."><link rel="canonical" href="https://kelolakonten.com/"><meta property="og:title" content="Kelola Konten | Jadwalkan konten tanpa pindah tab"><meta property="og:description" content="Satu kalender untuk rencana, jadwal, dan laporan konten tim."><meta property="og:type" content="website"><meta property="og:url" content="https://kelolakonten.com/"><meta name="theme-color" content="#1E5BD8"><link rel="preload" href="/fonts/figtree-var-latin.woff2" as="font" type="font/woff2" crossorigin><link rel="preload" href="/fonts/bvp-400-latin.woff2" as="font" type="font/woff2" crossorigin><link rel="stylesheet" href="/styles.css"><script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Kelola Konten","applicationCategory":"BusinessApplication","operatingSystem":"Web","url":"https://kelolakonten.com/","description":"Ruang kerja manajemen media sosial untuk UMKM dan agensi Indonesia.","offers":{"@type":"Offer","availability":"https://schema.org/PreOrder"}}</script><link rel="alternate" type="application/rss+xml" title="Kelola Konten" href="/rss.xml"><script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"Kelola Konten","url":"https://kelolakonten.com/","logo":"https://kelolakonten.com/brand/icon-512.png","sameAs":["https://github.com/mcsyauqi/kelolakonten-postiz"]}</script><script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Beranda","item":"https://kelolakonten.com/"}]}</script><link rel="icon" href="/favicon.ico" sizes="32x32"><link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="/apple-touch-icon.png"></head><body>
+<!doctype html><html lang="id"><head><meta name="msvalidate.01" content="996F171B0B725BB7D72F1A8C5E9D83A0"><meta name="google-site-verification" content="qZZOIiYj-QiCx5wjwTN1iNRUCTv_c9g9ehwZXMGgjUg"><meta name="google-site-verification" content="ia0ncvV7i4cLQvUaGMx_SsRRfnfCZLI-8auFg6DTUvY"><script defer src="/analytics.js"></script><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Kelola Konten | Jadwalkan konten tanpa pindah tab</title><meta name="description" content="Kelola Konten membantu tim UMKM dan agensi merencanakan, menjadwalkan, dan membaca performa konten dari satu ruang kerja."><link rel="canonical" href="https://kelolakonten.com/"><meta property="og:title" content="Kelola Konten | Jadwalkan konten tanpa pindah tab"><meta property="og:description" content="Satu kalender untuk rencana, jadwal, dan laporan konten tim."><meta property="og:type" content="website"><meta property="og:url" content="https://kelolakonten.com/"><meta name="theme-color" content="#1E5BD8"><link rel="preload" href="/fonts/figtree-var-latin.woff2" as="font" type="font/woff2" crossorigin><link rel="preload" href="/fonts/bvp-400-latin.woff2" as="font" type="font/woff2" crossorigin><link rel="stylesheet" href="/styles.css"><script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Kelola Konten","applicationCategory":"BusinessApplication","operatingSystem":"Web","url":"https://kelolakonten.com/","description":"Ruang kerja manajemen media sosial untuk UMKM dan agensi Indonesia.","offers":{"@type":"Offer","availability":"https://schema.org/PreOrder"}}</script><link rel="alternate" type="application/rss+xml" title="Kelola Konten" href="/rss.xml"><script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"Kelola Konten","url":"https://kelolakonten.com/","logo":"https://kelolakonten.com/brand/icon-512.png","sameAs":["https://github.com/mcsyauqi/kelolakonten-postiz"]}</script><script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Beranda","item":"https://kelolakonten.com/"}]}</script><link rel="icon" href="/favicon.ico" sizes="32x32"><link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="/apple-touch-icon.png"></head><body class="hv-home">
+<!-- Ikon: Lucide (ISC License, lucide.dev) dan Simple Icons (CC0, simpleicons.org). Semua mockup UI dibuat dengan HTML/CSS/SVG, angka di dalamnya hanya contoh tampilan. -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><defs><filter id="sh" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#0B1730" flood-opacity=".10"/><feDropShadow dx="0" dy="0" stdDeviation=".6" flood-color="#0B1730" flood-opacity=".08"/></filter><filter id="sh2" x="-30%" y="-20%" width="160%" height="150%"><feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#0B1730" flood-opacity=".16"/><feDropShadow dx="0" dy="0" stdDeviation=".6" flood-color="#0B1730" flood-opacity=".08"/></filter><filter id="sh3" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#0B1730" flood-opacity=".06"/></filter><filter id="sh4" x="-20%" y="-20%" width="160%" height="160%"><feDropShadow dx="13" dy="40" stdDeviation="30" flood-color="#000" flood-opacity=".18"/></filter></defs><symbol id="l-arrow-right" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14" /> <path d="m12 5 7 7-7 7" /></symbol><symbol id="l-arrow-up" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 7-7 7 7" /> <path d="M12 19V5" /></symbol><symbol id="l-bell" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10.268 21a2 2 0 0 0 3.464 0" /> <path d="M3.262 15.326A1 1 0 0 0 4 17h16a1 1 0 0 0 .74-1.673C19.41 13.956 18 12.499 18 8A6 6 0 0 0 6 8c0 4.499-1.411 5.956-2.738 7.326" /></symbol><symbol id="l-calendar-days" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 2v3" /> <path d="M16 2v3" /> <rect x="3" y="3" width="18" height="18" rx="2" /> <path d="M3 9h18" /> <path d="M8 13h.01" /> <path d="M12 13h.01" /> <path d="M16 13h.01" /> <path d="M8 17h.01" /> <path d="M12 17h.01" /> <path d="M16 17h.01" /></symbol><symbol id="l-chart-column" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v16a2 2 0 0 0 2 2h16" /> <path d="M18 17V9" /> <path d="M13 17V5" /> <path d="M8 17v-3" /></symbol><symbol id="l-chevron-down" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6" /></symbol><symbol id="l-clapperboard" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12.296 3.464 3.02 3.956" /> <path d="M20.2 6 3 11l-.9-2.4c-.3-1.1.3-2.2 1.3-2.5l13.5-4c1.1-.3 2.2.3 2.5 1.3z" /> <path d="M3 11h18v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" /> <path d="m6.18 5.276 3.1 3.899" /></symbol><symbol id="l-clock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10" /> <path d="M12 6v6l4 2" /></symbol><symbol id="l-file-chart-column" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z" /> <path d="M14 2v5a1 1 0 0 0 1 1h5" /> <path d="M8 18v-1" /> <path d="M12 18v-6" /> <path d="M16 18v-3" /></symbol><symbol id="l-gallery-horizontal-end" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 7v10" /> <path d="M6 5v14" /> <rect width="12" height="18" x="10" y="3" rx="2" /></symbol><symbol id="l-gallery-vertical-end" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 2h10" /> <path d="M5 6h14" /> <rect width="18" height="12" x="3" y="10" rx="2" /></symbol><symbol id="l-hash" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="9" y2="9" /> <line x1="4" x2="20" y1="15" y2="15" /> <line x1="10" x2="8" y1="3" y2="21" /> <line x1="16" x2="14" y1="3" y2="21" /></symbol><symbol id="l-image" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="18" height="18" x="3" y="3" rx="2" ry="2" /> <circle cx="9" cy="9" r="2" /> <path d="m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21" /></symbol><symbol id="l-images" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m22 11-1.296-1.296a2.4 2.4 0 0 0-3.408 0L11 16" /> <path d="M4 8a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2" /> <circle cx="13" cy="7" r="1" fill="currentColor" /> <rect x="8" y="2" width="14" height="14" rx="2" /></symbol><symbol id="l-inbox" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 16 12 14 15 10 15 8 12 2 12" /> <path d="M5.45 5.11 2 12v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-6l-3.45-6.89A2 2 0 0 0 16.76 4H7.24a2 2 0 0 0-1.79 1.11z" /></symbol><symbol id="l-layout-grid" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="7" height="7" x="3" y="3" rx="1" /> <rect width="7" height="7" x="14" y="3" rx="1" /> <rect width="7" height="7" x="14" y="14" rx="1" /> <rect width="7" height="7" x="3" y="14" rx="1" /></symbol><symbol id="l-link" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" /> <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" /></symbol><symbol id="l-megaphone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 6a13 13 0 0 0 8.4-2.8A1 1 0 0 1 21 4v12a1 1 0 0 1-1.6.8A13 13 0 0 0 11 14H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2z" /> <path d="M6 14a12 12 0 0 0 2.4 7.2 2 2 0 0 0 3.2-2.4A8 8 0 0 1 10 14" /> <path d="M8 6v8" /></symbol><symbol id="l-message-circle" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719" /></symbol><symbol id="l-plus" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14" /> <path d="M12 5v14" /></symbol><symbol id="l-send" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.536 21.686a.5.5 0 0 0 .937-.024l6.5-19a.496.496 0 0 0-.635-.635l-19 6.5a.5.5 0 0 0-.024.937l7.93 3.18a2 2 0 0 1 1.112 1.11z" /> <path d="m21.854 2.147-10.94 10.939" /></symbol><symbol id="l-smartphone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="14" height="20" x="5" y="2" rx="2" ry="2" /> <path d="M12 18h.01" /></symbol><symbol id="l-type" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v16" /> <path d="M4 7V5a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v2" /> <path d="M9 20h6" /></symbol><symbol id="l-users" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" /> <path d="M16 3.128a4 4 0 0 1 0 7.744" /> <path d="M22 21v-2a4 4 0 0 0-3-3.87" /> <circle cx="9" cy="7" r="4" /></symbol><symbol id="l-video" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m16 13 5.223 3.482a.5.5 0 0 0 .777-.416V7.87a.5.5 0 0 0-.752-.432L16 10.5" /> <rect x="2" y="6" width="14" height="12" rx="2" /></symbol><symbol id="s-facebook" viewBox="0 0 24 24" fill="currentColor"><path d="M9.101 23.691v-7.98H6.627v-3.667h2.474v-1.58c0-4.085 1.848-5.978 5.858-5.978.401 0 .955.042 1.468.103a8.68 8.68 0 0 1 1.141.195v3.325a8.623 8.623 0 0 0-.653-.036 26.805 26.805 0 0 0-.733-.009c-.707 0-1.259.096-1.675.309a1.686 1.686 0 0 0-.679.622c-.258.42-.374.995-.374 1.752v1.297h3.919l-.386 2.103-.287 1.564h-3.246v8.245C19.396 23.238 24 18.179 24 12.044c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.628 3.874 10.35 9.101 11.647Z"/></symbol><symbol id="s-instagram" viewBox="0 0 24 24" fill="currentColor"><path d="M7.0301.084c-1.2768.0602-2.1487.264-2.911.5634-.7888.3075-1.4575.72-2.1228 1.3877-.6652.6677-1.075 1.3368-1.3802 2.127-.2954.7638-.4956 1.6365-.552 2.914-.0564 1.2775-.0689 1.6882-.0626 4.947.0062 3.2586.0206 3.6671.0825 4.9473.061 1.2765.264 2.1482.5635 2.9107.308.7889.72 1.4573 1.388 2.1228.6679.6655 1.3365 1.0743 2.1285 1.38.7632.295 1.6361.4961 2.9134.552 1.2773.056 1.6884.069 4.9462.0627 3.2578-.0062 3.668-.0207 4.9478-.0814 1.28-.0607 2.147-.2652 2.9098-.5633.7889-.3086 1.4578-.72 2.1228-1.3881.665-.6682 1.0745-1.3378 1.3795-2.1284.2957-.7632.4966-1.636.552-2.9124.056-1.2809.0692-1.6898.063-4.948-.0063-3.2583-.021-3.6668-.0817-4.9465-.0607-1.2797-.264-2.1487-.5633-2.9117-.3084-.7889-.72-1.4568-1.3876-2.1228C21.2982 1.33 20.628.9208 19.8378.6165 19.074.321 18.2017.1197 16.9244.0645 15.6471.0093 15.236-.005 11.977.0014 8.718.0076 8.31.0215 7.0301.0839m.1402 21.6932c-1.17-.0509-1.8053-.2453-2.2287-.408-.5606-.216-.96-.4771-1.3819-.895-.422-.4178-.6811-.8186-.9-1.378-.1644-.4234-.3624-1.058-.4171-2.228-.0595-1.2645-.072-1.6442-.079-4.848-.007-3.2037.0053-3.583.0607-4.848.05-1.169.2456-1.805.408-2.2282.216-.5613.4762-.96.895-1.3816.4188-.4217.8184-.6814 1.3783-.9003.423-.1651 1.0575-.3614 2.227-.4171 1.2655-.06 1.6447-.072 4.848-.079 3.2033-.007 3.5835.005 4.8495.0608 1.169.0508 1.8053.2445 2.228.408.5608.216.96.4754 1.3816.895.4217.4194.6816.8176.9005 1.3787.1653.4217.3617 1.056.4169 2.2263.0602 1.2655.0739 1.645.0796 4.848.0058 3.203-.0055 3.5834-.061 4.848-.051 1.17-.245 1.8055-.408 2.2294-.216.5604-.4763.96-.8954 1.3814-.419.4215-.8181.6811-1.3783.9-.4224.1649-1.0577.3617-2.2262.4174-1.2656.0595-1.6448.072-4.8493.079-3.2045.007-3.5825-.006-4.848-.0608M16.953 5.5864A1.44 1.44 0 1 0 18.39 4.144a1.44 1.44 0 0 0-1.437 1.4424M5.8385 12.012c.0067 3.4032 2.7706 6.1557 6.173 6.1493 3.4026-.0065 6.157-2.7701 6.1506-6.1733-.0065-3.4032-2.771-6.1565-6.174-6.1498-3.403.0067-6.156 2.771-6.1496 6.1738M8 12.0077a4 4 0 1 1 4.008 3.9921A3.9996 3.9996 0 0 1 8 12.0077"/></symbol><symbol id="s-tiktok" viewBox="0 0 24 24" fill="currentColor"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/></symbol><symbol id="s-youtube" viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></symbol><symbol id="l-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></symbol><symbol id="kk-mark" viewBox="0 0 100 100"><rect width="100" height="100" rx="21" fill="#1E5BD8"/><path d="M26 20v60M28 50l31-31M28 50l31 31" fill="none" stroke="#FFFFFF" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/><g fill="#B3CCFF"><rect x="57" y="38.5" width="10" height="10" rx="2.6"/><rect x="70" y="38.5" width="10" height="10" rx="2.6"/><rect x="57" y="51.5" width="10" height="10" rx="2.6"/><rect x="70" y="51.5" width="10" height="10" rx="2.6"/></g></symbol></svg>
 <header class="site-nav"><div class="wrap nav-inner"><a class="wordmark" href="/" aria-label="Kelola Konten, ke beranda"><img class="lockup" src="/brand/kelola-konten-navbar.png" alt="Kelola Konten" width="192" height="32"></a><nav class="nav-links" data-nav><a href="/fitur.html">Fitur</a><a href="/harga.html">Harga</a><a href="/alat/cek-engagement-rate.html">Alat gratis</a><a href="/artikel/">Artikel</a></nav><div class="nav-actions"><a class="btn btn-ghost" href="https://app.kelolakonten.com/auth/login">Masuk</a><a class="btn btn-primary" href="/#daftar">Gabung daftar tunggu</a></div><button class="menu" data-menu aria-label="Buka menu">☰</button></div></header>
-<main><section class="hero"><div class="grid-bg" aria-hidden="true"></div><div class="wrap"><div class="eyebrow">Ruang kerja sosial media untuk tim Indonesia</div><h1>Rencana kontenmu, akhirnya punya rumah.</h1><p class="hero-sub">Jadwalkan, review, dan baca performa konten dari satu kalender yang dibuat untuk UMKM dan agensi.</p><form class="hero-form" data-waitlist id="daftar" novalidate><input name="email" type="email" required placeholder="Email kerja kamu" aria-label="Email kerja"><select name="role" aria-label="Peran"><option value="UMKM">UMKM</option><option value="Agensi">Agensi</option><option value="Kreator">Kreator</option></select><label class="consent"><input name="consent" type="checkbox" required> Saya setuju menerima kabar beta Kelola Konten dan analitik anonim untuk peningkatan situs.</label><button class="btn btn-primary" type="submit">Gabung daftar tunggu ↗</button><div data-form-message class="fine" role="status"></div></form><p class="fine">Akses publik sedang disiapkan. Paket dan harga masih dirancang.</p><div class="hero-tiles" aria-label="Platform yang dipersiapkan"><span class="hero-tile">◎</span><span class="hero-tile">♪</span><span class="hero-tile">f</span><span class="hero-tile">▶</span><span class="hero-tile">✦</span><span class="hero-tile">▦</span><span class="hero-tile">↗</span></div></div></section>
-<section class="proof wrap"><div class="proof-title">Dibuat untuk alur kerja yang benar-benar dipakai tim</div><div class="proof-list"><span>Rencana</span><span>Review</span><span>Jadwalkan</span><span>Ukur</span><span>Ulangi</span></div></section>
-<section class="section wrap" id="fitur"><div class="section-head"><div class="eyebrow">Satu ritme kerja</div><h2>Lebih sedikit tab. Lebih banyak konten yang jadi.</h2><p>Mulai dari ide, bawa ke kalender, lalu lihat apa yang layak diulang.</p></div><div class="feature-grid"><article class="card"><div class="card-art art-blue"><div class="mock-window"><div class="bar"></div><div class="line"></div><div class="line short"></div><div class="line"></div></div></div><div class="card-body"><div class="eyebrow">Kalender</div><h3>Jadwal yang terlihat semua orang</h3><p>Rencanakan tema dan format dalam kalender visual. Koneksi platform menunggu persetujuan API resmi.</p><a href="/fitur.html#kalender">Lihat alurnya ↗</a></div></article><article class="card"><div class="card-art art-peach"><div class="mock-window"><div class="bar" style="background:#ffb486"></div><div class="line"></div><div class="line short"></div><div class="line"></div></div></div><div class="card-body"><div class="eyebrow">Review</div><h3>Persetujuan tanpa bolak-balik</h3><p>Susun draf, minta komentar, dan tandai revisi sebelum sesuatu benar-benar tayang.</p><a href="/fitur.html#review">Lihat alurnya ↗</a></div></article><article class="card"><div class="card-art art-mint"><div class="mock-window"><div class="bar" style="background:#71c5a1"></div><div class="line"></div><div class="line short"></div><div class="line"></div></div></div><div class="card-body"><div class="eyebrow">Performa</div><h3>Laporan yang bisa dibaca klien</h3><p>Analitik dasar dari kanal yang tersambung. Laporan PDF berlogo agensi masuk tahap pengembangan.</p><a href="#laporan">Tentang laporan ↗</a></div></article></div></section>
-<section class="section wrap"><div class="channel"><h2>Empat platform, satu cara kerja.</h2><div class="channel-list"><span class="channel-icon">◎</span><span class="channel-icon">♪</span><span class="channel-icon">f</span><span class="channel-icon">▶</span></div></div></section>
-<section class="section wrap" id="laporan"><div class="report"><div><div class="eyebrow">Laporan untuk agensi</div><h2>Kirim cerita performa, bukan deretan angka.</h2><p>Rancangan laporan bulanan berlogo agensi akan dibangun setelah alur inti teruji.</p><div class="report-list"><span>Ringkasan kanal</span><span>Perbandingan periode</span><span>Catatan tim</span><span>PDF berlogo agensi</span></div><div class="report-actions"><a class="btn btn-soft" href="#daftar">Gabung daftar tunggu ↗</a><a class="btn btn-ghost" style="color:#fff;border-color:#fff" href="/fitur.html#laporan">Lihat status fitur</a></div></div><div class="card-art art-lav" style="min-height:230px"><div class="mock-window"><div class="bar" style="background:#9d8de8"></div><div class="line"></div><div class="line short"></div><div class="line"></div><div class="line"></div></div></div></div></section>
-<section class="section wrap"><div class="support-grid"><div><div class="eyebrow">Dukungan tim</div><h2>Satu ruang untuk komentar yang perlu dijawab.</h2><p>Kami memetakan inbox terpadu berdasarkan kanal dan izin API yang tersedia. Saat ini halaman ini menjelaskan rancangan, bukan janji integrasi yang belum disetujui platform.</p><div class="support-actions"><a class="btn btn-soft" href="https://wa.me/6285136212005?text=Halo%2C%20saya%20dari%20Kelola%20Konten.%20Saya%20ingin%20tanya%20tentang%20daftar%20tunggu%20Kelola%20Konten.">Tanya lewat WhatsApp ↗</a><a class="btn btn-ghost" href="/fitur.html#inbox">Baca batasan API</a></div></div><div class="support-art"><div class="chat"><div class="chat-head"><span class="chat-avatar">K</span><span>Inbox tim</span></div><div class="bubble">Bisa cek draf untuk minggu depan?</div><div class="bubble me">Sudah. Saya tandai dua revisi kecil.</div></div></div></div></section>
-<section class="section wrap"><div class="section-head"><div class="eyebrow">Mulai dari yang gratis</div><h2>Alat kecil untuk keputusan konten yang lebih baik.</h2><p>Gunakan kalkulator engagement dan template kalender sebelum masuk ke beta.</p></div><div class="resource-grid"><article class="resource"><div class="eyebrow">Kalkulator</div><h3>Cek engagement rate</h3><p>Hitung rasio interaksi per jangkauan dan pakai hasilnya sebagai baseline.</p><a href="/alat/cek-engagement-rate.html">Buka alat ↗</a></article><article class="resource"><div class="eyebrow">Template</div><h3>Kalender konten 30 hari</h3><p>Mulai dengan tujuh pola ide yang bisa disesuaikan dengan targetmu.</p><a href="/alat/template-kalender.html">Buka template ↗</a></article><article class="resource"><div class="eyebrow">Panduan</div><h3>Belajar dari artikel</h3><p>Penjelasan praktis tentang jadwal, review, dan membaca performa kanal.</p><a href="/artikel/">Lihat artikel ↗</a></article></div></section>
-<section class="section wrap"><div class="about-grid"><div><div class="eyebrow">Tentang Kelola Konten</div><h2>Lahir dari pekerjaan tim sosial media.</h2><p>Kelola Konten dirancang dari kebutuhan tim SMM Creativism. Arah produk publik ditentukan setelah workflow dan integrasi teruji di lapangan.</p></div><dl class="stats"><div class="stat"><strong>1</strong><span>kalender untuk rencana tim</span></div><div class="stat"><strong>4</strong><span>kanal yang dipersiapkan</span></div><div class="stat"><strong>0</strong><span>harga publik yang diumumkan</span></div><div class="stat"><strong>1</strong><span>CTA beta yang jelas</span></div></dl></div></section>
-<section class="cta" id="cta"><div class="cta-card"><h2>Siap melihat kontenmu dari sudut yang lebih tenang?</h2><p>Gabung daftar tunggu dan ikut memberi bentuk pada workflow beta.</p><a class="btn btn-dark" href="#daftar">Gabung daftar tunggu ↗</a></div></section></main>
-<footer class="site-footer"><div class="footer-grid"><div class="footer-brand"><a class="wordmark" href="/" aria-label="Kelola Konten, ke beranda"><img class="lockup" src="/brand/kelola-konten-navbar-dark.png" alt="Kelola Konten" width="192" height="32"></a><p>Ruang kerja sosial media untuk UMKM, kreator, dan agensi Indonesia.</p></div><div><h3>Produk</h3><a href="/fitur.html">Fitur</a><a href="/harga.html">Status harga</a><a href="https://app.kelolakonten.com/auth/login">Masuk aplikasi</a></div><div><h3>Belajar</h3><a href="/alat/cek-engagement-rate.html">Cek engagement rate</a><a href="/alat/template-kalender.html">Template kalender</a><a href="/artikel/">Artikel</a></div><div><h3>Terhubung</h3><a href="https://wa.me/6285136212005">WhatsApp</a><a href="mailto:hello@kelolakonten.com">hello@kelolakonten.com</a><a href="https://github.com/mcsyauqi/kelolakonten-postiz">Kode sumber aplikasi ↗</a></div></div><div class="footer-bottom"><span>© 2026 Kelola Konten</span><span>Turunan Postiz berlisensi AGPL-3.0 · <a href="/sumber-terbuka.html">Pemberitahuan lisensi</a></span></div></footer><script src="/app.js" defer></script></body></html>
+<main class="hv">
 
+<section class="hv-hero" aria-labelledby="hv-title">
+  <div class="hv-grid l" aria-hidden="true"></div>
+  <div class="hv-grid r" aria-hidden="true"></div>
+  <div class="hv-tiles" aria-hidden="true">
+    <span class="hv-tile t-xl" style="left:calc(50% - 648px);top:18px"><svg style="color:#1E5BD8"><use href="#l-calendar-days"/></svg></span>
+    <span class="hv-tile t-xl" style="left:calc(50% - 378px);top:18px"><svg style="color:#111"><use href="#s-tiktok"/></svg></span>
+    <span class="hv-tile t-xl" style="left:calc(50% + 378px);top:18px"><svg style="color:#E4405F"><use href="#s-instagram"/></svg></span>
+    <span class="hv-tile t-xl" style="left:calc(50% - 648px);top:126px"><svg style="color:#FF0000"><use href="#s-youtube"/></svg></span>
+    <span class="hv-tile t-xl" style="left:calc(50% + 432px);top:126px"><svg style="color:#1E5BD8"><use href="#l-chart-column"/></svg></span>
+    <span class="hv-tile t-xl" style="left:calc(50% + 594px);top:126px"><svg style="color:#1E5BD8"><use href="#l-message-circle"/></svg></span>
+    <span class="hv-tile t-xl" style="left:calc(50% - 432px);top:234px"><svg style="color:#1E5BD8"><use href="#l-hash"/></svg></span>
+    <span class="hv-tile t-xl" style="left:calc(50% - 594px);top:288px"><svg style="color:#0866FF"><use href="#s-facebook"/></svg></span>
+    <span class="hv-tile t-xl" style="left:calc(50% + 432px);top:288px"><svg style="color:#1E5BD8"><use href="#l-file-chart-column"/></svg></span>
+    <span class="hv-tile t-xl" style="left:calc(50% + 648px);top:288px"><svg style="color:#1E5BD8"><use href="#l-users"/></svg></span>
+    <span class="hv-tile t-xl" style="left:calc(50% - 486px);top:342px"><svg style="color:#1E5BD8"><use href="#l-clock"/></svg></span>
+    <span class="hv-tile t-xl" style="left:calc(50% + 540px);top:396px"><svg style="color:#1E5BD8"><use href="#l-inbox"/></svg></span>
+    <span class="hv-tile t-xl" style="left:calc(50% - 702px);top:504px"><svg style="color:#1E5BD8"><use href="#l-images"/></svg></span>
+    <span class="hv-tile t-xl" style="left:calc(50% - 432px);top:504px"><svg style="color:#1E5BD8"><use href="#l-send"/></svg></span>
+    <span class="hv-tile t-xl" style="left:calc(50% - 378px);top:612px"><svg style="color:#1E5BD8"><use href="#l-bell"/></svg></span>
+    <span class="hv-tile t-xl" style="left:calc(50% + 324px);top:612px"><svg style="color:#1E5BD8"><use href="#l-layout-grid"/></svg></span>
+    <span class="hv-tile t-xl" style="left:calc(50% + 594px);top:558px"><svg style="color:#1E5BD8"><use href="#l-megaphone"/></svg></span>
+    <span class="hv-tile t-l" style="left:max(4px, min(calc(50% - 432px), calc(100% - 52px)));top:18px"><svg style="color:#1E5BD8"><use href="#l-calendar-days"/></svg></span>
+    <span class="hv-tile t-l" style="left:max(4px, min(calc(50% - 384px), calc(100% - 52px)));top:210px"><svg style="color:#1E5BD8"><use href="#l-hash"/></svg></span>
+    <span class="hv-tile t-l" style="left:max(4px, min(calc(50% - 384px), calc(100% - 52px)));top:354px"><svg style="color:#1E5BD8"><use href="#l-clock"/></svg></span>
+    <span class="hv-tile t-l" style="left:max(4px, min(calc(50% - 480px), calc(100% - 52px)));top:450px"><svg style="color:#1E5BD8"><use href="#l-images"/></svg></span>
+    <span class="hv-tile t-l" style="left:max(4px, min(calc(50% + 336px), calc(100% - 52px)));top:546px"><svg style="color:#1E5BD8"><use href="#l-layout-grid"/></svg></span>
+    <span class="hv-tile t-l" style="left:max(4px, min(calc(50% + 336px), calc(100% - 52px)));top:114px"><svg style="color:#1E5BD8"><use href="#l-chart-column"/></svg></span>
+    <span class="hv-tile t-l" style="left:max(4px, min(calc(50% + 480px), calc(100% - 52px)));top:258px"><svg style="color:#1E5BD8"><use href="#l-message-circle"/></svg></span>
+    <span class="hv-tile t-l" style="left:max(4px, min(calc(50% + 384px), calc(100% - 52px)));top:402px"><svg style="color:#1E5BD8"><use href="#l-inbox"/></svg></span>
+    <span class="hv-tile t-l" style="left:max(4px, min(calc(50% - 336px), calc(100% - 52px)));top:18px"><svg style="color:#111"><use href="#s-tiktok"/></svg></span>
+    <span class="hv-tile t-l" style="left:max(4px, min(calc(50% - 432px), calc(100% - 52px)));top:258px"><svg style="color:#0866FF"><use href="#s-facebook"/></svg></span>
+    <span class="hv-tile t-l" style="left:max(4px, min(calc(50% - 384px), calc(100% - 52px)));top:546px"><svg style="color:#1E5BD8"><use href="#l-send"/></svg></span>
+    <span class="hv-tile t-l" style="left:max(4px, min(calc(50% - 480px), calc(100% - 52px)));top:114px"><svg style="color:#FF0000"><use href="#s-youtube"/></svg></span>
+    <span class="hv-tile t-l" style="left:max(4px, min(calc(50% + 336px), calc(100% - 52px)));top:18px"><svg style="color:#E4405F"><use href="#s-instagram"/></svg></span>
+    <span class="hv-tile t-l" style="left:max(4px, min(calc(50% + 432px), calc(100% - 52px)));top:114px"><svg style="color:#1E5BD8"><use href="#l-file-chart-column"/></svg></span>
+    <span class="hv-tile t-l" style="left:max(4px, min(calc(50% + 384px), calc(100% - 52px)));top:258px"><svg style="color:#1E5BD8"><use href="#l-users"/></svg></span>
+    <span class="hv-tile t-l" style="left:max(4px, min(calc(50% + 480px), calc(100% - 52px)));top:450px"><svg style="color:#1E5BD8"><use href="#l-megaphone"/></svg></span>
+    <span class="hv-tile t-m" style="left:max(4px, min(calc(50% - 240px), calc(100% - 52px)));top:17px"><svg style="color:#1E5BD8"><use href="#l-calendar-days"/></svg></span>
+    <span class="hv-tile t-m" style="left:max(4px, min(calc(50% - 96px), calc(100% - 52px)));top:17px"><svg style="color:#111"><use href="#s-tiktok"/></svg></span>
+    <span class="hv-tile t-m" style="left:max(4px, min(calc(50% + 48px), calc(100% - 52px)));top:17px"><svg style="color:#1E5BD8"><use href="#l-message-circle"/></svg></span>
+    <span class="hv-tile t-m" style="left:max(4px, min(calc(50% + 240px), calc(100% - 52px)));top:17px"><svg style="color:#1E5BD8"><use href="#l-chart-column"/></svg></span>
+    <span class="hv-tile t-m" style="left:max(4px, min(calc(50% + 288px), calc(100% - 52px)));top:449px"><svg style="color:#0866FF"><use href="#s-facebook"/></svg></span>
+    <span class="hv-tile t-m" style="left:max(4px, min(calc(50% - 336px), calc(100% - 52px)));top:449px"><svg style="color:#E4405F"><use href="#s-instagram"/></svg></span>
+    <span class="hv-tile t-m" style="left:max(4px, min(calc(50% - 288px), calc(100% - 52px)));top:545px"><svg style="color:#FF0000"><use href="#s-youtube"/></svg></span>
+    <span class="hv-tile t-s" style="left:max(4px, min(calc(50% - 192px), calc(100% - 52px)));top:16px"><svg style="color:#1E5BD8"><use href="#l-calendar-days"/></svg></span>
+    <span class="hv-tile t-s" style="left:max(4px, min(calc(50% - 96px), calc(100% - 52px)));top:16px"><svg style="color:#111"><use href="#s-tiktok"/></svg></span>
+    <span class="hv-tile t-s" style="left:max(4px, min(calc(50% + 48px), calc(100% - 52px)));top:16px"><svg style="color:#E4405F"><use href="#s-instagram"/></svg></span>
+    <span class="hv-tile t-s b" style="left:max(4px, min(calc(50% - 144px), calc(100% - 52px)))"><svg style="color:#FF0000"><use href="#s-youtube"/></svg></span>
+    <span class="hv-tile t-s b2" style="left:max(4px, min(calc(50% - 48px), calc(100% - 52px)))"><svg style="color:#1E5BD8"><use href="#l-chart-column"/></svg></span>
+    <span class="hv-tile t-s b2" style="left:max(4px, min(calc(50% + 96px), calc(100% - 52px)))"><svg style="color:#0866FF"><use href="#s-facebook"/></svg></span>
+  </div>
+  <h1 class="hv-head" id="hv-title">Ruang kerja media sosialmu</h1>
+  <p class="hv-hero-sub">Atur Instagram, TikTok, Facebook, dan YouTube dari satu kalender</p>
+  <form class="hv-form" data-waitlist id="daftar" novalidate>
+    <div class="hv-form-pill">
+      <label class="hv-sr" for="hv-email">Email kerja</label>
+      <input id="hv-email" name="email" type="email" required placeholder="Masukkan email kamu..." autocomplete="email">
+      <label class="hv-sr" for="hv-role">Peran</label>
+      <select id="hv-role" name="role"><option value="UMKM">UMKM</option><option value="Agensi">Agensi</option><option value="Kreator">Kreator</option></select>
+      <button class="hv-btn hv-btn-primary" type="submit">Gabung daftar tunggu <svg class="hv-ic"><use href="#l-arrow-right"/></svg></button>
+    </div>
+    <label class="consent hv-consent"><input name="consent" type="checkbox" required> Saya setuju menerima kabar beta Kelola Konten dan analitik anonim untuk peningkatan situs.</label>
+    <div data-form-message class="hv-msg" role="status"></div>
+  </form>
+  <p class="hv-hero-fine">Gabung daftar tunggu, gratis. Akses publik sedang disiapkan, paket dan harga masih dirancang.</p>
+</section>
 
+<section class="hv-proof" aria-label="Untuk siapa">
+  <h2 class="hv-proof-h"><span>Dirancang untuk UMKM, kreator, dan agensi di Indonesia</span></h2>
+  <div class="hv-marquee">
+    <div class="hv-track">
+      <ul><li class="lg1">Kedai Kopi</li><li class="lg2">BUTIK</li><li class="lg3">klinik gigi</li><li class="lg4">Properti</li><li class="lg5">KULINER</li><li class="lg6">Salon</li><li class="lg7">Toko Online</li><li class="lg8">Kursus</li><li class="lg9">Agensi</li></ul>
+      <ul aria-hidden="true"><li class="lg1">Kedai Kopi</li><li class="lg2">BUTIK</li><li class="lg3">klinik gigi</li><li class="lg4">Properti</li><li class="lg5">KULINER</li><li class="lg6">Salon</li><li class="lg7">Toko Online</li><li class="lg8">Kursus</li><li class="lg9">Agensi</li></ul>
+    </div>
+  </div>
+</section>
 
+<section class="hv-core hv-wrap" id="fitur" aria-labelledby="hv-fitur-h">
+  <h2 class="hv-sr" id="hv-fitur-h">Fitur utama</h2>
+  <div class="hv-feat-grid">
 
+    <article class="hv-fcard" id="jadwalkan">
+      <div class="hv-panel p-blue">
+        <span class="hv-demo">Contoh tampilan</span>
+        <div class="hv-mk w657" role="img" aria-label="Contoh layar Buat Postingan dengan pilihan akun, caption, topik, dan kalender Oktober untuk memilih jam tayang">
+          <div class="win ab post1" style="--x:40;--y:62;--w:480;--h:330">
+            <div class="row bar"><span class="b f12">Buat Postingan</span><span class="chip ch-out"><svg class="i"><use href="#l-hash"/></svg>Label</span></div>
+            <div class="row avs">
+              <span class="av av1">D<i class="pb ig"><svg><use href="#s-instagram"/></svg></i></span>
+              <span class="av av2">D<i class="pb tt"><svg><use href="#s-tiktok"/></svg></i></span>
+              <span class="av av3">D<i class="pb fb"><svg><use href="#s-facebook"/></svg></i></span>
+              <span class="av av4">D<i class="pb yt"><svg><use href="#s-youtube"/></svg></i></span>
+              <span class="av av5 off">+</span>
+            </div>
+            <div class="editor">
+              <i class="pb ig side"><svg><use href="#s-instagram"/></svg></i>
+              <p class="f10">Promo akhir pekan! Beli 2 es kopi gula aren, gratis 1 croissant. Berlaku Sabtu dan Minggu di semua cabang. <span class="a">#kopilokal #promoakhirpekan</span></p>
+              <div class="row thumbs"><span class="ph p1"></span><span class="ph p2"></span><span class="ph add">+</span></div>
+            </div>
+            <div class="row tools f9 g"><svg class="i"><use href="#l-image"/></svg><svg class="i"><use href="#l-hash"/></svg><span class="sp a">+ Komentar pertama</span></div>
+            <div class="row meta"><span class="f9 g lab">Topik</span><span class="chip ch-pink">Promo</span><span class="chip ch-yel">Menu baru</span><span class="chip ch-blu">Akhir pekan</span></div>
+            <div class="row meta"><span class="f9 g lab">Lokasi</span><span class="inp grow">Yogyakarta</span></div>
+            <div class="row foot"><span class="cb"></span><span class="f9">Buat lagi</span><span class="f9 b">Simpan draf</span><span class="sp chip ch-out"><svg class="i"><use href="#l-calendar-days"/></svg>Sab, 17 Okt, 16.00</span><span class="btnm">Jadwalkan</span></div>
+          </div>
+          <div class="win ab cal" style="--x:398;--y:28;--w:232">
+            <div class="row"><span class="b f11">Oktober 2026</span><span class="sp g f11">&lsaquo;&nbsp;&nbsp;&rsaquo;</span></div>
+            <div class="days f8"><b>S</b><b>S</b><b>R</b><b>K</b><b>J</b><b>S</b><b>M</b><i class="o">28</i><i class="o">29</i><i class="o">30</i><i>1</i><i>2</i><i>3</i><i>4</i><i>5</i><i>6</i><i>7</i><i>8</i><i>9</i><i>10</i><i>11</i><i>12</i><i>13</i><i>14</i><i>15</i><i>16</i><i class="on">17</i><i>18</i><i>19</i><i>20</i><i>21</i><i>22</i><i>23</i><i>24</i><i>25</i><i>26</i><i>27</i><i>28</i><i>29</i><i>30</i><i>31</i><i class="o">1</i></div>
+            <div class="hr"></div>
+            <div class="f8 g">Slot posting</div>
+            <div class="row slots"><span class="chip">09.00</span><span class="chip">12.00</span><span class="chip ch-blu">16.00</span><span class="chip">19.30</span></div>
+            <div class="f8 g">Pilih jam</div>
+            <div class="inp on row f10"><svg class="i a"><use href="#l-clock"/></svg><b>16 : 00</b><span class="sp a f8 b">WIB</span></div>
+            <div class="row f8 cal-foot"><span class="g">&lsaquo; Aksi lain</span><span class="sp a b">Selesai</span></div>
+          </div>
+        </div>
+      </div>
+      <div class="hv-fbody">
+        <h3 class="hv-eyebrow">Jadwalkan</h3>
+        <p class="hv-ftitle hv-head"><a href="/fitur.html">Satu kalender untuk semua akun dan semua platform</a></p>
+        <p class="hv-fdesc">Susun dan jadwalkan konten Instagram, Facebook, TikTok, dan YouTube lewat API resmi tiap platform. Instagram dan Facebook butuh izin Meta, sedangkan TikTok dan YouTube tayang privat sampai aplikasi lolos audit platform.</p>
+        <a class="hv-more" href="/fitur.html"><span>Selengkapnya</span><svg class="hv-ic"><use href="#l-arrow-right"/></svg></a>
+      </div>
+    </article>
 
+    <article class="hv-fcard" id="rencanakan">
+      <div class="hv-panel p-peach">
+        <span class="hv-demo bl">Contoh tampilan</span>
+        <div class="hv-mk w657" role="img" aria-label="Contoh papan Rencana Konten dengan kolom Draf dan Tinjau, serta dialog untuk menambah ide">
+          <div class="win ab board" style="--x:150;--y:40;--w:540;--h:460">
+            <div class="side"><span class="kk"><svg><use href="#kk-mark"/></svg></span><span class="plus">+</span></div>
+            <div class="bhead"><div class="row"><span class="b f12">Rencana Konten</span><span class="sp chip ch-out"><svg class="i"><use href="#l-hash"/></svg>Label</span><span class="chip ch-blu">Papan</span></div>
+              <div class="row tabs f9"><span class="on">Ide</span><span class="g">Template</span><span class="g">Feed</span></div></div>
+            <div class="cols">
+              <div class="col">
+                <div class="row f9"><b>Draf</b><span class="g">4</span><span class="sp g">+</span></div>
+                <div class="kcard"><b class="f9">Video: sehari di dapur</b><span class="f8 g">Dari giling biji kopi sampai roti keluar oven.</span><div class="row"><span class="chip ch-pur">Reels</span><span class="chip ch-grn">Cerita</span></div></div>
+                <div class="kcard"><span class="ph p5 tall"></span><b class="f9">Menata meja untuk foto produk</b><div class="row"><span class="chip ch-yel">Tips</span><span class="chip ch-pink">Foto</span></div></div>
+                <div class="kcard"><span class="ph p2 tall"></span></div>
+              </div>
+              <div class="col">
+                <div class="row f9"><b>Tinjau</b><span class="g">2</span></div>
+                <div class="kcard"><span class="ph p3 tall"></span><b class="f9">Carousel: 3 menu kopi baru</b><span class="f8 g">Gula aren, pandan, dan kopi susu.</span><div class="row"><span class="chip ch-blu">Carousel</span><span class="chip ch-pink">Promo</span></div></div>
+                <div class="kcard"><b class="f9">Tips foto produk 30 detik</b><span class="f8 g">Cahaya jendela, latar polos, dan satu properti pendukung.</span><div class="row"><span class="chip ch-yel">Tips</span><span class="chip ch-pur">Reels</span></div></div>
+                <div class="f9 g center">+ Ide baru</div>
+              </div>
+            </div>
+          </div>
+          <div class="win ab dlg" style="--x:58;--y:128;--w:240;--h:250">
+            <span class="chip ch-blu"><svg class="i"><use href="#l-plus"/></svg>Ide baru</span>
+            <b class="f11">Tambah ide ke papan</b>
+            <span class="f8 g">Judul ide</span><span class="inp">Video: sehari di dapur</span>
+            <span class="f8 g">Format</span><span class="inp row">Reels<svg class="i sp g"><use href="#l-chevron-down"/></svg></span>
+            <span class="f8 g">Tema minggu ini</span><span class="inp">Di balik layar</span>
+            <span class="btnm soft full">Simpan ke Draf</span>
+          </div>
+        </div>
+      </div>
+      <div class="hv-fbody">
+        <h3 class="hv-eyebrow">Rencanakan</h3>
+        <p class="hv-ftitle hv-head"><a href="/artikel/cara-membuat-kalender-konten.html">Ubah ide jadi rencana konten yang rapi</a></p>
+        <p class="hv-fdesc">Kumpulkan ide, susun draf, lalu minta tinjauan sebelum konten dijadwalkan. Pas untuk pemilik usaha yang mengerjakan semuanya sendiri maupun tim SMM yang menangani banyak klien sekaligus.</p>
+        <a class="hv-more" href="/artikel/cara-membuat-kalender-konten.html"><span>Selengkapnya</span><svg class="hv-ic"><use href="#l-arrow-right"/></svg></a>
+      </div>
+    </article>
 
+    <article class="hv-fcard" id="inbox">
+      <div class="hv-panel p-lav">
+        <span class="hv-demo">Contoh tampilan</span>
+        <div class="hv-mk w657" role="img" aria-label="Contoh inbox: daftar posting di kiri dan balasan untuk komentar di kanan">
+          <div class="win ab inbox" style="--x:50;--y:48;--w:560;--h:390">
+            <div class="row bar"><svg class="i f12"><use href="#l-layout-grid"/></svg><span class="b f11">Semua akun</span><span class="chip ch-blu">12</span><span class="sp chip ch-out">Belum dibalas<svg class="i"><use href="#l-chevron-down"/></svg></span><span class="chip ch-blu">Per posting</span><span class="chip">Daftar</span></div>
+            <div class="ibody">
+              <div class="ilist">
+                <span class="f8 g">Posting</span>
+                <div class="it on"><div><b class="f8"><i class="dot pk"></i>dapur.contoh</b><span class="f8">Menu baru minggu ini, cobain yuk!</span></div><span class="ph p2 sq"></span></div>
+                <div class="it"><div><b class="f8"><i class="dot bk"></i>dapur.contoh</b><span class="f8">Rotinya lembut, isiannya pas?</span></div><span class="ph p1 sq"></span></div>
+                <div class="it"><div><b class="f8"><i class="dot pk"></i>dapur.contoh</b><span class="f8">Sore cerah, kopi dingin.</span></div><span class="ph p6 sq"></span></div>
+                <div class="it"><div><b class="f8"><i class="dot bk"></i>dapur.contoh</b><span class="f8">Kue tradisional tiap Jumat.</span></div><span class="ph p3 sq"></span></div>
+                <div class="it"><div><b class="f8"><i class="dot pk"></i>dapur.contoh</b><span class="f8">Di balik layar barista.</span></div><span class="ph p5 sq"></span></div>
+              </div>
+              <div class="ithread">
+                <div class="row"><span class="ph p1 avph"></span><div><b class="f9">dapur.contoh</b> <span class="f8 g">3 Okt, 19.15, Reels</span><div class="f9">Kenalan dengan es kopi gula aren kami!</div></div><span class="sp chip">32 komentar</span></div>
+                <div class="cmt">
+                  <div class="row"><span class="av sm av3">A</span><b class="f9">@ayu.pratiwi</b><span class="f8 g">13 menit lalu</span></div>
+                  <p class="f9">Wah, menunya kelihatan enak banget! Akhir pekan buka jam berapa ya? Bisa pesan antar?</p>
+                  <div class="reply">
+                    <div class="row f8 g">Balas @ayu.pratiwi<span class="sp chip">Jam buka</span><span class="chip">Pesan antar</span></div>
+                    <p class="f9">Halo Kak Ayu! Sabtu dan Minggu kami buka 08.00 sampai 22.00, pesan antar bisa lewat link di bio ya</p>
+                    <div class="row f8 g"><svg class="i"><use href="#l-image"/></svg><span class="sp">98/2200</span><span class="btnm">Kirim</span></div>
+                  </div>
+                </div>
+                <div class="cmt"><div class="row"><span class="av sm av5">R</span><b class="f9">@rizky.adi</b><span class="f8 g">20 menit lalu</span></div><p class="f9">Croissant-nya masih ada sampai sore?</p></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="hv-fbody">
+        <h3 class="hv-eyebrow">Inbox <span class="hv-badge">Segera</span></h3>
+        <p class="hv-ftitle hv-head"><a href="/artikel/inbox-komentar-media-sosial.html">Balas komentar tanpa bolak-balik aplikasi</a></p>
+        <p class="hv-fdesc">Inbox terpadu untuk memilah dan membalas komentar serta DM dari semua akun sedang kami siapkan. Fitur ini menyusul sesuai izin API yang diberikan tiap platform.</p>
+        <a class="hv-more" href="/artikel/inbox-komentar-media-sosial.html"><span>Selengkapnya</span><svg class="hv-ic"><use href="#l-arrow-right"/></svg></a>
+      </div>
+    </article>
+
+    <article class="hv-fcard" id="analitik">
+      <div class="hv-panel p-mint">
+        <span class="hv-demo">Contoh tampilan</span>
+        <div class="hv-mk w657" role="img" aria-label="Contoh dasbor analitik: posting teratas dan jumlah posting per platform">
+          <div class="win ab ana" style="--x:150;--y:34;--w:540;--h:460">
+            <div class="row bar"><svg class="i f13"><use href="#l-layout-grid"/></svg><span class="f12">Semua Akun</span></div>
+            <div class="ppp">
+              <b class="f10">Posting per platform</b>
+              <span class="f8 g">September 2026, dibanding Agustus</span>
+              <div class="bars f8">
+                <span>Instagram</span><i style="--v:86%;--c:#F4A6C2"></i>
+                <span>TikTok</span><i style="--v:64%;--c:#93B2F5"></i>
+                <span>Facebook</span><i style="--v:47%;--c:#8ED8BE"></i>
+                <span>YouTube</span><i style="--v:34%;--c:#F3C673"></i>
+              </div>
+            </div>
+          </div>
+          <div class="win ab top5" style="--x:46;--y:92;--w:440;--h:150">
+            <b class="f11">5 Posting Teratas</b><span class="f8 g">1 sampai 30 September 2026</span>
+            <div class="row t5">
+              <div class="tp"><div class="row f8"><b>#1</b><span class="sp g">3,8rb suka</span></div><div class="row"><div class="f8"><span class="g row"><svg class="i"><use href="#s-tiktok"/></svg>19.15</span>Gula aren datang, kamu siap?</div><span class="ph p1 sq"></span></div></div>
+              <div class="tp"><div class="row f8"><b>#2</b><span class="sp g">3,2rb suka</span></div><div class="row"><div class="f8"><span class="g row"><svg class="i"><use href="#s-instagram"/></svg>13.00</span>Croissant baru keluar oven</div><span class="ph p2 sq"></span></div></div>
+              <div class="tp"><div class="row f8"><b>#3</b><span class="sp g">2,8rb suka</span></div><div class="row"><div class="f8"><span class="g row"><svg class="i"><use href="#s-tiktok"/></svg>15.15</span>Di balik layar barista</div><span class="ph p5 sq"></span></div></div>
+              <div class="tp"><div class="row f8"><b>#4</b><span class="sp g">2,7rb suka</span></div><div class="row"><div class="f8"><span class="g row"><svg class="i"><use href="#s-youtube"/></svg>13.15</span>Latte art untuk pemula</div><span class="ph p6 sq"></span></div></div>
+            </div>
+          </div>
+          <div class="win ab tip" style="--x:376;--y:356;--w:132">
+            <div class="row f9"><i class="sq8"></i><b>24 posting</b></div>
+            <div class="row f8 g"><svg class="i" style="color:#0866FF"><use href="#s-facebook"/></svg>Facebook, naik 4</div>
+          </div>
+        </div>
+      </div>
+      <div class="hv-fbody">
+        <h3 class="hv-eyebrow">Analitik</h3>
+        <p class="hv-ftitle hv-head"><a href="/artikel/cara-menghitung-engagement-rate-instagram.html">Angka yang mudah dibaca</a></p>
+        <p class="hv-fdesc">Lihat posting mana yang berhasil dan kapan audiens paling aktif, dari data yang diizinkan tiap platform yang tersambung. Perbandingan dengan kompetitor menyusul.</p>
+        <a class="hv-more" href="/artikel/cara-menghitung-engagement-rate-instagram.html"><span>Selengkapnya</span><svg class="hv-ic"><use href="#l-arrow-right"/></svg></a>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section class="hv-more-sec hv-wrap" aria-labelledby="hv-more-h">
+  <h2 class="hv-head" id="hv-more-h">&hellip;dan banyak lagi!</h2>
+  <div class="hv-more-grid">
+    <article class="hv-mcard" id="kolaborasi">
+      <div class="hv-panel sm p-pink">
+        <div class="hv-mk w311" role="img" aria-label="Contoh persetujuan konten dengan tombol Setujui dan komentar klien">
+          <div class="win ab post" style="--x:16;--y:30;--w:196;--h:176">
+            <div class="row"><span class="chip ch-pur">Reels</span><span class="f8 g">Jum, 9 Okt</span></div>
+            <p class="f9">Promo 10.10: beli 2 kopi, gratis 1 croissant!</p>
+            <div class="row acts"><span class="btnm pale"><svg class="i"><use href="#l-check"/></svg>Setujui</span><span class="btnm rose">Tolak</span></div>
+          </div>
+          <span class="ab ph p2 pimg" style="--x:120;--y:62;--w:60;--h:70"></span>
+          <span class="ab bell" style="--x:196;--y:22;--w:24;--h:24"><svg class="i"><use href="#l-bell"/></svg></span>
+          <div class="win ab pop" style="--x:134;--y:76;--w:164">
+            <div class="row"><span class="av sm av5">R</span><b class="f9">Rina</b><span class="f8 g">klien</span></div>
+            <p class="f9">Tambahkan jam buka di caption, ya.</p>
+            <div class="row inp f8"><span class="g">Sudah, Kak!</span><span class="sp btnm">Kirim</span></div>
+          </div>
+        </div>
+      </div>
+      <div class="hv-mbody">
+        <h3 class="hv-head"><a href="/fitur.html">Kolaborasi</a></h3>
+        <p>Tulis, sunting, dan setujui konten bersama tim dan klien.</p>
+        <a class="hv-more" href="/fitur.html"><span>Selengkapnya</span><svg class="hv-ic"><use href="#l-arrow-right"/></svg></a>
+      </div>
+    </article>
+    <article class="hv-mcard" id="ruang-klien">
+      <div class="hv-panel sm p-sky">
+        <div class="hv-mk w311" role="img" aria-label="Contoh antrean posting untuk satu klien">
+          <div class="win ab queue" style="--x:76;--y:16;--w:168;--h:260">
+            <div class="row"><b class="f9">Antrean</b><span class="chip">Kedai kopi</span></div>
+            <span class="ph p1 big"></span>
+            <b class="f8">Latte art pagi ini</b>
+            <div class="row q2"><span class="ph p4 sq"></span><div><span class="f8 g">Sab, 11.50</span><b class="f8">Kue tradisional</b></div></div>
+          </div>
+          <span class="ab pbig ig" style="--x:66;--y:6;--w:22;--h:22"><svg><use href="#s-instagram"/></svg></span>
+          <span class="ab pbig tt" style="--x:232;--y:94;--w:24;--h:24"><svg><use href="#s-tiktok"/></svg></span>
+          <span class="ab pbig yt" style="--x:58;--y:162;--w:20;--h:20"><svg><use href="#s-youtube"/></svg></span>
+          <span class="win ab pill row f8" style="--x:26;--y:74;--w:96"><svg class="i"><use href="#l-clock"/></svg>Besok, 11.45</span>
+        </div>
+      </div>
+      <div class="hv-mbody">
+        <h3 class="hv-head"><a href="/artikel/tools-media-sosial-untuk-agensi.html">Ruang klien</a></h3>
+        <p>Pisahkan akun dan antrean tiap klien di ruangnya sendiri.</p>
+        <a class="hv-more" href="/artikel/tools-media-sosial-untuk-agensi.html"><span>Selengkapnya</span><svg class="hv-ic"><use href="#l-arrow-right"/></svg></a>
+      </div>
+    </article>
+    <article class="hv-mcard" id="kompetitor">
+      <div class="hv-panel sm p-butter">
+        <div class="hv-mk w311" role="img" aria-label="Contoh perbandingan engagement rate akunmu dengan pesaing">
+          <div class="win ab acc" style="--x:92;--y:14;--w:116;--h:206">
+            <span class="ph p6 big"></span>
+            <b class="f8">dapur.contoh</b><span class="f7 g">Akunmu</span>
+            <div class="row f7"><span>ER</span><b class="sp">4,1%</b></div>
+            <div class="row f7"><span>Pengikut</span><b class="sp">12,4rb</b></div>
+            <span class="btnm dark full f7">Bandingkan</span>
+          </div>
+          <div class="win ab rival" style="--x:8;--y:62;--w:80">
+            <span class="f7 g">Pesaing</span>
+            <div class="row f7"><span>Kopi A</span><b class="sp">3,2%</b></div>
+            <div class="row f7"><span>Kopi B</span><b class="sp">2,7%</b></div>
+            <div class="row f7"><span>Kopi C</span><b class="sp">1,9%</b></div>
+          </div>
+          <div class="win ab grid4" style="--x:228;--y:22;--w:68"><span class="ph p3"></span><span class="ph p4"></span><span class="ph p2"></span><span class="ph p5"></span></div>
+          <div class="win ab growth" style="--x:212;--y:124;--w:92">
+            <span class="f7 g">Pertumbuhan</span>
+            <div class="row f7"><span>Kamu</span><i style="--v:100%"></i><b>8%</b></div>
+            <div class="row f7"><span>Kopi A</span><i style="--v:62%"></i><b>5%</b></div>
+            <div class="row f7"><span>Kopi B</span><i style="--v:38%"></i><b>3%</b></div>
+          </div>
+        </div>
+      </div>
+      <div class="hv-mbody">
+        <h3 class="hv-head"><a href="/fitur.html">Kompetitor</a> <span class="hv-badge">Segera</span></h3>
+        <p>Bandingkan pertumbuhan dan engagement dengan pesaing.</p>
+        <a class="hv-more" href="/fitur.html"><span>Selengkapnya</span><svg class="hv-ic"><use href="#l-arrow-right"/></svg></a>
+      </div>
+    </article>
+    <article class="hv-mcard" id="template">
+      <div class="hv-panel sm p-peri">
+        <div class="hv-mk w311" role="img" aria-label="Contoh memilih periode template kalender konten">
+          <div class="win ab tpl" style="--x:22;--y:26;--w:222;--h:150">
+            <b class="f9">Template Kalender</b><span class="f8 g">Pilih periode kerangka</span>
+            <div class="opt on row f8"><i class="rd"></i>7 hari<span class="sp g">7 ide</span></div>
+            <div class="opt row f8"><i class="rd"></i>30 hari<span class="sp g">30 ide</span></div>
+            <div class="opt row f8"><i class="rd"></i>Tujuan: jualan<span class="sp g"><svg class="i"><use href="#l-chevron-down"/></svg></span></div>
+          </div>
+          <div class="win ab cta2" style="--x:176;--y:150;--w:118">
+            <span class="btnm full"><svg class="i"><use href="#l-calendar-days"/></svg>Buat kerangka</span>
+          </div>
+          <svg class="ab cursor" style="--x:242;--y:172;--w:20;--h:22" viewBox="0 0 20 22"><path d="M2 1l15 9.5-6.6 1.4 3.9 7.4-2.8 1.5-3.9-7.4L2 18z" fill="#111" stroke="#fff" stroke-width="1.4" stroke-linejoin="round"/></svg>
+        </div>
+      </div>
+      <div class="hv-mbody">
+        <h3 class="hv-head"><a href="/alat/template-kalender.html">Template</a></h3>
+        <p>Mulai dari template kalender konten yang siap pakai.</p>
+        <a class="hv-more" href="/alat/template-kalender.html"><span>Selengkapnya</span><svg class="hv-ic"><use href="#l-arrow-right"/></svg></a>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section class="hv-channels hv-wrap" id="platform" aria-labelledby="hv-ch-h">
+  <div class="hv-cbar">
+    <div class="hv-ctext">
+      <h2 class="hv-head" id="hv-ch-h">Empat platform, semua format kontennya</h2>
+      <p class="hv-cnote">Instagram dan Facebook butuh izin Meta. TikTok dan YouTube tayang privat sampai lolos audit platform.</p>
+    </div>
+    <ul class="hv-clist">
+      <li><a href="/fitur.html" aria-label="Instagram"><span class="hv-ctile" style="background:#E4405F"><svg><use href="#s-instagram"/></svg></span><span class="hv-ctip">Instagram</span></a></li>
+      <li><a href="/artikel/jadwal-konten-tiktok-untuk-bisnis.html" aria-label="TikTok"><span class="hv-ctile" style="background:#111"><svg><use href="#s-tiktok"/></svg></span><span class="hv-ctip">TikTok</span></a></li>
+      <li><a href="/fitur.html" aria-label="Facebook"><span class="hv-ctile" style="background:#0866FF"><svg><use href="#s-facebook"/></svg></span><span class="hv-ctip">Facebook</span></a></li>
+      <li><a href="/artikel/upload-video-youtube-otomatis.html" aria-label="YouTube"><span class="hv-ctile" style="background:#FF0000"><svg><use href="#s-youtube"/></svg></span><span class="hv-ctip">YouTube</span></a></li>
+      <li><a href="/fitur.html" aria-label="Format Reels"><span class="hv-ctile gen"><svg><use href="#l-clapperboard"/></svg></span><span class="hv-ctip">Reels</span></a></li>
+      <li><a href="/fitur.html" aria-label="Format Story"><span class="hv-ctile gen"><svg><use href="#l-gallery-vertical-end"/></svg></span><span class="hv-ctip">Story</span></a></li>
+      <li><a href="/fitur.html" aria-label="Format Carousel"><span class="hv-ctile gen"><svg><use href="#l-gallery-horizontal-end"/></svg></span><span class="hv-ctip">Carousel</span></a></li>
+      <li><a href="/fitur.html" aria-label="Format Shorts"><span class="hv-ctile gen"><svg><use href="#l-smartphone"/></svg></span><span class="hv-ctip">Shorts</span></a></li>
+      <li><a href="/fitur.html" aria-label="Format Foto"><span class="hv-ctile gen"><svg><use href="#l-image"/></svg></span><span class="hv-ctip">Foto</span></a></li>
+      <li><a href="/fitur.html" aria-label="Format Video"><span class="hv-ctile gen"><svg><use href="#l-video"/></svg></span><span class="hv-ctip">Video</span></a></li>
+      <li><a href="/fitur.html" aria-label="Format Teks"><span class="hv-ctile gen"><svg><use href="#l-type"/></svg></span><span class="hv-ctip">Teks</span></a></li>
+      <li><a href="/fitur.html" aria-label="Format Tautan"><span class="hv-ctile gen"><svg><use href="#l-link"/></svg></span><span class="hv-ctip">Tautan</span></a></li>
+    </ul>
+  </div>
+</section>
+
+<section class="hv-report hv-wrap" id="laporan" aria-labelledby="hv-rep-h">
+  <div class="hv-rbox">
+    <div class="hv-rtext">
+      <p class="hv-eyebrow">PDF, logo agensi, otomatis <span class="hv-badge">Segera</span></p>
+      <h2 class="hv-head" id="hv-rep-h">Laporan bulanan yang tersusun sendiri</h2>
+      <p>Sedang kami siapkan: tiap awal bulan, Kelola Konten menarik data akun klien yang tersambung, menyusunnya jadi laporan PDF dengan logo dan warna agensimu, lalu menyiapkannya untuk dikirim. Tim tidak perlu lagi menyalin angka ke slide.</p>
+      <ul class="hv-rlist">
+        <li><strong>Tarik:</strong> Data jangkauan, engagement, dan pengikut terkumpul dari tiap platform yang diizinkan.</li>
+        <li><strong>Susun:</strong> Grafik dan ringkasan masuk ke template berlogo agensimu.</li>
+        <li><strong>Kirim:</strong> PDF atau tautan laporan siap dibagikan ke klien.</li>
+      </ul>
+      <div class="hv-rbtns">
+        <a class="b1" href="#daftar">Gabung daftar tunggu <svg class="hv-ic"><use href="#l-arrow-right"/></svg></a>
+        <a class="b2" href="/artikel/laporan-media-sosial-untuk-klien.html">Baca panduan laporan <svg class="hv-ic"><use href="#l-arrow-right"/></svg></a>
+      </div>
+    </div>
+    <div class="hv-rart">
+      <span class="hv-demo dark">Contoh tampilan</span>
+      <svg class="mk rart-d" viewBox="0 0 540 540" role="img" aria-label="Contoh kotak kirim laporan bulanan">
+        <defs><pattern id="gridp" width="60" height="60" patternUnits="userSpaceOnUse"><path d="M0 0H60M0 0V60" fill="none" stroke="#3B4558" stroke-width="2"/></pattern></defs>
+        <rect x="0" y="0" width="540" height="540" fill="url(#gridp)"/>
+        <rect x=".5" y=".5" width="539" height="539" fill="none" stroke="#3B4558"/>
+        <rect x="29" y="80" width="482" height="379" rx="17.4" fill="#0D1321" stroke="#FFFFFF" stroke-opacity=".12" filter="url(#sh4)"/>
+        <use href="#l-file-chart-column" x="163" y="178" width="36" height="36" color="#A9C4FF"/>
+        <text x="206" y="207" font-size="32.5" style="font-family:Georgia,'Times New Roman',serif;letter-spacing:-.3px" fill="#F1F2F5">Laporan siap</text>
+        <rect x="54" y="244" width="432" height="140" rx="21" fill="#1A2232" stroke="#323C50"/>
+        <text x="78" y="278" font-size="16.6" fill="#F1F2F5">Kirim laporan Oktober ke 12 klien</text><rect x="352" y="263" width="1.6" height="20" fill="#A9C4FF"/>
+        <rect x="78" y="292" width="222" height="30" rx="8" fill="#252E40" stroke="#3A4558"/><use href="#l-file-chart-column" x="88" y="299" width="16" height="16" color="#A9C4FF"/><text x="110" y="312" font-size="12.5" fill="#E3E7EE">Laporan-Oktober.pdf</text><text x="288" y="312" font-size="11" fill="#9AA3B2" text-anchor="end">12 hlm</text>
+        <use href="#l-plus" x="78" y="342" width="16" height="16" color="#C7CCD6"/>
+        <rect x="106" y="336" width="128" height="28" rx="7" fill="#252E40"/>
+        <rect x="108" y="338" width="52" height="24" rx="6" fill="#3E4A60"/>
+        <text x="134" y="354.5" font-size="12.5" text-anchor="middle" fill="#FFFFFF" font-weight="600">PDF</text><text x="196" y="354.5" font-size="12.5" text-anchor="middle" fill="#C3CAD6" font-weight="600">Tautan</text>
+        <rect x="418" y="326" width="44" height="44" rx="7.5" fill="#1E5BD8"/><use href="#l-arrow-up" x="429" y="337" width="22" height="22" color="#fff"/>
+      </svg>
+      <svg class="mk rart-m" viewBox="0 0 320 320" role="img" aria-label="Contoh kotak kirim laporan bulanan">
+        <defs><pattern id="gridm" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M0 0H40M0 0V40" fill="none" stroke="#3B4558" stroke-width="2"/></pattern></defs>
+        <rect width="320" height="320" fill="url(#gridm)"/><rect x=".5" y=".5" width="319" height="319" fill="none" stroke="#3B4558"/>
+        <rect x="12" y="44" width="296" height="232" rx="12" fill="#0D1321" stroke="#FFFFFF" stroke-opacity=".12"/>
+        <use href="#l-file-chart-column" x="86" y="70" width="24" height="24" color="#A9C4FF"/>
+        <text x="116" y="90" font-size="22" style="font-family:Georgia,'Times New Roman',serif" fill="#F1F2F5">Laporan siap</text>
+        <rect x="24" y="112" width="272" height="150" rx="14" fill="#1A2232" stroke="#323C50"/>
+        <text x="38" y="140" font-size="13" fill="#F1F2F5">Kirim laporan Oktober ke 12 klien</text><rect x="263" y="128" width="1.4" height="16" fill="#A9C4FF"/>
+        <rect x="38" y="154" width="190" height="28" rx="7" fill="#252E40" stroke="#3A4558"/><use href="#l-file-chart-column" x="47" y="160" width="15" height="15" color="#A9C4FF"/><text x="68" y="172.5" font-size="11.5" fill="#E3E7EE">Laporan-Oktober.pdf</text><text x="220" y="172.5" font-size="10.5" fill="#9AA3B2" text-anchor="end">12 hlm</text>
+        <use href="#l-plus" x="38" y="220" width="15" height="15" color="#C7CCD6"/>
+        <rect x="62" y="214" width="112" height="28" rx="7" fill="#252E40"/><rect x="64" y="216" width="46" height="24" rx="6" fill="#3E4A60"/>
+        <text x="87" y="232.5" font-size="12" text-anchor="middle" fill="#FFFFFF" font-weight="600">PDF</text><text x="142" y="232.5" font-size="12" text-anchor="middle" fill="#C3CAD6" font-weight="600">Tautan</text>
+        <rect x="248" y="208" width="36" height="36" rx="7" fill="#1E5BD8"/><use href="#l-arrow-up" x="257" y="217" width="18" height="18" color="#fff"/>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<section class="hv-support hv-wrap" id="dukungan" aria-labelledby="hv-sup-h">
+  <div class="hv-stext">
+    <p class="hv-eyebrow ink">Dukungan pelanggan</p>
+    <h2 class="hv-head" id="hv-sup-h">Dibantu manusia, bukan bot</h2>
+    <p>Punya pertanyaan soal daftar tunggu, koneksi akun, atau cara kerja Kelola Konten? Tanyakan langsung lewat WhatsApp atau email. Kamu dibantu orang yang paham media sosial, bukan jawaban template yang berputar-putar.</p>
+    <div class="hv-sbtns"><a class="hv-btn s1" data-wa-cta="home_support" href="https://wa.me/6285136212005?text=Halo%2C%20saya%20ingin%20tanya%20tentang%20Kelola%20Konten%20dan%20daftar%20tunggunya.">Chat WhatsApp</a><a class="hv-btn hv-btn-outline" href="mailto:hello@kelolakonten.com">Kirim email</a></div>
+    <p class="s2">Kelola Konten dibangun oleh tim SMM Creativism untuk kerja harian mereka, jadi pertanyaanmu dijawab oleh orang yang mengerjakan hal yang sama.</p>
+    <a class="hv-slink" href="#tentang"><span>Kenali tim di baliknya</span><svg class="hv-ic"><use href="#l-arrow-right"/></svg></a>
+  </div>
+  <div class="hv-sart" role="img" aria-label="Contoh percakapan dengan tim Kelola Konten">
+    <span class="hv-demo br">Contoh tampilan</span>
+    <div class="hv-chat">
+      <div class="hv-chat-head"><span class="hv-chat-av"><svg class="hv-ic"><use href="#l-message-circle"/></svg></span><div><b>Tim Kelola Konten</b><small><i></i>Lewat WhatsApp</small></div></div>
+      <div class="hv-chat-body">
+        <p class="msg me">Halo, nanti konten TikTok bisa langsung tayang otomatis?</p>
+        <p class="msg them">Halo Kak! Untuk TikTok, konten tayang privat dulu sampai aplikasi kami lolos audit platform. Nanti kami kabari lewat daftar tunggu.</p>
+        <p class="msg me m3">Siap, terima kasih!</p>
+      </div>
+      <div class="hv-chat-input"><span>Tulis pesan...</span><span class="send"><svg class="hv-ic"><use href="#l-send"/></svg></span></div>
+    </div>
+  </div>
+</section>
+
+<section class="hv-res hv-wrap" id="sumber" aria-labelledby="hv-res-h">
+  <div class="hv-res-head">
+    <div><p class="hv-eyebrow ink">Sumber belajar</p><h2 class="hv-head" id="hv-res-h">Bekal untuk media sosial yang tumbuh</h2></div>
+    <p>Alat gratis dan panduan praktis untuk menyusun strategi, dalam satu tempat. <a class="hv-inline" href="/artikel/">Lihat semua artikel</a></p>
+  </div>
+  <div class="hv-res-grid">
+    <a class="hv-rcard rc-a" href="/alat/cek-engagement-rate.html">
+      <div class="hv-rpanel p-lav">
+        <h3 class="hv-head"><span>Kalkulator Engagement Rate</span><svg class="hv-ic"><use href="#l-arrow-right"/></svg></h3>
+        <p>Hitung engagement rate dari angka jangkauan dan interaksi postinganmu, gratis tanpa membuat akun</p>
+        <div class="hv-rimg"><div class="hv-mk w384" aria-hidden="true">
+          <div class="win ab calc" style="--x:10;--y:12;--w:374;--h:280">
+            <div class="row bar"><span class="kk sm"><svg><use href="#kk-mark"/></svg></span><b class="f9">Kelola Konten</b><span class="sp f8 g">Alat gratis</span><span class="chip ch-blu">Gratis</span></div>
+            <div class="dk">
+              <span class="f7 eb">ALAT GRATIS</span>
+              <b class="f14">Cek engagement rate</b>
+              <div class="row ipt"><span class="f9 g">Reach: 2.500, suka: 96, komentar: 24</span><span class="sp btnm">Hitung</span></div>
+            </div>
+            <div class="row res3">
+              <div><span class="f7 g">Engagement rate</span><b class="f13 a">4,8%</b></div>
+              <div><span class="f7 g">Interaksi</span><b class="f13">120</b></div>
+              <div><span class="f7 g">Reach</span><b class="f13">2.500</b></div>
+            </div>
+          </div>
+        </div></div>
+      </div>
+    </a>
+    <a class="hv-rcard rc-b" href="/artikel/laporan-media-sosial-untuk-klien.html">
+      <div class="hv-rpanel p-aqua">
+        <h3 class="hv-head"><span>Laporan Media Sosial untuk Klien</span><svg class="hv-ic"><use href="#l-arrow-right"/></svg></h3>
+        <p>Struktur laporan bulanan yang bisa diaudit klien, dari ringkasan sampai rencana bulan depan</p>
+        <div class="hv-rimg"><div class="hv-mk w333" aria-hidden="true">
+          <div class="win ab doc" style="--x:18;--y:-14;--w:300;--h:240">
+            <span class="f7 g r">Artikel</span>
+            <b class="f13 serif">Laporan Media Sosial untuk Klien</b>
+            <span class="f8 g">Struktur yang bisa diaudit</span>
+            <div class="row abc f8"><b>1</b><span>Ringkasan periode</span></div>
+            <div class="row abc f8"><b>2</b><span>Angka per kanal dan sumbernya</span></div>
+            <div class="row abc f8"><b>3</b><span>Catatan dan rencana bulan depan</span></div>
+            <div class="lines"><i></i><i></i><i class="s"></i></div>
+          </div>
+        </div></div>
+      </div>
+    </a>
+    <a class="hv-rcard rc-c" href="/artikel/content-planner-untuk-umkm.html">
+      <div class="hv-rpanel p-coral">
+        <h3 class="hv-head"><span>Content Planner untuk UMKM</span><svg class="hv-ic"><use href="#l-arrow-right"/></svg></h3>
+        <p>Panduan menyusun ide sampai jadwal yang bisa dikerjakan tim kecil</p>
+        <div class="hv-rimg"><div class="hv-mk w384" aria-hidden="true">
+          <div class="win ab guide" style="--x:40;--y:14;--w:300;--h:240">
+            <div class="row"><span class="kk sm"><svg><use href="#kk-mark"/></svg></span><b class="f8">Kelola Konten</b><span class="sp f8 g">Panduan</span></div>
+            <div class="row gtop"><span class="ph p6 gimg"></span><div><span class="chip ch-pink">UMKM</span><b class="f12">Content Planner untuk UMKM</b><span class="f7 g">Dari ide ke jadwal yang bisa dikerjakan</span></div></div>
+            <p class="f8"><b>1. Tentukan tujuan.</b> Mau menambah pembeli baru, menjaga pelanggan lama, atau mengenalkan menu?</p>
+          </div>
+        </div></div>
+      </div>
+    </a>
+    <a class="hv-rcard rc-d" href="/artikel/jadwal-posting-instagram-dari-laptop.html">
+      <div class="hv-rpanel p-pink">
+        <div class="hv-rimg"><div class="hv-mk w311" aria-hidden="true">
+          <div class="win ab wk back" style="--x:150;--y:30;--w:130;--h:200"><b class="f8">Jadwal minggu ini</b><div class="vb"><i style="--v:40%"></i><i style="--v:62%"></i><i style="--v:30%"></i><i style="--v:85%"></i><i style="--v:52%"></i><i style="--v:70%"></i><i style="--v:45%"></i></div></div>
+          <div class="win ab wk" style="--x:22;--y:58;--w:180;--h:200">
+            <b class="f9">Slot posting</b><span class="f7 g">Contoh rencana per jam</span>
+            <div class="hm f7"><span></span><b>S</b><b>S</b><b>R</b><b>K</b><b>J</b><b>S</b><b>M</b>
+              <span>09.00</span><i class="l1"></i><i class="l2"></i><i class="l1"></i><i class="l3"></i><i class="l1"></i><i class="l2"></i><i class="l1"></i>
+              <span>12.00</span><i class="l2"></i><i class="l3"></i><i class="l2"></i><i class="l2"></i><i class="l4"></i><i class="l1"></i><i class="l2"></i>
+              <span>15.00</span><i class="l1"></i><i class="l2"></i><i class="l4"></i><i class="l3"></i><i class="l2"></i><i class="l3"></i><i class="l1"></i>
+              <span>18.00</span><i class="l3"></i><i class="l4"></i><i class="l3"></i><i class="l4"></i><i class="l3"></i><i class="l2"></i><i class="l3"></i>
+              <span>21.00</span><i class="l2"></i><i class="l1"></i><i class="l2"></i><i class="l3"></i><i class="l4"></i><i class="l4"></i><i class="l2"></i>
+            </div>
+          </div>
+        </div></div>
+        <h3 class="hv-head"><span>Jadwal Posting dari Laptop</span><svg class="hv-ic"><use href="#l-arrow-right"/></svg></h3>
+        <p>Alur aman menjadwalkan posting Instagram dari laptop untuk tim kecil</p>
+      </div>
+    </a>
+    <a class="hv-rcard rc-e" href="/alat/template-kalender.html">
+      <div class="hv-rpanel p-butter">
+        <h3 class="hv-head"><span>Template Kalender Konten</span><svg class="hv-ic"><use href="#l-arrow-right"/></svg></h3>
+        <p>Buat kerangka kalender konten 7 atau 30 hari dari tujuan utamamu, lalu salin untuk tim</p>
+        <div class="hv-rimg"><div class="hv-mk w542" aria-hidden="true">
+          <div class="win ab tcal" style="--x:20;--y:40;--w:520;--h:400">
+            <div class="row"><span class="kk sm"><svg><use href="#kk-mark"/></svg></span><b class="f9">Kelola Konten</b><span class="sp f8 g">Alat gratis</span><span class="f8 g">Template</span><span class="chip ch-blu">Gratis</span></div>
+            <div class="row thead"><div><b class="f15">Template Kalender Konten</b><span class="f8 g">Kerangka 30 hari, siap disalin</span></div><span class="sp btnm dark">Salin kerangka</span></div>
+            <div class="mgrid f8"><b>Sen</b><b>Sel</b><b>Rab</b><b>Kam</b><b>Jum</b><b>Sab</b><b>Min</b>
+              <i>1<em class="chip ch-blu">Edukasi</em></i><i>2</i><i>3<em class="chip ch-grn">Bukti proses</em></i><i>4</i><i>5<em class="chip ch-pink">Penawaran</em></i><i>6</i><i>7</i>
+              <i>8<em class="chip ch-yel">Cerita</em></i><i>9</i><i>10<em class="chip ch-pur">Di balik layar</em></i><i>11</i><i>12</i><i>13<em class="chip ch-blu">Tanya jawab</em></i><i>14</i>
+              <i>15</i><i>16<em class="chip ch-grn">Repurpose</em></i><i>17</i><i>18<em class="chip ch-blu">Edukasi</em></i><i>19</i><i>20<em class="chip ch-pink">Penawaran</em></i><i>21</i>
+              <i>22<em class="chip ch-pur">Di balik layar</em></i><i>23</i><i>24</i><i>25<em class="chip ch-yel">Cerita</em></i><i>26</i><i>27</i><i>28<em class="chip ch-grn">Bukti proses</em></i>
+            </div>
+          </div>
+        </div></div>
+      </div>
+    </a>
+  </div>
+</section>
+
+<section class="hv-about hv-wrap" id="tentang" aria-labelledby="hv-about-h">
+  <div class="hv-about-top">
+    <div class="hv-about-text">
+      <p class="hv-eyebrow ink">Tentang kami</p>
+      <h2 class="hv-head" id="hv-about-h">Dibangun dari meja tim SMM</h2>
+      <p>Kelola Konten lahir dari kebutuhan harian tim SMM Creativism di Yogyakarta: merencanakan, meninjau, dan menjadwalkan konten banyak akun tanpa pindah-pindah tab. Kami sedang merapikannya untuk dibuka ke publik lewat daftar tunggu. Inilah yang sedang kami siapkan untuk kamu.</p>
+    </div>
+    <a class="hv-btn hv-btn-outline hv-about-btn dt" href="/fitur.html">Lihat status fitur <svg class="hv-ic"><use href="#l-arrow-right"/></svg></a>
+  </div>
+  <dl class="hv-stats">
+    <div class="hv-stat"><dt>Platform<span class="sub">Instagram, Facebook, TikTok, YouTube</span></dt><dd>4</dd></div>
+    <div class="hv-stat"><dt>Format<span class="sub">Reels, Story, Carousel, dan lainnya</span></dt><dd>8</dd></div>
+    <div class="hv-stat"><dt>Kalender<span class="sub">Tampilan harian sampai bulanan</span></dt><dd>3</dd></div>
+    <div class="hv-stat"><dt>Alat gratis<span class="sub">Engagement rate dan template kalender</span></dt><dd>2</dd></div>
+  </dl>
+  <div class="hv-about-foot"><a class="hv-btn hv-btn-outline hv-about-btn mb" href="/fitur.html">Lihat status fitur <svg class="hv-ic"><use href="#l-arrow-right"/></svg></a></div>
+</section>
+
+<section class="hv-cta" id="cta" aria-labelledby="hv-cta-h">
+  <div class="hv-cta-card">
+    <div class="hv-cta-panel">
+      <h2 class="hv-head" id="hv-cta-h">Kelola semua akun dengan lebih tenang</h2>
+      <a class="hv-btn hv-cta-btn" href="#daftar">Gabung daftar tunggu <svg class="hv-ic"><use href="#l-arrow-right"/></svg></a>
+      <p>Gabung daftar tunggu, gratis. Paket dan harga masih dirancang, tanya dulu lewat <a data-wa-cta="home_cta" href="https://wa.me/6285136212005?text=Halo%2C%20saya%20ingin%20tanya%20tentang%20Kelola%20Konten%20dan%20daftar%20tunggunya.">WhatsApp</a> kalau perlu.</p>
+    </div>
+  </div>
+</section>
+</main>
+
+<div class="hv-fwrap">
+<footer class="hv-footer">
+  <div class="hv-finner">
+    <h2 class="hv-sr">Kelola Konten</h2>
+    <div class="hv-fcols">
+      <div class="hv-fcol">
+        <div class="hv-fgrp"><h3>Produk</h3><ul><li><a href="/fitur.html">Fitur</a></li><li><a href="/harga.html">Status harga</a></li><li><a href="/#daftar">Gabung daftar tunggu</a></li><li><a href="https://app.kelolakonten.com/auth/login">Masuk aplikasi</a></li></ul></div>
+        <div class="hv-fgrp"><h3>Alat gratis</h3><ul><li><a href="/alat/cek-engagement-rate.html">Cek engagement rate</a></li><li><a href="/alat/template-kalender.html">Template kalender</a></li></ul></div>
+      </div>
+      <div class="hv-fcol">
+        <div class="hv-fgrp"><h3>Platform</h3><ul class="plain"><li>Instagram</li><li>Facebook</li><li>TikTok<span class="hv-badge">Segera</span></li><li>YouTube<span class="hv-badge">Segera</span></li></ul></div>
+      </div>
+      <div class="hv-fcol wide">
+        <div class="hv-fgrp"><h3>Artikel</h3><ul><li><a href="/artikel/cara-membuat-kalender-konten.html">Cara membuat kalender konten</a></li><li><a href="/artikel/content-planner-untuk-umkm.html">Content planner untuk UMKM</a></li><li><a href="/artikel/batching-konten-media-sosial.html">Batching konten media sosial</a></li><li><a href="/artikel/jadwal-posting-instagram-dari-laptop.html">Jadwal posting Instagram dari laptop</a></li><li><a href="/artikel/jadwal-konten-tiktok-untuk-bisnis.html">Jadwal konten TikTok untuk bisnis</a></li><li><a href="/artikel/upload-video-youtube-otomatis.html">Upload video YouTube otomatis</a></li><li><a href="/artikel/">Semua artikel</a></li></ul></div>
+      </div>
+      <div class="hv-fcol wide">
+        <div class="hv-fgrp"><h3>Untuk agensi</h3><ul><li><a href="/artikel/laporan-media-sosial-untuk-klien.html">Laporan media sosial untuk klien</a></li><li><a href="/artikel/tools-media-sosial-untuk-agensi.html">Tools media sosial untuk agensi</a></li><li><a href="/artikel/inbox-komentar-media-sosial.html">Inbox komentar media sosial</a></li><li><a href="/artikel/cara-menghitung-engagement-rate-instagram.html">Menghitung engagement rate Instagram</a></li></ul></div>
+      </div>
+      <div class="hv-fcol">
+        <div class="hv-fgrp"><h3>Terhubung</h3><ul><li><a data-wa-cta="home_footer" href="https://wa.me/6285136212005?text=Halo%2C%20saya%20ingin%20tanya%20tentang%20Kelola%20Konten.">WhatsApp</a></li><li><a href="mailto:hello@kelolakonten.com">hello@kelolakonten.com</a></li><li><a href="https://github.com/mcsyauqi/kelolakonten-postiz" data-source-place="home_footer">Kode sumber aplikasi</a></li></ul></div>
+        <div class="hv-fgrp"><h3>Legal</h3><ul><li><a href="/privacy.html">Privasi</a></li><li><a href="/terms.html">Ketentuan</a></li><li><a href="/sumber-terbuka.html">Sumber terbuka</a></li></ul></div>
+      </div>
+    </div>
+    <div class="hv-facc">
+      <h3>Sumber terbuka</h3>
+      <p>Aplikasi Kelola Konten adalah turunan Postiz berlisensi AGPL-3.0. <a href="https://github.com/mcsyauqi/kelolakonten-postiz" data-source-place="home_footer_notice">Kode sumber aplikasi</a> dan <a href="/sumber-terbuka.html">pemberitahuan lisensi</a> bisa dibaca siapa saja.</p>
+    </div>
+    <div class="hv-fbottom">
+      <a class="hv-fbig" href="/" aria-label="Kelola Konten, ke beranda"><img src="/brand/kelola-konten-navbar-dark.png" alt="Kelola Konten" width="384" height="64" loading="lazy" decoding="async"></a>
+      <p class="hv-fcopy"><span>&copy; 2026 Kelola Konten</span><a href="/privacy.html">Privasi</a><a href="/terms.html">Ketentuan</a><a href="/sumber-terbuka.html">Lisensi AGPL-3.0</a></p>
+    </div>
+  </div>
+</footer>
+</div>
+<script src="/app.js" defer></script></body></html>
