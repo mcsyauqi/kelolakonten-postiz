@@ -2,6 +2,7 @@ import { createServer } from 'node:http';
 import { createReadStream, existsSync, mkdirSync, appendFileSync, readFileSync } from 'node:fs';
 import { join, normalize, extname, resolve, sep } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { autoSubmit } from './scripts/indexnow.mjs';
 
 const projectRoot = fileURLToPath(new URL('.', import.meta.url));
 const root = resolve(projectRoot, 'public');
@@ -84,6 +85,12 @@ const server = createServer(async (req, res) => {
   if (req.method === 'HEAD') return res.end();
   createReadStream(file).pipe(res);
 });
-server.listen(Number(process.env.PORT || 8080), '0.0.0.0', () => console.log(`Kelola Konten marketing listening on ${process.env.PORT || 8080}`));
+server.listen(Number(process.env.PORT || 8080), '0.0.0.0', () => {
+  console.log(`Kelola Konten marketing listening on ${process.env.PORT || 8080}`);
+  // IndexNow otomatis saat deploy: kirim URL sitemap yang baru atau berubah, 60 detik setelah kontainer siap.
+  if (process.env.NODE_ENV === 'production' && process.env.INDEXNOW_AUTO !== '0') {
+    setTimeout(() => autoSubmit().catch(err => console.error('[indexnow] gagal:', err.message)), 60_000).unref();
+  }
+});
 
 
