@@ -84,7 +84,7 @@ document.querySelectorAll('[data-engagement-form]').forEach((form) => form.addEv
   const text = document.createElement('span');
   text.textContent = 'Rasio ini adalah interaksi dibagi jangkauan. Gunakan sebagai titik awal, lalu bandingkan per format dan periode.';
   result.append(strong, document.createElement('br'), text);
-  window.kelolaTrack?.('calculator_completed', { result: rate });
+  window.kelolaTrack?.('calculator_completed', { tool: 'cek_engagement_rate', result: Number(rate) });
 }));
 
 document.querySelectorAll('[data-calendar-form]').forEach((form) => form.addEventListener('submit', (event) => {
@@ -105,6 +105,7 @@ document.querySelectorAll('[data-calendar-form]').forEach((form) => form.addEven
     if (index < formats.length - 1) result.append(document.createElement('br'));
   });
   const copyButton = form.parentElement?.querySelector('[data-copy-calendar]');
+  if (copyButton) copyButton.dataset.copyPeriod = month === '30 hari' ? '30_hari' : '7_hari';
   if (copyButton) copyButton.dataset.copyText = Array.from(result.querySelectorAll('span')).map((line) => line.textContent).join('\n');
 }));
 
@@ -112,7 +113,7 @@ document.querySelectorAll('[data-copy-calendar]').forEach((button) => button.add
   const text = button.dataset.copyText || button.closest('.tool-grid')?.querySelector('[data-tool-result]')?.innerText || '';
   try {
     await navigator.clipboard.writeText(text);
-    window.kelolaTrack?.('template_copied', { period: text.split('\n')[0] || 'calendar' });
+    window.kelolaTrack?.('template_copied', { tool: 'template_kalender', period: button.dataset.copyPeriod || '7_hari' });
     button.textContent = 'Tersalin';
     setTimeout(() => { button.textContent = 'Salin kerangka'; }, 1800);
   } catch {
