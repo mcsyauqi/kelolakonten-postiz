@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 480" font-family="Figtree,Segoe UI,Arial,sans-serif">
+<rect width="1200" height="480" fill="#f4f7ff"/>
+<text x="60" y="62" font-size="28" font-weight="700" fill="#13235a">Contoh ritme approval satu minggu</text>
+<line x1="80" y1="230" x2="1120" y2="230" stroke="#9fb4e8" stroke-width="6" stroke-linecap="round"/>
+<g text-anchor="middle" font-size="20" fill="#13235a">
+<circle cx="140" cy="230" r="16" fill="#2457d6"/><text x="140" y="190" font-weight="700">Rabu</text><text x="140" y="285">Draft dikirim</text>
+<circle cx="390" cy="230" r="16" fill="#6a4fd1"/><text x="390" y="190" font-weight="700">Kamis</text><text x="390" y="285">Klien meninjau</text>
+<circle cx="640" cy="230" r="16" fill="#c2581e"/><text x="640" y="190" font-weight="700">Jumat siang</text><text x="640" y="285">Batas komentar</text>
+<circle cx="860" cy="230" r="16" fill="#13235a"/><text x="860" y="190" font-weight="700">Jumat sore</text><text x="860" y="285">Revisi, jadwal dikunci</text>
+<circle cx="1070" cy="230" r="16" fill="#1f8a7a"/><text x="1070" y="190" font-weight="700">Senin</text><text x="1070" y="285">Mulai tayang</text>
+</g>
+<rect x="80" y="345" width="1040" height="80" rx="14" fill="#fff" stroke="#c9d6f5" stroke-width="2"/>
+<text x="600" y="380" text-anchor="middle" font-size="18" fill="#4a5578">Konten dengan harga, promo, atau klaim produk yang belum disetujui: tunda, isi slot dengan konten cadangan.</text>
+<text x="600" y="408" text-anchor="middle" font-size="16" fill="#7a849e">Hari di sini ilustrasi, sesuaikan dengan kesepakatan kerja.</text>
+</svg>
