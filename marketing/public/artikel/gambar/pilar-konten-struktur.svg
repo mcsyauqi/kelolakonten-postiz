@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" font-family="Figtree,Segoe UI,Arial,sans-serif">
+<rect width="1200" height="630" fill="#f4f7ff"/>
+<rect x="300" y="40" width="600" height="90" rx="18" fill="#13235a"/>
+<text x="600" y="78" text-anchor="middle" font-size="20" fill="#a9c2ff">LAPIS 1: TUJUAN BISNIS</text>
+<text x="600" y="110" text-anchor="middle" font-size="26" font-weight="700" fill="#fff">Lebih banyak pembeli kembali</text>
+<g stroke="#2457d6" stroke-width="3" fill="none"><path d="M600 130 V170 M165 170 H1035 M165 170 V200 M455 170 V200 M745 170 V200 M1035 170 V200"/></g>
+<text x="40" y="158" font-size="18" fill="#2457d6" font-weight="700">LAPIS 2: PILAR</text>
+<g font-size="22" font-weight="700" fill="#fff" text-anchor="middle">
+<rect x="50" y="200" width="230" height="110" rx="16" fill="#2457d6"/><text x="165" y="248">Edukasi</text><text x="165" y="278" font-size="18" font-weight="400">cara pakai, tips</text>
+<rect x="340" y="200" width="230" height="110" rx="16" fill="#1f8a7a"/><text x="455" y="248">Cerita produk</text><text x="455" y="278" font-size="18" font-weight="400">proses, pemasok</text>
+<rect x="630" y="200" width="230" height="110" rx="16" fill="#6a4fd1"/><text x="745" y="248">Bukti</text><text x="745" y="278" font-size="18" font-weight="400">ulasan berizin</text>
+<rect x="920" y="200" width="230" height="110" rx="16" fill="#c2581e"/><text x="1035" y="248">Promo</text><text x="1035" y="278" font-size="18" font-weight="400">menu baru, restock</text>
+</g>
+<text x="40" y="360" font-size="18" fill="#2457d6" font-weight="700">LAPIS 3: FORMAT (BOLEH BERGANTI)</text>
+<g font-size="18" fill="#13235a" text-anchor="middle">
+<g fill="#fff" stroke="#c9d6f5" stroke-width="2">
+<rect x="50" y="380" width="230" height="56" rx="12"/><rect x="50" y="446" width="230" height="56" rx="12"/>
+<rect x="340" y="380" width="230" height="56" rx="12"/><rect x="340" y="446" width="230" height="56" rx="12"/>
+<rect x="630" y="380" width="230" height="56" rx="12"/><rect x="630" y="446" width="230" height="56" rx="12"/>
+<rect x="920" y="380" width="230" height="56" rx="12"/><rect x="920" y="446" width="230" height="56" rx="12"/></g>
+<text x="165" y="414">Carousel langkah</text><text x="165" y="480">Video 30 detik</text>
+<text x="455" y="414">Video proses</text><text x="455" y="480">Foto di balik layar</text>
+<text x="745" y="414">Kutipan ulasan</text><text x="745" y="480">Sebelum dan sesudah</text>
+<text x="1035" y="414">Foto produk</text><text x="1035" y="480">Story hitung mundur</text>
+</g>
+<text x="600" y="570" text-anchor="middle" font-size="20" fill="#4a5578">Setiap ide baru diuji: masuk pilar yang mana? Kalau tidak masuk mana pun, perlu alasan kuat.</text>
+</svg>

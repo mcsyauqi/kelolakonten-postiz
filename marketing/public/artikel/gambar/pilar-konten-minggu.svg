@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" font-family="Figtree,Segoe UI,Arial,sans-serif">
+<rect width="1200" height="560" fill="#f4f7ff"/>
+<text x="60" y="64" font-size="28" font-weight="700" fill="#13235a">Contoh satu minggu: 7 slot, 4 pilar, 1 slot fleksibel</text>
+<g font-size="20" text-anchor="middle" fill="#4a5578">
+<text x="137" y="120">Sen</text><text x="292" y="120">Sel</text><text x="447" y="120">Rab</text><text x="602" y="120">Kam</text><text x="757" y="120">Jum</text><text x="912" y="120">Sab</text><text x="1067" y="120">Min</text></g>
+<g font-size="19" font-weight="700" fill="#fff" text-anchor="middle">
+<rect x="70" y="140" width="135" height="200" rx="14" fill="#2457d6"/><text x="137" y="235">Edukasi</text>
+<rect x="225" y="140" width="135" height="200" rx="14" fill="#c2581e"/><text x="292" y="235">Promo</text>
+<rect x="380" y="140" width="135" height="200" rx="14" fill="#1f8a7a"/><text x="447" y="235">Cerita</text>
+<rect x="535" y="140" width="135" height="200" rx="14" fill="#2457d6"/><text x="602" y="235">Edukasi</text>
+<rect x="690" y="140" width="135" height="200" rx="14" fill="#6a4fd1"/><text x="757" y="235">Bukti</text>
+<rect x="845" y="140" width="135" height="200" rx="14" fill="#c2581e"/><text x="912" y="235">Promo</text>
+<rect x="1000" y="140" width="135" height="200" rx="14" fill="#fff" stroke="#2457d6" stroke-width="3" stroke-dasharray="10 8"/><text x="1067" y="228" fill="#2457d6">Fleksibel</text><text x="1067" y="256" fill="#2457d6" font-size="14" font-weight="400">pertanyaan ramai</text>
+</g>
+<g font-size="18" fill="#13235a">
+<rect x="70" y="390" width="22" height="22" rx="5" fill="#2457d6"/><text x="102" y="408">Edukasi 2 slot</text>
+<rect x="290" y="390" width="22" height="22" rx="5" fill="#c2581e"/><text x="322" y="408">Promo 2 slot</text>
+<rect x="500" y="390" width="22" height="22" rx="5" fill="#1f8a7a"/><text x="532" y="408">Cerita 1 slot</text>
+<rect x="700" y="390" width="22" height="22" rx="5" fill="#6a4fd1"/><text x="732" y="408">Bukti 1 slot</text>
+<rect x="890" y="390" width="22" height="22" rx="5" fill="#fff" stroke="#2457d6" stroke-width="2" stroke-dasharray="5 4"/><text x="922" y="408">Fleksibel 1 slot</text>
+</g>
+<text x="60" y="480" font-size="20" fill="#4a5578">Porsi digeser tiap bulan sesuai musim. Menjelang musim belanja, promo boleh naik; di bulan sepi, edukasi dan cerita.</text>
+<text x="60" y="515" font-size="18" fill="#7a849e">Angka di sini ilustrasi, bukan patokan.</text>
+</svg>
