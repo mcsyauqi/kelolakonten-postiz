@@ -34,6 +34,7 @@ export function sitemapUrls() {
 function fileForUrl(u) {
   let p = decodeURIComponent(new URL(u).pathname);
   if (p.endsWith('/')) p += 'index.html';
+  else if (!/\.[a-z0-9]+$/i.test(p)) p += '.html'; // URL bersih tanpa .html
   return join(publicDir, p);
 }
 

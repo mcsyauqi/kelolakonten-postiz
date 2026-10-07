@@ -68,7 +68,7 @@
     box.dataset.kelolaConsent = '';
     box.setAttribute('role', 'region');
     box.setAttribute('aria-label', 'Persetujuan analitik');
-    box.innerHTML = '<p>Kami memakai analitik anonim (Google Analytics) untuk mengetahui halaman dan alat mana yang berguna. Tidak ada data yang dikirim sebelum kamu setuju, dan event tidak memuat email. <a href="/privacy.html">Kebijakan privasi</a>.</p><div class="kk-consent-actions"><button type="button" class="kk-yes" data-consent-accept>Terima</button><button type="button" class="kk-no" data-consent-reject>Tolak</button></div>';
+    box.innerHTML = '<p>Kami memakai analitik anonim (Google Analytics) untuk mengetahui halaman dan alat mana yang berguna. Tidak ada data yang dikirim sebelum kamu setuju, dan event tidak memuat email. <a href="/privacy">Kebijakan privasi</a>.</p><div class="kk-consent-actions"><button type="button" class="kk-yes" data-consent-accept>Terima</button><button type="button" class="kk-no" data-consent-reject>Tolak</button></div>';
     box.querySelector('[data-consent-accept]').addEventListener('click', () => window.kelolaGrantAnalytics());
     box.querySelector('[data-consent-reject]').addEventListener('click', () => window.kelolaDenyAnalytics());
     document.head.append(style);

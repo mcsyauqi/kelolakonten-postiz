@@ -8,7 +8,7 @@ const projectRoot = fileURLToPath(new URL('.', import.meta.url));
 const root = resolve(projectRoot, 'public');
 const dataDir = resolve(projectRoot, 'data');
 mkdirSync(dataDir, { recursive: true });
-const mime = { '.html':'text/html; charset=utf-8', '.css':'text/css; charset=utf-8', '.js':'text/javascript; charset=utf-8', '.json':'application/json; charset=utf-8', '.xml':'application/xml; charset=utf-8', '.txt':'text/plain; charset=utf-8', '.svg':'image/svg+xml', '.png':'image/png', '.webp':'image/webp', '.jpg':'image/jpeg', '.jpeg':'image/jpeg', '.woff2':'font/woff2', '.ico':'image/x-icon' };
+const mime = { '.html':'text/html; charset=utf-8', '.css':'text/css; charset=utf-8', '.js':'text/javascript; charset=utf-8', '.json':'application/json; charset=utf-8', '.xml':'application/xml; charset=utf-8', '.txt':'text/plain; charset=utf-8', '.svg':'image/svg+xml', '.png':'image/png', '.webp':'image/webp', '.jpg':'image/jpeg', '.jpeg':'image/jpeg', '.woff2':'font/woff2', '.ico':'image/x-icon', '.webmanifest':'application/manifest+json' };
 const attempts = new Map();
 const roles = new Set(['UMKM', 'Agensi', 'Kreator']);
 
@@ -55,12 +55,19 @@ const server = createServer(async (req, res) => {
   if (req.method !== 'GET' && req.method !== 'HEAD') return send(res, 405, 'text/plain; charset=utf-8', 'Method Not Allowed');
   let pathname;
   try { pathname = decodeURIComponent(url.pathname); } catch { return send(res, 400, 'text/plain; charset=utf-8', 'Bad Request'); }
-  if (pathname === '/') pathname = '/index.html';
-  if (/\/[^/]+\.html\/$/i.test(pathname)) {
-    const clean = pathname.replace(/\/$/, '');
-    res.writeHead(301, { Location: clean, ...headers(301, 'text/plain; charset=utf-8') });
+  // URL bersih: /x.html, /x.html/ dan /dir/index.html di-301 ke /x atau /dir/ (query ikut).
+  const htmlMatch = pathname.match(/^(.*\/)([^/]+)\.html\/?$/i);
+  if (htmlMatch && htmlMatch[2].toLowerCase() !== '404') {
+    const clean = htmlMatch[2].toLowerCase() === 'index' ? htmlMatch[1] : htmlMatch[1] + htmlMatch[2];
+    res.writeHead(301, { Location: `${clean}${url.search}`, ...headers(301, 'text/plain; charset=utf-8', 'public, max-age=3600') });
     return res.end();
   }
+  // /x/ tanpa folder tapi ada x.html: 301 ke /x.
+  if (pathname.length > 1 && pathname.endsWith('/') && !existsSync(join(root, pathname, 'index.html')) && existsSync(join(root, pathname.slice(0, -1) + '.html'))) {
+    res.writeHead(301, { Location: `${pathname.slice(0, -1)}${url.search}`, ...headers(301, 'text/plain; charset=utf-8', 'public, max-age=3600') });
+    return res.end();
+  }
+  if (pathname === '/') pathname = '/index.html';
   if (!pathname.endsWith('/') && !extname(pathname) && existsSync(join(root, pathname, 'index.html'))) {
     res.writeHead(301, { Location: `${pathname}/${url.search}`, ...headers(301, 'text/plain; charset=utf-8') });
     return res.end();
