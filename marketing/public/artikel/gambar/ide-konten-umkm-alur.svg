@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" font-family="Figtree,Segoe UI,Arial,sans-serif">
+<rect width="1200" height="560" fill="#f4f7ff"/>
+<defs><marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#13235a"/></marker></defs>
+<text x="60" y="62" font-size="28" font-weight="700" fill="#13235a">Alur bank ide: tangkap, saring, jadwalkan, evaluasi</text>
+<g font-size="21" font-weight="700" fill="#fff" text-anchor="middle">
+<rect x="60" y="150" width="230" height="150" rx="18" fill="#2457d6"/><text x="175" y="205">1. Tangkap</text>
+<rect x="350" y="150" width="230" height="150" rx="18" fill="#1f8a7a"/><text x="465" y="205">2. Saring</text>
+<rect x="640" y="150" width="230" height="150" rx="18" fill="#6a4fd1"/><text x="755" y="205">3. Jadwalkan</text>
+<rect x="930" y="150" width="230" height="150" rx="18" fill="#c2581e"/><text x="1045" y="205">4. Evaluasi</text></g>
+<g font-size="16" fill="#eef2ff" text-anchor="middle">
+<text x="175" y="240">chat, komentar,</text><text x="175" y="262">proses kerja</text>
+<text x="465" y="240">3 pertanyaan:</text><text x="465" y="262">peduli, tujuan, sanggup</text>
+<text x="755" y="240">masuk kalender</text><text x="755" y="262">dengan tag pilar</text>
+<text x="1045" y="240">nilai idenya,</text><text x="1045" y="262">bukan hanya posting</text></g>
+<g stroke="#13235a" stroke-width="3" marker-end="url(#a)"><line x1="292" y1="225" x2="344" y2="225"/><line x1="582" y1="225" x2="634" y2="225"/><line x1="872" y1="225" x2="924" y2="225"/></g>
+<path d="M1045 304 C1045 420 175 420 175 312" stroke="#13235a" stroke-width="3" fill="none" stroke-dasharray="10 8" marker-end="url(#a)"/>
+<text x="610" y="440" font-size="19" fill="#13235a" text-anchor="middle">Ide yang terbukti kuat kembali ke awal sebagai seri</text>
+<text x="60" y="520" font-size="18" fill="#7a849e">Ide yang belum lolos saring disimpan sebagai draft untuk musim lain, bukan dibuang.</text>
+</svg>

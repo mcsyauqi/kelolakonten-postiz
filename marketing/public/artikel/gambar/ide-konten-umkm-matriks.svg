@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 620" font-family="Figtree,Segoe UI,Arial,sans-serif">
+<rect width="1200" height="620" fill="#f4f7ff"/>
+<text x="60" y="62" font-size="28" font-weight="700" fill="#13235a">Matriks ide: 6 pilar x 3 format</text>
+<g font-size="20" font-weight="700" fill="#4a5578" text-anchor="middle"><text x="480" y="112">Carousel</text><text x="760" y="112">Video pendek</text><text x="1040" y="112">Stories</text></g>
+<g font-size="19" font-weight="700" fill="#13235a"><text x="60" y="165">Edukasi produk</text><text x="60" y="235">Proses</text><text x="60" y="305">Bukti</text><text x="60" y="375">Promo</text><text x="60" y="445">Cerita</text><text x="60" y="515">Interaksi</text></g>
+<g fill="#fff" stroke="#d3daec" stroke-width="2">
+<rect x="350" y="132" width="260" height="56" rx="10"/><rect x="630" y="132" width="260" height="56" rx="10"/><rect x="910" y="132" width="260" height="56" rx="10"/>
+<rect x="350" y="202" width="260" height="56" rx="10"/><rect x="630" y="202" width="260" height="56" rx="10"/><rect x="910" y="202" width="260" height="56" rx="10"/>
+<rect x="350" y="272" width="260" height="56" rx="10"/><rect x="630" y="272" width="260" height="56" rx="10"/><rect x="910" y="272" width="260" height="56" rx="10"/>
+<rect x="350" y="342" width="260" height="56" rx="10"/><rect x="630" y="342" width="260" height="56" rx="10"/><rect x="910" y="342" width="260" height="56" rx="10"/>
+<rect x="350" y="412" width="260" height="56" rx="10"/><rect x="630" y="412" width="260" height="56" rx="10"/><rect x="910" y="412" width="260" height="56" rx="10"/>
+<rect x="350" y="482" width="260" height="56" rx="10"/><rect x="630" y="482" width="260" height="56" rx="10"/><rect x="910" y="482" width="260" height="56" rx="10"/></g>
+<g font-size="16" font-weight="700" fill="#fff" text-anchor="middle">
+<rect x="350" y="132" width="260" height="56" rx="10" fill="#2457d6"/><text x="480" y="166">Cara pilih ukuran</text>
+<rect x="630" y="202" width="260" height="56" rx="10" fill="#1f8a7a"/><text x="760" y="236">Proses pengemasan</text>
+<rect x="350" y="272" width="260" height="56" rx="10" fill="#6a4fd1"/><text x="480" y="306">Testimoni (dengan izin)</text>
+<rect x="910" y="342" width="260" height="56" rx="10" fill="#c2581e"/><text x="1040" y="376">Hitung mundur promo</text>
+<rect x="630" y="412" width="260" height="56" rx="10" fill="#13235a"/><text x="760" y="446">Asal usul usaha</text>
+<rect x="910" y="482" width="260" height="56" rx="10" fill="#2457d6"/><text x="1040" y="516">Polling varian baru</text>
+<rect x="910" y="132" width="260" height="56" rx="10" fill="#2457d6"/><text x="1040" y="166">Tanya jawab cepat</text></g>
+<text x="60" y="586" font-size="18" fill="#7a849e">Sel berwarna = ide terpilih bulan ini. Sel kosong menunjukkan kombinasi yang belum dicoba. Contoh ilustrasi.</text>
+</svg>
