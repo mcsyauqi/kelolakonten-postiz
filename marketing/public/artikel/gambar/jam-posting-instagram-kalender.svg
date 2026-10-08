@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" font-family="Figtree,Segoe UI,Arial,sans-serif">
+<rect width="1200" height="600" fill="#f4f7ff"/>
+<text x="60" y="64" font-size="28" font-weight="700" fill="#13235a">Slot pemenang menjadi jadwal tetap di kalender</text>
+<g font-size="20" text-anchor="middle" fill="#4a5578"><text x="137" y="118">Sen</text><text x="292" y="118">Sel</text><text x="447" y="118">Rab</text><text x="602" y="118">Kam</text><text x="757" y="118">Jum</text><text x="912" y="118">Sab</text><text x="1067" y="118">Min</text></g>
+<g fill="#fff" stroke="#d3daec" stroke-width="2"><rect x="70" y="135" width="135" height="300" rx="14"/><rect x="225" y="135" width="135" height="300" rx="14"/><rect x="380" y="135" width="135" height="300" rx="14"/><rect x="535" y="135" width="135" height="300" rx="14"/><rect x="690" y="135" width="135" height="300" rx="14"/><rect x="845" y="135" width="135" height="300" rx="14"/><rect x="1000" y="135" width="135" height="300" rx="14"/></g>
+<g font-size="16" text-anchor="middle">
+<rect x="82" y="200" width="111" height="40" rx="8" fill="#fde9dc"/><text x="137" y="226" fill="#c2581e">tenggat review</text>
+<rect x="237" y="250" width="111" height="70" rx="10" fill="#2457d6"/><text x="292" y="280" fill="#fff" font-weight="700">Edukasi</text><text x="292" y="304" fill="#fff">slot siang</text>
+<rect x="392" y="200" width="111" height="40" rx="8" fill="#fde9dc"/><text x="447" y="226" fill="#c2581e">tenggat review</text>
+<rect x="547" y="250" width="111" height="70" rx="10" fill="#1f8a7a"/><text x="602" y="280" fill="#fff" font-weight="700">Produk</text><text x="602" y="304" fill="#fff">slot sore</text>
+<rect x="547" y="200" width="111" height="40" rx="8" fill="#fde9dc"/><text x="602" y="226" fill="#c2581e">tenggat review</text>
+<rect x="702" y="340" width="111" height="70" rx="10" fill="#c2581e"/><text x="757" y="370" fill="#fff" font-weight="700">Promo</text><text x="757" y="394" fill="#fff">slot malam</text>
+<rect x="1012" y="250" width="111" height="70" rx="10" fill="#fff" stroke="#2457d6" stroke-width="3" stroke-dasharray="9 7"/><text x="1067" y="280" fill="#2457d6" font-weight="700">Fleksibel</text><text x="1067" y="304" fill="#2457d6">slot sore</text></g>
+<g font-size="18" fill="#13235a"><rect x="70" y="470" width="22" height="22" rx="5" fill="#fde9dc"/><text x="102" y="488">Review selesai sehari sebelum tayang</text><rect x="520" y="470" width="22" height="22" rx="5" fill="#2457d6"/><text x="552" y="488">Konten terjadwal di slot hasil uji</text></g>
+<text x="60" y="548" font-size="18" fill="#7a849e">Hari, slot, dan jumlah posting hanya contoh. Isi dengan slot pemenang dari uji akun Anda.</text>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" font-family="Figtree,Segoe UI,Arial,sans-serif">
+<rect width="1200" height="560" fill="#f4f7ff"/>
+<text x="60" y="64" font-size="28" font-weight="700" fill="#13235a">Bandingkan median per slot, bukan posting tertinggi</text>
+<line x1="140" y1="440" x2="1120" y2="440" stroke="#b9c3dc" stroke-width="2"/>
+<line x1="140" y1="110" x2="140" y2="440" stroke="#b9c3dc" stroke-width="2"/>
+<text x="100" y="280" font-size="17" fill="#7a849e" transform="rotate(-90 100 280)" text-anchor="middle">jangkauan 72 jam</text>
+<g font-size="20" font-weight="700" fill="#13235a" text-anchor="middle"><text x="320" y="476">Slot siang</text><text x="630" y="476">Slot sore</text><text x="940" y="476">Slot malam</text></g>
+<g fill="#2457d6"><circle cx="280" cy="350" r="10"/><circle cx="305" cy="330" r="10"/><circle cx="335" cy="342" r="10"/><circle cx="360" cy="320" r="10"/><circle cx="300" cy="365" r="10"/><circle cx="345" cy="335" r="10"/></g>
+<g fill="#1f8a7a"><circle cx="590" cy="290" r="10"/><circle cx="615" cy="270" r="10"/><circle cx="645" cy="282" r="10"/><circle cx="670" cy="262" r="10"/><circle cx="605" cy="300" r="10"/><circle cx="655" cy="276" r="10"/></g>
+<g fill="#6a4fd1"><circle cx="900" cy="345" r="10"/><circle cx="925" cy="332" r="10"/><circle cx="955" cy="356" r="10"/><circle cx="980" cy="338" r="10"/><circle cx="915" cy="360" r="10"/></g>
+<circle cx="965" cy="140" r="12" fill="#fff" stroke="#c2581e" stroke-width="4"/>
+<text x="990" y="134" font-size="17" font-weight="700" fill="#c2581e">1 posting viral</text><text x="990" y="156" font-size="15" fill="#c2581e">pencilan, bukan acuan</text>
+<g stroke-width="4"><line x1="255" y1="338" x2="385" y2="338" stroke="#13235a"/><line x1="565" y1="279" x2="695" y2="279" stroke="#13235a"/><line x1="875" y1="345" x2="1005" y2="345" stroke="#13235a"/></g>
+<g font-size="15" fill="#13235a"><text x="390" y="343">median</text><text x="700" y="284">median</text><text x="1010" y="350">median</text></g>
+<text x="60" y="520" font-size="19" fill="#4a5578">Di contoh ini slot sore unggul di median, walau posting tertinggi ada di slot malam. Angka ilustrasi.</text>
+</svg>

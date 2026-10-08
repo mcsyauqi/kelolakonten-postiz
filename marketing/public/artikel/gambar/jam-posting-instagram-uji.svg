@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" font-family="Figtree,Segoe UI,Arial,sans-serif">
+<rect width="1200" height="600" fill="#f4f7ff"/>
+<text x="60" y="64" font-size="28" font-weight="700" fill="#13235a">Rancangan uji jam posting: 4 minggu, 3 slot kandidat</text>
+<g font-size="20" font-weight="700" fill="#4a5578" text-anchor="middle">
+<text x="420" y="122">Minggu 1</text><text x="625" y="122">Minggu 2</text><text x="830" y="122">Minggu 3</text><text x="1035" y="122">Minggu 4</text></g>
+<g font-size="21" font-weight="700" fill="#13235a">
+<text x="60" y="196">Slot siang</text><text x="60" y="316">Slot sore</text><text x="60" y="436">Slot malam</text></g>
+<g font-size="16" fill="#7a849e"><text x="60" y="222">kandidat A</text><text x="60" y="342">kandidat B</text><text x="60" y="462">kandidat C</text></g>
+<g font-size="17" font-weight="700" fill="#fff" text-anchor="middle">
+<rect x="330" y="155" width="180" height="80" rx="12" fill="#2457d6"/><text x="420" y="202">Carousel edukasi</text>
+<rect x="535" y="155" width="180" height="80" rx="12" fill="#1f8a7a"/><text x="625" y="202">Foto produk</text>
+<rect x="740" y="155" width="180" height="80" rx="12" fill="#2457d6"/><text x="830" y="202">Carousel edukasi</text>
+<rect x="945" y="155" width="180" height="80" rx="12" fill="#1f8a7a"/><text x="1035" y="202">Foto produk</text>
+<rect x="330" y="275" width="180" height="80" rx="12" fill="#1f8a7a"/><text x="420" y="322">Foto produk</text>
+<rect x="535" y="275" width="180" height="80" rx="12" fill="#2457d6"/><text x="625" y="322">Carousel edukasi</text>
+<rect x="740" y="275" width="180" height="80" rx="12" fill="#1f8a7a"/><text x="830" y="322">Foto produk</text>
+<rect x="945" y="275" width="180" height="80" rx="12" fill="#2457d6"/><text x="1035" y="322">Carousel edukasi</text>
+<rect x="330" y="395" width="180" height="80" rx="12" fill="#2457d6"/><text x="420" y="442">Carousel edukasi</text>
+<rect x="535" y="395" width="180" height="80" rx="12" fill="#1f8a7a"/><text x="625" y="442">Foto produk</text>
+<rect x="740" y="395" width="180" height="80" rx="12" fill="#2457d6"/><text x="830" y="442">Carousel edukasi</text>
+<rect x="945" y="395" width="180" height="80" rx="12" fill="#1f8a7a"/><text x="1035" y="442">Foto produk</text></g>
+<text x="60" y="530" font-size="20" fill="#4a5578">Format yang sama digilir di setiap slot, jadi perbedaan hasil lebih mungkin datang dari jam.</text>
+<text x="60" y="562" font-size="18" fill="#7a849e">Baca hasil pada jendela yang sama (24 dan 72 jam setelah unggah). Slot dan jumlah minggu hanya contoh.</text>
+</svg>
