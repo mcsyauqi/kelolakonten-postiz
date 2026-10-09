@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 470" font-family="Figtree,Segoe UI,Arial,sans-serif">
+<rect width="1200" height="470" fill="#f4f7ff"/>
+<text x="60" y="62" font-size="28" font-weight="700" fill="#13235a">Uji coba dua minggu dengan pekerjaan nyata</text>
+<line x1="80" y1="150" x2="1120" y2="150" stroke="#13235a" stroke-width="4"/>
+<g fill="#13235a"><circle cx="80" cy="150" r="10"/><circle cx="340" cy="150" r="10"/><circle cx="600" cy="150" r="10"/><circle cx="860" cy="150" r="10"/><circle cx="1120" cy="150" r="10"/></g>
+<g font-size="17" fill="#13235a" text-anchor="middle"><text x="80" y="125">Hari 1</text><text x="340" y="125">Hari 4</text><text x="600" y="125">Hari 8</text><text x="860" y="125">Hari 12</text><text x="1120" y="125">Hari 14</text></g>
+<g font-size="20" font-weight="700" fill="#fff">
+<rect x="80" y="190" width="250" height="190" rx="18" fill="#2457d6"/><text x="100" y="230">Siapkan ruang</text>
+<rect x="340" y="190" width="250" height="190" rx="18" fill="#6a4fd1"/><text x="360" y="230">Jalankan review</text>
+<rect x="600" y="190" width="250" height="190" rx="18" fill="#1f8a7a"/><text x="620" y="230">Uji jadwal dan gagal</text>
+<rect x="860" y="190" width="260" height="190" rx="18" fill="#c2581e"/><text x="880" y="230">Laporan dan putuskan</text></g>
+<g font-size="16" fill="#eef2ff">
+<text x="100" y="268">Dua klien uji</text><text x="100" y="294">Peran tim diatur</text><text x="100" y="320">Cek isolasi data</text><text x="100" y="346">Hubungkan akun uji</text>
+<text x="360" y="268">Satu minggu konten</text><text x="360" y="294">Kirim preview ke klien</text><text x="360" y="320">Catat waktu putaran</text><text x="360" y="346">Uji revisi besar</text>
+<text x="620" y="268">Jadwalkan ke akun uji</text><text x="620" y="294">Putus token sengaja</text><text x="620" y="320">Lihat pesan gagal</text><text x="620" y="346">Uji zona waktu</text>
+<text x="880" y="268">Ekspor data mentah</text><text x="880" y="294">Susun laporan contoh</text><text x="880" y="320">Isi scorecard</text><text x="880" y="346">Tulis keputusan</text></g>
+<text x="60" y="430" font-size="18" fill="#7a849e">Gunakan akun uji yang datanya boleh dipakai, bukan akun klien yang sedang berjalan.</text>
+</svg>

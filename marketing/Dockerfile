@@ -3,6 +3,8 @@ WORKDIR /app
 COPY package.json server.mjs ./
 COPY public ./public
 COPY scripts ./scripts
+# Gerbang mutu artikel: artikel baru di bawah standar /artikel-seo membuat build (dan deploy) gagal.
+RUN node scripts/cek-artikel.mjs
 ENV NODE_ENV=production
 ENV PORT=8080
 EXPOSE 8080

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" font-family="Figtree,Segoe UI,Arial,sans-serif">
+<rect width="1200" height="560" fill="#f4f7ff"/>
+<defs><marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#13235a"/></marker></defs>
+<text x="60" y="62" font-size="28" font-weight="700" fill="#13235a">Alur kerja agensi yang harus didukung alat</text>
+<g font-size="20" font-weight="700" fill="#fff" text-anchor="middle">
+<rect x="40" y="150" width="170" height="130" rx="18" fill="#2457d6"/><text x="125" y="200">1. Brief</text>
+<rect x="232" y="150" width="170" height="130" rx="18" fill="#2457d6"/><text x="317" y="200">2. Draft</text>
+<rect x="424" y="150" width="170" height="130" rx="18" fill="#6a4fd1"/><text x="509" y="200">3. Review klien</text>
+<rect x="616" y="150" width="170" height="130" rx="18" fill="#1f8a7a"/><text x="701" y="200">4. Dijadwalkan</text>
+<rect x="808" y="150" width="170" height="130" rx="18" fill="#1f8a7a"/><text x="893" y="200">5. Terbit</text>
+<rect x="1000" y="150" width="170" height="130" rx="18" fill="#c2581e"/><text x="1085" y="200">6. Laporan</text></g>
+<g font-size="15" fill="#eef2ff" text-anchor="middle">
+<text x="125" y="232">tujuan, aset,</text><text x="125" y="252">tenggat</text>
+<text x="317" y="232">teks dan media</text><text x="317" y="252">per kanal</text>
+<text x="509" y="232">komentar terikat</text><text x="509" y="252">ke konten</text>
+<text x="701" y="232">jam dan zona</text><text x="701" y="252">waktu jelas</text>
+<text x="893" y="232">status dari</text><text x="893" y="252">platform</text>
+<text x="1085" y="232">angka bersumber</text><text x="1085" y="252">dan bertanggal</text></g>
+<g stroke="#13235a" stroke-width="3" marker-end="url(#a)"><line x1="211" y1="215" x2="228" y2="215"/><line x1="403" y1="215" x2="420" y2="215"/><line x1="595" y1="215" x2="612" y2="215"/><line x1="787" y1="215" x2="804" y2="215"/><line x1="979" y1="215" x2="996" y2="215"/></g>
+<path d="M509 284 C509 380 317 380 317 292" stroke="#c2581e" stroke-width="3" fill="none" stroke-dasharray="10 8" marker-end="url(#a)"/>
+<text x="413" y="400" font-size="18" fill="#c2581e" text-anchor="middle">Revisi besar kembali ke draft</text>
+<path d="M893 284 C893 380 1085 380 1085 292" stroke="#13235a" stroke-width="3" fill="none" stroke-dasharray="10 8" marker-end="url(#a)"/>
+<text x="989" y="400" font-size="18" fill="#13235a" text-anchor="middle">Gagal terbit dicatat dengan alasan</text>
+<text x="60" y="500" font-size="18" fill="#7a849e">Tahap yang harus dipindah ke spreadsheet atau chat adalah titik lemah alat tersebut.</text>
+</svg>
