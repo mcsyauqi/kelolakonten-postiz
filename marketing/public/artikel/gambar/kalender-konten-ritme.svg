@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 306" font-family="Figtree,Inter,Segoe UI,Arial,sans-serif">
+<rect width="1200" height="306" fill="#f4f7ff"/>
+<text x="60" y="62" font-size="28" font-weight="700" fill="#13235a">Tiga lapis ritme review kalender</text>
+<rect x="60" y="100" width="341.3333333333333" height="168" rx="16" fill="#fff" stroke="#d7def0" stroke-width="1.5"/><rect x="60" y="100" width="10" height="168" rx="5" fill="#2457d6"/>
+<text font-size="20" font-weight="700" fill="#2457d6"><tspan x="88" y="140">Mingguan</tspan></text>
+<text font-size="17" fill="#3a466b"><tspan x="88" y="179">Pindahkan status, isi slot</tspan><tspan x="88" y="202">kosong, cek tenggat draft minggu</tspan><tspan x="88" y="225">depan.</tspan></text>
+<rect x="429.3333333333333" y="100" width="341.3333333333333" height="168" rx="16" fill="#fff" stroke="#d7def0" stroke-width="1.5"/><rect x="429.3333333333333" y="100" width="10" height="168" rx="5" fill="#1f8a7a"/>
+<text font-size="20" font-weight="700" fill="#1f8a7a"><tspan x="457.3333333333333" y="140">Bulanan</tspan></text>
+<text font-size="17" fill="#3a466b"><tspan x="457.3333333333333" y="179">Lihat apa yang tayang, apa yang</tspan><tspan x="457.3333333333333" y="202">gagal, dan penyebabnya. Pilih</tspan><tspan x="457.3333333333333" y="225">satu perbaikan.</tspan></text>
+<rect x="798.6666666666666" y="100" width="341.3333333333333" height="168" rx="16" fill="#fff" stroke="#d7def0" stroke-width="1.5"/><rect x="798.6666666666666" y="100" width="10" height="168" rx="5" fill="#6a4fd1"/>
+<text font-size="20" font-weight="700" fill="#6a4fd1"><tspan x="826.6666666666666" y="140">Triwulan</tspan></text>
+<text font-size="17" fill="#3a466b"><tspan x="826.6666666666666" y="179">Nilai ulang tujuan dan pilar.</tspan><tspan x="826.6666666666666" y="202">Hapus pilar yang tidak pernah</tspan><tspan x="826.6666666666666" y="225">terisi.</tspan></text>
+</svg>

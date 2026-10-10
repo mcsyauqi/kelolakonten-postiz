@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 395" font-family="Figtree,Inter,Segoe UI,Arial,sans-serif">
+<rect width="1200" height="395" fill="#f4f7ff"/>
+<text x="60" y="62" font-size="28" font-weight="700" fill="#13235a">Alur jadwal posting Instagram dari laptop</text>
+<defs><marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#13235a"/></marker><marker id="b" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#6a4fd1"/></marker></defs>
+<rect x="60" y="180" width="155" height="155" rx="18" fill="#2457d6"/>
+<text font-size="20" font-weight="700" fill="#fff" text-anchor="middle"><tspan x="137.5" y="220">Aset JPEG</tspan></text>
+<text font-size="16" fill="#eef2ff" text-anchor="middle"><tspan x="137.5" y="256">gambar diekspor</tspan><tspan x="137.5" y="277">ke JPEG</tspan></text>
+<line x1="218" y1="257.5" x2="240" y2="257.5" stroke="#13235a" stroke-width="3" marker-end="url(#a)"/>
+<rect x="245" y="180" width="155" height="155" rx="18" fill="#1f8a7a"/>
+<text font-size="20" font-weight="700" fill="#fff" text-anchor="middle"><tspan x="322.5" y="220">Caption</tspan></text>
+<text font-size="16" fill="#eef2ff" text-anchor="middle"><tspan x="322.5" y="256">ejaan, link,</tspan><tspan x="322.5" y="277">tagar</tspan></text>
+<line x1="403" y1="257.5" x2="425" y2="257.5" stroke="#13235a" stroke-width="3" marker-end="url(#a)"/>
+<rect x="430" y="180" width="155" height="155" rx="18" fill="#6a4fd1"/>
+<text font-size="20" font-weight="700" fill="#fff" text-anchor="middle"><tspan x="507.5" y="220">Review</tspan></text>
+<text font-size="16" fill="#eef2ff" text-anchor="middle"><tspan x="507.5" y="256">pemilik usaha</tspan><tspan x="507.5" y="277">menyetujui</tspan></text>
+<line x1="588" y1="257.5" x2="610" y2="257.5" stroke="#13235a" stroke-width="3" marker-end="url(#a)"/>
+<rect x="615" y="180" width="155" height="155" rx="18" fill="#13235a"/>
+<text font-size="20" font-weight="700" fill="#fff" text-anchor="middle"><tspan x="692.5" y="220">Waktu WIB</tspan></text>
+<text font-size="16" fill="#eef2ff" text-anchor="middle"><tspan x="692.5" y="256">tanggal dan jam</tspan><tspan x="692.5" y="277">tayang</tspan></text>
+<line x1="773" y1="257.5" x2="795" y2="257.5" stroke="#13235a" stroke-width="3" marker-end="url(#a)"/>
+<rect x="800" y="180" width="155" height="155" rx="18" fill="#c2581e"/>
+<text font-size="20" font-weight="700" fill="#fff" text-anchor="middle"><tspan x="877.5" y="220">Terbit</tspan></text>
+<text font-size="16" fill="#eef2ff" text-anchor="middle"><tspan x="877.5" y="256">lewat API</tspan><tspan x="877.5" y="277">penjadwal</tspan></text>
+<line x1="958" y1="257.5" x2="980" y2="257.5" stroke="#13235a" stroke-width="3" marker-end="url(#a)"/>
+<rect x="985" y="180" width="155" height="155" rx="18" fill="#7a849e"/>
+<text font-size="20" font-weight="700" fill="#fff" text-anchor="middle"><tspan x="1062.5" y="220">Cek</tspan></text>
+<text font-size="16" fill="#eef2ff" text-anchor="middle"><tspan x="1062.5" y="256">buka di</tspan><tspan x="1062.5" y="277">Instagram,</tspan><tspan x="1062.5" y="298">catat link</tspan></text>
+<path d="M507.5 176 C507.5 120 322.5 120 322.5 172" stroke="#6a4fd1" stroke-width="3" fill="none" marker-end="url(#b)"/>
+<text x="415" y="116" font-size="17" fill="#6a4fd1" text-anchor="middle">revisi caption</text>
+</svg>

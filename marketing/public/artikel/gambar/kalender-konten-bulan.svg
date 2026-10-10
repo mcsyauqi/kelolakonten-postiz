@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 402" font-family="Figtree,Inter,Segoe UI,Arial,sans-serif">
+<rect width="1200" height="402" fill="#f4f7ff"/>
+<text x="60" y="62" font-size="28" font-weight="700" fill="#13235a">Contoh kerangka kalender empat minggu dengan tiga pilar</text>
+<g font-size="18" font-weight="700" fill="#13235a"><text x="60" y="120">Minggu</text><text x="300" y="120">Senin</text><text x="580" y="120">Rabu</text><text x="860" y="120">Jumat</text></g>
+<line x1="60" y1="136" x2="1140" y2="136" stroke="#13235a" stroke-width="2"/>
+<text font-size="17" font-weight="700" fill="#13235a"><tspan x="60" y="170">Minggu 1</tspan></text>
+<rect x="300" y="148" width="96.5" height="34" rx="10" fill="#2457d6"/><text x="314" y="171" font-size="16" font-weight="700" fill="#fff">Edukasi</text>
+<rect x="580" y="148" width="87" height="34" rx="10" fill="#c2581e"/><text x="594" y="171" font-size="16" font-weight="700" fill="#fff">Produk</text>
+<rect x="860" y="148" width="182" height="34" rx="10" fill="#1f8a7a"/><text x="874" y="171" font-size="16" font-weight="700" fill="#fff">Cerita pelanggan</text>
+<line x1="60" y1="185" x2="1140" y2="185" stroke="#d7def0" stroke-width="1"/>
+<text font-size="17" font-weight="700" fill="#13235a"><tspan x="60" y="219">Minggu 2</tspan></text>
+<rect x="300" y="197" width="87" height="34" rx="10" fill="#c2581e"/><text x="314" y="220" font-size="16" font-weight="700" fill="#fff">Produk</text>
+<rect x="580" y="197" width="96.5" height="34" rx="10" fill="#2457d6"/><text x="594" y="220" font-size="16" font-weight="700" fill="#fff">Edukasi</text>
+<rect x="860" y="197" width="96.5" height="34" rx="10" fill="#2457d6"/><text x="874" y="220" font-size="16" font-weight="700" fill="#fff">Edukasi</text>
+<line x1="60" y1="234" x2="1140" y2="234" stroke="#d7def0" stroke-width="1"/>
+<text font-size="17" font-weight="700" fill="#13235a"><tspan x="60" y="268">Minggu 3</tspan></text>
+<rect x="300" y="246" width="182" height="34" rx="10" fill="#1f8a7a"/><text x="314" y="269" font-size="16" font-weight="700" fill="#fff">Cerita pelanggan</text>
+<rect x="580" y="246" width="87" height="34" rx="10" fill="#c2581e"/><text x="594" y="269" font-size="16" font-weight="700" fill="#fff">Produk</text>
+<rect x="860" y="246" width="96.5" height="34" rx="10" fill="#2457d6"/><text x="874" y="269" font-size="16" font-weight="700" fill="#fff">Edukasi</text>
+<line x1="60" y1="283" x2="1140" y2="283" stroke="#d7def0" stroke-width="1"/>
+<text font-size="17" font-weight="700" fill="#13235a"><tspan x="60" y="317">Minggu 4</tspan></text>
+<rect x="300" y="295" width="96.5" height="34" rx="10" fill="#2457d6"/><text x="314" y="318" font-size="16" font-weight="700" fill="#fff">Edukasi</text>
+<rect x="580" y="295" width="182" height="34" rx="10" fill="#1f8a7a"/><text x="594" y="318" font-size="16" font-weight="700" fill="#fff">Cerita pelanggan</text>
+<rect x="860" y="295" width="87" height="34" rx="10" fill="#c2581e"/><text x="874" y="318" font-size="16" font-weight="700" fill="#fff">Produk</text>
+<text x="60" y="376" font-size="17" fill="#4a5578">Contoh rekaan untuk usaha fiktif. Jumlah slot per minggu menyesuaikan kapasitas tim.</text>
+</svg>

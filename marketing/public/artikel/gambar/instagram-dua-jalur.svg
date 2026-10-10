@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 523" font-family="Figtree,Inter,Segoe UI,Arial,sans-serif">
+<rect width="1200" height="523" fill="#f4f7ff"/>
+<text x="60" y="62" font-size="28" font-weight="700" fill="#13235a">Dua jalur koneksi Instagram API</text>
+<g font-size="18" font-weight="700" fill="#13235a"><text x="60" y="120">Aspek</text><text x="360" y="120">Instagram Login</text><text x="740" y="120">Facebook Login</text></g>
+<line x1="60" y1="136" x2="1140" y2="136" stroke="#13235a" stroke-width="2"/>
+<text font-size="17" font-weight="700" fill="#13235a"><tspan x="60" y="170">Halaman Facebook</tspan></text>
+<text font-size="17"  fill="#3a466b"><tspan x="360" y="170">Tidak perlu</tspan></text>
+<text font-size="17"  fill="#3a466b"><tspan x="740" y="170">Akun tertaut ke Halaman, akses setara</tspan><tspan x="740" y="193">admin</tspan></text>
+<line x1="60" y1="208" x2="1140" y2="208" stroke="#d7def0" stroke-width="1"/>
+<text font-size="17" font-weight="700" fill="#13235a"><tspan x="60" y="242">Jenis akun</tspan></text>
+<text font-size="17"  fill="#3a466b"><tspan x="360" y="242">Akun profesional (bisnis atau kreator)</tspan></text>
+<text font-size="17"  fill="#3a466b"><tspan x="740" y="242">Akun profesional (bisnis atau kreator)</tspan></text>
+<line x1="60" y1="257" x2="1140" y2="257" stroke="#d7def0" stroke-width="1"/>
+<text font-size="17" font-weight="700" fill="#13235a"><tspan x="60" y="291">Token akses</tspan></text>
+<text font-size="17"  fill="#3a466b"><tspan x="360" y="291">Token Pengguna Instagram</tspan></text>
+<text font-size="17"  fill="#3a466b"><tspan x="740" y="291">Token Halaman Facebook</tspan></text>
+<line x1="60" y1="306" x2="1140" y2="306" stroke="#d7def0" stroke-width="1"/>
+<text font-size="17" font-weight="700" fill="#13235a"><tspan x="60" y="340">Host API</tspan></text>
+<text font-size="17"  fill="#3a466b"><tspan x="360" y="340">graph.instagram.com</tspan></text>
+<text font-size="17"  fill="#3a466b"><tspan x="740" y="340">graph.facebook.com</tspan></text>
+<line x1="60" y1="355" x2="1140" y2="355" stroke="#d7def0" stroke-width="1"/>
+<text font-size="17" font-weight="700" fill="#13235a"><tspan x="60" y="389">Metrik total termasuk iklan</tspan></text>
+<text font-size="17"  fill="#3a466b"><tspan x="360" y="389">Tidak tersedia</tspan></text>
+<text font-size="17"  fill="#3a466b"><tspan x="740" y="389">Tersedia</tspan></text>
+<line x1="60" y1="404" x2="1140" y2="404" stroke="#d7def0" stroke-width="1"/>
+<text font-size="17" font-weight="700" fill="#13235a"><tspan x="60" y="438">Label iklan kemitraan</tspan></text>
+<text font-size="17"  fill="#3a466b"><tspan x="360" y="438">Tidak tersedia</tspan></text>
+<text font-size="17"  fill="#3a466b"><tspan x="740" y="438">Tersedia</tspan></text>
+<text x="60" y="497" font-size="17" fill="#4a5578">Sumber: dokumentasi Platform Instagram Meta, diakses 10 Oktober 2026.</text>
+</svg>
