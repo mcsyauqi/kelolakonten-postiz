@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" font-family="Figtree,Inter,Segoe UI,Arial,sans-serif">
+<rect width="1200" height="760" fill="#f4f7ff"/>
+<text x="60" y="62" font-size="28" font-weight="700" fill="#13235a">Contoh brief satu halaman: kedai kopi meluncurkan menu baru</text>
+<rect x="60" y="92" width="1080" height="610" rx="18" fill="#fff" stroke="#c9d3ee" stroke-width="2"/>
+<path d="M78 92 H1122 A18 18 0 0 1 1140 110 V156 H60 V110 A18 18 0 0 1 78 92 Z" fill="#2457d6"/>
+<text x="90" y="133" font-size="21" font-weight="700" fill="#fff">Brief: peluncuran Es Kopi Aren Pandan (contoh fiktif)</text>
+<g font-size="17">
+<g font-weight="700" fill="#13235a">
+<text x="90" y="198">Tujuan</text><text x="90" y="250">Audiens</text><text x="90" y="302">Pesan kunci</text><text x="90" y="354">Format dan kanal</text><text x="90" y="406">CTA</text><text x="90" y="458">Referensi</text><text x="90" y="510">Aset</text><text x="90" y="562">Tenggat</text><text x="90" y="614">Penyetuju</text><text x="90" y="666">Metrik</text>
+</g>
+<g fill="#2e3a5c">
+<text x="300" y="198">Pelanggan tetap mencoba menu baru, target 100 gelas di tujuh hari pertama</text>
+<text x="300" y="250">Pekerja kantor dan mahasiswa di sekitar kedai yang suka kopi manis</text>
+<text x="300" y="302">"Manis gula aren, wangi pandan, tetap terasa kopinya"</text>
+<text x="300" y="354">Instagram: 1 Reels 20 detik dan 1 carousel 5 slide. WhatsApp: 2 Status</text>
+<text x="300" y="406">Tunjukkan posting ini di kasir untuk naik ke ukuran besar tanpa biaya</text>
+<text x="300" y="458">Video tuang pelan dengan cahaya pagi. Hindari musik yang terlalu ramai</text>
+<text x="300" y="510">Foto produk dari barista, logo, harga final dari pemilik, jam buka</text>
+<text x="300" y="562">Draft Rabu 14 Oktober, approval Kamis 15 Oktober, tayang Senin 19 Oktober</text>
+<text x="300" y="614">Rani, pemilik kedai (satu-satunya pemberi keputusan akhir)</text>
+<text x="300" y="666">Gelas terjual lewat promo posting, jumlah simpan dan bagikan di carousel</text>
+</g>
+</g>
+<g stroke="#e3e8f5" stroke-width="1.5"><line x1="90" y1="218" x2="1110" y2="218"/><line x1="90" y1="270" x2="1110" y2="270"/><line x1="90" y1="322" x2="1110" y2="322"/><line x1="90" y1="374" x2="1110" y2="374"/><line x1="90" y1="426" x2="1110" y2="426"/><line x1="90" y1="478" x2="1110" y2="478"/><line x1="90" y1="530" x2="1110" y2="530"/><line x1="90" y1="582" x2="1110" y2="582"/><line x1="90" y1="634" x2="1110" y2="634"/></g>
+<text x="60" y="738" font-size="17" fill="#4a5578">Nama kedai, menu, angka target, dan tanggal di atas adalah contoh. Sesuaikan dengan bisnis Anda.</text>
+</svg>
