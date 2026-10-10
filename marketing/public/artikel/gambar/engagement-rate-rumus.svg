@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 329" font-family="Figtree,Inter,Segoe UI,Arial,sans-serif">
+<rect width="1200" height="329" fill="#f4f7ff"/>
+<text x="60" y="62" font-size="28" font-weight="700" fill="#13235a">Tiga bagian rumus engagement rate</text>
+<rect x="60" y="100" width="341.3333333333333" height="191" rx="16" fill="#fff" stroke="#d7def0" stroke-width="1.5"/><rect x="60" y="100" width="10" height="191" rx="5" fill="#2457d6"/>
+<text font-size="20" font-weight="700" fill="#2457d6"><tspan x="88" y="140">Pembilang</tspan></text>
+<text font-size="17" fill="#3a466b"><tspan x="88" y="179">Jumlah interaksi: suka + komentar</tspan><tspan x="88" y="202">+ simpan + bagikan. Masukkan</tspan><tspan x="88" y="225">hanya metrik yang datanya</tspan><tspan x="88" y="248">tersedia.</tspan></text>
+<rect x="429.3333333333333" y="100" width="341.3333333333333" height="191" rx="16" fill="#fff" stroke="#d7def0" stroke-width="1.5"/><rect x="429.3333333333333" y="100" width="10" height="191" rx="5" fill="#6a4fd1"/>
+<text font-size="20" font-weight="700" fill="#6a4fd1"><tspan x="457.3333333333333" y="140">Penyebut</tspan></text>
+<text font-size="17" fill="#3a466b"><tspan x="457.3333333333333" y="179">Pilih satu: reach, pengikut, atau</tspan><tspan x="457.3333333333333" y="202">views. Tulis pilihannya di</tspan><tspan x="457.3333333333333" y="225">laporan.</tspan></text>
+<rect x="798.6666666666666" y="100" width="341.3333333333333" height="191" rx="16" fill="#fff" stroke="#d7def0" stroke-width="1.5"/><rect x="798.6666666666666" y="100" width="10" height="191" rx="5" fill="#1f8a7a"/>
+<text font-size="20" font-weight="700" fill="#1f8a7a"><tspan x="826.6666666666666" y="140">Dikali 100</tspan></text>
+<text font-size="17" fill="#3a466b"><tspan x="826.6666666666666" y="179">Hasil bagi dikali 100 menjadi</tspan><tspan x="826.6666666666666" y="202">persen. Contoh: 199 / 2.400 x 100</tspan><tspan x="826.6666666666666" y="225">= 8,29 persen.</tspan></text>
+</svg>

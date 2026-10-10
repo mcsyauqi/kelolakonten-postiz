@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 584" font-family="Figtree,Inter,Segoe UI,Arial,sans-serif">
+<rect width="1200" height="584" fill="#f4f7ff"/>
+<text x="60" y="62" font-size="28" font-weight="700" fill="#13235a">Contoh pembagian enam jam kerja konten per minggu</text>
+<text font-size="18" font-weight="700" fill="#13235a"><tspan x="60" y="156">Carousel 1</tspan></text>
+<rect x="390" y="134" width="472.5" height="38" rx="8" fill="#2457d6"/><text x="876.5" y="161" font-size="20" font-weight="700" fill="#13235a">1,5 jam</text>
+<text font-size="18" font-weight="700" fill="#13235a"><tspan x="60" y="256">Carousel 2</tspan></text>
+<rect x="390" y="234" width="472.5" height="38" rx="8" fill="#2457d6"/><text x="876.5" y="261" font-size="20" font-weight="700" fill="#13235a">1,5 jam</text>
+<text font-size="18" font-weight="700" fill="#13235a"><tspan x="60" y="356">Video pendek</tspan></text>
+<rect x="390" y="334" width="630" height="38" rx="8" fill="#6a4fd1"/><text x="1034" y="361" font-size="20" font-weight="700" fill="#13235a">2 jam</text>
+<text font-size="18" font-weight="700" fill="#13235a"><tspan x="60" y="456">Balas komentar dan pesan</tspan></text>
+<rect x="390" y="434" width="157.5" height="38" rx="8" fill="#1f8a7a"/><text x="561.5" y="461" font-size="20" font-weight="700" fill="#13235a">0,5 jam</text>
+<text font-size="18" fill="#13235a"><tspan x="60" y="540">Total 6 jam. Angka rekaan untuk ilustrasi, ganti dengan catatan waktu tim sendiri.</tspan></text>
+</svg>
