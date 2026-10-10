@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 435" font-family="Figtree,Inter,Segoe UI,Arial,sans-serif">
+<rect width="1200" height="435" fill="#f4f7ff"/>
+<text x="60" y="62" font-size="28" font-weight="700" fill="#13235a">Alur triase komentar: pilah dulu, baru balas</text>
+<defs><marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#13235a"/></marker><marker id="b" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#6a4fd1"/></marker></defs>
+<rect x="60" y="130" width="192" height="155" rx="18" fill="#2457d6"/>
+<text font-size="20" font-weight="700" fill="#fff" text-anchor="middle"><tspan x="156" y="170">Komentar masuk</tspan></text>
+<text font-size="16" fill="#eef2ff" text-anchor="middle"><tspan x="156" y="206">dari posting tujuh</tspan><tspan x="156" y="227">hari terakhir</tspan></text>
+<line x1="255" y1="207.5" x2="277" y2="207.5" stroke="#13235a" stroke-width="3" marker-end="url(#a)"/>
+<rect x="282" y="130" width="192" height="155" rx="18" fill="#6a4fd1"/>
+<text font-size="20" font-weight="700" fill="#fff" text-anchor="middle"><tspan x="378" y="170">Pilah</tspan></text>
+<text font-size="16" fill="#eef2ff" text-anchor="middle"><tspan x="378" y="206">pertanyaan,</tspan><tspan x="378" y="227">keluhan, spam,</tspan><tspan x="378" y="248">pujian</tspan></text>
+<line x1="477" y1="207.5" x2="499" y2="207.5" stroke="#13235a" stroke-width="3" marker-end="url(#a)"/>
+<rect x="504" y="130" width="192" height="155" rx="18" fill="#1f8a7a"/>
+<text font-size="20" font-weight="700" fill="#fff" text-anchor="middle"><tspan x="600" y="170">Tentukan</tspan><tspan x="600" y="194">pemilik</tspan></text>
+<text font-size="16" fill="#eef2ff" text-anchor="middle"><tspan x="600" y="230">sesuai aturan tim</tspan></text>
+<line x1="699" y1="207.5" x2="721" y2="207.5" stroke="#13235a" stroke-width="3" marker-end="url(#a)"/>
+<rect x="726" y="130" width="192" height="155" rx="18" fill="#13235a"/>
+<text font-size="20" font-weight="700" fill="#fff" text-anchor="middle"><tspan x="822" y="170">Balas atau</tspan><tspan x="822" y="194">eskalasi</tspan></text>
+<text font-size="16" fill="#eef2ff" text-anchor="middle"><tspan x="822" y="230">pakai templat yang</tspan><tspan x="822" y="251">disetujui</tspan></text>
+<line x1="921" y1="207.5" x2="943" y2="207.5" stroke="#13235a" stroke-width="3" marker-end="url(#a)"/>
+<rect x="948" y="130" width="192" height="155" rx="18" fill="#c2581e"/>
+<text font-size="20" font-weight="700" fill="#fff" text-anchor="middle"><tspan x="1044" y="170">Tutup</tspan></text>
+<text font-size="16" fill="#eef2ff" text-anchor="middle"><tspan x="1044" y="206">beri catatan</tspan><tspan x="1044" y="227">singkat</tspan></text>
+<path d="M1044 289 C1044 395 156 395 156 295" stroke="#13235a" stroke-width="3" fill="none" stroke-dasharray="10 8" marker-end="url(#a)"/>
+<text x="600" y="415" font-size="18" fill="#13235a" text-anchor="middle">Pertanyaan berulang menjadi bahan konten dan FAQ berikutnya</text>
+</svg>

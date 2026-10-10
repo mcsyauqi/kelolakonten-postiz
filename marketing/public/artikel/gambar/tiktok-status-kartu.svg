@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 467" font-family="Figtree,Inter,Segoe UI,Arial,sans-serif">
+<rect width="1200" height="467" fill="#f4f7ff"/>
+<text x="60" y="62" font-size="28" font-weight="700" fill="#13235a">Lima status kartu kalender untuk video TikTok</text>
+<g font-size="18" font-weight="700" fill="#13235a"><text x="60" y="120">Status</text><text x="290" y="120">Artinya</text><text x="710" y="120">Syarat pindah ke status berikutnya</text></g>
+<line x1="60" y1="136" x2="1140" y2="136" stroke="#13235a" stroke-width="2"/>
+<rect x="60" y="148" width="77.5" height="34" rx="10" fill="#7a849e"/><text x="74" y="171" font-size="16" font-weight="700" fill="#fff">Draft</text>
+<text font-size="17"  fill="#3a466b"><tspan x="290" y="170">Brief ada, video belum final</tspan></text>
+<text font-size="17"  fill="#3a466b"><tspan x="710" y="170">Video selesai disunting dan durasi sudah</tspan><tspan x="710" y="193">dicek</tspan></text>
+<line x1="60" y1="208" x2="1140" y2="208" stroke="#d7def0" stroke-width="1"/>
+<rect x="60" y="220" width="134.5" height="34" rx="10" fill="#2457d6"/><text x="74" y="243" font-size="16" font-weight="700" fill="#fff">Siap tayang</text>
+<text font-size="17"  fill="#3a466b"><tspan x="290" y="242">Disetujui pemilik usaha</tspan></text>
+<text font-size="17"  fill="#3a466b"><tspan x="710" y="242">Privasi dan izin interaksi dipilih manual</tspan></text>
+<line x1="60" y1="257" x2="1140" y2="257" stroke="#d7def0" stroke-width="1"/>
+<rect x="60" y="269" width="87" height="34" rx="10" fill="#6a4fd1"/><text x="74" y="292" font-size="16" font-weight="700" fill="#fff">Privat</text>
+<text font-size="17"  fill="#3a466b"><tspan x="290" y="291">Terunggah, hanya terlihat pemilik akun</tspan></text>
+<text font-size="17"  fill="#3a466b"><tspan x="710" y="291">Batasan platform terangkat atau dipindah ke</tspan><tspan x="710" y="314">handoff</tspan></text>
+<line x1="60" y1="329" x2="1140" y2="329" stroke="#d7def0" stroke-width="1"/>
+<rect x="60" y="341" width="163" height="34" rx="10" fill="#c2581e"/><text x="74" y="364" font-size="16" font-weight="700" fill="#fff">Handoff manual</text>
+<text font-size="17"  fill="#3a466b"><tspan x="290" y="363">Berkas diserahkan ke pemilik akun</tspan></text>
+<text font-size="17"  fill="#3a466b"><tspan x="710" y="363">Pemilik akun memposting dan mengirim link</tspan></text>
+<line x1="60" y1="378" x2="1140" y2="378" stroke="#d7def0" stroke-width="1"/>
+<rect x="60" y="390" width="87" height="34" rx="10" fill="#1f8a7a"/><text x="74" y="413" font-size="16" font-weight="700" fill="#fff">Tayang</text>
+<text font-size="17"  fill="#3a466b"><tspan x="290" y="412">Link publik tercatat di kartu</tspan></text>
+<text font-size="17"  fill="#3a466b"><tspan x="710" y="412">Kartu ditutup, hasil masuk laporan</tspan></text>
+</svg>

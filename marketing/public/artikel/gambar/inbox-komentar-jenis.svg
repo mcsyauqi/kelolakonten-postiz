@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 494" font-family="Figtree,Inter,Segoe UI,Arial,sans-serif">
+<rect width="1200" height="494" fill="#f4f7ff"/>
+<text x="60" y="62" font-size="28" font-weight="700" fill="#13235a">Contoh aturan internal untuk empat jenis komentar</text>
+<g font-size="18" font-weight="700" fill="#13235a"><text x="60" y="120">Jenis</text><text x="270" y="120">Contoh isi</text><text x="630" y="120">Pemilik</text><text x="850" y="120">Tindakan pertama</text></g>
+<line x1="60" y1="136" x2="1140" y2="136" stroke="#13235a" stroke-width="2"/>
+<rect x="60" y="148" width="125" height="34" rx="10" fill="#2457d6"/><text x="74" y="171" font-size="16" font-weight="700" fill="#fff">Pertanyaan</text>
+<text font-size="17"  fill="#3a466b"><tspan x="270" y="170">Masih ada ukuran L? Kirim ke Bandung</tspan><tspan x="270" y="193">bisa?</tspan></text>
+<text font-size="17"  fill="#3a466b"><tspan x="630" y="170">Admin</tspan></text>
+<text font-size="17"  fill="#3a466b"><tspan x="850" y="170">Jawab dengan templat yang</tspan><tspan x="850" y="193">disetujui</tspan></text>
+<line x1="60" y1="208" x2="1140" y2="208" stroke="#d7def0" stroke-width="1"/>
+<rect x="60" y="220" width="96.5" height="34" rx="10" fill="#c2581e"/><text x="74" y="243" font-size="16" font-weight="700" fill="#fff">Keluhan</text>
+<text font-size="17"  fill="#3a466b"><tspan x="270" y="242">Pesanan saya belum sampai sejak minggu</tspan><tspan x="270" y="265">lalu</tspan></text>
+<text font-size="17"  fill="#3a466b"><tspan x="630" y="242">Pemilik usaha</tspan></text>
+<text font-size="17"  fill="#3a466b"><tspan x="850" y="242">Balas singkat, pindah ke jalur</tspan><tspan x="850" y="265">privat</tspan></text>
+<line x1="60" y1="280" x2="1140" y2="280" stroke="#d7def0" stroke-width="1"/>
+<rect x="60" y="292" width="68" height="34" rx="10" fill="#7a849e"/><text x="74" y="315" font-size="16" font-weight="700" fill="#fff">Spam</text>
+<text font-size="17"  fill="#3a466b"><tspan x="270" y="314">Tautan mencurigakan atau tawaran tidak</tspan><tspan x="270" y="337">relevan</tspan></text>
+<text font-size="17"  fill="#3a466b"><tspan x="630" y="314">Admin</tspan></text>
+<text font-size="17"  fill="#3a466b"><tspan x="850" y="314">Sembunyikan, catat polanya</tspan></text>
+<line x1="60" y1="352" x2="1140" y2="352" stroke="#d7def0" stroke-width="1"/>
+<rect x="60" y="364" width="87" height="34" rx="10" fill="#1f8a7a"/><text x="74" y="387" font-size="16" font-weight="700" fill="#fff">Pujian</text>
+<text font-size="17"  fill="#3a466b"><tspan x="270" y="386">Kopinya enak, pelayanannya ramah</tspan></text>
+<text font-size="17"  fill="#3a466b"><tspan x="630" y="386">Admin</tspan></text>
+<text font-size="17"  fill="#3a466b"><tspan x="850" y="386">Balas singkat, simpan dengan</tspan><tspan x="850" y="409">izin</tspan></text>
+<text x="60" y="468" font-size="17" fill="#4a5578">Contoh rekaan untuk ilustrasi. Pemilik dan tindakan disesuaikan dengan susunan tim.</text>
+</svg>
