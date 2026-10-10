@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 435" font-family="Figtree,Inter,Segoe UI,Arial,sans-serif">
+<rect width="1200" height="435" fill="#f4f7ff"/>
+<text x="60" y="62" font-size="28" font-weight="700" fill="#13235a">Alur laporan bulanan: dari tutup periode sampai keputusan</text>
+<defs><marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#13235a"/></marker><marker id="b" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#6a4fd1"/></marker></defs>
+<rect x="60" y="130" width="192" height="155" rx="18" fill="#2457d6"/>
+<text font-size="20" font-weight="700" fill="#fff" text-anchor="middle"><tspan x="156" y="170">Tutup periode</tspan></text>
+<text font-size="16" fill="#eef2ff" text-anchor="middle"><tspan x="156" y="206">tanggal dan jam</tspan><tspan x="156" y="227">yang sama setiap</tspan><tspan x="156" y="248">bulan</tspan></text>
+<line x1="255" y1="207.5" x2="277" y2="207.5" stroke="#13235a" stroke-width="3" marker-end="url(#a)"/>
+<rect x="282" y="130" width="192" height="155" rx="18" fill="#1f8a7a"/>
+<text font-size="20" font-weight="700" fill="#fff" text-anchor="middle"><tspan x="378" y="170">Tunggu 48 jam</tspan></text>
+<text font-size="16" fill="#eef2ff" text-anchor="middle"><tspan x="378" y="206">beri waktu data</tspan><tspan x="378" y="227">yang tertunda</tspan></text>
+<line x1="477" y1="207.5" x2="499" y2="207.5" stroke="#13235a" stroke-width="3" marker-end="url(#a)"/>
+<rect x="504" y="130" width="192" height="155" rx="18" fill="#6a4fd1"/>
+<text font-size="20" font-weight="700" fill="#fff" text-anchor="middle"><tspan x="600" y="170">Tarik data</tspan></text>
+<text font-size="16" fill="#eef2ff" text-anchor="middle"><tspan x="600" y="206">simpan snapshot</tspan><tspan x="600" y="227">bertanggal</tspan></text>
+<line x1="699" y1="207.5" x2="721" y2="207.5" stroke="#13235a" stroke-width="3" marker-end="url(#a)"/>
+<rect x="726" y="130" width="192" height="155" rx="18" fill="#13235a"/>
+<text font-size="20" font-weight="700" fill="#fff" text-anchor="middle"><tspan x="822" y="170">Tulis temuan</tspan></text>
+<text font-size="16" fill="#eef2ff" text-anchor="middle"><tspan x="822" y="206">tiga temuan, bukti,</tspan><tspan x="822" y="227">dan usulan</tspan></text>
+<line x1="921" y1="207.5" x2="943" y2="207.5" stroke="#13235a" stroke-width="3" marker-end="url(#a)"/>
+<rect x="948" y="130" width="192" height="155" rx="18" fill="#c2581e"/>
+<text font-size="20" font-weight="700" fill="#fff" text-anchor="middle"><tspan x="1044" y="170">Rapat</tspan></text>
+<text font-size="16" fill="#eef2ff" text-anchor="middle"><tspan x="1044" y="206">klien memilih</tspan><tspan x="1044" y="227">perubahan</tspan></text>
+<path d="M1044 289 C1044 395 156 395 156 295" stroke="#13235a" stroke-width="3" fill="none" stroke-dasharray="10 8" marker-end="url(#a)"/>
+<text x="600" y="415" font-size="18" fill="#13235a" text-anchor="middle">Perubahan yang disetujui masuk ke kalender bulan berikutnya</text>
+</svg>

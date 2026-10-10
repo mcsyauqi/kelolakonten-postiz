@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 445" font-family="Figtree,Inter,Segoe UI,Arial,sans-serif">
+<rect width="1200" height="445" fill="#f4f7ff"/>
+<text x="60" y="62" font-size="28" font-weight="700" fill="#13235a">Alur upload YouTube yang bisa diaudit</text>
+<defs><marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#13235a"/></marker><marker id="b" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#6a4fd1"/></marker></defs>
+<rect x="60" y="180" width="155" height="155" rx="18" fill="#2457d6"/>
+<text font-size="20" font-weight="700" fill="#fff" text-anchor="middle"><tspan x="137.5" y="220">Draft</tspan></text>
+<text font-size="16" fill="#eef2ff" text-anchor="middle"><tspan x="137.5" y="256">judul,</tspan><tspan x="137.5" y="277">deskripsi,</tspan><tspan x="137.5" y="298">status privasi</tspan></text>
+<line x1="218" y1="257.5" x2="240" y2="257.5" stroke="#13235a" stroke-width="3" marker-end="url(#a)"/>
+<rect x="245" y="180" width="155" height="155" rx="18" fill="#6a4fd1"/>
+<text font-size="20" font-weight="700" fill="#fff" text-anchor="middle"><tspan x="322.5" y="220">Review</tspan></text>
+<text font-size="16" fill="#eef2ff" text-anchor="middle"><tspan x="322.5" y="256">dicek terhadap</tspan><tspan x="322.5" y="277">brief</tspan></text>
+<line x1="403" y1="257.5" x2="425" y2="257.5" stroke="#13235a" stroke-width="3" marker-end="url(#a)"/>
+<rect x="430" y="180" width="155" height="155" rx="18" fill="#1f8a7a"/>
+<text font-size="20" font-weight="700" fill="#fff" text-anchor="middle"><tspan x="507.5" y="220">Upload</tspan></text>
+<text font-size="16" fill="#eef2ff" text-anchor="middle"><tspan x="507.5" y="256">resumable, aman</tspan><tspan x="507.5" y="277">bila koneksi</tspan><tspan x="507.5" y="298">putus</tspan></text>
+<line x1="588" y1="257.5" x2="610" y2="257.5" stroke="#13235a" stroke-width="3" marker-end="url(#a)"/>
+<rect x="615" y="180" width="155" height="155" rx="18" fill="#7a849e"/>
+<text font-size="20" font-weight="700" fill="#fff" text-anchor="middle"><tspan x="692.5" y="220">Processing</tspan></text>
+<text font-size="16" fill="#eef2ff" text-anchor="middle"><tspan x="692.5" y="256">YouTube</tspan><tspan x="692.5" y="277">memproses</tspan><tspan x="692.5" y="298">berkas</tspan></text>
+<line x1="773" y1="257.5" x2="795" y2="257.5" stroke="#13235a" stroke-width="3" marker-end="url(#a)"/>
+<rect x="800" y="180" width="155" height="155" rx="18" fill="#13235a"/>
+<text font-size="20" font-weight="700" fill="#fff" text-anchor="middle"><tspan x="877.5" y="220">Cek status</tspan></text>
+<text font-size="16" fill="#eef2ff" text-anchor="middle"><tspan x="877.5" y="256">baca ulang</tspan><tspan x="877.5" y="277">lewat</tspan><tspan x="877.5" y="298">videos.list</tspan></text>
+<line x1="958" y1="257.5" x2="980" y2="257.5" stroke="#13235a" stroke-width="3" marker-end="url(#a)"/>
+<rect x="985" y="180" width="155" height="155" rx="18" fill="#c2581e"/>
+<text font-size="20" font-weight="700" fill="#fff" text-anchor="middle"><tspan x="1062.5" y="220">Tayang</tspan></text>
+<text font-size="16" fill="#eef2ff" text-anchor="middle"><tspan x="1062.5" y="256">link dicatat di</tspan><tspan x="1062.5" y="277">kalender</tspan></text>
+<path d="M322.5 176 C322.5 120 137.5 120 137.5 172" stroke="#6a4fd1" stroke-width="3" fill="none" marker-end="url(#b)"/>
+<text x="230" y="116" font-size="17" fill="#6a4fd1" text-anchor="middle">revisi kembali ke draft</text>
+<text x="60" y="419" font-size="17" fill="#4a5578">HTTP 200 di tahap upload bukan bukti tayang. Kartu ditutup setelah status dibaca ulang.</text>
+</svg>

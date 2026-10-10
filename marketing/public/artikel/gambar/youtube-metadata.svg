@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 502" font-family="Figtree,Inter,Segoe UI,Arial,sans-serif">
+<rect width="1200" height="502" fill="#f4f7ff"/>
+<text x="60" y="62" font-size="28" font-weight="700" fill="#13235a">Enam pemeriksaan metadata sebelum upload</text>
+<rect x="60" y="100" width="341.3333333333333" height="168" rx="16" fill="#fff" stroke="#d7def0" stroke-width="1.5"/><rect x="60" y="100" width="10" height="168" rx="5" fill="#2457d6"/>
+<text font-size="20" font-weight="700" fill="#2457d6"><tspan x="88" y="140">Judul</tspan></text>
+<text font-size="17" fill="#3a466b"><tspan x="88" y="179">Sesuai brief dan tidak</tspan><tspan x="88" y="202">menjanjikan hal yang tidak ada di</tspan><tspan x="88" y="225">video?</tspan></text>
+<rect x="429.3333333333333" y="100" width="341.3333333333333" height="168" rx="16" fill="#fff" stroke="#d7def0" stroke-width="1.5"/><rect x="429.3333333333333" y="100" width="10" height="168" rx="5" fill="#1f8a7a"/>
+<text font-size="20" font-weight="700" fill="#1f8a7a"><tspan x="457.3333333333333" y="140">Deskripsi</tspan></text>
+<text font-size="17" fill="#3a466b"><tspan x="457.3333333333333" y="179">Link benar, CTA jelas, klaim</tspan><tspan x="457.3333333333333" y="202">punya sumber?</tspan></text>
+<rect x="798.6666666666666" y="100" width="341.3333333333333" height="168" rx="16" fill="#fff" stroke="#d7def0" stroke-width="1.5"/><rect x="798.6666666666666" y="100" width="10" height="168" rx="5" fill="#6a4fd1"/>
+<text font-size="20" font-weight="700" fill="#6a4fd1"><tspan x="826.6666666666666" y="140">Tag dan kategori</tspan></text>
+<text font-size="17" fill="#3a466b"><tspan x="826.6666666666666" y="179">Kategori sesuai isi video, bukan</tspan><tspan x="826.6666666666666" y="202">sekadar yang paling ramai?</tspan></text>
+<rect x="60" y="296" width="341.3333333333333" height="168" rx="16" fill="#fff" stroke="#d7def0" stroke-width="1.5"/><rect x="60" y="296" width="10" height="168" rx="5" fill="#13235a"/>
+<text font-size="20" font-weight="700" fill="#13235a"><tspan x="88" y="336">Status privasi</tspan></text>
+<text font-size="17" fill="#3a466b"><tspan x="88" y="375">Dipilih eksplisit sesuai tahap</tspan><tspan x="88" y="398">kerja?</tspan></text>
+<rect x="429.3333333333333" y="296" width="341.3333333333333" height="168" rx="16" fill="#fff" stroke="#d7def0" stroke-width="1.5"/><rect x="429.3333333333333" y="296" width="10" height="168" rx="5" fill="#c2581e"/>
+<text font-size="20" font-weight="700" fill="#c2581e"><tspan x="457.3333333333333" y="336">Untuk anak</tspan></text>
+<text font-size="17" fill="#3a466b"><tspan x="457.3333333333333" y="375">Deklarasi konten untuk anak sudah</tspan><tspan x="457.3333333333333" y="398">diisi dengan benar?</tspan></text>
+<rect x="798.6666666666666" y="296" width="341.3333333333333" height="168" rx="16" fill="#fff" stroke="#d7def0" stroke-width="1.5"/><rect x="798.6666666666666" y="296" width="10" height="168" rx="5" fill="#7a849e"/>
+<text font-size="20" font-weight="700" fill="#7a849e"><tspan x="826.6666666666666" y="336">Media sintetis</tspan></text>
+<text font-size="17" fill="#3a466b"><tspan x="826.6666666666666" y="375">Penanda konten sintetis diisi</tspan><tspan x="826.6666666666666" y="398">bila video memakai materi buatan</tspan><tspan x="826.6666666666666" y="421">AI yang realistis?</tspan></text>
+</svg>
