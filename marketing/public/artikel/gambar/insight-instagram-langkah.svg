@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" font-family="Figtree,Inter,Segoe UI,Arial,sans-serif">
+<rect width="1200" height="560" fill="#f4f7ff"/>
+<defs><marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#13235a"/></marker></defs>
+<text x="60" y="62" font-size="28" font-weight="700" fill="#13235a">Membuka Insight dari instagram.com di komputer</text>
+<g font-size="21" font-weight="700" fill="#fff" text-anchor="middle">
+<rect x="60" y="140" width="250" height="170" rx="18" fill="#2457d6"/><text x="185" y="190">1. Dashboard</text>
+<rect x="340" y="140" width="250" height="170" rx="18" fill="#1f8a7a"/><text x="465" y="190">2. Insights</text>
+<rect x="620" y="140" width="250" height="170" rx="18" fill="#6a4fd1"/><text x="745" y="190">3. Account / Content</text>
+<rect x="900" y="140" width="250" height="170" rx="18" fill="#c2581e"/><text x="1025" y="190">4. Rentang waktu</text>
+</g>
+<g font-size="16" fill="#f4f7ff" text-anchor="middle">
+<text x="185" y="232">pilih Dashboard di</text><text x="185" y="256">menu kiri</text>
+<text x="465" y="232">akun profesional: Insights</text><text x="465" y="256">di bawah For professionals</text>
+<text x="745" y="232">pilih ringkasan akun</text><text x="745" y="256">atau per konten</text>
+<text x="1025" y="232">7, 14, 30, atau 90 hari,</text><text x="1025" y="256">atau tanggal kustom</text>
+</g>
+<g stroke="#13235a" stroke-width="3" marker-end="url(#a)"><line x1="312" y1="225" x2="334" y2="225"/><line x1="592" y1="225" x2="614" y2="225"/><line x1="872" y1="225" x2="894" y2="225"/></g>
+<rect x="60" y="360" width="1090" height="120" rx="18" fill="#ffffff" stroke="#c9d3f0" stroke-width="2"/>
+<text x="90" y="402" font-size="19" font-weight="700" fill="#13235a">Akun pribadi publik:</text>
+<text x="300" y="402" font-size="18" fill="#3b4a7a">pilih Your dashboard di bawah Your insights and tools, lalu lanjut ke langkah 3.</text>
+<text x="90" y="446" font-size="19" font-weight="700" fill="#13235a">Batas data:</text>
+<text x="300" y="446" font-size="18" fill="#3b4a7a">rentang kustom berada dalam 90 hari terakhir, tanggal mulai dan akhir minimal berjarak 1 hari.</text>
+<text x="60" y="530" font-size="16" fill="#3b4a7a">Nama menu mengikuti Pusat Bantuan Instagram versi bahasa Inggris dan bisa berbeda sedikit di tampilan bahasa Indonesia.</text>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 620" font-family="Figtree,Inter,Segoe UI,Arial,sans-serif">
+<rect width="1200" height="620" fill="#f4f7ff"/>
+<defs><marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#13235a"/></marker></defs>
+<text x="60" y="62" font-size="28" font-weight="700" fill="#13235a">Membaca pola, lalu memutuskan tindakan</text>
+<text x="60" y="96" font-size="18" fill="#3b4a7a">Contoh membaca dua angka sekaligus untuk satu konten</text>
+<rect x="60" y="130" width="1080" height="440" rx="18" fill="#ffffff" stroke="#c9d3f0" stroke-width="2"/>
+<line x1="600" y1="150" x2="600" y2="550" stroke="#13235a" stroke-width="3" marker-end="url(#a)" transform="rotate(180 600 350)"/>
+<line x1="80" y1="350" x2="1120" y2="350" stroke="#13235a" stroke-width="3" marker-end="url(#a)"/>
+<text x="612" y="168" font-size="17" font-weight="700" fill="#13235a">interaksi per penonton tinggi</text>
+<text x="612" y="560" font-size="17" font-weight="700" fill="#13235a">interaksi per penonton rendah</text>
+<text x="1110" y="380" font-size="17" font-weight="700" fill="#13235a" text-anchor="end">penonton banyak</text>
+<text x="90" y="380" font-size="17" font-weight="700" fill="#13235a">penonton sedikit</text>
+<rect x="640" y="190" width="460" height="130" rx="14" fill="#1f8a7a"/><text x="660" y="232" font-size="21" font-weight="700" fill="#fff">Ulangi dan perbanyak</text><text x="660" y="264" font-size="16" fill="#e8fff8">topik dan format ini sudah bekerja,</text><text x="660" y="290" font-size="16" fill="#e8fff8">buat seri lanjutan</text>
+<rect x="100" y="190" width="460" height="130" rx="14" fill="#2457d6"/><text x="120" y="232" font-size="21" font-weight="700" fill="#fff">Perluas jangkauan</text><text x="120" y="264" font-size="16" fill="#eef2ff">isi disukai tetapi sedikit yang melihat,</text><text x="120" y="290" font-size="16" fill="#eef2ff">uji jam tayang, format, atau sampul</text>
+<rect x="640" y="400" width="460" height="130" rx="14" fill="#c2581e"/><text x="660" y="442" font-size="21" font-weight="700" fill="#fff">Perbaiki isi atau ajakan</text><text x="660" y="474" font-size="16" fill="#fff4ec">banyak yang melihat tetapi diam,</text><text x="660" y="500" font-size="16" fill="#fff4ec">pertajam pesan dan CTA</text>
+<rect x="100" y="400" width="460" height="130" rx="14" fill="#6a4fd1"/><text x="120" y="442" font-size="21" font-weight="700" fill="#fff">Evaluasi ulang topik</text><text x="120" y="474" font-size="16" fill="#f1edff">sedikit dilihat dan sedikit respons,</text><text x="120" y="500" font-size="16" fill="#f1edff">ganti sudut pandang atau hentikan</text>
+<text x="60" y="604" font-size="16" fill="#3b4a7a">Kerangka bantu berpikir buatan Kelola Konten, bukan aturan Instagram. Bandingkan dengan rata-rata akun Anda sendiri.</text>
+</svg>
