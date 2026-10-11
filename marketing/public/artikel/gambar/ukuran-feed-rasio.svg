@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 640" font-family="Figtree,Inter,Segoe UI,Arial,sans-serif">
+<rect width="1200" height="640" fill="#f4f7ff"/>
+<text x="60" y="62" font-size="28" font-weight="700" fill="#13235a">Lima rasio yang paling sering dipakai di Instagram</text>
+<text x="60" y="96" font-size="18" fill="#3b4a7a">Semua kotak digambar dengan lebar sama (1080 px) agar perbedaan tingginya terlihat</text>
+<g font-weight="700" text-anchor="middle">
+<rect x="60" y="400" width="180" height="94" rx="10" fill="#c2581e"/><text x="150" y="455" font-size="24" fill="#fff">1,91:1</text>
+<rect x="290" y="314" width="180" height="180" rx="10" fill="#1f8a7a"/><text x="380" y="412" font-size="24" fill="#fff">1:1</text>
+<rect x="520" y="269" width="180" height="225" rx="10" fill="#2457d6"/><text x="610" y="390" font-size="24" fill="#fff">4:5</text>
+<rect x="750" y="254" width="180" height="240" rx="10" fill="#6a4fd1"/><text x="840" y="382" font-size="24" fill="#fff">3:4</text>
+<rect x="980" y="174" width="180" height="320" rx="10" fill="#13235a"/><text x="1070" y="342" font-size="24" fill="#fff">9:16</text>
+</g>
+<g font-size="18" fill="#13235a" text-anchor="middle">
+<text x="150" y="528" font-weight="700">1080 x 566 px</text><text x="150" y="554">feed lanskap</text>
+<text x="380" y="528" font-weight="700">1080 x 1080 px</text><text x="380" y="554">feed persegi</text>
+<text x="610" y="528" font-weight="700">1080 x 1350 px</text><text x="610" y="554">feed potret</text>
+<text x="840" y="528" font-weight="700">1080 x 1440 px</text><text x="840" y="554">feed potret tertinggi</text>
+<text x="1070" y="528" font-weight="700">1080 x 1920 px</text><text x="1070" y="554">Reels dan Stories</text>
+</g>
+<line x1="60" y1="590" x2="930" y2="590" stroke="#2457d6" stroke-width="3"/>
+<text x="495" y="618" font-size="17" fill="#2457d6" text-anchor="middle">Rentang foto feed yang dipertahankan resolusinya: 1,91:1 sampai 3:4</text>
+</svg>
