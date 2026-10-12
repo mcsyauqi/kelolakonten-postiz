@@ -74,7 +74,7 @@ export class AuthService {
         await this._emailService.sendEmailSync(
           body.email,
           'Aktifkan akun Kelola Konten Anda',
-          `Terima kasih sudah mendaftar. Klik <a href="${process.env.FRONTEND_URL}/auth/activate/${obj.jwt}">tautan ini</a> untuk mengaktifkan akun Anda.`
+          `Halo, terima kasih sudah mendaftar di Kelola Konten.<br /><br />Satu langkah lagi: klik <a href="${process.env.FRONTEND_URL}/auth/activate/${obj.jwt}">aktifkan akun saya</a> untuk mulai merencanakan dan menjadwalkan konten.<br /><br />Kalau Anda tidak merasa mendaftar, abaikan email ini dan akun tidak akan aktif.`
         );
         return obj;
       }
