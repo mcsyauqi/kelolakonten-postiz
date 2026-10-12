@@ -118,7 +118,7 @@ export class EmailService {
                         margin: 0;
                     ">${process.env.EMAIL_FROM_NAME}</h2>
                     <div style="font-size: 12px">
-                      You can change your notification preferences in your <a href="${process.env.FRONTEND_URL}/settings">account settings.</a>
+                      Atur preferensi notifikasi di <a href="${process.env.FRONTEND_URL}/settings">pengaturan akun</a>.
                      </div>
                 </div>
             </div>

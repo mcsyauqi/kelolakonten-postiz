@@ -94,5 +94,7 @@
     if (link) window.kelolaTrack('wa_cta_click', { placement: link.dataset.waCta || `${placementOf(link)}_${window.location.pathname.split('/').filter(Boolean)[0] || 'home'}` });
     const source = event.target.closest?.('a[href*="github.com/mcsyauqi/kelolakonten-postiz"]');
     if (source) window.kelolaTrack('source_link_click', { placement: source.dataset.sourcePlacement || placementOf(source) });
+    const signup = event.target.closest?.('a[href^="https://app.kelolakonten.com/auth"]');
+    if (signup) window.kelolaTrack(signup.href.includes('/auth/login') ? 'login_click' : 'sign_up_click', { placement: `${placementOf(signup)}_${window.location.pathname.split('/').filter(Boolean)[0] || 'home'}` });
   });
 }());

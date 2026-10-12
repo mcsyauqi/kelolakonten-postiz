@@ -598,3 +598,11 @@
 .hv-mk .mgrid i{font-style:normal;height:calc(50*var(--u));display:flex;flex-direction:column;align-items:flex-start;gap:calc(3*var(--u));color:#454C5C;overflow:hidden}
 .hv-mk .mgrid .chip{font-size:calc(7*var(--u));padding:calc(2*var(--u)) calc(5*var(--u))}
 /* ===== END HOME V2 ===== */
+
+/* Hero: CTA daftar langsung (pendaftaran dibuka 2026-10-12) */
+.hv-form-pill-cta{align-items:center}
+.hv-cta-copy{flex:1;min-width:0;padding:0 10px 0 18px;color:var(--ink2);font-size:15px;text-align:left}
+.hv-form-pill-cta .hv-btn{text-decoration:none;white-space:nowrap}
+.hv-consent a{color:var(--accent);text-decoration:underline;text-underline-offset:3px}
+@media(max-width:620px){.hv-form-pill-cta{flex-direction:column;gap:10px;padding:14px}.hv-cta-copy{padding:0;text-align:center}.hv-form-pill-cta .hv-btn{width:100%;justify-content:center}}
+.hv-form > .hv-consent{text-align:center;display:block}

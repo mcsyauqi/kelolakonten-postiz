@@ -73,8 +73,8 @@ export class AuthService {
         const obj = { addedOrg, jwt: await this.jwt(create.users[0].user) };
         await this._emailService.sendEmailSync(
           body.email,
-          'Activate your account',
-          `Click <a href="${process.env.FRONTEND_URL}/auth/activate/${obj.jwt}">here</a> to activate your account`
+          'Aktifkan akun Kelola Konten Anda',
+          `Terima kasih sudah mendaftar. Klik <a href="${process.env.FRONTEND_URL}/auth/activate/${obj.jwt}">tautan ini</a> untuk mengaktifkan akun Anda.`
         );
         return obj;
       }
@@ -224,8 +224,8 @@ export class AuthService {
 
     await this._emailService.sendEmailSync(
       user.email,
-      'Reset your password',
-      `You have requested to reset your password. <br />Click <a href="${process.env.FRONTEND_URL}/auth/forgot/${resetValues}">here</a> to reset your password<br />The link will expire in 20 minutes`
+      'Atur ulang kata sandi Kelola Konten',
+      `Anda meminta pengaturan ulang kata sandi.<br />Klik <a href="${process.env.FRONTEND_URL}/auth/forgot/${resetValues}">tautan ini</a> untuk membuat kata sandi baru.<br />Tautan berlaku 20 menit. Abaikan email ini kalau Anda tidak memintanya.`
     );
   }
 
@@ -277,8 +277,8 @@ export class AuthService {
 
     await this._emailService.sendEmailSync(
       user.email,
-      'Activate your account',
-      `Click <a href="${process.env.FRONTEND_URL}/auth/activate/${jwt}">here</a> to activate your account`
+      'Aktifkan akun Kelola Konten Anda',
+      `Klik <a href="${process.env.FRONTEND_URL}/auth/activate/${jwt}">tautan ini</a> untuk mengaktifkan akun Anda.`
     );
 
     return true;

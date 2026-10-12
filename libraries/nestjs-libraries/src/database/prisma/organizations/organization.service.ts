@@ -112,8 +112,8 @@ export class OrganizationService {
         : user.email;
       await this._notificationsService.sendEmail(
         body.email,
-        `${user.name || user.email} invited you to join "${org.name}"`,
-        `${inviter} has invited you to join the "${org.name}" team.<br /><a href="${url}">Accept the invitation</a> to get started.<br />The link will expire in 2 days.`
+        `${user.name || user.email} mengundang Anda ke tim "${org.name}" di Kelola Konten`,
+        `${inviter} mengundang Anda bergabung dengan tim "${org.name}" di Kelola Konten.<br /><a href="${url}">Terima undangan</a> untuk mulai.<br />Tautan berlaku 2 hari.`
       );
     }
     return { url };
