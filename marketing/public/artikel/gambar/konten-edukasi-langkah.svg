@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" font-family="Figtree,Inter,Segoe UI,Arial,sans-serif">
+<rect width="1200" height="560" fill="#f4f7ff"/>
+<text x="60" y="62" font-size="28" font-weight="700" fill="#13235a">Tujuh langkah membuat konten edukasi</text>
+<text x="60" y="96" font-size="18" fill="#3b4a7a">Dari pertanyaan pelanggan sampai evaluasi, lalu kembali ke awal</text>
+<g font-size="18" font-weight="700" fill="#fff">
+<rect x="60" y="136" width="250" height="120" rx="16" fill="#13235a"/><text x="84" y="176">1. Kumpulkan</text><text x="84" y="202">pertanyaan nyata</text><text x="84" y="234" font-size="15" font-weight="400">DM, komentar, admin, ulasan</text>
+<rect x="336" y="136" width="250" height="120" rx="16" fill="#2457d6"/><text x="360" y="176">2. Pilih satu</text><text x="360" y="202">masalah</text><text x="360" y="234" font-size="15" font-weight="400">tajam, bisa tuntas</text>
+<rect x="612" y="136" width="250" height="120" rx="16" fill="#2457d6"/><text x="636" y="176">3. Tulis janji</text><text x="636" y="202">di pembuka</text><text x="636" y="234" font-size="15" font-weight="400">hasil yang didapat audiens</text>
+<rect x="888" y="136" width="252" height="120" rx="16" fill="#1f8a7a"/><text x="912" y="176">4. Susun langkah</text><text x="912" y="202">atau poin</text><text x="912" y="234" font-size="15" font-weight="400">satu gagasan per langkah</text>
+<rect x="888" y="306" width="252" height="120" rx="16" fill="#1f8a7a"/><text x="912" y="346">5. Tunjukkan</text><text x="912" y="372">bukti</text><text x="912" y="404" font-size="15" font-weight="400">demo, sebelum-sesudah, sumber</text>
+<rect x="612" y="306" width="250" height="120" rx="16" fill="#6a4fd1"/><text x="636" y="346">6. Satu ajakan</text><text x="636" y="372">di akhir</text><text x="636" y="404" font-size="15" font-weight="400">simpan, tanya, atau cek katalog</text>
+<rect x="336" y="306" width="250" height="120" rx="16" fill="#c2581e"/><text x="360" y="346">7. Ukur dan</text><text x="360" y="372">perbaiki</text><text x="360" y="404" font-size="15" font-weight="400">simpan, bagikan, pertanyaan</text>
+</g>
+<g stroke="#13235a" stroke-width="3" fill="#13235a">
+<line x1="310" y1="196" x2="330" y2="196"/><polygon points="330,190 336,196 330,202"/>
+<line x1="586" y1="196" x2="606" y2="196"/><polygon points="606,190 612,196 606,202"/>
+<line x1="862" y1="196" x2="882" y2="196"/><polygon points="882,190 888,196 882,202"/>
+<line x1="1014" y1="256" x2="1014" y2="300"/><polygon points="1008,300 1014,306 1020,300"/>
+<line x1="888" y1="366" x2="868" y2="366"/><polygon points="868,360 862,366 868,372"/>
+<line x1="612" y1="366" x2="592" y2="366"/><polygon points="592,360 586,366 592,372"/>
+</g>
+<path d="M336 366 L185 366 L185 262" stroke="#c2581e" stroke-width="3" fill="none" stroke-dasharray="8 6"/><polygon points="179,268 185,256 191,268" fill="#c2581e"/>
+<text x="76" y="400" font-size="16" fill="#13235a">pertanyaan lanjutan</text><text x="76" y="422" font-size="16" fill="#13235a">= ide berikutnya</text>
+<text x="60" y="500" font-size="17" fill="#13235a">Tulis langkah 1 sampai 3 di brief sebelum produksi, supaya penulis dan desainer bekerja dari arah yang sama.</text>
+</svg>

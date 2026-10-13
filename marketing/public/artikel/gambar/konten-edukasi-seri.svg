@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" font-family="Figtree,Inter,Segoe UI,Arial,sans-serif">
+<rect width="1200" height="560" fill="#f4f7ff"/>
+<text x="60" y="62" font-size="28" font-weight="700" fill="#13235a">Contoh kalender seri edukasi empat minggu</text>
+<text x="60" y="96" font-size="18" fill="#3b4a7a">Contoh pembagian untuk toko sepatu, bukan aturan baku</text>
+<g font-size="17" font-weight="700" fill="#13235a">
+<text x="260" y="140" text-anchor="middle">Selasa</text><text x="560" y="140" text-anchor="middle">Jumat</text><text x="900" y="140" text-anchor="middle">Hari lain</text>
+<text x="60" y="196">Minggu 1</text><text x="60" y="270">Minggu 2</text><text x="60" y="344">Minggu 3</text><text x="60" y="418">Minggu 4</text>
+</g>
+<g font-size="15" fill="#fff">
+<rect x="150" y="160" width="220" height="56" rx="10" fill="#2457d6"/><text x="166" y="185" font-weight="700">Carousel tips</text><text x="166" y="205">bersihkan noda air</text>
+<rect x="150" y="234" width="220" height="56" rx="10" fill="#2457d6"/><text x="166" y="259" font-weight="700">Carousel tips</text><text x="166" y="279">simpan saat musim hujan</text>
+<rect x="150" y="308" width="220" height="56" rx="10" fill="#2457d6"/><text x="166" y="333" font-weight="700">Carousel tips</text><text x="166" y="353">pilih ukuran yang pas</text>
+<rect x="150" y="382" width="220" height="56" rx="10" fill="#2457d6"/><text x="166" y="407" font-weight="700">Carousel tips</text><text x="166" y="427">ganti tali dan sol</text>
+<rect x="450" y="160" width="220" height="56" rx="10" fill="#1f8a7a"/><text x="466" y="185" font-weight="700">Reel jawab komentar</text><text x="466" y="205">pertanyaan minggu ini</text>
+<rect x="450" y="234" width="220" height="56" rx="10" fill="#1f8a7a"/><text x="466" y="259" font-weight="700">Reel jawab komentar</text><text x="466" y="279">pertanyaan minggu ini</text>
+<rect x="450" y="308" width="220" height="56" rx="10" fill="#1f8a7a"/><text x="466" y="333" font-weight="700">Reel jawab komentar</text><text x="466" y="353">pertanyaan minggu ini</text>
+<rect x="450" y="382" width="220" height="56" rx="10" fill="#1f8a7a"/><text x="466" y="407" font-weight="700">Reel jawab komentar</text><text x="466" y="427">pertanyaan minggu ini</text>
+<rect x="750" y="160" width="390" height="278" rx="12" fill="#6a4fd1"/><text x="774" y="200" font-weight="700" font-size="17">Promosi, testimoni, cerita bisnis</text><text x="774" y="236">diisi sesuai kapasitas tim</text><text x="774" y="272">contoh: koleksi baru, ulasan</text><text x="774" y="296">pelanggan, proses produksi</text>
+</g>
+<rect x="60" y="466" width="1080" height="60" rx="12" fill="#fff" stroke="#c2581e" stroke-width="2"/>
+<text x="84" y="502" font-size="17" fill="#13235a">Produksi delapan konten seri dalam satu sesi di awal bulan, lalu jadwalkan sekaligus.</text>
+</svg>

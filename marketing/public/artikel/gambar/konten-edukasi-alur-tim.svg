@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500" font-family="Figtree,Inter,Segoe UI,Arial,sans-serif">
+<rect width="1200" height="500" fill="#f4f7ff"/>
+<text x="60" y="62" font-size="28" font-weight="700" fill="#13235a">Alur kerja tim untuk konten edukasi</text>
+<text x="60" y="96" font-size="18" fill="#3b4a7a">Cek akurasi isi sebelum persetujuan, supaya tidak bercampur dengan revisi desain</text>
+<g font-size="16" font-weight="700" fill="#fff" text-anchor="middle">
+<rect x="60" y="150" width="150" height="110" rx="14" fill="#13235a"/><text x="135" y="198">Bank</text><text x="135" y="220">pertanyaan</text>
+<rect x="232" y="150" width="150" height="110" rx="14" fill="#2457d6"/><text x="307" y="198">Brief per</text><text x="307" y="220">konten</text>
+<rect x="404" y="150" width="150" height="110" rx="14" fill="#2457d6"/><text x="479" y="198">Draf dan</text><text x="479" y="220">visual</text>
+<rect x="576" y="150" width="150" height="110" rx="14" fill="#c2581e"/><text x="651" y="198">Cek akurasi</text><text x="651" y="220">oleh ahli</text>
+<rect x="748" y="150" width="150" height="110" rx="14" fill="#6a4fd1"/><text x="823" y="208">Persetujuan</text>
+<rect x="920" y="150" width="220" height="110" rx="14" fill="#1f8a7a"/><text x="1030" y="198">Jadwal terbit</text><text x="1030" y="220">dan evaluasi</text>
+</g>
+<g stroke="#13235a" stroke-width="3" fill="#13235a">
+<line x1="210" y1="205" x2="226" y2="205"/><polygon points="226,199 232,205 226,211"/>
+<line x1="382" y1="205" x2="398" y2="205"/><polygon points="398,199 404,205 398,211"/>
+<line x1="554" y1="205" x2="570" y2="205"/><polygon points="570,199 576,205 570,211"/>
+<line x1="726" y1="205" x2="742" y2="205"/><polygon points="742,199 748,205 742,211"/>
+<line x1="898" y1="205" x2="914" y2="205"/><polygon points="914,199 920,205 914,211"/>
+</g>
+<path d="M1030 260 C1030 340 600 350 72 340 L72 266" stroke="#1f8a7a" stroke-width="3" fill="none" stroke-dasharray="8 6"/><polygon points="66,272 72,260 78,272" fill="#1f8a7a"/>
+<text x="600" y="380" font-size="16" fill="#13235a" text-anchor="middle">pertanyaan baru dari komentar dan DM masuk kembali ke bank</text>
+<g font-size="15" fill="#3b4a7a" text-anchor="middle"><text x="135" y="290">pemilik, admin</text><text x="307" y="290">penulis</text><text x="479" y="290">penulis, desainer</text><text x="651" y="290">ahli produk</text><text x="823" y="290">pemilik atau klien</text></g>
+<text x="60" y="450" font-size="17" fill="#13235a">Satu tempat untuk draf, komentar, dan status membuat konten tidak tertahan di grup chat.</text>
+</svg>
