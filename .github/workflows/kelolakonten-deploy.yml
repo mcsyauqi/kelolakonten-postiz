@@ -1,0 +1,62 @@
+name: Kelola Konten deploy
+
+# Push ke main otomatis men-deploy bagian yang berubah ke Coolify (coolify.mcsyauqi.com).
+# - marketing/**                         -> app kelolakonten-marketing (kelolakonten.com)
+# - apps/**, libraries/**, compose, deps -> app kelolakonten-postiz (app.kelolakonten.com, build ~25 menit)
+# Secret COOLIFY_DEPLOY_TOKEN hanya punya izin deploy (tidak bisa membaca env atau resource lain).
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      target:
+        description: 'Yang di-deploy'
+        type: choice
+        options: [marketing, app, both]
+        default: both
+
+concurrency:
+  group: kelolakonten-deploy
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      COOLIFY: https://coolify.mcsyauqi.com/api/v1
+      MARKETING_UUID: svuje7kxurw8exrvuj6gyjbj
+      APP_UUID: akiajnygc6oe6cbuir9ocupm
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Tentukan target
+        id: target
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            t="${{ inputs.target }}"
+            [ "$t" = "marketing" ] || [ "$t" = "both" ] && echo "marketing=true" >> "$GITHUB_OUTPUT"
+            [ "$t" = "app" ] || [ "$t" = "both" ] && echo "app=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          before="${{ github.event.before }}"
+          if [ -z "$before" ] || [ "$before" = "0000000000000000000000000000000000000000" ]; then before="HEAD~1"; fi
+          changed=$(git diff --name-only "$before" "${{ github.sha }}")
+          echo "$changed"
+          echo "$changed" | grep -q '^marketing/' && echo "marketing=true" >> "$GITHUB_OUTPUT" || true
+          echo "$changed" | grep -Eq '^(apps/|libraries/|docker-compose\.kelolakonten\.yaml|package\.json|pnpm-lock\.yaml|Dockerfile)' && echo "app=true" >> "$GITHUB_OUTPUT" || true
+
+      - name: Deploy marketing
+        if: steps.target.outputs.marketing == 'true'
+        run: bash .github/scripts/coolify-deploy.sh "$MARKETING_UUID"
+        env:
+          TOKEN: ${{ secrets.COOLIFY_DEPLOY_TOKEN }}
+
+      - name: Deploy app
+        if: steps.target.outputs.app == 'true'
+        run: bash .github/scripts/coolify-deploy.sh "$APP_UUID"
+        env:
+          TOKEN: ${{ secrets.COOLIFY_DEPLOY_TOKEN }}
