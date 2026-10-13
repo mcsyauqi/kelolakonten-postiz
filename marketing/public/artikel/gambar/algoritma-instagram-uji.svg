@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" font-family="Figtree,Inter,Segoe UI,Arial,sans-serif">
+<rect width="1200" height="560" fill="#f4f7ff"/>
+<text x="60" y="62" font-size="28" font-weight="700" fill="#13235a">Siklus uji empat minggu untuk akun bisnis</text>
+<text x="60" y="96" font-size="18" fill="#3b4a7a">Ganti tebakan soal algoritma dengan data akun sendiri</text>
+<g font-size="20" font-weight="700" fill="#fff">
+<rect x="60" y="134" width="250" height="250" rx="18" fill="#13235a"/><text x="84" y="176">Minggu 1</text>
+<rect x="336" y="134" width="528" height="250" rx="18" fill="#2457d6"/><text x="360" y="176">Minggu 2 dan 3</text>
+<rect x="890" y="134" width="250" height="250" rx="18" fill="#1f8a7a"/><text x="914" y="176">Minggu 4</text>
+</g>
+<g font-size="17" fill="#fff">
+<text x="84" y="214">Catat data awal:</text><text x="84" y="242">views, interaksi,</text><text x="84" y="270">simpan, bagikan,</text><text x="84" y="298">pengikut baru</text><text x="84" y="340" font-weight="700">jangan ubah apa pun</text>
+<text x="360" y="214">Ubah SATU variabel saja, contoh:</text>
+<text x="360" y="250">•  format pembuka reel (pertanyaan atau hasil akhir)</text>
+<text x="360" y="280">•  jam unggah pagi atau malam</text>
+<text x="360" y="310">•  carousel referensi atau foto tunggal</text>
+<text x="360" y="352" font-weight="700">variabel lain dibiarkan sama</text>
+<text x="914" y="214">Bandingkan rasio,</text><text x="914" y="242">bukan angka mentah.</text><text x="914" y="284">Lebih baik:</text><text x="914" y="312">pertahankan.</text><text x="914" y="340">Tidak: kembalikan.</text>
+</g>
+<g stroke="#13235a" stroke-width="3" fill="#13235a"><line x1="310" y1="259" x2="330" y2="259"/><polygon points="330,253 336,259 330,265"/><line x1="864" y1="259" x2="884" y2="259"/><polygon points="884,253 890,259 884,265"/></g>
+<path d="M1015 390 C1015 460 600 470 185 460 L185 396" stroke="#6a4fd1" stroke-width="3" fill="none" stroke-dasharray="8 6"/><polygon points="179,402 185,390 191,402" fill="#6a4fd1"/>
+<text x="600" y="512" font-size="17" fill="#13235a" text-anchor="middle">Ulangi dengan variabel berikutnya. Catat tanggal mulai tiap perubahan di kalender konten.</text>
+</svg>
