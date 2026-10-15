@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 544" font-family="Figtree,Inter,Segoe UI,Arial,sans-serif">
+<rect width="1200" height="544" fill="#f4f7ff"/>
+<text x="60" y="62" font-size="28" font-weight="700" fill="#13235a">Yang membuat video tidak masuk For You</text>
+<text x="60" y="96" font-size="18" fill="#3b4a7a">Disebut TikTok dalam penjelasan sistem rekomendasinya</text>
+<rect x="60" y="130" width="344" height="170" rx="16" fill="#13235a"/>
+<text x="82" y="170" font-size="20" font-weight="700" fill="#fff">Konten duplikat</text>
+<text x="82" y="202" font-size="15" fill="#fff">Video yang sama diunggah</text>
+<text x="82" y="223" font-size="15" fill="#fff">ulang tidak direkomendasikan.</text>
+<rect x="428" y="130" width="344" height="170" rx="16" fill="#2457d6"/>
+<text x="450" y="170" font-size="20" font-weight="700" fill="#fff">Sudah pernah dilihat</text>
+<text x="450" y="202" font-size="15" fill="#fff">Video yang sudah ditonton</text>
+<text x="450" y="223" font-size="15" fill="#fff">tidak disodorkan lagi.</text>
+<rect x="796" y="130" width="344" height="170" rx="16" fill="#1f8a7a"/>
+<text x="818" y="170" font-size="20" font-weight="700" fill="#fff">Spam</text>
+<text x="818" y="202" font-size="15" fill="#fff">Termasuk video yang mencoba</text>
+<text x="818" y="223" font-size="15" fill="#fff">menaikkan lalu lintas</text>
+<text x="818" y="244" font-size="15" fill="#fff">secara buatan.</text>
+<rect x="60" y="324" width="344" height="170" rx="16" fill="#6a4fd1"/>
+<text x="82" y="364" font-size="20" font-weight="700" fill="#fff">Baru diunggah</text>
+<text x="82" y="390" font-size="20" font-weight="700" fill="#fff">atau sedang ditinjau</text>
+<text x="82" y="422" font-size="15" fill="#fff">Bisa belum layak direkomen-</text>
+<text x="82" y="443" font-size="15" fill="#fff">dasikan sampai proses selesai.</text>
+<rect x="428" y="324" width="344" height="170" rx="16" fill="#c2581e"/>
+<text x="450" y="364" font-size="20" font-weight="700" fill="#fff">Konten grafis</text>
+<text x="450" y="396" font-size="15" fill="#fff">Mis. prosedur medis yang</text>
+<text x="450" y="417" font-size="15" fill="#fff">bisa mengejutkan penonton</text>
+<text x="450" y="438" font-size="15" fill="#fff">umum.</text>
+<rect x="796" y="324" width="344" height="170" rx="16" fill="#13235a"/>
+<text x="818" y="364" font-size="20" font-weight="700" fill="#fff">Diversifikasi</text>
+<text x="818" y="396" font-size="15" fill="#fff">Feed umumnya tidak memutar</text>
+<text x="818" y="417" font-size="15" fill="#fff">dua video berturut dari</text>
+<text x="818" y="438" font-size="15" fill="#fff">kreator atau suara sama.</text>
+</svg>

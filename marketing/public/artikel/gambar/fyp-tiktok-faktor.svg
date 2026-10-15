@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 450" font-family="Figtree,Inter,Segoe UI,Arial,sans-serif">
+<rect width="1200" height="450" fill="#f4f7ff"/>
+<text x="60" y="62" font-size="28" font-weight="700" fill="#13235a">Tiga kelompok faktor rekomendasi For You</text>
+<text x="60" y="96" font-size="18" fill="#3b4a7a">Menurut penjelasan resmi TikTok, bobotnya tidak sama</text>
+<rect x="60" y="130" width="344" height="230" rx="16" fill="#13235a"/>
+<text x="82" y="170" font-size="20" font-weight="700" fill="#fff">Interaksi pengguna</text>
+<text x="82" y="202" font-size="15" fill="#fff">Video yang disukai atau</text>
+<text x="82" y="223" font-size="15" fill="#fff">dibagikan, akun yang</text>
+<text x="82" y="244" font-size="15" fill="#fff">diikuti, komentar yang</text>
+<text x="82" y="265" font-size="15" fill="#fff">ditulis, dan konten yang</text>
+<text x="82" y="286" font-size="15" fill="#fff">dibuat pengguna.</text>
+<rect x="428" y="130" width="344" height="230" rx="16" fill="#2457d6"/>
+<text x="450" y="170" font-size="20" font-weight="700" fill="#fff">Informasi video</text>
+<text x="450" y="202" font-size="15" fill="#fff">Keterangan (caption),</text>
+<text x="450" y="223" font-size="15" fill="#fff">suara, dan tagar yang</text>
+<text x="450" y="244" font-size="15" fill="#fff">dipakai di video.</text>
+<rect x="796" y="130" width="344" height="230" rx="16" fill="#1f8a7a"/>
+<text x="818" y="170" font-size="20" font-weight="700" fill="#fff">Perangkat dan akun</text>
+<text x="818" y="202" font-size="15" fill="#fff">Preferensi bahasa,</text>
+<text x="818" y="223" font-size="15" fill="#fff">pengaturan negara, dan</text>
+<text x="818" y="244" font-size="15" fill="#fff">jenis perangkat. Bobotnya</text>
+<text x="818" y="265" font-size="15" fill="#fff">lebih rendah karena tidak</text>
+<text x="818" y="286" font-size="15" fill="#fff">dipilih aktif pengguna.</text>
+<text x="60" y="414" font-size="17" fill="#3b4a7a">Sumber: TikTok Newsroom, How TikTok recommends videos #ForYou. Digambar ulang oleh Kelola Konten.</text>
+</svg>

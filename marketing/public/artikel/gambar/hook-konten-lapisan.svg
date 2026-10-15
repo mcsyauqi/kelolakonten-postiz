@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 430" font-family="Figtree,Inter,Segoe UI,Arial,sans-serif">
+<rect width="1200" height="430" fill="#f4f7ff"/>
+<text x="60" y="62" font-size="28" font-weight="700" fill="#13235a">Tiga lapisan hook yang bekerja bersamaan</text>
+<text x="60" y="96" font-size="18" fill="#3b4a7a">Banyak orang menonton tanpa suara, jadi pesan pembuka tidak boleh hanya ada di ucapan</text>
+<rect x="60" y="130" width="344" height="210" rx="16" fill="#13235a"/>
+<text x="82" y="170" font-size="20" font-weight="700" fill="#fff">Lapisan visual</text>
+<text x="82" y="202" font-size="15" fill="#fff">Gerakan, wajah, atau produk</text>
+<text x="82" y="223" font-size="15" fill="#fff">di bingkai pertama. Hindari</text>
+<text x="82" y="244" font-size="15" fill="#fff">layar logo atau intro</text>
+<text x="82" y="265" font-size="15" fill="#fff">panjang tanpa isi.</text>
+<rect x="428" y="130" width="344" height="210" rx="16" fill="#2457d6"/>
+<text x="450" y="170" font-size="20" font-weight="700" fill="#fff">Teks di layar</text>
+<text x="450" y="202" font-size="15" fill="#fff">Satu kalimat pendek yang</text>
+<text x="450" y="223" font-size="15" fill="#fff">merangkum janji video.</text>
+<text x="450" y="244" font-size="15" fill="#fff">Tempatkan di area yang</text>
+<text x="450" y="265" font-size="15" fill="#fff">tidak tertutup tombol.</text>
+<rect x="796" y="130" width="344" height="210" rx="16" fill="#1f8a7a"/>
+<text x="818" y="170" font-size="20" font-weight="700" fill="#fff">Kalimat pertama</text>
+<text x="818" y="202" font-size="15" fill="#fff">Ucapan yang langsung masuk</text>
+<text x="818" y="223" font-size="15" fill="#fff">ke inti. Teks layar dan</text>
+<text x="818" y="244" font-size="15" fill="#fff">ucapan saling menguatkan,</text>
+<text x="818" y="265" font-size="15" fill="#fff">tidak harus sama persis.</text>
+<text x="60" y="394" font-size="17" fill="#3b4a7a">Ketiganya menyampaikan janji yang sama. Gambar dan teks yang bertabrakan membuat penonton bingung.</text>
+</svg>

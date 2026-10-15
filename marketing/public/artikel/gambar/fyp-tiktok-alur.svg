@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 370" font-family="Figtree,Inter,Segoe UI,Arial,sans-serif">
+<rect width="1200" height="370" fill="#f4f7ff"/>
+<text x="60" y="62" font-size="28" font-weight="700" fill="#13235a">Alur kerja mingguan untuk mengejar For You</text>
+<text x="60" y="96" font-size="18" fill="#3b4a7a">Fokus pada hal yang bisa dikendalikan tim bisnis</text>
+<rect x="60" y="130" width="252" height="190" rx="16" fill="#13235a"/>
+<text x="82" y="170" font-size="20" font-weight="700" fill="#fff">Riset</text>
+<text x="82" y="202" font-size="15" fill="#fff">Kumpulkan pertanyaan</text>
+<text x="82" y="223" font-size="15" fill="#fff">pelanggan dan topik</text>
+<text x="82" y="244" font-size="15" fill="#fff">yang sedang dicari</text>
+<text x="82" y="265" font-size="15" fill="#fff">di niche Anda.</text>
+<rect x="336" y="130" width="252" height="190" rx="16" fill="#2457d6"/>
+<text x="358" y="170" font-size="20" font-weight="700" fill="#fff">Produksi</text>
+<text x="358" y="202" font-size="15" fill="#fff">Rekam beberapa video</text>
+<text x="358" y="223" font-size="15" fill="#fff">sekaligus dengan hook</text>
+<text x="358" y="244" font-size="15" fill="#fff">yang kuat dan isi</text>
+<text x="358" y="265" font-size="15" fill="#fff">yang tuntas.</text>
+<rect x="612" y="130" width="252" height="190" rx="16" fill="#1f8a7a"/>
+<text x="634" y="170" font-size="20" font-weight="700" fill="#fff">Jadwal</text>
+<text x="634" y="202" font-size="15" fill="#fff">Posting rutin dari</text>
+<text x="634" y="223" font-size="15" fill="#fff">kalender konten,</text>
+<text x="634" y="244" font-size="15" fill="#fff">bukan menunggu</text>
+<text x="634" y="265" font-size="15" fill="#fff">ada waktu luang.</text>
+<rect x="888" y="130" width="252" height="190" rx="16" fill="#6a4fd1"/>
+<text x="910" y="170" font-size="20" font-weight="700" fill="#fff">Evaluasi</text>
+<text x="910" y="202" font-size="15" fill="#fff">Baca sumber penonton,</text>
+<text x="910" y="223" font-size="15" fill="#fff">durasi tonton, dan</text>
+<text x="910" y="244" font-size="15" fill="#fff">bagikan, lalu ulangi</text>
+<text x="910" y="265" font-size="15" fill="#fff">pola yang berhasil.</text>
+</svg>
