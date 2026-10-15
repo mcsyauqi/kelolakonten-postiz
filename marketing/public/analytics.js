@@ -67,8 +67,12 @@
     box.className = 'kk-consent';
     box.dataset.kelolaConsent = '';
     box.setAttribute('role', 'region');
-    box.setAttribute('aria-label', 'Persetujuan analitik');
-    box.innerHTML = '<p>Kami memakai analitik anonim (Google Analytics) untuk mengetahui halaman dan alat mana yang berguna. Tidak ada data yang dikirim sebelum kamu setuju, dan event tidak memuat email. <a href="/privacy">Kebijakan privasi</a>.</p><div class="kk-consent-actions"><button type="button" class="kk-yes" data-consent-accept>Terima</button><button type="button" class="kk-no" data-consent-reject>Tolak</button></div>';
+    // English pages (html lang="en") get the banner in English
+    const en = document.documentElement.lang === 'en';
+    box.setAttribute('aria-label', en ? 'Analytics consent' : 'Persetujuan analitik');
+    box.innerHTML = en
+      ? '<p>We use anonymous analytics (Google Analytics) to learn which pages and tools are useful. Nothing is sent before you agree, and events never include your email. <a href="/en/privacy">Privacy policy</a>.</p><div class="kk-consent-actions"><button type="button" class="kk-yes" data-consent-accept>Accept</button><button type="button" class="kk-no" data-consent-reject>Decline</button></div>'
+      : '<p>Kami memakai analitik anonim (Google Analytics) untuk mengetahui halaman dan alat mana yang berguna. Tidak ada data yang dikirim sebelum kamu setuju, dan event tidak memuat email. <a href="/privacy">Kebijakan privasi</a>.</p><div class="kk-consent-actions"><button type="button" class="kk-yes" data-consent-accept>Terima</button><button type="button" class="kk-no" data-consent-reject>Tolak</button></div>';
     box.querySelector('[data-consent-accept]').addEventListener('click', () => window.kelolaGrantAnalytics());
     box.querySelector('[data-consent-reject]').addEventListener('click', () => window.kelolaDenyAnalytics());
     document.head.append(style);
