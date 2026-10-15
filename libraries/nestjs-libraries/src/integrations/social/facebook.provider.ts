@@ -8,6 +8,7 @@ import {
 } from '@gitroom/nestjs-libraries/integrations/social/social.integrations.interface';
 import { makeSecureId } from '@gitroom/nestjs-libraries/services/make.secure.id';
 import dayjs from 'dayjs';
+import { createHmac, timingSafeEqual } from 'crypto';
 import {
   BadBody,
   SocialAbstract,
@@ -24,6 +25,40 @@ import { timer } from '@gitroom/helpers/utils/timer';
 import { Rules } from '@gitroom/nestjs-libraries/chat/rules.description.decorator';
 
 export const META_GRAPH_API_VERSION = 'v25.0';
+
+// Meta signs deauthorize and data deletion callbacks as
+// base64url(HMAC-SHA256(payload, app secret)) + '.' + base64url(payload)
+export const parseMetaSignedRequest = (
+  signedRequest: string,
+  secret?: string
+): string | false => {
+  const [signature, payload] = String(signedRequest || '').split('.');
+  if (!signature || !payload || !secret) {
+    return false;
+  }
+
+  const expected = createHmac('sha256', secret).update(payload).digest();
+  const actual = Buffer.from(signature, 'base64url');
+  if (
+    actual.length !== expected.length ||
+    !timingSafeEqual(actual, expected)
+  ) {
+    return false;
+  }
+
+  try {
+    const data = JSON.parse(Buffer.from(payload, 'base64url').toString('utf8'));
+    if (
+      String(data?.algorithm || '').toUpperCase() !== 'HMAC-SHA256' ||
+      !data?.user_id
+    ) {
+      return false;
+    }
+    return String(data.user_id);
+  } catch {
+    return false;
+  }
+};
 
 @Rules(
   "Facebook posts can be text only, or include photos or a video. If it's a story, it must have at least one attachment (photo or video), and each media is published as a separate story. Video posts (not stories) can carry an optional title."
@@ -296,6 +331,15 @@ export class FacebookProvider extends SocialAbstract implements SocialProvider {
       picture: '',
       username: '',
     };
+  }
+
+  // the Facebook app also signs in "Instagram (Facebook Business)" channels
+  parseUserDataRequest(signedRequest: string) {
+    const userId = parseMetaSignedRequest(
+      signedRequest,
+      process.env.FACEBOOK_APP_SECRET
+    );
+    return userId ? { userId, identifiers: ['facebook', 'instagram'] } : false;
   }
 
   async generateAuthUrl() {

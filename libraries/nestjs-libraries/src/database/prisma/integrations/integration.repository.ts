@@ -763,6 +763,74 @@ export class IntegrationRepository {
     });
   }
 
+  // A platform login owns the channels connected with it: the account itself
+  // (internalId) and, for logins that pick a page afterwards, the login id
+  // kept in rootInternalId
+  private platformUserChannels(identifiers: string[], userId: string) {
+    return {
+      providerIdentifier: { in: identifiers },
+      OR: [{ internalId: userId }, { rootInternalId: userId }],
+    };
+  }
+
+  // the user removed the app on the platform: the tokens no longer work, so
+  // drop them and ask for a reconnect
+  disconnectPlatformUser(identifiers: string[], userId: string) {
+    return this._integration.model.integration.updateMany({
+      where: {
+        ...this.platformUserChannels(identifiers, userId),
+        deletedAt: null,
+      },
+      data: {
+        refreshNeeded: true,
+        token: '',
+        refreshToken: null,
+      },
+    });
+  }
+
+  // the user asked the platform to delete their data: remove tokens and
+  // profile data, including from channels that were already deleted, the
+  // same way deleteIntegrationsForAccount does
+  async deletePlatformUser(identifiers: string[], userId: string) {
+    const hash = (value: string) =>
+      createHash('md5').update(value).digest('hex');
+
+    const integrations = await this._integration.model.integration.findMany({
+      where: this.platformUserChannels(identifiers, userId),
+      select: {
+        id: true,
+        name: true,
+        internalId: true,
+        rootInternalId: true,
+        deletedAt: true,
+      },
+    });
+
+    for (const integration of integrations) {
+      await this._integration.model.integration.update({
+        where: {
+          id: integration.id,
+        },
+        data: {
+          name: hash(integration.name),
+          internalId: hash(integration.internalId),
+          rootInternalId: integration.rootInternalId
+            ? hash(integration.rootInternalId)
+            : null,
+          token: '',
+          refreshToken: null,
+          profile: null,
+          picture: null,
+          deletedAt: integration.deletedAt || new Date(),
+        },
+        select: { id: true },
+      });
+    }
+
+    return integrations.length;
+  }
+
   deleteChannel(org: string, id: string) {
     return this._integration.model.integration.update({
       where: {

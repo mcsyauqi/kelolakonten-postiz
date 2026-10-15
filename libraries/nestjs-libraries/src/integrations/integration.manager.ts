@@ -78,6 +78,21 @@ export const socialIntegrationList: Array<SocialAbstract & SocialProvider> = [
   // new MastodonCustomProvider(),
 ];
 
+// DISABLED_SCOPES ("read_insights,threads_manage_replies") leaves permissions
+// the platform has not approved yet out of the OAuth request and the granted
+// scope check, so channels can connect while an app review is pending
+const disabledScopes = (process.env.DISABLED_SCOPES || '')
+  .split(',')
+  .map((p) => p.trim())
+  .filter(Boolean);
+if (disabledScopes.length) {
+  for (const provider of socialIntegrationList) {
+    provider.scopes = provider.scopes.filter(
+      (scope) => !disabledScopes.includes(scope)
+    );
+  }
+}
+
 @Injectable()
 export class IntegrationManager {
   // Both are env-driven so cloud and self-hosted instances can differ:

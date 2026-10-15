@@ -4,7 +4,9 @@ import {
   HttpStatus,
   Inject,
   Injectable,
+  Logger,
 } from '@nestjs/common';
+import { makeId } from '@gitroom/nestjs-libraries/services/make.is';
 import { IntegrationRepository } from '@gitroom/nestjs-libraries/database/prisma/integrations/integration.repository';
 import { IntegrationManager } from '@gitroom/nestjs-libraries/integrations/integration.manager';
 import {
@@ -43,6 +45,47 @@ export class IntegrationService {
     private _refreshIntegrationService: RefreshIntegrationService,
     private _temporalService: TemporalService
   ) {}
+
+  private readonly _logger = new Logger(IntegrationService.name);
+
+  // Deauthorize / data deletion callbacks from a platform (e.g. Meta)
+  async handlePlatformUserRequest(
+    identifier: string,
+    signedRequest: string,
+    action: 'deauthorize' | 'delete'
+  ) {
+    const request = this._integrationManager
+      .getSocialIntegration(identifier)
+      ?.parseUserDataRequest?.(signedRequest);
+
+    if (!request) {
+      throw new HttpException('Invalid signed request', HttpStatus.BAD_REQUEST);
+    }
+
+    if (action === 'deauthorize') {
+      await this._integrationRepository.disconnectPlatformUser(
+        request.identifiers,
+        request.userId
+      );
+      return { success: true };
+    }
+
+    const deleted = await this._integrationRepository.deletePlatformUser(
+      request.identifiers,
+      request.userId
+    );
+    const code = makeId(16);
+    this._logger.log(
+      `Data deletion request ${code} from ${identifier}: ${deleted} channel(s) cleared`
+    );
+
+    const statusUrl =
+      process.env.DATA_DELETION_STATUS_URL || process.env.FRONTEND_URL || '';
+    return {
+      url: `${statusUrl}${statusUrl.includes('?') ? '&' : '?'}code=${code}`,
+      confirmation_code: code,
+    };
+  }
 
   async changeActiveCron(orgId: string) {
     const data = await this._autopostsRepository.getAutoposts(orgId);

@@ -44,6 +44,10 @@ services:
       LINKEDIN_CLIENT_SECRET: ${LINKEDIN_CLIENT_SECRET:-}
       # Comma-separated provider identifiers hidden from the add-channel screen.
       HIDDEN_PROVIDERS: ${HIDDEN_PROVIDERS:-}
+      # Comma-separated OAuth scopes not requested yet (pending platform app review).
+      DISABLED_SCOPES: ${DISABLED_SCOPES:-}
+      # Status page linked from the platform data deletion callback response.
+      DATA_DELETION_STATUS_URL: ${DATA_DELETION_STATUS_URL:-https://kelolakonten.com/privacy}
       OPENAI_API_KEY: ${OPENAI_API_KEY:-}
       EMAIL_PROVIDER: ${EMAIL_PROVIDER:-}
       EMAIL_REPLY_TO: ${EMAIL_REPLY_TO:-hello@kelolakonten.com}

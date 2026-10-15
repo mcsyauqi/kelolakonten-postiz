@@ -9,6 +9,7 @@ import {
 import { makeSecureId } from '@gitroom/nestjs-libraries/services/make.secure.id';
 import { timer } from '@gitroom/helpers/utils/timer';
 import dayjs from 'dayjs';
+import { parseMetaSignedRequest } from '@gitroom/nestjs-libraries/integrations/social/facebook.provider';
 import {
   BadBody,
   SocialAbstract,
@@ -108,6 +109,14 @@ export class ThreadsProvider extends SocialAbstract implements SocialProvider {
       picture: picture || '',
       username: '',
     };
+  }
+
+  parseUserDataRequest(signedRequest: string) {
+    const userId = parseMetaSignedRequest(
+      signedRequest,
+      process.env.THREADS_APP_SECRET
+    );
+    return userId ? { userId, identifiers: [this.identifier] } : false;
   }
 
   async generateAuthUrl() {

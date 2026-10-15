@@ -12,7 +12,10 @@ import {
 } from '@gitroom/nestjs-libraries/integrations/social.abstract';
 import { InstagramDto } from '@gitroom/nestjs-libraries/dtos/posts/providers-settings/instagram.dto';
 import { InstagramProvider } from '@gitroom/nestjs-libraries/integrations/social/instagram.provider';
-import { META_GRAPH_API_VERSION } from '@gitroom/nestjs-libraries/integrations/social/facebook.provider';
+import {
+  META_GRAPH_API_VERSION,
+  parseMetaSignedRequest,
+} from '@gitroom/nestjs-libraries/integrations/social/facebook.provider';
 import { Integration } from '@prisma/client';
 import { Rules } from '@gitroom/nestjs-libraries/chat/rules.description.decorator';
 
@@ -103,6 +106,14 @@ export class InstagramStandaloneProvider
       picture: profile_picture_url || '',
       username,
     };
+  }
+
+  parseUserDataRequest(signedRequest: string) {
+    const userId = parseMetaSignedRequest(
+      signedRequest,
+      process.env.INSTAGRAM_APP_SECRET
+    );
+    return userId ? { userId, identifiers: [this.identifier] } : false;
   }
 
   async generateAuthUrl() {

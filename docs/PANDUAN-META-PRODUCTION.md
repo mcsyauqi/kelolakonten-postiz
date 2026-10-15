@@ -124,33 +124,63 @@ Selama izin masih berstatus *Ready for testing* (Standard Access), **hanya akun 
 
 **4a. Business Verification**
 
-- Di https://business.facebook.com > Settings > Security Center, verifikasi business portfolio **Creativism** (dokumen legal perusahaan, domain, nomor telepon). Ini syarat Advanced Access untuk izin Page dan Instagram.
+- Selesai: business portfolio **Creativism** (ID `3029951537120195`) berstatus **Verified** sejak 15 Oktober 2026.
 
-**4b. App Review: minta Advanced Access**
+**4b. Bersihkan pengajuan**
 
-Menu kiri **Review** > **App Review** (atau di setiap use case, Permissions and features > Actions > Request advanced access). Izin yang dipakai aplikasi:
+- Hapus use case yang tidak dipakai (Marketing API, Fundraisers, Catalog, Messenger, WhatsApp, Live Video, dan sejenisnya). Sisakan **Manage everything on your Page**, **Manage messaging & content on Instagram**, dan **Access the Threads API**.
+- Di halaman **App Review**, daftar "New requests" hanya boleh berisi izin yang diajukan di gelombang berjalan (lihat 4c). Izin seperti `manage_fundraisers` atau Marketing API Access Tier harus hilang.
 
-| Channel | Izin |
+**4c. Pengajuan bertahap**
+
+| Gelombang | Izin | Diperagakan lewat |
+|---|---|---|
+| 1 (ajukan sekarang) | Facebook Page: `pages_show_list`, `pages_read_engagement`, `pages_manage_posts`, `business_management`; Instagram Standalone: `instagram_business_basic`, `instagram_business_content_publish`; Threads: `threads_basic`, `threads_content_publish` | Tambah Channel, buat post, jadwalkan, post tayang |
+| 2 (setelah gelombang 1 lolos) | `read_insights`, `pages_manage_engagement`, `instagram_business_manage_insights`, `instagram_business_manage_comments`, `threads_manage_insights`, `threads_manage_replies` | Halaman Analitik, komentar dan balasan |
+
+Instagram lewat Facebook Business (`instagram_basic`, `instagram_content_publish`, dan seterusnya) ditunda. Selama ditunda, tambahkan `instagram` ke `HIDDEN_PROVIDERS` agar pengguna umum memakai Instagram Standalone.
+
+**Supaya aplikasi hanya meminta izin gelombang 1**, isi variabel ini di Coolify (satu baris, tanpa tanda kutip), lalu deploy ulang:
+
+```
+DISABLED_SCOPES=instagram_business_manage_insights,instagram_business_manage_comments,threads_manage_insights,threads_manage_replies,pages_manage_engagement,read_insights
+```
+
+Scope di daftar ini tidak diminta saat login dan tidak diperiksa setelahnya, sehingga pengguna umum bisa menyambungkan channel begitu gelombang 1 disetujui. Selama scope ini dinonaktifkan, fitur yang membutuhkannya tidak berjalan untuk channel yang baru tersambung: halaman Analitik untuk channel Meta, komentar, dan post berantai (komentar lanjutan di Facebook, balasan berantai di Threads). Setelah gelombang 2 disetujui, kosongkan `DISABLED_SCOPES`, deploy ulang, dan minta pengguna menyambungkan ulang channel agar izin barunya ikut.
+
+**4d. Isi pengajuan per izin**
+
+- Penjelasan dalam bahasa Inggris (2 sampai 4 kalimat): fitur apa yang memakai izin itu dan apa yang dilihat pengguna.
+- **Screencast** 1 sampai 3 menit di `https://app.kelolakonten.com`, tanpa potongan yang melompat: login, Tambah Channel, dialog izin Meta (terlihat nama Kelola Konten dan daftar izinnya), channel tersambung, membuat post, menjadwalkan atau terbit, lalu buka platformnya dan tunjukkan post benar-benar tayang. Rekam dengan UI bahasa Inggris (pengalih bahasa ada di aplikasi) atau beri teks terjemahan.
+- **Akun uji untuk reviewer**: akun Kelola Konten yang sudah aktif (reviewer tidak bisa menerima kode OTP aktivasi). Tulis email dan kata sandinya hanya di form App Review, jangan di repo ini.
+
+**4e. Halaman privasi dan callback penghapusan data**
+
+Isi di **App settings > Basic** dan di pengaturan tiap use case:
+
+| Kolom | Nilai |
 |---|---|
-| Facebook Page | `pages_show_list`, `pages_manage_posts`, `pages_manage_engagement`, `pages_read_engagement`, `read_insights`, `business_management` |
-| Instagram (Facebook Business) | `instagram_basic`, `instagram_content_publish`, `instagram_manage_comments`, `instagram_manage_insights` |
-| Instagram (Standalone) | `instagram_business_basic`, `instagram_business_content_publish`, `instagram_business_manage_comments`, `instagram_business_manage_insights` |
-| Threads | `threads_basic`, `threads_content_publish`, `threads_manage_replies`, `threads_manage_insights` |
+| Privacy Policy URL | `https://kelolakonten.com/en/privacy` |
+| User data deletion: Data deletion instructions URL | `https://kelolakonten.com/en/privacy#data-deletion` |
+| Facebook: Deauthorize callback URL (Facebook Login for Business > Settings) | `https://app.kelolakonten.com/api/integrations/social/facebook/deauthorize` |
+| Facebook: Data deletion callback URL (App settings > Basic, pilih "Data deletion callback URL") | `https://app.kelolakonten.com/api/integrations/social/facebook/data-deletion` |
+| Instagram Standalone: Deauthorize callback URL (Business login settings) | `https://app.kelolakonten.com/api/integrations/social/instagram-standalone/deauthorize` |
+| Instagram Standalone: Data deletion request URL | `https://app.kelolakonten.com/api/integrations/social/instagram-standalone/data-deletion` |
+| Threads: Uninstall Callback URL | `https://app.kelolakonten.com/api/integrations/social/threads/deauthorize` |
+| Threads: Delete Callback URL | `https://app.kelolakonten.com/api/integrations/social/threads/data-deletion` |
 
-Untuk setiap izin Meta meminta:
+Cara kerjanya: Meta mengirim `signed_request` yang ditandatangani dengan app secret. Aplikasi memverifikasinya, lalu:
 
-- penjelasan kenapa izin itu dibutuhkan, dalam bahasa Inggris (contoh: "Kelola Konten lets businesses schedule and publish posts to their own Facebook Page");
-- **screencast** alur nyata di `https://app.kelolakonten.com`: login, Tambah Channel, dialog izin Meta, channel tersambung, membuat dan menjadwalkan post, post tampil di platform;
-- akun uji untuk reviewer (email dan password akun Kelola Konten yang aktif).
+- **deauthorize / uninstall**: channel milik pengguna itu dibuat minta sambung ulang dan tokennya dihapus;
+- **data deletion / delete**: token, nama, dan foto channel dihapus atau diacak, lalu Meta menerima URL status (`DATA_DELETION_STATUS_URL`, default `https://kelolakonten.com/privacy`) dengan kode konfirmasi. Halaman privasi menampilkan kode itu.
 
-Ajukan hanya izin yang benar-benar dipakai. Izin tambahan yang tidak dipakai (misalnya `instagram_business_manage_messages`) memperbesar peluang ditolak.
+Untuk Facebook, satu callback mencakup channel Facebook Page dan Instagram via Facebook milik login yang sama.
 
-**4c. Batasan selama review**
+**4f. Batasan selama review**
 
 - TikTok dan YouTube: video dari aplikasi yang belum lolos audit platform tayang privat (lihat [HANDOFF-KELOLA-KONTEN.md](HANDOFF-KELOLA-KONTEN.md)).
 - Copy di situs dan aplikasi tidak boleh mengklaim channel Meta sudah bisa dipakai umum sebelum Advanced Access disetujui.
-
-**Catatan callback penghapusan data:** saat ini Deauthorize, Uninstall, dan Delete callback diarahkan ke halaman privasi karena aplikasi belum punya endpoint khusus. Meta menerima ini untuk pengujian, tetapi untuk App Review sebaiknya dibuat endpoint yang benar-benar menghapus data pengguna saat menerima callback Meta (signed request). Catat ini sebagai pekerjaan backend sebelum mengajukan review.
+- Selama review, pengguna nyata bisa ditambahkan sebagai tester (maksimal 500) di App roles.
 
 ## Langkah 5: cek setelah deploy
 

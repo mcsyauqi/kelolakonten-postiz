@@ -40,6 +40,32 @@ export class NoAuthIntegrationsController {
     return this._integrationManager.getAllIntegrations();
   }
 
+  // Called by the platform (signed with the app secret) when a user removes
+  // the app or asks for their data to be deleted
+  @Post('/social/:integration/deauthorize')
+  deauthorize(
+    @Param('integration') integration: string,
+    @Body('signed_request') signedRequest: string
+  ) {
+    return this._integrationService.handlePlatformUserRequest(
+      integration,
+      signedRequest,
+      'deauthorize'
+    );
+  }
+
+  @Post('/social/:integration/data-deletion')
+  dataDeletion(
+    @Param('integration') integration: string,
+    @Body('signed_request') signedRequest: string
+  ) {
+    return this._integrationService.handlePlatformUserRequest(
+      integration,
+      signedRequest,
+      'delete'
+    );
+  }
+
   @Post('/social-connect/:integration')
   @CheckPolicies([AuthorizationActions.Create, Sections.CHANNEL])
   @UseFilters(new NotEnoughScopesFilter())

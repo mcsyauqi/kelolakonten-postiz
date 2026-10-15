@@ -195,6 +195,12 @@ export interface SocialProvider
   ): Promise<PendingCheckResponse>;
   isWeb3?: boolean;
   isChromeExtension?: boolean;
+  // Platform callbacks for a user who removed the app or asked for their data
+  // to be deleted: verifies the signed payload and returns the platform user
+  // id plus the identifiers whose channels belong to that login
+  parseUserDataRequest?(
+    signedRequest: string
+  ): { userId: string; identifiers: string[] } | false;
   extensionCookies?: { name: string; domain: string }[];
   editor: 'none' | 'normal' | 'markdown' | 'html';
   inlineImages?: (settings?: any) => boolean;
