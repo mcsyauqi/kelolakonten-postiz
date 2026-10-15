@@ -42,6 +42,8 @@ services:
       THREADS_APP_SECRET: ${THREADS_APP_SECRET:-}
       LINKEDIN_CLIENT_ID: ${LINKEDIN_CLIENT_ID:-}
       LINKEDIN_CLIENT_SECRET: ${LINKEDIN_CLIENT_SECRET:-}
+      # Comma-separated provider identifiers hidden from the add-channel screen.
+      HIDDEN_PROVIDERS: ${HIDDEN_PROVIDERS:-}
       OPENAI_API_KEY: ${OPENAI_API_KEY:-}
       EMAIL_PROVIDER: ${EMAIL_PROVIDER:-}
       EMAIL_REPLY_TO: ${EMAIL_REPLY_TO:-hello@kelolakonten.com}

@@ -65,3 +65,6 @@ apps/frontend/public/g.js
 
 # Kelola Konten marketing runtime data
 marketing/data/
+
+# Local uploads from STORAGE_PROVIDER=local (user files, never commit)
+/var/uploads/

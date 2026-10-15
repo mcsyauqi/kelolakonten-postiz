@@ -25,6 +25,11 @@ import { ApiTags } from '@nestjs/swagger';
 import { UsersService } from '@gitroom/nestjs-libraries/database/prisma/users/users.service';
 import { UserDetailDto } from '@gitroom/nestjs-libraries/dtos/users/user.details.dto';
 import { EmailNotificationsDto } from '@gitroom/nestjs-libraries/dtos/users/email-notifications.dto';
+import { ChangePasswordDto } from '@gitroom/nestjs-libraries/dtos/users/change.password.dto';
+import {
+  ChangeEmailConfirmDto,
+  ChangeEmailStartDto,
+} from '@gitroom/nestjs-libraries/dtos/users/change.email.dto';
 import { HttpForbiddenException } from '@gitroom/nestjs-libraries/services/exception.filter';
 import { RealIP } from 'nestjs-real-ip';
 import { UserAgent } from '@gitroom/nestjs-libraries/user/user.agent';
@@ -235,6 +240,40 @@ export class UsersController {
     @Body() body: UserDetailDto
   ) {
     return this._userService.changePersonal(user.id, body);
+  }
+
+  @Get('/account')
+  async getAccount(@GetUserFromRequest() user: User) {
+    return this._userService.getAccount(user.id);
+  }
+
+  @Post('/password')
+  async changePassword(
+    @GetUserFromRequest() user: User,
+    @Body() body: ChangePasswordDto
+  ) {
+    return this._userService.changePassword(user.id, body);
+  }
+
+  @Post('/email/start')
+  async startEmailChange(
+    @GetUserFromRequest() user: User,
+    @Body() body: ChangeEmailStartDto
+  ) {
+    return this._userService.startEmailChange(user.id, body);
+  }
+
+  @Post('/email/resend')
+  async resendEmailChange(@GetUserFromRequest() user: User) {
+    return this._userService.resendEmailChange(user.id);
+  }
+
+  @Post('/email/confirm')
+  async confirmEmailChange(
+    @GetUserFromRequest() user: User,
+    @Body() body: ChangeEmailConfirmDto
+  ) {
+    return this._userService.confirmEmailChange(user.id, body);
   }
 
   @Get('/email-notifications')

@@ -8,16 +8,16 @@ import { AuthService as AuthChecker } from '@gitroom/helpers/auth/auth.service';
 import { AuthProviderManager } from '@gitroom/backend/services/auth/providers/providers.manager';
 import dayjs from 'dayjs';
 import { ForgotReturnPasswordDto } from '@gitroom/nestjs-libraries/dtos/auth/forgot-return.password.dto';
-import { EmailService } from '@gitroom/nestjs-libraries/services/email.service';
 import { NewsletterService } from '@gitroom/nestjs-libraries/newsletter/newsletter.service';
+import { OtpService } from '@gitroom/nestjs-libraries/services/otp.service';
 
 @Injectable()
 export class AuthService {
   constructor(
     private _userService: UsersService,
     private _organizationService: OrganizationService,
-    private _emailService: EmailService,
-    private _providerManager: AuthProviderManager
+    private _providerManager: AuthProviderManager,
+    private _otpService: OtpService
   ) {}
   async canRegister(provider: string) {
     if (
@@ -71,11 +71,9 @@ export class AuthService {
             : false;
 
         const obj = { addedOrg, jwt: await this.jwt(create.users[0].user) };
-        await this._emailService.sendEmailSync(
-          body.email,
-          'Aktifkan akun Kelola Konten Anda',
-          `Halo, terima kasih sudah mendaftar di Kelola Konten.<br /><br />Satu langkah lagi: klik <a href="${process.env.FRONTEND_URL}/auth/activate/${obj.jwt}">aktifkan akun saya</a> untuk mulai merencanakan dan menjadwalkan konten.<br /><br />Kalau Anda tidak merasa mendaftar, abaikan email ini dan akun tidak akan aktif.`
-        );
+        if (!create.users[0].user.activated) {
+          await this._otpService.send('activate', body.email, body.email);
+        }
         return obj;
       }
 
@@ -144,10 +142,7 @@ export class AuthService {
       throw new Error('Invalid provider token');
     }
 
-    const user = await this._userService.getUserByProvider(
-      providerUser.id,
-      provider
-    );
+    const user = await this.findProviderUser(provider, providerUser);
     if (user) {
       return user;
     }
@@ -217,71 +212,95 @@ export class AuthService {
       return false;
     }
 
-    const resetValues = AuthChecker.signJWT({
-      id: user.id,
-      expires: dayjs().add(20, 'minutes').format('YYYY-MM-DD HH:mm:ss'),
-    });
-
-    await this._emailService.sendEmailSync(
-      user.email,
-      'Atur ulang kata sandi Kelola Konten',
-      `Anda meminta pengaturan ulang kata sandi.<br />Klik <a href="${process.env.FRONTEND_URL}/auth/forgot/${resetValues}">tautan ini</a> untuk membuat kata sandi baru.<br />Tautan berlaku 20 menit. Abaikan email ini kalau Anda tidak memintanya.`
-    );
+    await this._otpService.send('reset', user.email.toLowerCase(), user.email);
+    return true;
   }
 
-  forgotReturn(body: ForgotReturnPasswordDto) {
-    const user = AuthChecker.verifyJWT(body.token) as {
-      id: string;
-      expires: string;
-    };
-    if (dayjs(user.expires).isBefore(dayjs())) {
+  async forgotReturn(body: ForgotReturnPasswordDto) {
+    const user = await this._userService.getUserByEmail(body.email);
+    if (
+      !user ||
+      (await this._otpService.verify(
+        'reset',
+        user.email.toLowerCase(),
+        body.code
+      )) === false
+    ) {
       return false;
     }
 
     return this._userService.updatePassword(user.id, body.password);
   }
 
-  async activate(code: string, tracking: string) {
-    const user = AuthChecker.verifyJWT(code) as {
-      id: string;
-      activated: boolean;
-      email: string;
-    };
-    if (user.id && !user.activated) {
-      const getUserAgain = await this._userService.getUserByEmail(user.email);
-      if (getUserAgain.activated) {
-        return false;
-      }
-      await this._userService.activateUser(user.id);
-      user.activated = true;
-      this._track('register', user.email, tracking).catch((err) => {});
-      await NewsletterService.register(user.email);
-      return this.jwt(user as any);
+  async activate(email: string, code: string, tracking: string) {
+    const user = await this._userService.getUserByEmail(email);
+    if (!user || user.activated) {
+      return false;
     }
 
-    return false;
+    if (
+      (await this._otpService.verify(
+        'activate',
+        user.email.toLowerCase(),
+        code
+      )) === false
+    ) {
+      return false;
+    }
+
+    await this._userService.activateUser(user.id);
+    user.activated = true;
+    this._track('register', user.email, tracking).catch((err) => {});
+    await NewsletterService.register(user.email);
+    return this.jwt(user);
   }
 
   async resendActivationEmail(email: string) {
     const user = await this._userService.getUserByEmail(email);
 
-    if (!user) {
-      throw new Error('User not found');
+    // no hint whether the address has an account
+    if (!user || user.activated) {
+      return true;
     }
 
-    if (user.activated) {
-      throw new Error('Account is already activated');
-    }
-
-    const jwt = await this.jwt(user);
-
-    await this._emailService.sendEmailSync(
-      user.email,
-      'Aktifkan akun Kelola Konten Anda',
-      `Klik <a href="${process.env.FRONTEND_URL}/auth/activate/${jwt}">tautan ini</a> untuk mengaktifkan akun Anda.`
-    );
-
+    await this._otpService.send('activate', user.email.toLowerCase(), user.email);
     return true;
+  }
+
+  // Social login: the provider account itself, a local account it was linked
+  // to, or (when the provider vouches for the address) the activated local
+  // account with the same email, which gets linked on the way
+  private async findProviderUser(
+    provider: Provider,
+    providerUser: { id: string; email: string; emailVerified?: boolean }
+  ) {
+    const direct = await this._userService.getUserByProvider(
+      providerUser.id,
+      provider
+    );
+    if (direct) {
+      return direct;
+    }
+
+    const linked = await this._userService.getUserByLinkedProvider(
+      provider,
+      providerUser.id
+    );
+    if (linked) {
+      return linked;
+    }
+
+    if (!providerUser.emailVerified || !providerUser.email) {
+      return null;
+    }
+
+    const local = await this._userService.getUserByEmail(providerUser.email);
+    if (!local || !local.activated || local.providerId) {
+      return null;
+    }
+
+    await this._userService.linkProvider(local.id, provider, providerUser.id);
+    return local;
   }
 
   oauthLink(provider: string, query?: any) {
@@ -312,9 +331,9 @@ export class AuthService {
     if (!user) {
       throw new Error('Invalid user');
     }
-    const checkExists = await this._userService.getUserByProvider(
-      user.id,
-      provider as Provider
+    const checkExists = await this.findProviderUser(
+      provider as Provider,
+      user
     );
     if (checkExists) {
       return { jwt: await this.jwt(checkExists) };

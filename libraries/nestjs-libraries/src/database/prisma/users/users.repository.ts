@@ -274,6 +274,96 @@ export class UsersRepository {
     });
   }
 
+  getAccount(userId: string) {
+    return this._user.model.user.findUnique({
+      where: {
+        id: userId,
+      },
+      select: {
+        email: true,
+        password: true,
+        providerName: true,
+      },
+    });
+  }
+
+  // any provider: an address may only belong to one person
+  async isEmailTaken(email: string, excludeUserId: string) {
+    return !!(await this._user.model.user.findFirst({
+      where: {
+        email: {
+          equals: email,
+          mode: 'insensitive',
+        },
+        id: { not: excludeUserId },
+        deletedAt: null,
+      },
+      select: { id: true },
+    }));
+  }
+
+  changeEmail(userId: string, email: string) {
+    return this._user.model.user.update({
+      where: {
+        id: userId,
+      },
+      data: {
+        email,
+      },
+      select: { id: true },
+    });
+  }
+
+  changePassword(userId: string, password: string) {
+    return this._user.model.user.update({
+      where: {
+        id: userId,
+      },
+      data: {
+        password: AuthService.hashPassword(password),
+      },
+      select: { id: true },
+    });
+  }
+
+  // a social-login account that gets a password becomes a local account that
+  // keeps its social login through the linked provider id
+  convertToLocal(userId: string, password: string, linkedProviderId: string) {
+    return this._user.model.user.update({
+      where: {
+        id: userId,
+      },
+      data: {
+        providerName: Provider.LOCAL,
+        providerId: linkedProviderId,
+        password: AuthService.hashPassword(password),
+      },
+      select: { id: true },
+    });
+  }
+
+  getUserByLinkedProvider(linkedProviderId: string) {
+    return this._user.model.user.findFirst({
+      where: {
+        providerId: linkedProviderId,
+        providerName: Provider.LOCAL,
+        deletedAt: null,
+      },
+    });
+  }
+
+  linkProvider(userId: string, linkedProviderId: string) {
+    return this._user.model.user.update({
+      where: {
+        id: userId,
+      },
+      data: {
+        providerId: linkedProviderId,
+      },
+      select: { id: true },
+    });
+  }
+
   async getEmailNotifications(userId: string) {
     return this._user.model.user.findUnique({
       where: {

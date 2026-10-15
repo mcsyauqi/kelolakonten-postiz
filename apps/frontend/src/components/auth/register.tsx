@@ -14,6 +14,7 @@ import { LoadingComponent } from '@gitroom/frontend/components/layout/loading';
 import clsx from 'clsx';
 import { AppleProvider } from '@gitroom/frontend/components/auth/providers/apple.provider';
 import { OauthProvider } from '@gitroom/frontend/components/auth/providers/oauth.provider';
+import { GoogleProvider } from '@gitroom/frontend/components/auth/providers/google.provider';
 import { useFireEvents } from '@gitroom/helpers/utils/use.fire.events';
 import { useVariables } from '@gitroom/react/helpers/variable.context';
 import { useTrack } from '@gitroom/react/helpers/use.track';
@@ -98,8 +99,6 @@ export function RegisterAfter({
     appleClientId,
     billingEnabled,
   } = useVariables();
-  // Kelola Konten: login Google belum dikonfigurasi, jadi blok "Lanjutkan dengan" hanya tampil bila ada provider lain yang aktif.
-  const showSocial = (isGeneral && !!genericOauth) || !isGeneral || !!appleClientId || !!neynarClientId || billingEnabled;
   const [loading, setLoading] = useState(false);
   const router = useRouter();
   const fireEvents = useFireEvents();
@@ -134,7 +133,9 @@ export function RegisterAfter({
           fireEvents('register');
           return track(TrackEnum.CompleteRegistration).then(() => {
             if (response.headers.get('activate') === 'true') {
-              router.push('/auth/activate');
+              router.push(
+                `/auth/activate?sent=1&email=${encodeURIComponent(data.email)}`
+              );
             } else {
               router.push('/auth/login');
             }
@@ -163,7 +164,7 @@ export function RegisterAfter({
               {t('sign_up', 'Sign Up')}
             </h1>
           </div>
-          {showSocial && (
+          {!isAfterProvider && (
             <div className="text-[14px] mt-[32px] mb-[12px]">
               {t('continue_with', 'Continue With')}
             </div>
@@ -174,13 +175,17 @@ export function RegisterAfter({
                 <GithubProvider />
               ) : (
                 <div className="gap-[8px] flex">
-                  {genericOauth && isGeneral && <OauthProvider />}
+                  {genericOauth && isGeneral ? (
+                    <OauthProvider />
+                  ) : (
+                    <GoogleProvider />
+                  )}
                   {!!appleClientId && <AppleProvider />}
                   {!!neynarClientId && <FarcasterProvider />}
                   {billingEnabled && <WalletProvider />}
                 </div>
               ))}
-            {!isAfterProvider && showSocial && (
+            {!isAfterProvider && (
               <div className="h-[20px] mb-[24px] mt-[24px] relative">
                 <div className="absolute w-full h-[1px] bg-fifth top-[50%] -translate-y-[50%]" />
                 <div

@@ -54,8 +54,7 @@ export const LogoutComponent: FC<{ isIcon?: boolean }> = ({ isIcon }) => {
           </svg>
         ) : (
           <span className="text-red-400">
-            {t('logout_from', 'Logout from')}
-            {isGeneral ? ' Kelola Konten' : ' Gitroom'}
+            {t('logout', 'Logout')}
           </span>
         )}
       </div>

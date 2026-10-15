@@ -1,5 +1,7 @@
 'use client';
 
+import 'reflect-metadata';
+
 import { useModals } from '@gitroom/frontend/components/layout/new-modal';
 import React, {
   FC,
@@ -10,7 +12,6 @@ import React, {
   useState,
 } from 'react';
 import { FormProvider, useForm } from 'react-hook-form';
-import { showMediaBox } from '@gitroom/frontend/components/media/media.component';
 import { useFetch } from '@gitroom/helpers/utils/custom.fetch';
 import { classValidatorResolver } from '@hookform/resolvers/class-validator';
 import { UserDetailDto } from '@gitroom/nestjs-libraries/dtos/users/user.details.dto';
@@ -31,6 +32,7 @@ import { Autopost } from '@gitroom/frontend/components/autopost/autopost';
 import { useT } from '@gitroom/react/translation/get.transation.service.client';
 import { SVGLine } from '@gitroom/frontend/components/launches/launches.component';
 import { GlobalSettings } from '@gitroom/frontend/components/settings/global.settings';
+import { ProfileSettings } from '@gitroom/frontend/components/settings/profile.settings';
 import { ApprovedAppsComponent } from '@gitroom/frontend/components/approved-apps/approved-apps.component';
 export const SettingsPopup: FC<{
   getRef?: Ref<any>;
@@ -47,7 +49,6 @@ export const SettingsPopup: FC<{
   const form = useForm({
     resolver,
   });
-  const picture = form.watch('picture');
   const modal = useModals();
   const close = useCallback(() => {
     return modal.closeAll();
@@ -59,14 +60,6 @@ export const SettingsPopup: FC<{
     form.setValue('fullname', personal.name || '');
     form.setValue('bio', personal.bio || '');
     form.setValue('picture', personal.picture);
-  }, []);
-  const openMedia = useCallback(() => {
-    showMediaBox((values) => {
-      form.setValue('picture', values);
-    });
-  }, []);
-  const remove = useCallback(() => {
-    form.setValue('picture', null);
   }, []);
 
   const submit = useCallback(async (val: any) => {
@@ -81,11 +74,12 @@ export const SettingsPopup: FC<{
     close();
   }, []);
 
-  const [tab, setTab] = useState('global_settings');
+  const [tab, setTab] = useState('profile');
 
   const t = useT();
   const list = useMemo(() => {
     const arr = [];
+    arr.push({ tab: 'profile', label: t('profile', 'Profile') });
     arr.push({ tab: 'global_settings', label: t('global_settings', 'Global Settings') });
     // Populate tabs based on user permissions
     if (user?.tier?.team_members && isGeneral) {
@@ -139,10 +133,11 @@ export const SettingsPopup: FC<{
               {label}
             </div>
           ))}
-        </div>
-        <div>
           {showLogout && (
-            <div className="mt-4 mobile:mt-[8px]">
+            <div className="flex items-center gap-[12px] hover:bg-boxHover rounded-e-[8px] mobile:shrink-0 mobile:whitespace-nowrap mobile:rounded-[8px] mobile:px-[12px] mobile:py-[8px]">
+              <div className="h-full w-[4px] opacity-0 mobile:hidden">
+                <SVGLine />
+              </div>
               <LogoutComponent />
             </div>
           )}
@@ -160,6 +155,11 @@ export const SettingsPopup: FC<{
                 !getRef && 'rounded-[4px]'
               )}
             >
+              {tab === 'profile' && (
+                <div>
+                  <ProfileSettings />
+                </div>
+              )}
               {tab === 'global_settings' && (
                 <div>
                   <GlobalSettings />

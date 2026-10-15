@@ -19,6 +19,7 @@ import { AuthService } from '@gitroom/backend/services/auth/auth.service';
 import { ForgotReturnPasswordDto } from '@gitroom/nestjs-libraries/dtos/auth/forgot-return.password.dto';
 import { ForgotPasswordDto } from '@gitroom/nestjs-libraries/dtos/auth/forgot.password.dto';
 import { ResendActivationDto } from '@gitroom/nestjs-libraries/dtos/auth/resend-activation.dto';
+import { ActivateDto } from '@gitroom/nestjs-libraries/dtos/auth/activate.dto';
 import { ApiTags } from '@nestjs/swagger';
 import { getCookieUrlFromDomain } from '@gitroom/helpers/subdomain/subdomain.management';
 import { EmailService } from '@gitroom/nestjs-libraries/services/email.service';
@@ -44,6 +45,10 @@ export class AuthController {
     };
   }
 
+  // public endpoints that send or check one-time codes or passwords, so cap
+  // them per client address
+  @UseGuards(ThrottlerRealIpGuard)
+  @Throttle({ default: { limit: 20, ttl: 3600000 } })
   @Post('/register')
   async register(
     @Req() req: Request,
@@ -118,6 +123,8 @@ export class AuthController {
     }
   }
 
+  @UseGuards(ThrottlerRealIpGuard)
+  @Throttle({ default: { limit: 50, ttl: 3600000 } })
   @Post('/login')
   async login(
     @Req() req: Request,
@@ -182,20 +189,22 @@ export class AuthController {
     }
   }
 
+  @UseGuards(ThrottlerRealIpGuard)
+  @Throttle({ default: { limit: 20, ttl: 3600000 } })
   @Post('/forgot')
   async forgot(@Body() body: ForgotPasswordDto) {
     try {
       await this._authService.forgot(body.email);
-      return {
-        forgot: true,
-      };
     } catch (e) {
-      return {
-        forgot: false,
-      };
+      // same answer either way, so it reveals nothing about the address
     }
+    return {
+      forgot: true,
+    };
   }
 
+  @UseGuards(ThrottlerRealIpGuard)
+  @Throttle({ default: { limit: 30, ttl: 3600000 } })
   @Post('/forgot-return')
   async forgotReturn(@Body() body: ForgotReturnPasswordDto) {
     const reset = await this._authService.forgotReturn(body);
@@ -239,15 +248,17 @@ export class AuthController {
     return this._authService.oauthLink(provider, { ...query, state });
   }
 
+  @UseGuards(ThrottlerRealIpGuard)
+  @Throttle({ default: { limit: 30, ttl: 3600000 } })
   @Post('/activate')
   async activate(
-    @Body('code') code: string,
-    @Body('datafast_visitor_id') datafast_visitor_id: string,
+    @Body() body: ActivateDto,
     @Res({ passthrough: false }) response: Response
   ) {
     const activate = await this._authService.activate(
-      code,
-      datafast_visitor_id
+      body.email,
+      body.code,
+      body.datafast_visitor_id
     );
     if (!activate) {
       return response.status(200).json({ can: false });
@@ -274,19 +285,18 @@ export class AuthController {
     return response.status(200).json({ can: true });
   }
 
+  @UseGuards(ThrottlerRealIpGuard)
+  @Throttle({ default: { limit: 20, ttl: 3600000 } })
   @Post('/resend-activation')
   async resendActivation(@Body() body: ResendActivationDto) {
     try {
       await this._authService.resendActivationEmail(body.email);
-      return {
-        success: true,
-      };
     } catch (e: any) {
-      return {
-        success: false,
-        message: e.message,
-      };
+      // cooldown and hourly limits stay silent, the page has its own countdown
     }
+    return {
+      success: true,
+    };
   }
 
   // public and creates a signer at Neynar per call, so cap it per client
