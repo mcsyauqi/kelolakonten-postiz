@@ -612,3 +612,6 @@
 .resource-has-media:hover .resource-media img{transform:scale(1.03)}
 .resource-has-media > a:last-child{margin-top:auto;padding-top:18px}
 @media(prefers-reduced-motion:reduce){.resource-media img{transition:none}.resource-has-media:hover .resource-media img{transform:none}}
+
+/* 2026-10-16: footer, badan hukum pengelola dan alamat */.footer-brand p.footer-operator{color:#fff;font-weight:600}.footer-brand p.footer-address{font-size:13px;line-height:1.5;max-width:320px}
+.hv-facc+.hv-facc{margin-top:0;border-top:0}
