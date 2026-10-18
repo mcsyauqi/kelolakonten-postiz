@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 390" font-family="Figtree,Inter,Segoe UI,Arial,sans-serif">
+<rect width="1200" height="390" fill="#f4f7ff"/>
+<text x="60" y="62" font-size="28" font-weight="700" fill="#13235a">Contoh hitungan untuk satu video (angka rekaan)</text>
+<text x="60" y="96" font-size="18" fill="#3b4a7a">12.000 views, 600 like, 80 komentar, 70 bagikan, akun dengan 5.000 followers</text>
+<rect x="60" y="130" width="344" height="170" rx="16" fill="#13235a"/>
+<text x="82" y="170" font-size="20" font-weight="700" fill="#fff">Total interaksi</text>
+<text x="82" y="202" font-size="15" fill="#fff">600 + 80 + 70 = 750</text>
+<rect x="428" y="130" width="344" height="170" rx="16" fill="#2457d6"/>
+<text x="450" y="170" font-size="20" font-weight="700" fill="#fff">ER per views</text>
+<text x="450" y="202" font-size="15" fill="#fff">750 : 12.000 x 100%</text>
+<text x="450" y="223" font-size="15" fill="#fff">= 6,25%</text>
+<rect x="796" y="130" width="344" height="170" rx="16" fill="#1f8a7a"/>
+<text x="818" y="170" font-size="20" font-weight="700" fill="#fff">ER per followers</text>
+<text x="818" y="202" font-size="15" fill="#fff">750 : 5.000 x 100%</text>
+<text x="818" y="223" font-size="15" fill="#fff">= 15%</text>
+<text x="60" y="354" font-size="17" fill="#3b4a7a">Video yang ditonton jauh lebih banyak orang daripada jumlah followers membuat dua rumus memberi angka yang sangat berbeda.</text>
+</svg>
