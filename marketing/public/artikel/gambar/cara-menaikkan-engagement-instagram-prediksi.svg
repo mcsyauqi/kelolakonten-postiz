@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" font-family="Figtree,Inter,Segoe UI,Arial,sans-serif">
+<rect width="1200" height="420" fill="#f4f7ff"/>
+<text x="60" y="62" font-size="28" font-weight="700" fill="#13235a">Interaksi yang paling diperhatikan Instagram per bagian aplikasi</text>
+<text x="60" y="96" font-size="18" fill="#3b4a7a">Diringkas dari Instagram Ranking Explained (Adam Mosseri, 31 Mei 2023)</text>
+<rect x="60" y="130" width="344" height="200" rx="16" fill="#13235a"/>
+<text x="82" y="170" font-size="20" font-weight="700" fill="#fff">Feed</text>
+<text x="82" y="202" font-size="15" fill="#fff">Menghabiskan beberapa detik,</text>
+<text x="82" y="223" font-size="15" fill="#fff">berkomentar, like, membagikan,</text>
+<text x="82" y="244" font-size="15" fill="#fff">mengetuk foto profil</text>
+<rect x="428" y="130" width="344" height="200" rx="16" fill="#2457d6"/>
+<text x="450" y="170" font-size="20" font-weight="700" fill="#fff">Explore</text>
+<text x="450" y="202" font-size="15" fill="#fff">Like, simpan, dan bagikan</text>
+<text x="450" y="223" font-size="15" fill="#fff">(aksi terpenting yang</text>
+<text x="450" y="244" font-size="15" fill="#fff">diprediksi)</text>
+<rect x="796" y="130" width="344" height="200" rx="16" fill="#1f8a7a"/>
+<text x="818" y="170" font-size="20" font-weight="700" fill="#fff">Reels</text>
+<text x="818" y="202" font-size="15" fill="#fff">Membagikan ulang, menonton</text>
+<text x="818" y="223" font-size="15" fill="#fff">sampai habis, like, membuka</text>
+<text x="818" y="244" font-size="15" fill="#fff">halaman audio</text>
+<text x="60" y="384" font-size="17" fill="#3b4a7a">Stories memakai prediksi lain: mengetuk story, membalas story, atau pindah ke story berikutnya.</text>
+</svg>

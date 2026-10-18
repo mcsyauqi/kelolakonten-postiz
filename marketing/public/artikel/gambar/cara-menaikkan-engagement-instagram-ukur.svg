@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 390" font-family="Figtree,Inter,Segoe UI,Arial,sans-serif">
+<rect width="1200" height="390" fill="#f4f7ff"/>
+<text x="60" y="62" font-size="28" font-weight="700" fill="#13235a">Cara mengukur sebelum dan sesudah perubahan</text>
+<text x="60" y="96" font-size="18" fill="#3b4a7a">Bandingkan rata-rata, bukan satu posting terbaik</text>
+<rect x="60" y="130" width="252" height="170" rx="16" fill="#13235a"/>
+<text x="82" y="170" font-size="20" font-weight="700" fill="#fff">1. Baseline</text>
+<text x="82" y="196" font-size="20" font-weight="700" fill="#fff">4 minggu</text>
+<text x="82" y="228" font-size="15" fill="#fff">Rata-rata simpan,</text>
+<text x="82" y="249" font-size="15" fill="#fff">bagikan, komentar,</text>
+<text x="82" y="270" font-size="15" fill="#fff">dan jangkauan</text>
+<rect x="336" y="130" width="252" height="170" rx="16" fill="#2457d6"/>
+<text x="358" y="170" font-size="20" font-weight="700" fill="#fff">2. Ubah satu</text>
+<text x="358" y="196" font-size="20" font-weight="700" fill="#fff">hal</text>
+<text x="358" y="228" font-size="15" fill="#fff">Misalnya format,</text>
+<text x="358" y="249" font-size="15" fill="#fff">pembuka, atau</text>
+<text x="358" y="270" font-size="15" fill="#fff">jenis ajakan</text>
+<rect x="612" y="130" width="252" height="170" rx="16" fill="#1f8a7a"/>
+<text x="634" y="170" font-size="20" font-weight="700" fill="#fff">3. Jalankan</text>
+<text x="634" y="196" font-size="20" font-weight="700" fill="#fff">4 minggu</text>
+<text x="634" y="228" font-size="15" fill="#fff">Frekuensi posting</text>
+<text x="634" y="249" font-size="15" fill="#fff">dibuat sama</text>
+<text x="634" y="270" font-size="15" fill="#fff">dengan periode awal</text>
+<rect x="888" y="130" width="252" height="170" rx="16" fill="#6a4fd1"/>
+<text x="910" y="170" font-size="20" font-weight="700" fill="#fff">4. Bandingkan</text>
+<text x="910" y="202" font-size="15" fill="#fff">Engagement rate dan</text>
+<text x="910" y="223" font-size="15" fill="#fff">interaksi per posting,</text>
+<text x="910" y="244" font-size="15" fill="#fff">lalu putuskan</text>
+<text x="60" y="354" font-size="17" fill="#3b4a7a">Periode empat minggu adalah saran kerja agar hasil tidak bergantung pada satu posting viral.</text>
+</svg>
