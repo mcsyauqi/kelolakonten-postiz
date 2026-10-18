@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 370" font-family="Figtree,Inter,Segoe UI,Arial,sans-serif">
+<rect width="1200" height="370" fill="#f4f7ff"/>
+<text x="60" y="62" font-size="28" font-weight="700" fill="#13235a">Dari fitur ke manfaat</text>
+<text x="60" y="96" font-size="18" fill="#3b4a7a">Fitur menjelaskan produk, manfaat menjelaskan hidup pembeli sesudah membeli</text>
+<rect x="60" y="130" width="344" height="150" rx="16" fill="#2457d6"/>
+<text x="82" y="170" font-size="20" font-weight="700" fill="#fff">Fitur: kain katun 30s</text>
+<text x="82" y="202" font-size="15" fill="#fff">Manfaat: tetap adem dipakai</text>
+<text x="82" y="223" font-size="15" fill="#fff">seharian di cuaca panas</text>
+<rect x="428" y="130" width="344" height="150" rx="16" fill="#1f8a7a"/>
+<text x="450" y="170" font-size="20" font-weight="700" fill="#fff">Fitur: botol 1 liter</text>
+<text x="450" y="202" font-size="15" fill="#fff">Manfaat: cukup untuk 4 gelas,</text>
+<text x="450" y="223" font-size="15" fill="#fff">pas untuk keluarga kecil</text>
+<rect x="796" y="130" width="344" height="150" rx="16" fill="#6a4fd1"/>
+<text x="818" y="170" font-size="20" font-weight="700" fill="#fff">Fitur: jasa desain 3 revisi</text>
+<text x="818" y="202" font-size="15" fill="#fff">Manfaat: hasil akhir sesuai</text>
+<text x="818" y="223" font-size="15" fill="#fff">selera tanpa biaya tambahan</text>
+<text x="60" y="334" font-size="17" fill="#3b4a7a">Contoh produk di atas rekaan untuk ilustrasi, bukan klaim produk nyata.</text>
+</svg>

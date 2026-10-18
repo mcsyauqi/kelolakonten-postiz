@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 390" font-family="Figtree,Inter,Segoe UI,Arial,sans-serif">
+<rect width="1200" height="390" fill="#f4f7ff"/>
+<text x="60" y="62" font-size="28" font-weight="700" fill="#13235a">Pilih satu ajakan sesuai tujuan posting</text>
+<text x="60" y="96" font-size="18" fill="#3b4a7a">Satu caption, satu tujuan, satu ajakan</text>
+<rect x="60" y="130" width="252" height="170" rx="16" fill="#13235a"/>
+<text x="82" y="170" font-size="20" font-weight="700" fill="#fff">Ingin pesanan</text>
+<text x="82" y="196" font-size="20" font-weight="700" fill="#fff">masuk</text>
+<text x="82" y="228" font-size="15" fill="#fff">"Ketik PESAN di DM,</text>
+<text x="82" y="249" font-size="15" fill="#fff">kami kirim daftar</text>
+<text x="82" y="270" font-size="15" fill="#fff">varian dan ongkir."</text>
+<rect x="336" y="130" width="252" height="170" rx="16" fill="#2457d6"/>
+<text x="358" y="170" font-size="20" font-weight="700" fill="#fff">Ingin calon</text>
+<text x="358" y="196" font-size="20" font-weight="700" fill="#fff">pembeli bertanya</text>
+<text x="358" y="228" font-size="15" fill="#fff">"Bingung pilih ukuran?</text>
+<text x="358" y="249" font-size="15" fill="#fff">Tulis tinggi badan</text>
+<text x="358" y="270" font-size="15" fill="#fff">di komentar."</text>
+<rect x="612" y="130" width="252" height="170" rx="16" fill="#1f8a7a"/>
+<text x="634" y="170" font-size="20" font-weight="700" fill="#fff">Ingin disimpan</text>
+<text x="634" y="202" font-size="15" fill="#fff">"Simpan posting ini</text>
+<text x="634" y="223" font-size="15" fill="#fff">untuk daftar belanja</text>
+<text x="634" y="244" font-size="15" fill="#fff">bulan depan."</text>
+<rect x="888" y="130" width="252" height="170" rx="16" fill="#6a4fd1"/>
+<text x="910" y="170" font-size="20" font-weight="700" fill="#fff">Ingin ke katalog</text>
+<text x="910" y="202" font-size="15" fill="#fff">"Katalog lengkap ada</text>
+<text x="910" y="223" font-size="15" fill="#fff">di tautan profil."</text>
+<text x="60" y="354" font-size="17" fill="#3b4a7a">Hindari ajakan yang menukar hadiah dengan like atau komentar (dilarang kebijakan Spam Meta).</text>
+</svg>

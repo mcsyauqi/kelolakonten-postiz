@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 390" font-family="Figtree,Inter,Segoe UI,Arial,sans-serif">
+<rect width="1200" height="390" fill="#f4f7ff"/>
+<text x="60" y="62" font-size="28" font-weight="700" fill="#13235a">Siklus uji caption dalam dua minggu</text>
+<text x="60" y="96" font-size="18" fill="#3b4a7a">Ubah satu bagian saja per putaran supaya hasilnya bisa dibaca</text>
+<rect x="60" y="130" width="252" height="170" rx="16" fill="#13235a"/>
+<text x="82" y="170" font-size="20" font-weight="700" fill="#fff">1. Tetapkan</text>
+<text x="82" y="196" font-size="20" font-weight="700" fill="#fff">satu variabel</text>
+<text x="82" y="228" font-size="15" fill="#fff">Misalnya hanya</text>
+<text x="82" y="249" font-size="15" fill="#fff">baris pertama atau</text>
+<text x="82" y="270" font-size="15" fill="#fff">hanya ajakan</text>
+<rect x="336" y="130" width="252" height="170" rx="16" fill="#2457d6"/>
+<text x="358" y="170" font-size="20" font-weight="700" fill="#fff">2. Posting</text>
+<text x="358" y="196" font-size="20" font-weight="700" fill="#fff">dua versi</text>
+<text x="358" y="228" font-size="15" fill="#fff">Produk dan jam</text>
+<text x="358" y="249" font-size="15" fill="#fff">tayang dibuat</text>
+<text x="358" y="270" font-size="15" fill="#fff">semirip mungkin</text>
+<rect x="612" y="130" width="252" height="170" rx="16" fill="#1f8a7a"/>
+<text x="634" y="170" font-size="20" font-weight="700" fill="#fff">3. Baca</text>
+<text x="634" y="196" font-size="20" font-weight="700" fill="#fff">Insight</text>
+<text x="634" y="228" font-size="15" fill="#fff">Jangkauan, simpan,</text>
+<text x="634" y="249" font-size="15" fill="#fff">bagikan, kunjungan</text>
+<text x="634" y="270" font-size="15" fill="#fff">profil, DM masuk</text>
+<rect x="888" y="130" width="252" height="170" rx="16" fill="#6a4fd1"/>
+<text x="910" y="170" font-size="20" font-weight="700" fill="#fff">4. Catat dan</text>
+<text x="910" y="196" font-size="20" font-weight="700" fill="#fff">putuskan</text>
+<text x="910" y="228" font-size="15" fill="#fff">Pakai versi yang</text>
+<text x="910" y="249" font-size="15" fill="#fff">menang, uji bagian</text>
+<text x="910" y="270" font-size="15" fill="#fff">berikutnya</text>
+<text x="60" y="354" font-size="17" fill="#3b4a7a">Dua posting belum membuktikan apa pun. Ulangi beberapa putaran sebelum menjadikannya pola.</text>
+</svg>
