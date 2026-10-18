@@ -1,0 +1,108 @@
+{
+  "fyp-tiktok": {
+    "label": "Strategi TikTok",
+    "judul": "FYP TikTok",
+    "ringkasan": "Cara kerja halaman For You dari sumber resmi TikTok, mitos FYP, dan langkah praktis untuk akun bisnis."
+  },
+  "hook-konten": {
+    "label": "Produksi konten",
+    "judul": "Hook Konten",
+    "ringkasan": "Delapan jenis hook, tiga lapisannya, contoh untuk bisnis, dan cara mengujinya dari data retensi."
+  },
+  "konten-edukasi": {
+    "label": "Strategi konten",
+    "judul": "Konten Edukasi",
+    "ringkasan": "Delapan jenis konten edukasi, tujuh langkah membuatnya dari pertanyaan pelanggan, dan cara mengukurnya."
+  },
+  "algoritma-instagram": {
+    "label": "Strategi Instagram",
+    "judul": "Algoritma Instagram",
+    "ringkasan": "Pahami sinyal Feed, Stories, Explore, dan Reels dari sumber resmi, lalu uji dengan data akun sendiri."
+  },
+  "insight-instagram": {
+    "label": "Analitik",
+    "judul": "Insight Instagram",
+    "ringkasan": "Lihat insight di ponsel dan laptop, pahami views dan viewers, lalu putuskan konten berikutnya."
+  },
+  "ukuran-feed-instagram": {
+    "label": "Produksi konten",
+    "judul": "Ukuran feed Instagram",
+    "ringkasan": "Lebar 1080 px, rasio 1,91:1 sampai 3:4, grid profil 3:4, dan zona aman Reels."
+  },
+  "brief-konten": {
+    "label": "Perencanaan",
+    "judul": "Brief konten",
+    "ringkasan": "Sepakati tujuan, pesan, kanal, tenggat, dan penyetuju sebelum konten dibuat."
+  },
+  "ide-konten-umkm": {
+    "label": "Ide konten",
+    "judul": "Ide konten untuk UMKM",
+    "ringkasan": "Gali ide dari pelanggan dan proses kerja, saring, lalu simpan di bank ide."
+  },
+  "jam-posting-instagram": {
+    "label": "Instagram",
+    "judul": "Jam posting Instagram",
+    "ringkasan": "Baca jam aktif pengikut, uji slot empat minggu, lalu kunci di kalender."
+  },
+  "alur-approval-konten-klien": {
+    "label": "Agensi",
+    "judul": "Alur approval konten dengan klien",
+    "ringkasan": "Draft, preview per post, tenggat, revisi, lalu jadwal."
+  },
+  "pilar-konten-media-sosial": {
+    "label": "Strategi",
+    "judul": "Pilar konten media sosial",
+    "ringkasan": "Tentukan tema tetap dari pertanyaan pelanggan, lalu tandai di kalender."
+  },
+  "batching-konten-media-sosial": {
+    "label": "Produksi",
+    "judul": "Batching konten media sosial",
+    "ringkasan": "Produksi sekali, review, lalu jadwalkan untuk seminggu.",
+    "gambar": "/artikel/gambar/batching-konten-alur.svg"
+  },
+  "cara-membuat-kalender-konten": {
+    "label": "Perencanaan",
+    "judul": "Cara membuat kalender konten",
+    "ringkasan": "Dari inventaris bahan sampai approval dan evaluasi."
+  },
+  "cara-menghitung-engagement-rate-instagram": {
+    "label": "Metrik",
+    "judul": "Cara menghitung engagement rate Instagram",
+    "ringkasan": "Pilih pembilang, penyebut, dan periode yang konsisten."
+  },
+  "content-planner-untuk-umkm": {
+    "label": "UMKM",
+    "judul": "Content planner untuk UMKM",
+    "ringkasan": "Ubah ide menjadi unit kerja yang memiliki pemilik dan status."
+  },
+  "jadwal-posting-instagram-dari-laptop": {
+    "label": "Instagram",
+    "judul": "Jadwal posting Instagram dari laptop",
+    "ringkasan": "Siapkan akun, approval, dan status permission."
+  },
+  "jadwal-konten-tiktok-untuk-bisnis": {
+    "label": "TikTok",
+    "judul": "Jadwal konten TikTok untuk bisnis",
+    "ringkasan": "Pahami Direct Post, private-only, dan handoff."
+  },
+  "upload-video-youtube-otomatis": {
+    "label": "YouTube",
+    "judul": "Upload video YouTube otomatis",
+    "ringkasan": "OAuth, processing, quota, dan audit."
+  },
+  "inbox-komentar-media-sosial": {
+    "label": "Inbox",
+    "judul": "Inbox komentar media sosial",
+    "ringkasan": "Bedakan komentar internal, DM, dan scope provider."
+  },
+  "tools-media-sosial-untuk-agensi": {
+    "label": "Agensi",
+    "judul": "Tools media sosial untuk agensi",
+    "ringkasan": "Rubrik evaluasi workspace, approval, dan analytics."
+  },
+  "laporan-media-sosial-untuk-klien": {
+    "label": "Laporan",
+    "judul": "Laporan media sosial untuk klien",
+    "ringkasan": "Struktur yang menyimpan sumber, periode, dan tindakan."
+  }
+}

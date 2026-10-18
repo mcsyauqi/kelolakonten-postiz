@@ -55,6 +55,11 @@ const server = createServer(async (req, res) => {
   if (req.method !== 'GET' && req.method !== 'HEAD') return send(res, 405, 'text/plain; charset=utf-8', 'Method Not Allowed');
   let pathname;
   try { pathname = decodeURIComponent(url.pathname); } catch { return send(res, 400, 'text/plain; charset=utf-8', 'Bad Request'); }
+  // Paginasi hub artikel: halaman 1 adalah /artikel/, jadi /artikel/halaman, /artikel/halaman/ dan /artikel/halaman/1 di-301 ke sana.
+  if (/^\/artikel\/halaman(\/(1|1\.html)?)?\/?$/i.test(pathname)) {
+    res.writeHead(301, { Location: `/artikel/${url.search}`, ...headers(301, 'text/plain; charset=utf-8', 'public, max-age=3600') });
+    return res.end();
+  }
   // URL bersih: /x.html, /x.html/ dan /dir/index.html di-301 ke /x atau /dir/ (query ikut).
   const htmlMatch = pathname.match(/^(.*\/)([^/]+)\.html\/?$/i);
   if (htmlMatch && htmlMatch[2].toLowerCase() !== '404') {
