@@ -69,21 +69,23 @@ if (menu && nav) {
 
 document.querySelectorAll('[data-engagement-form]').forEach((form) => form.addEventListener('submit', (event) => {
   event.preventDefault();
-  const followers = Number(form.followers.value || 0);
-  const likes = Number(form.likes.value || 0);
-  const comments = Number(form.comments.value || 0);
-  const saves = Number(form.saves.value || 0);
-  const shares = Number(form.shares.value || 0);
-  const reach = Number(form.reach.value || followers || 1);
-  const rate = ((likes + comments + saves + shares) / Math.max(reach, 1) * 100).toFixed(2);
+  if (!form.reportValidity()) return;
+  const followers = Number(form.followers.value);
+  const interactions = ['likes', 'comments', 'saves', 'shares'].map((name) => Number(form.elements.namedItem(name).value || 0));
+  const hasReach = form.reach.value.trim() !== '';
+  const denominator = hasReach ? Number(form.reach.value) : followers;
+  if (!Number.isFinite(denominator) || denominator <= 0 || interactions.some((value) => !Number.isFinite(value) || value < 0)) return;
+  const rate = (interactions.reduce((sum, value) => sum + value, 0) / denominator * 100).toFixed(2);
   const result = form.parentElement?.querySelector('[data-tool-result]');
   if (!result) return;
   result.replaceChildren();
   const strong = document.createElement('strong');
   strong.textContent = `${rate}%`;
   const text = document.createElement('span');
-  text.textContent = 'Rasio ini adalah interaksi dibagi jangkauan. Gunakan sebagai titik awal, lalu bandingkan per format dan periode.';
+  text.textContent = `Interaksi dibagi ${hasReach ? 'reach' : 'pengikut'} x 100. Bandingkan hanya dengan penyebut, komponen interaksi, dan periode yang sama.`;
   result.append(strong, document.createElement('br'), text);
+  const cta = form.parentElement?.querySelector('[data-engagement-cta]');
+  if (cta) cta.hidden = false;
   window.kelolaTrack?.('calculator_completed', { tool: 'cek_engagement_rate', result: Number(rate) });
 }));
 
