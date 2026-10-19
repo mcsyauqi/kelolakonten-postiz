@@ -68,3 +68,6 @@ marketing/data/
 
 # Local uploads from STORAGE_PROVIDER=local (user files, never commit)
 /var/uploads/
+
+# Demo videos for platform app review (large binaries, kept local)
+/docs/video/

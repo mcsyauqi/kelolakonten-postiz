@@ -18,7 +18,7 @@ Prasyarat yang sudah beres per 16 Oktober 2026: Business Verification (Creativis
 
 ## Video yang sudah jadi (19 Oktober 2026)
 
-Direkam otomatis dengan Playwright di `https://app.kelolakonten.com`, UI bahasa Inggris, keterangan langkah di bawah layar, memakai "Post now" (waktu tunggu terbit dipotong). File disimpan di komputer perekam, bukan di repo:
+Direkam otomatis dengan Playwright di `https://app.kelolakonten.com`, UI bahasa Inggris, keterangan langkah di bawah layar, memakai "Post now" (waktu tunggu terbit dipotong). File disimpan di `docs/video/` pada komputer perekam (folder ini di-ignore git, tidak ikut ke repo):
 
 | File | Dipakai untuk izin |
 |---|---|
