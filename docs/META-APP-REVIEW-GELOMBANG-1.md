@@ -16,7 +16,17 @@ Jangan menulis kata sandi akun reviewer di file ini (repo publik). Kata sandi ha
 
 Prasyarat yang sudah beres per 16 Oktober 2026: Business Verification (Creativism, Verified), Privacy Policy `https://kelolakonten.com/en/privacy`, Terms `https://kelolakonten.com/en/terms`, Data deletion callback, Deauthorize callback, `DISABLED_SCOPES` di production sehingga aplikasi hanya meminta 8 izin di atas.
 
-## Persiapan sebelum merekam
+## Video yang sudah jadi (19 Oktober 2026)
+
+Direkam otomatis dengan Playwright di `https://app.kelolakonten.com`, UI bahasa Inggris, keterangan langkah di bawah layar, memakai "Post now" (waktu tunggu terbit dipotong). File disimpan di komputer perekam, bukan di repo:
+
+| File | Dipakai untuk izin |
+|---|---|
+| `kelolakonten-fb.mp4` (1:40) | `pages_show_list`, `business_management`, `pages_read_engagement`, `pages_manage_posts` |
+| `kelolakonten-ig.mp4` (1:14) | `instagram_business_basic`, `instagram_business_content_publish` |
+| `kelolakonten-threads.mp4` (1:18) | `threads_basic`, `threads_content_publish` |
+
+## Persiapan sebelum merekam (kalau perlu merekam ulang)
 
 1. **Akun Kelola Konten reviewer** sudah aktif (tidak butuh kode OTP) dan bisa masuk di `https://app.kelolakonten.com/auth/login`.
 2. **Bahasa aplikasi Inggris**: setelah masuk, ganti bahasa ke English lewat ikon bendera di kanan atas. Reviewer Meta bekerja dalam bahasa Inggris.
@@ -87,7 +97,7 @@ After the user selects a Page, Kelola Konten uses pages_read_engagement to read 
 ### pages_manage_posts
 
 ```
-This is the core feature of Kelola Konten: users write a post, attach images or video, choose a date and time, and we publish it to their Facebook Page at that time on their behalf. We use pages_manage_posts only to create the posts the user scheduled in Kelola Konten. We never publish anything the user did not create and schedule themselves. The screencast shows a post being created and scheduled in Kelola Konten, then appearing on the Facebook Page at the scheduled time.
+This is the core feature of Kelola Konten: users write a post, attach images or video, choose a date and time, and we publish it to their Facebook Page at that time on their behalf. We use pages_manage_posts only to create the posts the user scheduled in Kelola Konten. We never publish anything the user did not create and schedule themselves. Users can publish immediately or schedule a time. The screencast shows a post with two images being created in Kelola Konten and published with "Post now", then appearing on the Facebook Page.
 ```
 
 ### instagram_business_basic
@@ -99,7 +109,7 @@ When a user connects an Instagram professional account through Instagram Login, 
 ### instagram_business_content_publish
 
 ```
-Kelola Konten lets users schedule Instagram posts in advance. At the time the user chooses, we use instagram_business_content_publish to publish the photo, video, or carousel the user created in Kelola Konten to their own Instagram professional account. We only publish content the user created and scheduled themselves. The screencast shows a post being scheduled in Kelola Konten and then appearing on the Instagram profile at the scheduled time.
+Kelola Konten lets users schedule Instagram posts in advance. At the time the user chooses, we use instagram_business_content_publish to publish the photo, video, or carousel the user created in Kelola Konten to their own Instagram professional account. We only publish content the user created and scheduled themselves. Users can publish immediately or schedule a time. The screencast shows a post being created in Kelola Konten and published with "Post now", then appearing on the Instagram profile.
 ```
 
 ### threads_basic
@@ -111,7 +121,7 @@ When a user connects their Threads profile, Kelola Konten uses threads_basic to 
 ### threads_content_publish
 
 ```
-Kelola Konten lets users schedule Threads posts in advance. At the time the user chooses, we use threads_content_publish to publish the text and media the user created in Kelola Konten to their own Threads profile. We only publish content the user created and scheduled themselves. The screencast shows a thread being scheduled in Kelola Konten and then appearing on the Threads profile at the scheduled time.
+Kelola Konten lets users schedule Threads posts in advance. At the time the user chooses, we use threads_content_publish to publish the text and media the user created in Kelola Konten to their own Threads profile. We only publish content the user created and scheduled themselves. Users can publish immediately or schedule a time. The screencast shows a thread being created in Kelola Konten and published with "Post now", then appearing on the Threads profile.
 ```
 
 ## Catatan untuk reviewer (salin ke kolom App Review instructions / notes)
