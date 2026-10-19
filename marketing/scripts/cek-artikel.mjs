@@ -27,6 +27,27 @@ import { fileURLToPath } from "node:url";
 
 export const GATE = { words: 2000, images: 4, faq: 7, tables: 1, internalLinks: 10 };
 export const BLOK_SEJAK = "2026-10-10";
+// Batas terbit harian (directive Syauqi 19 Okt 2026, KERAS): maksimal MAKS_PER_HARI artikel ber-datePublished sama per hari
+// (hari normal 1). Artikel tayang saat deploy, jadi validator (Dockerfile) GAGAL bila ada tanggal >= MAKS_SEJAK berisi > 3.
+// Peluncuran 4 Okt 2026 (9 artikel) sudah tayang dan tidak diubah tanggalnya. Slot berikutnya: --next-free [YYYY-MM-DD].
+export const MAKS_PER_HARI = 3;
+export const MAKS_SEJAK = "2026-10-19";
+
+/** Tanggal (>= MAKS_SEJAK) berisi lebih dari MAKS_PER_HARI artikel. items: [{slug, date}] */
+export function tanggalPenuh(items) {
+  const by = new Map();
+  for (const a of items) if (a.date && a.date >= MAKS_SEJAK) by.set(a.date, [...(by.get(a.date) || []), a.slug]);
+  return [...by].filter(([, s]) => s.length > MAKS_PER_HARI).sort().map(([date, slugs]) => ({ date, n: slugs.length, slugs }));
+}
+
+/** Tanggal pertama >= dari yang masih berisi kurang dari MAKS_PER_HARI artikel. */
+export function tanggalKosongBerikut(items, dari) {
+  const n = new Map();
+  for (const a of items) n.set(a.date, (n.get(a.date) || 0) + 1);
+  let d = dari;
+  while ((n.get(d) || 0) >= MAKS_PER_HARI) d = new Date(Date.parse(`${d}T00:00:00Z`) + 864e5).toISOString().slice(0, 10);
+  return d;
+}
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const dirArtikel = path.join(root, "public", "artikel");
@@ -107,6 +128,15 @@ export function gagalGate(a) {
 
 const isMain = process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url);
 if (isMain) {
+  const semua = fs.readdirSync(dirArtikel).filter((f) => f.endsWith(".html") && f !== "index.html")
+    .map((f) => ({ slug: f.replace(/\.html$/, ""), date: analyze(fs.readFileSync(path.join(dirArtikel, f), "utf8")).datePublished }));
+  const nf = process.argv.indexOf("--next-free");
+  if (nf > -1) {
+    const hariIni = new Date(Date.now() + 7 * 3600e3).toISOString().slice(0, 10);
+    const v = process.argv[nf + 1];
+    console.log(tanggalKosongBerikut(semua, /^[0-9]{4}-[0-9]{2}-[0-9]{2}$/.test(v || "") && v > hariIni ? v : hariIni));
+    process.exit(0);
+  }
   const eksplisit = process.argv.slice(2).filter((x) => !x.startsWith("--"));
   const files = eksplisit.length
     ? eksplisit.map((f) => path.resolve(f))
@@ -127,6 +157,10 @@ if (isMain) {
       peringatan++;
       console.log(`WARN   ${label} terbit ${a.datePublished || "?"} sebelum ${BLOK_SEJAK}: ${g.join("; ")}`);
     }
+  }
+  for (const x of tanggalPenuh(semua)) {
+    blok++;
+    console.log(`GAGAL  MAKS3 ${x.date}: ${x.n} artikel (maks ${MAKS_PER_HARI}/hari): ${x.slugs.join(", ")}. Geser datePublished kelebihan ke --next-free ${x.date}`);
   }
   console.log(`\n${files.length} artikel, ${blok} gagal memblok, ${peringatan} peringatan (artikel lama).`);
   if (blok) {
