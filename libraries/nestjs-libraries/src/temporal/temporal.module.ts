@@ -38,6 +38,11 @@ export const getTemporalModule = (
     logLevel: 'error',
     ...(isWorkers
       ? {
+          // A worker server that cannot reach Temporal at boot (e.g. it starts
+          // before the Temporal container is ready) must exit so the process
+          // manager restarts it; otherwise it stays up without polling any
+          // queue and every post waits in QUEUE.
+          allowConnectionFailure: false,
           workers: [
             ...[
               { identifier: 'main', maxConcurrentJob: undefined },

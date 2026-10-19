@@ -840,6 +840,8 @@ export class IntegrationRepository {
       data: {
         deletedAt: new Date(),
       },
+      // the row holds the channel's access and refresh tokens
+      select: { id: true },
     });
   }
 
