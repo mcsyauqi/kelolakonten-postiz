@@ -12,3 +12,4 @@ Kelola Konten adalah ruang kerja konten sosial untuk UMKM, kreator, dan agensi I
 - AGPL-3.0: https://github.com/mcsyauqi/kelolakonten-postiz/blob/main/LICENSE
 - WhatsApp: https://wa.me/6285136212005
 - Artikel: https://kelolakonten.com/artikel/
+- Content pillar: cara menentukan 3 sampai 5 pilar konten untuk brand kecil: https://kelolakonten.com/artikel/content-pillar
