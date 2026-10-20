@@ -122,3 +122,13 @@ document.querySelectorAll('[data-copy-calendar]').forEach((button) => button.add
     button.textContent = 'Salin gagal, pilih teks manual';
   }
 }));
+
+// Tombol kembali ke atas + progress bar baca (cycle #81). Semua halaman memuat app.js,
+// jadi artikel baru otomatis ikut tanpa mengubah HTML-nya.
+if (!document.querySelector('script[data-ux-btt]')) {
+  const uxBtt = document.createElement('script');
+  uxBtt.src = '/ux-btt.js';
+  uxBtt.defer = true;
+  Object.assign(uxBtt.dataset, { uxBtt: '1', color: '#1e5bd8', fg: '#ffffff', radius: '50%', label: 'Kembali ke atas' });
+  document.body.appendChild(uxBtt);
+}
