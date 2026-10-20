@@ -115,7 +115,7 @@ document.querySelectorAll('[data-copy-calendar]').forEach((button) => button.add
   const text = button.dataset.copyText || button.closest('.tool-grid')?.querySelector('[data-tool-result]')?.innerText || '';
   try {
     await navigator.clipboard.writeText(text);
-    window.kelolaTrack?.('template_copied', { tool: 'template_kalender', period: button.dataset.copyPeriod || '7_hari' });
+    window.kelolaTrack?.('template_copied', { tool: 'template_kalender', method: 'clipboard', period: button.dataset.copyPeriod || '7_hari' });
     button.textContent = 'Tersalin';
     setTimeout(() => { button.textContent = 'Salin kerangka'; }, 1800);
   } catch {
