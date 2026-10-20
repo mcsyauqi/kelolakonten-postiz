@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" font-family="Figtree,Inter,Segoe UI,Arial,sans-serif">
+<rect width="1200" height="420" fill="#f4f7ff"/>
+<text x="60" y="62" font-size="28" font-weight="700" fill="#13235a">UGC, konten kreator berbayar, dan testimoni</text>
+<text x="60" y="96" font-size="18" fill="#3b4a7a">Pembedanya ada pada siapa yang memulai dan apakah ada bayaran</text>
+<rect x="60" y="130" width="340" height="230" rx="18" fill="#1f8a7a"/>
+<text x="84" y="174" font-size="21" font-weight="700" fill="#fff">UGC organik</text>
+<text x="84" y="210" font-size="16" fill="#fff">Dimulai pelanggan sendiri</text>
+<text x="84" y="236" font-size="16" fill="#fff">Tanpa bayaran</text>
+<text x="84" y="262" font-size="16" fill="#fff">Merek minta izin untuk repost</text>
+<text x="84" y="288" font-size="16" fill="#fff">Gaya apa adanya</text>
+<rect x="430" y="130" width="340" height="230" rx="18" fill="#6a4fd1"/>
+<text x="454" y="174" font-size="21" font-weight="700" fill="#fff">Konten kreator berbayar</text>
+<text x="454" y="210" font-size="16" fill="#fff">Dipesan oleh merek</text>
+<text x="454" y="236" font-size="16" fill="#fff">Ada bayaran atau barang</text>
+<text x="454" y="262" font-size="16" fill="#fff">Hak pakai diatur di kesepakatan</text>
+<text x="454" y="288" font-size="16" fill="#fff">Perlu label kerja sama</text>
+<rect x="800" y="130" width="340" height="230" rx="18" fill="#c2581e"/>
+<text x="824" y="174" font-size="21" font-weight="700" fill="#fff">Testimoni</text>
+<text x="824" y="210" font-size="16" fill="#fff">Diminta merek ke pelanggan</text>
+<text x="824" y="236" font-size="16" fill="#fff">Biasanya tanpa bayaran</text>
+<text x="824" y="262" font-size="16" fill="#fff">Sering berupa teks atau kutipan</text>
+<text x="824" y="288" font-size="16" fill="#fff">Dipajang di situs atau katalog</text>
+</svg>

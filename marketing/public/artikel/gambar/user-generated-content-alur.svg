@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" font-family="Figtree,Inter,Segoe UI,Arial,sans-serif">
+<rect width="1200" height="380" fill="#f4f7ff"/>
+<text x="60" y="62" font-size="28" font-weight="700" fill="#13235a">Alur UGC dari ajakan sampai jadwal tayang</text>
+<text x="60" y="96" font-size="18" fill="#3b4a7a">Lima tahap, izin selalu sebelum repost</text>
+<g font-size="16" fill="#fff">
+<rect x="60" y="140" width="196" height="150" rx="16" fill="#2457d6"/>
+<text x="80" y="180" font-size="19" font-weight="700">1. Ajak</text><text x="80" y="212">Kartu di paket,</text><text x="80" y="236">hashtag kampanye</text>
+<rect x="282" y="140" width="196" height="150" rx="16" fill="#1f8a7a"/>
+<text x="302" y="180" font-size="19" font-weight="700">2. Kumpulkan</text><text x="302" y="212">Pantau tag,</text><text x="302" y="236">mention, hashtag</text>
+<rect x="504" y="140" width="196" height="150" rx="16" fill="#c2581e"/>
+<text x="524" y="180" font-size="19" font-weight="700">3. Minta izin</text><text x="524" y="212">DM tertulis,</text><text x="524" y="236">simpan buktinya</text>
+<rect x="726" y="140" width="196" height="150" rx="16" fill="#6a4fd1"/>
+<text x="746" y="180" font-size="19" font-weight="700">4. Kurasi</text><text x="746" y="212">Cek kualitas,</text><text x="746" y="236">wajah, data pribadi</text>
+<rect x="948" y="140" width="192" height="150" rx="16" fill="#13235a"/>
+<text x="968" y="180" font-size="19" font-weight="700">5. Jadwalkan</text><text x="968" y="212">Masuk kalender,</text><text x="968" y="236">kredit akun asli</text>
+</g>
+<g fill="#13235a"><path d="M258 215 l20 0 l-8 -7 m8 7 l-8 7" stroke="#13235a" stroke-width="3" fill="none"/><path d="M480 215 l20 0 l-8 -7 m8 7 l-8 7" stroke="#13235a" stroke-width="3" fill="none"/><path d="M702 215 l20 0 l-8 -7 m8 7 l-8 7" stroke="#13235a" stroke-width="3" fill="none"/><path d="M924 215 l20 0 l-8 -7 m8 7 l-8 7" stroke="#13235a" stroke-width="3" fill="none"/></g>
+<text x="60" y="340" font-size="17" fill="#3b4a7a">Konten yang izinnya belum jelas berhenti di tahap 3 dan tidak masuk kalender.</text>
+</svg>

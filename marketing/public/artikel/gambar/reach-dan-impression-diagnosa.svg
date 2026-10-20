@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" font-family="Figtree,Inter,Segoe UI,Arial,sans-serif">
+<rect width="1200" height="520" fill="#f4f7ff"/>
+<text x="60" y="62" font-size="28" font-weight="700" fill="#13235a">Membaca pergerakan reach dan frekuensi bersamaan</text>
+<text x="60" y="96" font-size="18" fill="#3b4a7a">Bandingkan dengan periode sebelumnya, lalu cari penyebabnya di konten dan jadwal</text>
+<rect x="60" y="130" width="530" height="170" rx="16" fill="#1f8a7a"/>
+<text x="84" y="172" font-size="20" font-weight="700" fill="#fff">Reach naik, frekuensi stabil</text>
+<text x="84" y="206" font-size="16" fill="#fff">Konten menjangkau orang baru.</text>
+<text x="84" y="232" font-size="16" fill="#fff">Cek format dan topik yang membawa</text>
+<text x="84" y="256" font-size="16" fill="#fff">penonton yang belum mengikuti akun.</text>
+<rect x="610" y="130" width="530" height="170" rx="16" fill="#2457d6"/>
+<text x="634" y="172" font-size="20" font-weight="700" fill="#fff">Reach stabil, frekuensi naik</text>
+<text x="634" y="206" font-size="16" fill="#fff">Orang yang sama melihat lebih sering.</text>
+<text x="634" y="232" font-size="16" fill="#fff">Bagus untuk mengingatkan, tetapi awasi</text>
+<text x="634" y="256" font-size="16" fill="#fff">tanda bosan di komentar dan unfollow.</text>
+<rect x="60" y="316" width="530" height="170" rx="16" fill="#6a4fd1"/>
+<text x="84" y="358" font-size="20" font-weight="700" fill="#fff">Reach turun, frekuensi naik</text>
+<text x="84" y="392" font-size="16" fill="#fff">Distribusi menyempit ke audiens lama.</text>
+<text x="84" y="418" font-size="16" fill="#fff">Uji hook, format baru, atau kolaborasi</text>
+<text x="84" y="442" font-size="16" fill="#fff">untuk membuka penonton baru.</text>
+<rect x="610" y="316" width="530" height="170" rx="16" fill="#c2581e"/>
+<text x="634" y="358" font-size="20" font-weight="700" fill="#fff">Reach dan frekuensi sama-sama turun</text>
+<text x="634" y="392" font-size="16" fill="#fff">Sering karena unggahan lebih jarang</text>
+<text x="634" y="418" font-size="16" fill="#fff">atau konten kurang menahan perhatian.</text>
+<text x="634" y="442" font-size="16" fill="#fff">Cek jumlah unggahan dulu sebelum menyimpulkan.</text>
+</svg>

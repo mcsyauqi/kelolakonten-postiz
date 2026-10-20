@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" font-family="Figtree,Inter,Segoe UI,Arial,sans-serif">
+<rect width="1200" height="420" fill="#f4f7ff"/>
+<text x="60" y="62" font-size="28" font-weight="700" fill="#13235a">Membandingkan UGC dengan konten buatan sendiri</text>
+<text x="60" y="96" font-size="18" fill="#3b4a7a">Contoh rekaan: rata-rata per postingan dalam satu bulan, format sama (carousel)</text>
+<text x="300" y="146" font-size="17" font-weight="700" fill="#13235a">Konten buatan tim</text>
+<text x="760" y="146" font-size="17" font-weight="700" fill="#13235a">UGC repost</text>
+<g font-size="17">
+<text x="60" y="196" fill="#13235a">Simpan</text>
+<rect x="300" y="176" width="200" height="30" rx="8" fill="#2457d6"/><text x="512" y="198" fill="#13235a">20</text>
+<rect x="760" y="176" width="300" height="30" rx="8" fill="#1f8a7a"/><text x="1072" y="198" fill="#13235a">30</text>
+<text x="60" y="256" fill="#13235a">Komentar</text>
+<rect x="300" y="236" width="120" height="30" rx="8" fill="#2457d6"/><text x="432" y="258" fill="#13235a">12</text>
+<rect x="760" y="236" width="180" height="30" rx="8" fill="#1f8a7a"/><text x="952" y="258" fill="#13235a">18</text>
+<text x="60" y="316" fill="#13235a">Klik link bio</text>
+<rect x="300" y="296" width="150" height="30" rx="8" fill="#2457d6"/><text x="462" y="318" fill="#13235a">15</text>
+<rect x="760" y="296" width="140" height="30" rx="8" fill="#1f8a7a"/><text x="912" y="318" fill="#13235a">14</text>
+</g>
+<text x="60" y="380" font-size="17" fill="#3b4a7a">Bacaan: UGC unggul di simpan dan komentar, setara di klik. Uji lagi bulan depan sebelum menyimpulkan.</text>
+</svg>

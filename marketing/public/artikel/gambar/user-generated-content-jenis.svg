@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 440" font-family="Figtree,Inter,Segoe UI,Arial,sans-serif">
+<rect width="1200" height="440" fill="#f4f7ff"/>
+<text x="60" y="62" font-size="28" font-weight="700" fill="#13235a">Empat jenis UGC yang paling mudah didapat UMKM</text>
+<text x="60" y="96" font-size="18" fill="#3b4a7a">Semuanya dibuat pelanggan sendiri, bukan dipesan dan dibayar oleh merek</text>
+<rect x="60" y="130" width="250" height="250" rx="18" fill="#2457d6"/>
+<text x="84" y="176" font-size="21" font-weight="700" fill="#fff">Foto produk</text>
+<text x="84" y="210" font-size="16" fill="#fff">Pelanggan memotret</text>
+<text x="84" y="234" font-size="16" fill="#fff">produk saat dipakai</text>
+<text x="84" y="258" font-size="16" fill="#fff">di rumah atau di</text>
+<text x="84" y="282" font-size="16" fill="#fff">tempat usaha Anda.</text>
+<rect x="335" y="130" width="250" height="250" rx="18" fill="#1f8a7a"/>
+<text x="359" y="176" font-size="21" font-weight="700" fill="#fff">Ulasan tertulis</text>
+<text x="359" y="210" font-size="16" fill="#fff">Komentar, balasan</text>
+<text x="359" y="234" font-size="16" fill="#fff">Stories, atau ulasan</text>
+<text x="359" y="258" font-size="16" fill="#fff">di marketplace dan</text>
+<text x="359" y="282" font-size="16" fill="#fff">profil bisnis.</text>
+<rect x="610" y="130" width="250" height="250" rx="18" fill="#6a4fd1"/>
+<text x="634" y="176" font-size="21" font-weight="700" fill="#fff">Video pendek</text>
+<text x="634" y="210" font-size="16" fill="#fff">Unboxing, cara pakai,</text>
+<text x="634" y="234" font-size="16" fill="#fff">atau reaksi pertama</text>
+<text x="634" y="258" font-size="16" fill="#fff">yang direkam dengan</text>
+<text x="634" y="282" font-size="16" fill="#fff">ponsel pelanggan.</text>
+<rect x="885" y="130" width="255" height="250" rx="18" fill="#c2581e"/>
+<text x="909" y="176" font-size="21" font-weight="700" fill="#fff">Tag dan mention</text>
+<text x="909" y="210" font-size="16" fill="#fff">Postingan atau Stories</text>
+<text x="909" y="234" font-size="16" fill="#fff">yang menandai akun</text>
+<text x="909" y="258" font-size="16" fill="#fff">Anda sehingga muncul</text>
+<text x="909" y="282" font-size="16" fill="#fff">di notifikasi.</text>
+</svg>

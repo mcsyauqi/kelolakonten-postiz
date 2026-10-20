@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 440" font-family="Figtree,Inter,Segoe UI,Arial,sans-serif">
+<rect width="1200" height="440" fill="#f4f7ff"/>
+<text x="60" y="62" font-size="28" font-weight="700" fill="#13235a">Tiga baris di laporan bulanan</text>
+<text x="60" y="96" font-size="18" fill="#3b4a7a">Tulis angkanya, lalu satu kalimat artinya bagi bisnis</text>
+<g font-size="17">
+<rect x="60" y="130" width="1080" height="80" rx="14" fill="#fff" stroke="#c9d3f2"/>
+<rect x="60" y="130" width="14" height="80" rx="6" fill="#1f8a7a"/>
+<text x="96" y="164" font-weight="700" fill="#13235a">Reach (atau Viewers)</text>
+<text x="96" y="192" fill="#3b4a7a">Berapa orang berbeda yang melihat merek kita bulan ini? Cocok untuk tujuan dikenal lebih luas.</text>
+<rect x="60" y="226" width="1080" height="80" rx="14" fill="#fff" stroke="#c9d3f2"/>
+<rect x="60" y="226" width="14" height="80" rx="6" fill="#c2581e"/>
+<text x="96" y="260" font-weight="700" fill="#13235a">Impression (atau Views)</text>
+<text x="96" y="288" fill="#3b4a7a">Berapa kali konten tampil? Cocok untuk volume distribusi dan dasar biaya per seribu tayang.</text>
+<rect x="60" y="322" width="1080" height="80" rx="14" fill="#fff" stroke="#c9d3f2"/>
+<rect x="60" y="322" width="14" height="80" rx="6" fill="#2457d6"/>
+<text x="96" y="356" font-weight="700" fill="#13235a">Frekuensi (impression : reach)</text>
+<text x="96" y="384" fill="#3b4a7a">Seberapa sering orang yang sama diingatkan? Cocok untuk promo, peluncuran, dan iklan.</text>
+</g>
+</svg>

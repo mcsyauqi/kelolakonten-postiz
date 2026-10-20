@@ -119,5 +119,15 @@
     "label": "Laporan",
     "judul": "Laporan media sosial untuk klien",
     "ringkasan": "Struktur yang menyimpan sumber, periode, dan tindakan."
+  },
+  "reach-dan-impression": {
+    "label": "Analitik media sosial",
+    "judul": "Reach dan Impression",
+    "ringkasan": "Beda akun unik dan jumlah tayang, nama metriknya di tiap platform, frekuensi, dan cara menulisnya di laporan."
+  },
+  "user-generated-content": {
+    "label": "Strategi konten",
+    "judul": "User Generated Content",
+    "ringkasan": "Cara mengajak pelanggan membuat konten, meminta izin repost, memberi kredit, dan mengukur hasilnya."
   }
 }

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 480" font-family="Figtree,Inter,Segoe UI,Arial,sans-serif">
+<rect width="1200" height="480" fill="#f4f7ff"/>
+<text x="60" y="62" font-size="28" font-weight="700" fill="#13235a">Pesan izin repost dan hal yang perlu dicatat</text>
+<text x="60" y="96" font-size="18" fill="#3b4a7a">Contoh pesan untuk toko rekaan, sesuaikan dengan gaya bahasa merek Anda</text>
+<rect x="60" y="126" width="560" height="310" rx="18" fill="#fff" stroke="#c9d3f2"/>
+<rect x="84" y="150" width="512" height="196" rx="16" fill="#2457d6"/>
+<g font-size="16" fill="#fff">
+<text x="106" y="186">Halo Kak, terima kasih sudah memotret</text>
+<text x="106" y="210">kue kami. Boleh kami unggah ulang foto ini</text>
+<text x="106" y="234">di Instagram dan TikTok toko, dengan</text>
+<text x="106" y="258">menyebut akun Kakak sebagai pemotret?</text>
+<text x="106" y="294">Balas "boleh" kalau berkenan. Kalau tidak,</text>
+<text x="106" y="318">sama sekali tidak apa-apa.</text>
+</g>
+<rect x="300" y="362" width="296" height="52" rx="14" fill="#1f8a7a"/>
+<text x="322" y="395" font-size="16" fill="#fff">Boleh, Kak. Tag aku ya</text>
+<text x="660" y="150" font-size="20" font-weight="700" fill="#13235a">Catat di lembar izin</text>
+<g font-size="17" fill="#13235a">
+<rect x="660" y="172" width="480" height="48" rx="12" fill="#fff" stroke="#c9d3f2"/><text x="682" y="203">Akun pembuat dan tautan konten asli</text>
+<rect x="660" y="230" width="480" height="48" rx="12" fill="#fff" stroke="#c9d3f2"/><text x="682" y="261">Tanggal izin dan tangkapan layar balasan</text>
+<rect x="660" y="288" width="480" height="48" rx="12" fill="#fff" stroke="#c9d3f2"/><text x="682" y="319">Kanal yang diizinkan (feed, TikTok, iklan)</text>
+<rect x="660" y="346" width="480" height="48" rx="12" fill="#fff" stroke="#c9d3f2"/><text x="682" y="377">Cara kredit yang diminta pembuat</text>
+</g>
+</svg>
