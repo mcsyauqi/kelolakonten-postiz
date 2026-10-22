@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 440" font-family="Figtree,Inter,Segoe UI,Arial,sans-serif">
+<rect width="1200" height="440" fill="#f4f7ff"/>
+<text x="60" y="62" font-size="28" font-weight="700" fill="#13235a">Tiga lapis metrik sesuai tujuan</text>
+<text x="60" y="96" font-size="18" fill="#3b4a7a">Semakin ke bawah, semakin dekat ke penjualan</text>
+<polygon points="120,130 860,130 810,210 170,210" fill="#2457d6"/>
+<polygon points="180,222 800,222 750,302 230,302" fill="#1f8a7a"/>
+<polygon points="240,314 740,314 690,394 290,394" fill="#c2581e"/>
+<g fill="#fff"><text x="200" y="166" font-size="21" font-weight="700">Jangkauan</text><text x="200" y="194" font-size="16">Reach dan views: berapa orang yang melihat</text>
+<text x="260" y="258" font-size="21" font-weight="700">Interaksi</text><text x="260" y="286" font-size="16">Engagement rate, simpan, komentar</text>
+<text x="320" y="350" font-size="21" font-weight="700">Tindakan</text><text x="320" y="378" font-size="16">Klik tautan, DM pesanan, pembelian</text></g>
+<g font-size="17" fill="#13235a" font-weight="700"><text x="900" y="176">Tujuan: dikenal</text><text x="900" y="268">Tujuan: minat</text><text x="900" y="360">Tujuan: penjualan</text></g>
+</svg>

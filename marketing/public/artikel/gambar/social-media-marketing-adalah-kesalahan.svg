@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 460" font-family="Figtree,Inter,Segoe UI,Arial,sans-serif">
+<rect width="1200" height="460" fill="#f4f7ff"/>
+<text x="60" y="62" font-size="28" font-weight="700" fill="#13235a">Lima kesalahan umum dan perbaikannya</text>
+<text x="60" y="100" font-size="17" font-weight="700" fill="#a8461a">Kesalahan</text><text x="640" y="100" font-size="17" font-weight="700" fill="#176b5f">Perbaikan</text>
+<g font-size="17" fill="#13235a">
+<rect x="60" y="116" width="540" height="52" rx="12" fill="#fde7dc"/><text x="80" y="149">Hanya posting promosi</text>
+<rect x="640" y="116" width="500" height="52" rx="12" fill="#dff3ef"/><text x="660" y="149">Campur edukasi, cerita, dan ulasan</text>
+<rect x="60" y="180" width="540" height="52" rx="12" fill="#fde7dc"/><text x="80" y="213">Posting tanpa jadwal</text>
+<rect x="640" y="180" width="500" height="52" rx="12" fill="#dff3ef"/><text x="660" y="213">Ritme tetap yang sanggup dijaga</text>
+<rect x="60" y="244" width="540" height="52" rx="12" fill="#fde7dc"/><text x="80" y="277">Komentar dan DM dibiarkan</text>
+<rect x="640" y="244" width="500" height="52" rx="12" fill="#dff3ef"/><text x="660" y="277">Jam balas pesan yang jelas setiap hari</text>
+<rect x="60" y="308" width="540" height="52" rx="12" fill="#fde7dc"/><text x="80" y="341">Hanya mengejar jumlah pengikut</text>
+<rect x="640" y="308" width="500" height="52" rx="12" fill="#dff3ef"/><text x="660" y="341">Ukur klik, DM, dan pesanan</text>
+<rect x="60" y="372" width="540" height="52" rx="12" fill="#fde7dc"/><text x="80" y="405">Membeli pengikut atau like</text>
+<rect x="640" y="372" width="500" height="52" rx="12" fill="#dff3ef"/><text x="660" y="405">Naikkan interaksi dengan konten berguna</text>
+</g>
+<g stroke="#13235a" stroke-width="3" fill="none"><path d="M606 142 h26 m-8 -8 l8 8 l-8 8"/><path d="M606 206 h26 m-8 -8 l8 8 l-8 8"/><path d="M606 270 h26 m-8 -8 l8 8 l-8 8"/><path d="M606 334 h26 m-8 -8 l8 8 l-8 8"/><path d="M606 398 h26 m-8 -8 l8 8 l-8 8"/></g>
+</svg>

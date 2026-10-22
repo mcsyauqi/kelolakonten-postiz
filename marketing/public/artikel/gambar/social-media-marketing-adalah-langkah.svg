@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 440" font-family="Figtree,Inter,Segoe UI,Arial,sans-serif">
+<rect width="1200" height="440" fill="#f4f7ff"/>
+<text x="60" y="62" font-size="28" font-weight="700" fill="#13235a">Tujuh langkah menyusun strategi</text>
+<text x="60" y="96" font-size="18" fill="#3b4a7a">Cukup satu halaman, ditinjau ulang setiap bulan</text>
+<g stroke="#13235a" stroke-width="3"><line x1="146" y1="190" x2="234" y2="190"/><line x1="306" y1="190" x2="394" y2="190"/><line x1="466" y1="190" x2="554" y2="190"/><line x1="626" y1="190" x2="714" y2="190"/><line x1="786" y1="190" x2="874" y2="190"/><line x1="946" y1="190" x2="1034" y2="190"/></g>
+<g font-size="15" fill="#13235a" text-anchor="middle">
+<circle cx="110" cy="190" r="34" fill="#13235a"/><text x="110" y="198" font-size="22" font-weight="700" fill="#fff">1</text><text x="110" y="256" font-weight="700">Tujuan</text><text x="110" y="280">satu per periode</text>
+<circle cx="270" cy="190" r="34" fill="#2457d6"/><text x="270" y="198" font-size="22" font-weight="700" fill="#fff">2</text><text x="270" y="256" font-weight="700">Audiens</text><text x="270" y="280">pembeli terbaik</text>
+<circle cx="430" cy="190" r="34" fill="#1f8a7a"/><text x="430" y="198" font-size="22" font-weight="700" fill="#fff">3</text><text x="430" y="256" font-weight="700">Platform</text><text x="430" y="280">satu atau dua</text>
+<circle cx="590" cy="190" r="34" fill="#6a4fd1"/><text x="590" y="198" font-size="22" font-weight="700" fill="#fff">4</text><text x="590" y="256" font-weight="700">Pilar konten</text><text x="590" y="280">tiga sampai lima</text>
+<circle cx="750" cy="190" r="34" fill="#c2581e"/><text x="750" y="198" font-size="22" font-weight="700" fill="#fff">5</text><text x="750" y="256" font-weight="700">Kalender</text><text x="750" y="280">slot per minggu</text>
+<circle cx="910" cy="190" r="34" fill="#2457d6"/><text x="910" y="198" font-size="22" font-weight="700" fill="#fff">6</text><text x="910" y="256" font-weight="700">Interaksi</text><text x="910" y="280">jam balas pesan</text>
+<circle cx="1070" cy="190" r="34" fill="#1f8a7a"/><text x="1070" y="198" font-size="22" font-weight="700" fill="#fff">7</text><text x="1070" y="256" font-weight="700">Evaluasi</text><text x="1070" y="280">setiap bulan</text>
+</g>
+<path d="M1070 300 V350 H110 V300" fill="none" stroke="#13235a" stroke-width="3" stroke-dasharray="8 6"/>
+<path d="M100 314 L110 300 L120 314" fill="none" stroke="#13235a" stroke-width="3"/>
+<text x="600" y="392" font-size="17" fill="#3b4a7a" text-anchor="middle">Hasil evaluasi menjadi bahan tujuan bulan berikutnya</text>
+</svg>
