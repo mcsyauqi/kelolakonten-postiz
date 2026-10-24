@@ -2,7 +2,7 @@
 
 ## Revisi 13 Oktober 2026
 
-Diminta oleh Syauqi (via MinTiv).
+Catatan revisi internal, 13 Oktober 2026.
 
 Ini revisi pemilik keyword, bukan penghapusan catatan historis. File peta sebelumnya belum ada di `marketing/research/`; baseline 5 Oktober tetap disimpan di tab **Cluster & Halaman**, sedangkan keputusan terbaru ditambahkan sebagai baris revisi bertanggal. Untuk keyword yang sama, revisi bertanggal paling baru adalah pemilik aktif.
 

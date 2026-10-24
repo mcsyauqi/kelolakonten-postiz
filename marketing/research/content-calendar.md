@@ -55,4 +55,4 @@ Diperbarui: 2026-10-12 UTC. Sumber kartu: [board Trello SEO Kelola Konten](https
 | 2027-03-30 10:00 WIB | 47 | Aplikasi manajemen media sosial open source: Postiz, lisensi AGPL, dan artinya bagi pengguna | aplikasi manajemen media sosial open source | https://kelolakonten.com/artikel/aplikasi-manajemen-media-sosial-open-source | Terencana |  | Tidak sama dengan primary live | Tidak | https://trello.com/c/AvIlDDGj/160-artikel-47-aplikasi-manajemen-media-sosial-open-source-postiz-lisensi-agpl-dan-artinya-bagi-pengguna |
 | 2027-04-02 10:00 WIB | 48 | Cara audit akun Instagram bisnis dalam 30 menit (checklist 20 poin) | cara audit akun instagram | https://kelolakonten.com/artikel/cara-audit-akun-instagram | Terencana |  | Tidak sama dengan primary live | Tidak | https://trello.com/c/0yiLM6kq/162-artikel-48-cara-audit-akun-instagram-bisnis-dalam-30-menit-checklist-20-poin |
 
-Diminta oleh Syauqi (via MinTiv)
+Catatan penutup internal untuk revisi ini.
