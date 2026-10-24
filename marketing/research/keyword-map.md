@@ -12,6 +12,7 @@ Ini revisi pemilik keyword, bukan penghapusan catatan historis. File peta sebelu
 | engagement rate instagram | https://kelolakonten.com/alat/cek-engagement-rate | Intent dominan kalkulator. Alat manual ini menerima angka interaksi serta reach/pengikut dari pengguna, bukan mengambil data akun otomatis. |
 | cek engagement rate | https://kelolakonten.com/alat/cek-engagement-rate | Satu alat yang sama melayani intent perhitungan; tidak dibuat URL duplikat untuk sinonim query. |
 | kalender konten | https://kelolakonten.com/alat/template-kalender | Intent banyak mengarah ke template. Generator kerangka yang sudah live menjadi pemilik; panduan proses tetap di artikel tersendiri. |
+| cara menulis caption instagram jualan | https://kelolakonten.com/artikel/cara-menulis-caption-instagram-jualan | Panduan how-to dengan struktur hook, manfaat, bukti, ajakan, dan pengujian; tidak mengklaim hasil penjualan atau benchmark universal. |
 
 ### Halaman pendukung, bukan pemilik query umum
 
@@ -19,6 +20,12 @@ Ini revisi pemilik keyword, bukan penghapusan catatan historis. File peta sebelu
 |---|---|---|
 | cara menghitung engagement rate instagram | https://kelolakonten.com/artikel/cara-menghitung-engagement-rate-instagram | Title: Rumus Engagement Rate Instagram: Cara Menghitung dan Contoh. H1 berfokus pada rumus dan contoh data sendiri. Tautan kontekstual ke alat cek dipertahankan. |
 | cara membuat kalender konten | https://kelolakonten.com/artikel/cara-membuat-kalender-konten | Title: Cara Membuat Kalender Konten: Panduan Alur Kerja Tim. H1 berfokus pada alur kerja tim. Tautan kontekstual ke template dipertahankan. |
+
+### Riset artikel caption Instagram, 24 Oktober 2026
+
+- DataForSEO Google Ads live, Indonesia (location 2360), bahasa `id`: keyword utama `cara menulis caption instagram jualan` tidak mengembalikan metrik volume; variasi terdekat yang terukur adalah `caption instagram jualan` (30/bln), `cara membuat caption instagram` (20/bln), `caption jualan instagram` (10/bln), dan `caption instagram untuk jualan` (10/bln). `contoh caption instagram jualan` juga tidak mengembalikan metrik.
+- DataForSEO Labs bulk keyword difficulty mengembalikan KD 12 untuk `cara membuat caption instagram`; keyword lain pada batch tidak memberi KD. Nilai kosong dipertahankan sebagai tidak tersedia, bukan diubah menjadi nol.
+- SERP Google Indonesia untuk keyword utama menghasilkan intent how-to/listicle: hasil teratas membahas ide caption, struktur caption, contoh jualan, soft selling, dan pengujian. Artikel ini memakai sudut kerangka lima bagian plus bukti, ajakan, sumber resmi Instagram, dan uji satu variabel.
 
 Halaman fitur umum tetap menargetkan **social media management tools**, bukan **content planner**. Rencana `/fitur/content-planner/` dan `/tools/engagement-rate-instagram/` tidak diaktifkan sebagai pemilik; tidak ada URL baru, redirect, atau canonical lintas halaman yang dibuat.
 
