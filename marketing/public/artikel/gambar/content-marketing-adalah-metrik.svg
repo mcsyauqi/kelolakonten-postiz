@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 460" font-family="Figtree,Inter,Segoe UI,Arial,sans-serif">
+<rect width="1200" height="460" fill="#f4f7ff"/>
+<text x="60" y="62" font-size="28" font-weight="700" fill="#13235a">Membaca hasil content marketing</text>
+<text x="60" y="96" font-size="18" fill="#3b4a7a">Satu metrik utama per tujuan, dicatat setiap bulan di lembar yang sama</text>
+<g font-size="18">
+<rect x="60" y="130" width="250" height="260" rx="16" fill="#fff" stroke="#2457d6" stroke-width="3"/>
+<text x="185" y="172" text-anchor="middle" font-weight="700" fill="#2457d6" font-size="21">Dilihat</text>
+<text x="84" y="216" fill="#13235a">Jangkauan</text><text x="84" y="248" fill="#13235a">Kunjungan halaman</text><text x="84" y="280" fill="#13235a">Tayangan video</text><text x="84" y="350" fill="#3b4a7a" font-size="16">Apakah orang baru</text><text x="84" y="372" fill="#3b4a7a" font-size="16">menemukan kita?</text>
+<rect x="335" y="130" width="250" height="260" rx="16" fill="#fff" stroke="#6a4fd1" stroke-width="3"/>
+<text x="460" y="172" text-anchor="middle" font-weight="700" fill="#6a4fd1" font-size="21">Dibaca</text>
+<text x="359" y="216" fill="#13235a">Simpan dan bagikan</text><text x="359" y="248" fill="#13235a">Waktu baca</text><text x="359" y="280" fill="#13235a">Komentar bertanya</text><text x="359" y="350" fill="#3b4a7a" font-size="16">Apakah kontennya</text><text x="359" y="372" fill="#3b4a7a" font-size="16">berguna?</text>
+<rect x="610" y="130" width="250" height="260" rx="16" fill="#fff" stroke="#1f8a7a" stroke-width="3"/>
+<text x="735" y="172" text-anchor="middle" font-weight="700" fill="#1f8a7a" font-size="21">Dihubungi</text>
+<text x="634" y="216" fill="#13235a">Klik tautan ber-UTM</text><text x="634" y="248" fill="#13235a">Pendaftar email</text><text x="634" y="280" fill="#13235a">Chat WhatsApp</text><text x="634" y="350" fill="#3b4a7a" font-size="16">Apakah pembaca</text><text x="634" y="372" fill="#3b4a7a" font-size="16">mau melangkah?</text>
+<rect x="885" y="130" width="255" height="260" rx="16" fill="#fff" stroke="#c2581e" stroke-width="3"/>
+<text x="1012" y="172" text-anchor="middle" font-weight="700" fill="#c2581e" font-size="21">Dibeli</text>
+<text x="909" y="216" fill="#13235a">Pesanan dari konten</text><text x="909" y="248" fill="#13235a">Pembelian ulang</text><text x="909" y="280" fill="#13235a">Ulasan baru</text><text x="909" y="350" fill="#3b4a7a" font-size="16">Apakah konten</text><text x="909" y="372" fill="#3b4a7a" font-size="16">menghasilkan uang?</text>
+</g>
+<text x="60" y="428" font-size="16" fill="#3b4a7a">Tanyakan "tahu kami dari mana?" setiap ada pesanan, lalu catat jawabannya di kolom sumber.</text>
+</svg>

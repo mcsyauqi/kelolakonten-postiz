@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 480" font-family="Figtree,Inter,Segoe UI,Arial,sans-serif">
+<rect width="1200" height="480" fill="#f4f7ff"/>
+<text x="60" y="62" font-size="28" font-weight="700" fill="#13235a">Content marketing, social media marketing, dan iklan</text>
+<text x="60" y="96" font-size="18" fill="#3b4a7a">Tiga cara menjangkau pelanggan yang saling melengkapi, bukan saling menggantikan</text>
+<g>
+<rect x="60" y="130" width="340" height="300" rx="18" fill="#fff" stroke="#2457d6" stroke-width="3"/>
+<rect x="60" y="130" width="340" height="62" rx="18" fill="#2457d6"/><rect x="60" y="170" width="340" height="22" fill="#2457d6"/>
+<text x="230" y="170" font-size="22" font-weight="700" fill="#fff" text-anchor="middle">Content marketing</text>
+<g font-size="17" fill="#13235a"><text x="84" y="232">Tujuan: dipercaya dan dicari</text><text x="84" y="268">Kanal: blog, email, video,</text><text x="84" y="292">media sosial, katalog</text><text x="84" y="328">Hasil: menumpuk dan awet</text><text x="84" y="364">Biaya utama: waktu dan riset</text><text x="84" y="400">Contoh: panduan memilih kue</text></g>
+</g>
+<g>
+<rect x="430" y="130" width="340" height="300" rx="18" fill="#fff" stroke="#1f8a7a" stroke-width="3"/>
+<rect x="430" y="130" width="340" height="62" rx="18" fill="#1f8a7a"/><rect x="430" y="170" width="340" height="22" fill="#1f8a7a"/>
+<text x="600" y="170" font-size="22" font-weight="700" fill="#fff" text-anchor="middle">Social media marketing</text>
+<g font-size="17" fill="#13235a"><text x="454" y="232">Tujuan: hadir dan berinteraksi</text><text x="454" y="268">Kanal: Instagram, TikTok,</text><text x="454" y="292">Facebook, YouTube</text><text x="454" y="328">Hasil: cepat, cepat pudar</text><text x="454" y="364">Biaya utama: ritme harian</text><text x="454" y="400">Contoh: Reels proses dapur</text></g>
+</g>
+<g>
+<rect x="800" y="130" width="340" height="300" rx="18" fill="#fff" stroke="#c2581e" stroke-width="3"/>
+<rect x="800" y="130" width="340" height="62" rx="18" fill="#c2581e"/><rect x="800" y="170" width="340" height="22" fill="#c2581e"/>
+<text x="970" y="170" font-size="22" font-weight="700" fill="#fff" text-anchor="middle">Iklan berbayar</text>
+<g font-size="17" fill="#13235a"><text x="824" y="232">Tujuan: dilihat sekarang</text><text x="824" y="268">Kanal: Meta Ads, TikTok Ads,</text><text x="824" y="292">Google Ads</text><text x="824" y="328">Hasil: berhenti saat dana habis</text><text x="824" y="364">Biaya utama: anggaran iklan</text><text x="824" y="400">Contoh: promo Lebaran</text></g>
+</g>
+</svg>

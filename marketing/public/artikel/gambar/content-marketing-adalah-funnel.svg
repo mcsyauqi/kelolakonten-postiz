@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500" font-family="Figtree,Inter,Segoe UI,Arial,sans-serif">
+<rect width="1200" height="500" fill="#f4f7ff"/>
+<text x="60" y="62" font-size="28" font-weight="700" fill="#13235a">Konten untuk setiap tahap funnel</text>
+<text x="60" y="96" font-size="18" fill="#3b4a7a">Pertanyaan calon pembeli berubah, jadi jenis kontennya juga berubah</text>
+<polygon points="60,130 560,130 520,220 100,220" fill="#2457d6"/>
+<polygon points="100,236 520,236 480,326 140,326" fill="#6a4fd1"/>
+<polygon points="140,342 480,342 440,432 180,432" fill="#1f8a7a"/>
+<g fill="#fff" font-weight="700" text-anchor="middle"><text x="310" y="170" font-size="24">Kenal</text><text x="310" y="198" font-size="16" font-weight="400">"Masalah saya apa?"</text>
+<text x="310" y="276" font-size="24">Pertimbangan</text><text x="310" y="304" font-size="16" font-weight="400">"Pilihan mana yang cocok?"</text>
+<text x="310" y="382" font-size="24">Keputusan</text><text x="310" y="410" font-size="16" font-weight="400">"Kenapa beli di sini?"</text></g>
+<g font-size="18" fill="#13235a">
+<text x="620" y="160" font-weight="700">Artikel edukasi, video tips, infografik</text><text x="620" y="190">Diukur dengan jangkauan, kunjungan, pengikut baru</text>
+<text x="620" y="266" font-weight="700">Perbandingan, panduan memilih, studi kasus</text><text x="620" y="296">Diukur dengan simpan, klik, waktu baca, DM tanya</text>
+<text x="620" y="372" font-weight="700">Ulasan pelanggan, demo, FAQ harga, promo</text><text x="620" y="402">Diukur dengan pesanan, chat order, konversi</text>
+</g>
+<g stroke="#13235a" stroke-width="2" stroke-dasharray="6 6"><line x1="560" y1="175" x2="605" y2="175"/><line x1="520" y1="281" x2="605" y2="281"/><line x1="480" y1="387" x2="605" y2="387"/></g>
+<text x="60" y="470" font-size="16" fill="#3b4a7a">Pelanggan yang puas memberi ulasan, dan ulasan itu kembali menjadi konten untuk tahap keputusan.</text>
+</svg>

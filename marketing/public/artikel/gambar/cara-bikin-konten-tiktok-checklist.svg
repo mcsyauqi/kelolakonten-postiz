@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 470" font-family="Figtree,Inter,Segoe UI,Arial,sans-serif">
+<rect width="1200" height="470" fill="#f4f7ff"/>
+<text x="60" y="62" font-size="28" font-weight="700" fill="#13235a">Cek sebelum menekan Post</text>
+<text x="60" y="96" font-size="18" fill="#3b4a7a">Delapan hal yang paling sering terlewat pada video bisnis</text>
+<g font-size="18" fill="#13235a">
+<g transform="translate(60,130)"><rect width="525" height="64" rx="12" fill="#fff" stroke="#c9d4f5" stroke-width="2"/><circle cx="34" cy="32" r="14" fill="#1f8a7a"/><path d="M27 32 l5 5 l10 -11" stroke="#fff" stroke-width="3" fill="none"/><text x="62" y="38">Hook terlihat di detik-detik awal</text></g>
+<g transform="translate(615,130)"><rect width="525" height="64" rx="12" fill="#fff" stroke="#c9d4f5" stroke-width="2"/><circle cx="34" cy="32" r="14" fill="#1f8a7a"/><path d="M27 32 l5 5 l10 -11" stroke="#fff" stroke-width="3" fill="none"/><text x="62" y="38">Suara jelas, musik tidak menutupi suara</text></g>
+<g transform="translate(60,210)"><rect width="525" height="64" rx="12" fill="#fff" stroke="#c9d4f5" stroke-width="2"/><circle cx="34" cy="32" r="14" fill="#1f8a7a"/><path d="M27 32 l5 5 l10 -11" stroke="#fff" stroke-width="3" fill="none"/><text x="62" y="38">Teks layar tidak tertutup tombol aplikasi</text></g>
+<g transform="translate(615,210)"><rect width="525" height="64" rx="12" fill="#fff" stroke="#c9d4f5" stroke-width="2"/><circle cx="34" cy="32" r="14" fill="#1f8a7a"/><path d="M27 32 l5 5 l10 -11" stroke="#fff" stroke-width="3" fill="none"/><text x="62" y="38">Produk dan harga yang disebut sudah benar</text></g>
+<g transform="translate(60,290)"><rect width="525" height="64" rx="12" fill="#fff" stroke="#c9d4f5" stroke-width="2"/><circle cx="34" cy="32" r="14" fill="#1f8a7a"/><path d="M27 32 l5 5 l10 -11" stroke="#fff" stroke-width="3" fill="none"/><text x="62" y="38">Deskripsi menjelaskan isi video</text></g>
+<g transform="translate(615,290)"><rect width="525" height="64" rx="12" fill="#fff" stroke="#c9d4f5" stroke-width="2"/><circle cx="34" cy="32" r="14" fill="#1f8a7a"/><path d="M27 32 l5 5 l10 -11" stroke="#fff" stroke-width="3" fill="none"/><text x="62" y="38">Tagar sedikit dan relevan</text></g>
+<g transform="translate(60,370)"><rect width="525" height="64" rx="12" fill="#fff" stroke="#c9d4f5" stroke-width="2"/><circle cx="34" cy="32" r="14" fill="#1f8a7a"/><path d="M27 32 l5 5 l10 -11" stroke="#fff" stroke-width="3" fill="none"/><text x="62" y="38">Pengaturan privasi postingan sudah tepat</text></g>
+<g transform="translate(615,370)"><rect width="525" height="64" rx="12" fill="#fff" stroke="#c9d4f5" stroke-width="2"/><circle cx="34" cy="32" r="14" fill="#1f8a7a"/><path d="M27 32 l5 5 l10 -11" stroke="#fff" stroke-width="3" fill="none"/><text x="62" y="38">Ajakan tunggal dan jelas di akhir</text></g>
+</g>
+</svg>
