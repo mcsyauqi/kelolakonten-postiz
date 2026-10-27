@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" font-family="Figtree,Inter,Segoe UI,Arial,sans-serif">
+<rect width="1200" height="560" fill="#f4f7ff"/>
+<text x="60" y="62" font-size="28" font-weight="700" fill="#13235a">Pindah ke pribadi, ke kreator, atau tetap bisnis?</text>
+<text x="60" y="96" font-size="18" fill="#3b4a7a">Tiga pertanyaan sebelum menekan Switch to personal account</text>
+<g font-size="17" fill="#13235a">
+<rect x="60" y="130" width="400" height="90" rx="14" fill="#fff" stroke="#2457d6" stroke-width="3"/>
+<text x="84" y="166" font-weight="700">1. Masih jualan atau terima order</text><text x="84" y="192" font-weight="700">lewat akun ini?</text>
+<rect x="60" y="270" width="400" height="90" rx="14" fill="#fff" stroke="#2457d6" stroke-width="3"/>
+<text x="84" y="306" font-weight="700">2. Masih butuh iklan, insight</text><text x="84" y="332" font-weight="700">profesional, atau alat penjadwal?</text>
+<rect x="60" y="410" width="400" height="90" rx="14" fill="#fff" stroke="#2457d6" stroke-width="3"/>
+<text x="84" y="446" font-weight="700">3. Akun akan dipakai pribadi</text><text x="84" y="472" font-weight="700">atau ingin dikunci (privat)?</text>
+<rect x="640" y="130" width="500" height="90" rx="14" fill="#1f8a7a"/>
+<text x="664" y="166" fill="#fff" font-weight="700">Tetap akun bisnis</text><text x="664" y="192" fill="#fff">Rapikan profil, jangan ganti jenis akun</text>
+<rect x="640" y="270" width="500" height="90" rx="14" fill="#6a4fd1"/>
+<text x="664" y="306" fill="#fff" font-weight="700">Pertimbangkan akun kreator</text><text x="664" y="332" fill="#fff">Alat profesional tetap ada, tanpa kesan toko</text>
+<rect x="640" y="410" width="500" height="90" rx="14" fill="#c2581e"/>
+<text x="664" y="446" fill="#fff" font-weight="700">Pindah ke akun pribadi</text><text x="664" y="472" fill="#fff">Lalu aktifkan Private account bila perlu</text>
+</g>
+<g stroke="#13235a" stroke-width="3" fill="none"><path d="M462 175 h168"/><path d="M462 315 h168"/><path d="M462 455 h168"/><path d="M260 222 v40"/><path d="M260 362 v40"/></g>
+<g fill="#13235a"><path d="M638 175 l-10 -6 v12 z"/><path d="M638 315 l-10 -6 v12 z"/><path d="M638 455 l-10 -6 v12 z"/><path d="M260 268 l-6 -10 h12 z"/><path d="M260 408 l-6 -10 h12 z"/></g>
+<g font-size="16" fill="#3b4a7a" font-weight="700"><text x="530" y="165">ya</text><text x="530" y="305">ya</text><text x="530" y="445">ya</text><text x="274" y="250">tidak</text><text x="274" y="390">tidak</text></g>
+</svg>
