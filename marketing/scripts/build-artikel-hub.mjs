@@ -25,6 +25,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { prefillHtml } from './wa-prefill.mjs';
 
 export const PER_HALAMAN = 12;
 const SITE = 'https://kelolakonten.com';
@@ -159,7 +160,8 @@ function halaman(n) {
 
 // 3. Tulis / cek
 const hasil = new Map();
-for (let n = 1; n <= jumlahHalaman; n++) hasil.set(fileHalaman(n), halaman(n));
+// Tautan WA di header/footer disalin dari index.html; rakit ulang supaya URL halaman di teks pra-isi benar per halaman.
+for (let n = 1; n <= jumlahHalaman; n++) hasil.set(fileHalaman(n), prefillHtml(halaman(n)));
 
 const stale = fs.existsSync(dirHalaman)
   ? fs.readdirSync(dirHalaman).filter((f) => /^\d+\.html$/.test(f) && !hasil.has(path.join(dirHalaman, f))).map((f) => path.join(dirHalaman, f))

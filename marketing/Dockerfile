@@ -5,6 +5,8 @@ COPY public ./public
 COPY scripts ./scripts
 # Hub artikel berpaginasi (/artikel/ + /artikel/halaman/N) dan sitemap disusun ulang dari artikel yang ada.
 RUN node scripts/build-artikel-hub.mjs
+# Teks pra-isi WhatsApp: brand + domain + URL halaman asal (artikel baru ikut otomatis).
+RUN node scripts/wa-prefill.mjs
 # Gerbang mutu artikel: artikel baru di bawah standar /artikel-seo membuat build (dan deploy) gagal.
 RUN node scripts/cek-artikel.mjs
 ENV NODE_ENV=production
