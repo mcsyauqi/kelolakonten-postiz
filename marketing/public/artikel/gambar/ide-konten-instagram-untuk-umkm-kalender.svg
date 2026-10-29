@@ -1,0 +1,160 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" font-family="Figtree,Inter,Segoe UI,Arial,sans-serif">
+<rect width="1200" height="630" fill="#f4f7ff"/>
+<text x="60" y="62" font-size="28" font-weight="700" fill="#13235a">Jadwal 30 hari: satu feed dan satu Stories per hari</text>
+<text x="60" y="96" font-size="18" fill="#3b4a7a">Warna kartu = pilar feed hari itu, titik = pilar Stories. Angka = nomor ide.</text>
+<rect x="60" y="130" width="172" height="76" rx="12" fill="#2457d6"/>
+<text x="74" y="158" font-size="15" fill="#fff">Hari 1</text>
+<text x="74" y="188" font-size="20" font-weight="700" fill="#fff">#1</text>
+<circle cx="188" cy="180" r="17" fill="#fff"/><circle cx="188" cy="180" r="13" fill="#1f8a7a"/>
+<text x="188" y="185" font-size="12" font-weight="700" fill="#fff" text-anchor="middle">31</text>
+<rect x="240" y="130" width="172" height="76" rx="12" fill="#13235a"/>
+<text x="254" y="158" font-size="15" fill="#fff">Hari 2</text>
+<text x="254" y="188" font-size="20" font-weight="700" fill="#fff">#13</text>
+<circle cx="368" cy="180" r="17" fill="#fff"/><circle cx="368" cy="180" r="13" fill="#6a4fd1"/>
+<text x="368" y="185" font-size="12" font-weight="700" fill="#fff" text-anchor="middle">43</text>
+<rect x="420" y="130" width="172" height="76" rx="12" fill="#1f8a7a"/>
+<text x="434" y="158" font-size="15" fill="#fff">Hari 3</text>
+<text x="434" y="188" font-size="20" font-weight="700" fill="#fff">#25</text>
+<circle cx="548" cy="180" r="17" fill="#fff"/><circle cx="548" cy="180" r="13" fill="#c2581e"/>
+<text x="548" y="185" font-size="12" font-weight="700" fill="#fff" text-anchor="middle">55</text>
+<rect x="600" y="130" width="172" height="76" rx="12" fill="#6a4fd1"/>
+<text x="614" y="158" font-size="15" fill="#fff">Hari 4</text>
+<text x="614" y="188" font-size="20" font-weight="700" fill="#fff">#37</text>
+<circle cx="728" cy="180" r="17" fill="#fff"/><circle cx="728" cy="180" r="13" fill="#2457d6"/>
+<text x="728" y="185" font-size="12" font-weight="700" fill="#fff" text-anchor="middle">7</text>
+<rect x="780" y="130" width="172" height="76" rx="12" fill="#c2581e"/>
+<text x="794" y="158" font-size="15" fill="#fff">Hari 5</text>
+<text x="794" y="188" font-size="20" font-weight="700" fill="#fff">#49</text>
+<circle cx="908" cy="180" r="17" fill="#fff"/><circle cx="908" cy="180" r="13" fill="#13235a"/>
+<text x="908" y="185" font-size="12" font-weight="700" fill="#fff" text-anchor="middle">19</text>
+<rect x="960" y="130" width="172" height="76" rx="12" fill="#2457d6"/>
+<text x="974" y="158" font-size="15" fill="#fff">Hari 6</text>
+<text x="974" y="188" font-size="20" font-weight="700" fill="#fff">#2</text>
+<circle cx="1088" cy="180" r="17" fill="#fff"/><circle cx="1088" cy="180" r="13" fill="#1f8a7a"/>
+<text x="1088" y="185" font-size="12" font-weight="700" fill="#fff" text-anchor="middle">32</text>
+<rect x="60" y="216" width="172" height="76" rx="12" fill="#13235a"/>
+<text x="74" y="244" font-size="15" fill="#fff">Hari 7</text>
+<text x="74" y="274" font-size="20" font-weight="700" fill="#fff">#14</text>
+<circle cx="188" cy="266" r="17" fill="#fff"/><circle cx="188" cy="266" r="13" fill="#6a4fd1"/>
+<text x="188" y="271" font-size="12" font-weight="700" fill="#fff" text-anchor="middle">44</text>
+<rect x="240" y="216" width="172" height="76" rx="12" fill="#1f8a7a"/>
+<text x="254" y="244" font-size="15" fill="#fff">Hari 8</text>
+<text x="254" y="274" font-size="20" font-weight="700" fill="#fff">#26</text>
+<circle cx="368" cy="266" r="17" fill="#fff"/><circle cx="368" cy="266" r="13" fill="#c2581e"/>
+<text x="368" y="271" font-size="12" font-weight="700" fill="#fff" text-anchor="middle">56</text>
+<rect x="420" y="216" width="172" height="76" rx="12" fill="#6a4fd1"/>
+<text x="434" y="244" font-size="15" fill="#fff">Hari 9</text>
+<text x="434" y="274" font-size="20" font-weight="700" fill="#fff">#38</text>
+<circle cx="548" cy="266" r="17" fill="#fff"/><circle cx="548" cy="266" r="13" fill="#2457d6"/>
+<text x="548" y="271" font-size="12" font-weight="700" fill="#fff" text-anchor="middle">8</text>
+<rect x="600" y="216" width="172" height="76" rx="12" fill="#c2581e"/>
+<text x="614" y="244" font-size="15" fill="#fff">Hari 10</text>
+<text x="614" y="274" font-size="20" font-weight="700" fill="#fff">#50</text>
+<circle cx="728" cy="266" r="17" fill="#fff"/><circle cx="728" cy="266" r="13" fill="#13235a"/>
+<text x="728" y="271" font-size="12" font-weight="700" fill="#fff" text-anchor="middle">20</text>
+<rect x="780" y="216" width="172" height="76" rx="12" fill="#2457d6"/>
+<text x="794" y="244" font-size="15" fill="#fff">Hari 11</text>
+<text x="794" y="274" font-size="20" font-weight="700" fill="#fff">#3</text>
+<circle cx="908" cy="266" r="17" fill="#fff"/><circle cx="908" cy="266" r="13" fill="#1f8a7a"/>
+<text x="908" y="271" font-size="12" font-weight="700" fill="#fff" text-anchor="middle">33</text>
+<rect x="960" y="216" width="172" height="76" rx="12" fill="#13235a"/>
+<text x="974" y="244" font-size="15" fill="#fff">Hari 12</text>
+<text x="974" y="274" font-size="20" font-weight="700" fill="#fff">#15</text>
+<circle cx="1088" cy="266" r="17" fill="#fff"/><circle cx="1088" cy="266" r="13" fill="#6a4fd1"/>
+<text x="1088" y="271" font-size="12" font-weight="700" fill="#fff" text-anchor="middle">45</text>
+<rect x="60" y="302" width="172" height="76" rx="12" fill="#1f8a7a"/>
+<text x="74" y="330" font-size="15" fill="#fff">Hari 13</text>
+<text x="74" y="360" font-size="20" font-weight="700" fill="#fff">#27</text>
+<circle cx="188" cy="352" r="17" fill="#fff"/><circle cx="188" cy="352" r="13" fill="#c2581e"/>
+<text x="188" y="357" font-size="12" font-weight="700" fill="#fff" text-anchor="middle">57</text>
+<rect x="240" y="302" width="172" height="76" rx="12" fill="#6a4fd1"/>
+<text x="254" y="330" font-size="15" fill="#fff">Hari 14</text>
+<text x="254" y="360" font-size="20" font-weight="700" fill="#fff">#39</text>
+<circle cx="368" cy="352" r="17" fill="#fff"/><circle cx="368" cy="352" r="13" fill="#2457d6"/>
+<text x="368" y="357" font-size="12" font-weight="700" fill="#fff" text-anchor="middle">9</text>
+<rect x="420" y="302" width="172" height="76" rx="12" fill="#c2581e"/>
+<text x="434" y="330" font-size="15" fill="#fff">Hari 15</text>
+<text x="434" y="360" font-size="20" font-weight="700" fill="#fff">#51</text>
+<circle cx="548" cy="352" r="17" fill="#fff"/><circle cx="548" cy="352" r="13" fill="#13235a"/>
+<text x="548" y="357" font-size="12" font-weight="700" fill="#fff" text-anchor="middle">21</text>
+<rect x="600" y="302" width="172" height="76" rx="12" fill="#2457d6"/>
+<text x="614" y="330" font-size="15" fill="#fff">Hari 16</text>
+<text x="614" y="360" font-size="20" font-weight="700" fill="#fff">#4</text>
+<circle cx="728" cy="352" r="17" fill="#fff"/><circle cx="728" cy="352" r="13" fill="#1f8a7a"/>
+<text x="728" y="357" font-size="12" font-weight="700" fill="#fff" text-anchor="middle">34</text>
+<rect x="780" y="302" width="172" height="76" rx="12" fill="#13235a"/>
+<text x="794" y="330" font-size="15" fill="#fff">Hari 17</text>
+<text x="794" y="360" font-size="20" font-weight="700" fill="#fff">#16</text>
+<circle cx="908" cy="352" r="17" fill="#fff"/><circle cx="908" cy="352" r="13" fill="#6a4fd1"/>
+<text x="908" y="357" font-size="12" font-weight="700" fill="#fff" text-anchor="middle">46</text>
+<rect x="960" y="302" width="172" height="76" rx="12" fill="#1f8a7a"/>
+<text x="974" y="330" font-size="15" fill="#fff">Hari 18</text>
+<text x="974" y="360" font-size="20" font-weight="700" fill="#fff">#28</text>
+<circle cx="1088" cy="352" r="17" fill="#fff"/><circle cx="1088" cy="352" r="13" fill="#c2581e"/>
+<text x="1088" y="357" font-size="12" font-weight="700" fill="#fff" text-anchor="middle">58</text>
+<rect x="60" y="388" width="172" height="76" rx="12" fill="#6a4fd1"/>
+<text x="74" y="416" font-size="15" fill="#fff">Hari 19</text>
+<text x="74" y="446" font-size="20" font-weight="700" fill="#fff">#40</text>
+<circle cx="188" cy="438" r="17" fill="#fff"/><circle cx="188" cy="438" r="13" fill="#2457d6"/>
+<text x="188" y="443" font-size="12" font-weight="700" fill="#fff" text-anchor="middle">10</text>
+<rect x="240" y="388" width="172" height="76" rx="12" fill="#c2581e"/>
+<text x="254" y="416" font-size="15" fill="#fff">Hari 20</text>
+<text x="254" y="446" font-size="20" font-weight="700" fill="#fff">#52</text>
+<circle cx="368" cy="438" r="17" fill="#fff"/><circle cx="368" cy="438" r="13" fill="#13235a"/>
+<text x="368" y="443" font-size="12" font-weight="700" fill="#fff" text-anchor="middle">22</text>
+<rect x="420" y="388" width="172" height="76" rx="12" fill="#2457d6"/>
+<text x="434" y="416" font-size="15" fill="#fff">Hari 21</text>
+<text x="434" y="446" font-size="20" font-weight="700" fill="#fff">#5</text>
+<circle cx="548" cy="438" r="17" fill="#fff"/><circle cx="548" cy="438" r="13" fill="#1f8a7a"/>
+<text x="548" y="443" font-size="12" font-weight="700" fill="#fff" text-anchor="middle">35</text>
+<rect x="600" y="388" width="172" height="76" rx="12" fill="#13235a"/>
+<text x="614" y="416" font-size="15" fill="#fff">Hari 22</text>
+<text x="614" y="446" font-size="20" font-weight="700" fill="#fff">#17</text>
+<circle cx="728" cy="438" r="17" fill="#fff"/><circle cx="728" cy="438" r="13" fill="#6a4fd1"/>
+<text x="728" y="443" font-size="12" font-weight="700" fill="#fff" text-anchor="middle">47</text>
+<rect x="780" y="388" width="172" height="76" rx="12" fill="#1f8a7a"/>
+<text x="794" y="416" font-size="15" fill="#fff">Hari 23</text>
+<text x="794" y="446" font-size="20" font-weight="700" fill="#fff">#29</text>
+<circle cx="908" cy="438" r="17" fill="#fff"/><circle cx="908" cy="438" r="13" fill="#c2581e"/>
+<text x="908" y="443" font-size="12" font-weight="700" fill="#fff" text-anchor="middle">59</text>
+<rect x="960" y="388" width="172" height="76" rx="12" fill="#6a4fd1"/>
+<text x="974" y="416" font-size="15" fill="#fff">Hari 24</text>
+<text x="974" y="446" font-size="20" font-weight="700" fill="#fff">#41</text>
+<circle cx="1088" cy="438" r="17" fill="#fff"/><circle cx="1088" cy="438" r="13" fill="#2457d6"/>
+<text x="1088" y="443" font-size="12" font-weight="700" fill="#fff" text-anchor="middle">11</text>
+<rect x="60" y="474" width="172" height="76" rx="12" fill="#c2581e"/>
+<text x="74" y="502" font-size="15" fill="#fff">Hari 25</text>
+<text x="74" y="532" font-size="20" font-weight="700" fill="#fff">#53</text>
+<circle cx="188" cy="524" r="17" fill="#fff"/><circle cx="188" cy="524" r="13" fill="#13235a"/>
+<text x="188" y="529" font-size="12" font-weight="700" fill="#fff" text-anchor="middle">23</text>
+<rect x="240" y="474" width="172" height="76" rx="12" fill="#2457d6"/>
+<text x="254" y="502" font-size="15" fill="#fff">Hari 26</text>
+<text x="254" y="532" font-size="20" font-weight="700" fill="#fff">#6</text>
+<circle cx="368" cy="524" r="17" fill="#fff"/><circle cx="368" cy="524" r="13" fill="#1f8a7a"/>
+<text x="368" y="529" font-size="12" font-weight="700" fill="#fff" text-anchor="middle">36</text>
+<rect x="420" y="474" width="172" height="76" rx="12" fill="#13235a"/>
+<text x="434" y="502" font-size="15" fill="#fff">Hari 27</text>
+<text x="434" y="532" font-size="20" font-weight="700" fill="#fff">#18</text>
+<circle cx="548" cy="524" r="17" fill="#fff"/><circle cx="548" cy="524" r="13" fill="#6a4fd1"/>
+<text x="548" y="529" font-size="12" font-weight="700" fill="#fff" text-anchor="middle">48</text>
+<rect x="600" y="474" width="172" height="76" rx="12" fill="#1f8a7a"/>
+<text x="614" y="502" font-size="15" fill="#fff">Hari 28</text>
+<text x="614" y="532" font-size="20" font-weight="700" fill="#fff">#30</text>
+<circle cx="728" cy="524" r="17" fill="#fff"/><circle cx="728" cy="524" r="13" fill="#c2581e"/>
+<text x="728" y="529" font-size="12" font-weight="700" fill="#fff" text-anchor="middle">60</text>
+<rect x="780" y="474" width="172" height="76" rx="12" fill="#6a4fd1"/>
+<text x="794" y="502" font-size="15" fill="#fff">Hari 29</text>
+<text x="794" y="532" font-size="20" font-weight="700" fill="#fff">#42</text>
+<circle cx="908" cy="524" r="17" fill="#fff"/><circle cx="908" cy="524" r="13" fill="#2457d6"/>
+<text x="908" y="529" font-size="12" font-weight="700" fill="#fff" text-anchor="middle">12</text>
+<rect x="960" y="474" width="172" height="76" rx="12" fill="#c2581e"/>
+<text x="974" y="502" font-size="15" fill="#fff">Hari 30</text>
+<text x="974" y="532" font-size="20" font-weight="700" fill="#fff">#54</text>
+<circle cx="1088" cy="524" r="17" fill="#fff"/><circle cx="1088" cy="524" r="13" fill="#13235a"/>
+<text x="1088" y="529" font-size="12" font-weight="700" fill="#fff" text-anchor="middle">24</text>
+<rect x="60" y="588" width="20" height="20" rx="5" fill="#2457d6"/><text x="88" y="604" font-size="16" fill="#3b4a7a">Edukasi</text>
+<rect x="172.39999999999998" y="588" width="20" height="20" rx="5" fill="#13235a"/><text x="200.39999999999998" y="604" font-size="16" fill="#3b4a7a">Produk</text>
+<rect x="275.59999999999997" y="588" width="20" height="20" rx="5" fill="#1f8a7a"/><text x="303.59999999999997" y="604" font-size="16" fill="#3b4a7a">Di balik layar</text>
+<rect x="452.4" y="588" width="20" height="20" rx="5" fill="#6a4fd1"/><text x="480.4" y="604" font-size="16" fill="#3b4a7a">Testimoni dan bukti</text>
+<rect x="675.1999999999999" y="588" width="20" height="20" rx="5" fill="#c2581e"/><text x="703.1999999999999" y="604" font-size="16" fill="#3b4a7a">Promo</text>
+</svg>

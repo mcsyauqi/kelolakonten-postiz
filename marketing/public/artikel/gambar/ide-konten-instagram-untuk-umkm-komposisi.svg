@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" font-family="Figtree,Inter,Segoe UI,Arial,sans-serif">
+<rect width="1200" height="520" fill="#f4f7ff"/>
+<text x="60" y="62" font-size="28" font-weight="700" fill="#13235a">60 ide = 5 pilar x 12 ide</text>
+<text x="60" y="96" font-size="18" fill="#3b4a7a">Di setiap pilar, enam ide untuk slot feed dan enam ide untuk slot Stories</text>
+<text x="60" y="167" font-size="18" font-weight="700" fill="#2457d6">Edukasi</text>
+<rect x="330" y="130" width="58" height="58" rx="10" fill="#2457d6"/>
+<text x="359" y="167" font-size="18" font-weight="700" fill="#fff" text-anchor="middle">1</text>
+<rect x="396" y="130" width="58" height="58" rx="10" fill="#2457d6"/>
+<text x="425" y="167" font-size="18" font-weight="700" fill="#fff" text-anchor="middle">2</text>
+<rect x="462" y="130" width="58" height="58" rx="10" fill="#2457d6"/>
+<text x="491" y="167" font-size="18" font-weight="700" fill="#fff" text-anchor="middle">3</text>
+<rect x="528" y="130" width="58" height="58" rx="10" fill="#2457d6"/>
+<text x="557" y="167" font-size="18" font-weight="700" fill="#fff" text-anchor="middle">4</text>
+<rect x="594" y="130" width="58" height="58" rx="10" fill="#2457d6"/>
+<text x="623" y="167" font-size="18" font-weight="700" fill="#fff" text-anchor="middle">5</text>
+<rect x="660" y="130" width="58" height="58" rx="10" fill="#2457d6"/>
+<text x="689" y="167" font-size="18" font-weight="700" fill="#fff" text-anchor="middle">6</text>
+<rect x="745.5" y="131.5" width="55" height="55" rx="29" fill="#fff" stroke="#2457d6" stroke-width="3"/>
+<text x="773" y="167" font-size="18" font-weight="700" fill="#2457d6" text-anchor="middle">7</text>
+<rect x="811.5" y="131.5" width="55" height="55" rx="29" fill="#fff" stroke="#2457d6" stroke-width="3"/>
+<text x="839" y="167" font-size="18" font-weight="700" fill="#2457d6" text-anchor="middle">8</text>
+<rect x="877.5" y="131.5" width="55" height="55" rx="29" fill="#fff" stroke="#2457d6" stroke-width="3"/>
+<text x="905" y="167" font-size="18" font-weight="700" fill="#2457d6" text-anchor="middle">9</text>
+<rect x="943.5" y="131.5" width="55" height="55" rx="29" fill="#fff" stroke="#2457d6" stroke-width="3"/>
+<text x="971" y="167" font-size="18" font-weight="700" fill="#2457d6" text-anchor="middle">10</text>
+<rect x="1009.5" y="131.5" width="55" height="55" rx="29" fill="#fff" stroke="#2457d6" stroke-width="3"/>
+<text x="1037" y="167" font-size="18" font-weight="700" fill="#2457d6" text-anchor="middle">11</text>
+<rect x="1075.5" y="131.5" width="55" height="55" rx="29" fill="#fff" stroke="#2457d6" stroke-width="3"/>
+<text x="1103" y="167" font-size="18" font-weight="700" fill="#2457d6" text-anchor="middle">12</text>
+<text x="60" y="237" font-size="18" font-weight="700" fill="#13235a">Produk</text>
+<rect x="330" y="200" width="58" height="58" rx="10" fill="#13235a"/>
+<text x="359" y="237" font-size="18" font-weight="700" fill="#fff" text-anchor="middle">13</text>
+<rect x="396" y="200" width="58" height="58" rx="10" fill="#13235a"/>
+<text x="425" y="237" font-size="18" font-weight="700" fill="#fff" text-anchor="middle">14</text>
+<rect x="462" y="200" width="58" height="58" rx="10" fill="#13235a"/>
+<text x="491" y="237" font-size="18" font-weight="700" fill="#fff" text-anchor="middle">15</text>
+<rect x="528" y="200" width="58" height="58" rx="10" fill="#13235a"/>
+<text x="557" y="237" font-size="18" font-weight="700" fill="#fff" text-anchor="middle">16</text>
+<rect x="594" y="200" width="58" height="58" rx="10" fill="#13235a"/>
+<text x="623" y="237" font-size="18" font-weight="700" fill="#fff" text-anchor="middle">17</text>
+<rect x="660" y="200" width="58" height="58" rx="10" fill="#13235a"/>
+<text x="689" y="237" font-size="18" font-weight="700" fill="#fff" text-anchor="middle">18</text>
+<rect x="745.5" y="201.5" width="55" height="55" rx="29" fill="#fff" stroke="#13235a" stroke-width="3"/>
+<text x="773" y="237" font-size="18" font-weight="700" fill="#13235a" text-anchor="middle">19</text>
+<rect x="811.5" y="201.5" width="55" height="55" rx="29" fill="#fff" stroke="#13235a" stroke-width="3"/>
+<text x="839" y="237" font-size="18" font-weight="700" fill="#13235a" text-anchor="middle">20</text>
+<rect x="877.5" y="201.5" width="55" height="55" rx="29" fill="#fff" stroke="#13235a" stroke-width="3"/>
+<text x="905" y="237" font-size="18" font-weight="700" fill="#13235a" text-anchor="middle">21</text>
+<rect x="943.5" y="201.5" width="55" height="55" rx="29" fill="#fff" stroke="#13235a" stroke-width="3"/>
+<text x="971" y="237" font-size="18" font-weight="700" fill="#13235a" text-anchor="middle">22</text>
+<rect x="1009.5" y="201.5" width="55" height="55" rx="29" fill="#fff" stroke="#13235a" stroke-width="3"/>
+<text x="1037" y="237" font-size="18" font-weight="700" fill="#13235a" text-anchor="middle">23</text>
+<rect x="1075.5" y="201.5" width="55" height="55" rx="29" fill="#fff" stroke="#13235a" stroke-width="3"/>
+<text x="1103" y="237" font-size="18" font-weight="700" fill="#13235a" text-anchor="middle">24</text>
+<text x="60" y="307" font-size="18" font-weight="700" fill="#1f8a7a">Di balik layar</text>
+<rect x="330" y="270" width="58" height="58" rx="10" fill="#1f8a7a"/>
+<text x="359" y="307" font-size="18" font-weight="700" fill="#fff" text-anchor="middle">25</text>
+<rect x="396" y="270" width="58" height="58" rx="10" fill="#1f8a7a"/>
+<text x="425" y="307" font-size="18" font-weight="700" fill="#fff" text-anchor="middle">26</text>
+<rect x="462" y="270" width="58" height="58" rx="10" fill="#1f8a7a"/>
+<text x="491" y="307" font-size="18" font-weight="700" fill="#fff" text-anchor="middle">27</text>
+<rect x="528" y="270" width="58" height="58" rx="10" fill="#1f8a7a"/>
+<text x="557" y="307" font-size="18" font-weight="700" fill="#fff" text-anchor="middle">28</text>
+<rect x="594" y="270" width="58" height="58" rx="10" fill="#1f8a7a"/>
+<text x="623" y="307" font-size="18" font-weight="700" fill="#fff" text-anchor="middle">29</text>
+<rect x="660" y="270" width="58" height="58" rx="10" fill="#1f8a7a"/>
+<text x="689" y="307" font-size="18" font-weight="700" fill="#fff" text-anchor="middle">30</text>
+<rect x="745.5" y="271.5" width="55" height="55" rx="29" fill="#fff" stroke="#1f8a7a" stroke-width="3"/>
+<text x="773" y="307" font-size="18" font-weight="700" fill="#1f8a7a" text-anchor="middle">31</text>
+<rect x="811.5" y="271.5" width="55" height="55" rx="29" fill="#fff" stroke="#1f8a7a" stroke-width="3"/>
+<text x="839" y="307" font-size="18" font-weight="700" fill="#1f8a7a" text-anchor="middle">32</text>
+<rect x="877.5" y="271.5" width="55" height="55" rx="29" fill="#fff" stroke="#1f8a7a" stroke-width="3"/>
+<text x="905" y="307" font-size="18" font-weight="700" fill="#1f8a7a" text-anchor="middle">33</text>
+<rect x="943.5" y="271.5" width="55" height="55" rx="29" fill="#fff" stroke="#1f8a7a" stroke-width="3"/>
+<text x="971" y="307" font-size="18" font-weight="700" fill="#1f8a7a" text-anchor="middle">34</text>
+<rect x="1009.5" y="271.5" width="55" height="55" rx="29" fill="#fff" stroke="#1f8a7a" stroke-width="3"/>
+<text x="1037" y="307" font-size="18" font-weight="700" fill="#1f8a7a" text-anchor="middle">35</text>
+<rect x="1075.5" y="271.5" width="55" height="55" rx="29" fill="#fff" stroke="#1f8a7a" stroke-width="3"/>
+<text x="1103" y="307" font-size="18" font-weight="700" fill="#1f8a7a" text-anchor="middle">36</text>
+<text x="60" y="377" font-size="18" font-weight="700" fill="#6a4fd1">Testimoni dan bukti</text>
+<rect x="330" y="340" width="58" height="58" rx="10" fill="#6a4fd1"/>
+<text x="359" y="377" font-size="18" font-weight="700" fill="#fff" text-anchor="middle">37</text>
+<rect x="396" y="340" width="58" height="58" rx="10" fill="#6a4fd1"/>
+<text x="425" y="377" font-size="18" font-weight="700" fill="#fff" text-anchor="middle">38</text>
+<rect x="462" y="340" width="58" height="58" rx="10" fill="#6a4fd1"/>
+<text x="491" y="377" font-size="18" font-weight="700" fill="#fff" text-anchor="middle">39</text>
+<rect x="528" y="340" width="58" height="58" rx="10" fill="#6a4fd1"/>
+<text x="557" y="377" font-size="18" font-weight="700" fill="#fff" text-anchor="middle">40</text>
+<rect x="594" y="340" width="58" height="58" rx="10" fill="#6a4fd1"/>
+<text x="623" y="377" font-size="18" font-weight="700" fill="#fff" text-anchor="middle">41</text>
+<rect x="660" y="340" width="58" height="58" rx="10" fill="#6a4fd1"/>
+<text x="689" y="377" font-size="18" font-weight="700" fill="#fff" text-anchor="middle">42</text>
+<rect x="745.5" y="341.5" width="55" height="55" rx="29" fill="#fff" stroke="#6a4fd1" stroke-width="3"/>
+<text x="773" y="377" font-size="18" font-weight="700" fill="#6a4fd1" text-anchor="middle">43</text>
+<rect x="811.5" y="341.5" width="55" height="55" rx="29" fill="#fff" stroke="#6a4fd1" stroke-width="3"/>
+<text x="839" y="377" font-size="18" font-weight="700" fill="#6a4fd1" text-anchor="middle">44</text>
+<rect x="877.5" y="341.5" width="55" height="55" rx="29" fill="#fff" stroke="#6a4fd1" stroke-width="3"/>
+<text x="905" y="377" font-size="18" font-weight="700" fill="#6a4fd1" text-anchor="middle">45</text>
+<rect x="943.5" y="341.5" width="55" height="55" rx="29" fill="#fff" stroke="#6a4fd1" stroke-width="3"/>
+<text x="971" y="377" font-size="18" font-weight="700" fill="#6a4fd1" text-anchor="middle">46</text>
+<rect x="1009.5" y="341.5" width="55" height="55" rx="29" fill="#fff" stroke="#6a4fd1" stroke-width="3"/>
+<text x="1037" y="377" font-size="18" font-weight="700" fill="#6a4fd1" text-anchor="middle">47</text>
+<rect x="1075.5" y="341.5" width="55" height="55" rx="29" fill="#fff" stroke="#6a4fd1" stroke-width="3"/>
+<text x="1103" y="377" font-size="18" font-weight="700" fill="#6a4fd1" text-anchor="middle">48</text>
+<text x="60" y="447" font-size="18" font-weight="700" fill="#c2581e">Promo</text>
+<rect x="330" y="410" width="58" height="58" rx="10" fill="#c2581e"/>
+<text x="359" y="447" font-size="18" font-weight="700" fill="#fff" text-anchor="middle">49</text>
+<rect x="396" y="410" width="58" height="58" rx="10" fill="#c2581e"/>
+<text x="425" y="447" font-size="18" font-weight="700" fill="#fff" text-anchor="middle">50</text>
+<rect x="462" y="410" width="58" height="58" rx="10" fill="#c2581e"/>
+<text x="491" y="447" font-size="18" font-weight="700" fill="#fff" text-anchor="middle">51</text>
+<rect x="528" y="410" width="58" height="58" rx="10" fill="#c2581e"/>
+<text x="557" y="447" font-size="18" font-weight="700" fill="#fff" text-anchor="middle">52</text>
+<rect x="594" y="410" width="58" height="58" rx="10" fill="#c2581e"/>
+<text x="623" y="447" font-size="18" font-weight="700" fill="#fff" text-anchor="middle">53</text>
+<rect x="660" y="410" width="58" height="58" rx="10" fill="#c2581e"/>
+<text x="689" y="447" font-size="18" font-weight="700" fill="#fff" text-anchor="middle">54</text>
+<rect x="745.5" y="411.5" width="55" height="55" rx="29" fill="#fff" stroke="#c2581e" stroke-width="3"/>
+<text x="773" y="447" font-size="18" font-weight="700" fill="#c2581e" text-anchor="middle">55</text>
+<rect x="811.5" y="411.5" width="55" height="55" rx="29" fill="#fff" stroke="#c2581e" stroke-width="3"/>
+<text x="839" y="447" font-size="18" font-weight="700" fill="#c2581e" text-anchor="middle">56</text>
+<rect x="877.5" y="411.5" width="55" height="55" rx="29" fill="#fff" stroke="#c2581e" stroke-width="3"/>
+<text x="905" y="447" font-size="18" font-weight="700" fill="#c2581e" text-anchor="middle">57</text>
+<rect x="943.5" y="411.5" width="55" height="55" rx="29" fill="#fff" stroke="#c2581e" stroke-width="3"/>
+<text x="971" y="447" font-size="18" font-weight="700" fill="#c2581e" text-anchor="middle">58</text>
+<rect x="1009.5" y="411.5" width="55" height="55" rx="29" fill="#fff" stroke="#c2581e" stroke-width="3"/>
+<text x="1037" y="447" font-size="18" font-weight="700" fill="#c2581e" text-anchor="middle">59</text>
+<rect x="1075.5" y="411.5" width="55" height="55" rx="29" fill="#fff" stroke="#c2581e" stroke-width="3"/>
+<text x="1103" y="447" font-size="18" font-weight="700" fill="#c2581e" text-anchor="middle">60</text>
+<rect x="60" y="472" width="26" height="26" rx="6" fill="#3b4a7a"/><text x="96" y="492" font-size="17" fill="#3b4a7a">Kotak penuh: slot feed (Reels, carousel, foto)</text>
+<rect x="560" y="472" width="26" height="26" rx="13" fill="#fff" stroke="#3b4a7a" stroke-width="3"/><text x="596" y="492" font-size="17" fill="#3b4a7a">Lingkaran: slot Stories</text>
+</svg>

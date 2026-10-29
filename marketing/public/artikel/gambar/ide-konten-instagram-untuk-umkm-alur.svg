@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" font-family="Figtree,Inter,Segoe UI,Arial,sans-serif">
+<rect width="1200" height="400" fill="#f4f7ff"/>
+<text x="60" y="62" font-size="28" font-weight="700" fill="#13235a">Alur produksi mingguan untuk 14 slot</text>
+<text x="60" y="96" font-size="18" fill="#3b4a7a">Kerjakan yang mirip dalam satu sesi, jangan satu konten per hari</text>
+<rect x="60" y="130" width="196" height="190" rx="16" fill="#13235a"/>
+<text x="80" y="172" font-size="21" font-weight="700" fill="#fff">1. Pilih</text>
+<text x="80" y="210" font-size="15.5" fill="#fff">14 ide minggu ini</text>
+<text x="80" y="233" font-size="15.5" fill="#fff">dari jadwal: 7 feed,</text>
+<text x="80" y="256" font-size="15.5" fill="#fff">7 Stories</text>
+<path d="M261 225 l14 0 m-6 -7 l7 7 l-7 7" stroke="#3b4a7a" stroke-width="3" fill="none"/>
+<rect x="281" y="130" width="196" height="190" rx="16" fill="#2457d6"/>
+<text x="301" y="172" font-size="21" font-weight="700" fill="#fff">2. Produksi</text>
+<text x="301" y="210" font-size="15.5" fill="#fff">Foto dan rekam</text>
+<text x="301" y="233" font-size="15.5" fill="#fff">sekaligus dalam</text>
+<text x="301" y="256" font-size="15.5" fill="#fff">satu sesi</text>
+<path d="M482 225 l14 0 m-6 -7 l7 7 l-7 7" stroke="#3b4a7a" stroke-width="3" fill="none"/>
+<rect x="502" y="130" width="196" height="190" rx="16" fill="#1f8a7a"/>
+<text x="522" y="172" font-size="21" font-weight="700" fill="#fff">3. Tulis</text>
+<text x="522" y="210" font-size="15.5" fill="#fff">Caption, teks</text>
+<text x="522" y="233" font-size="15.5" fill="#fff">Stories, dan satu</text>
+<text x="522" y="256" font-size="15.5" fill="#fff">ajakan per konten</text>
+<path d="M703 225 l14 0 m-6 -7 l7 7 l-7 7" stroke="#3b4a7a" stroke-width="3" fill="none"/>
+<rect x="723" y="130" width="196" height="190" rx="16" fill="#6a4fd1"/>
+<text x="743" y="172" font-size="21" font-weight="700" fill="#fff">4. Periksa</text>
+<text x="743" y="210" font-size="15.5" fill="#fff">Harga, izin, ejaan,</text>
+<text x="743" y="233" font-size="15.5" fill="#fff">lalu persetujuan</text>
+<text x="743" y="256" font-size="15.5" fill="#fff">klien atau pemilik</text>
+<path d="M924 225 l14 0 m-6 -7 l7 7 l-7 7" stroke="#3b4a7a" stroke-width="3" fill="none"/>
+<rect x="944" y="130" width="196" height="190" rx="16" fill="#c2581e"/>
+<text x="964" y="172" font-size="21" font-weight="700" fill="#fff">5. Jadwalkan</text>
+<text x="964" y="210" font-size="15.5" fill="#fff">Atur jam tayang,</text>
+<text x="964" y="233" font-size="15.5" fill="#fff">catat hasil di</text>
+<text x="964" y="256" font-size="15.5" fill="#fff">akhir minggu</text>
+<text x="60" y="364" font-size="17" fill="#3b4a7a">Ide Stories yang bergantung pada kejadian hari itu cukup disiapkan teks dan stikernya, visualnya direkam saat itu juga.</text>
+</svg>
