@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" font-family="Figtree,Inter,Segoe UI,Arial,sans-serif">
+<rect width="1200" height="560" fill="#f4f7ff"/>
+<text x="60" y="62" font-size="28" font-weight="700" fill="#13235a">Contoh susunan sesi LIVE jualan 60 menit</text>
+<text x="60" y="96" font-size="18" fill="#3b4a7a">Saran praktis Kelola Konten, bukan aturan TikTok. Ulangi siklus produk setiap 10 sampai 15 menit.</text>
+<rect x="60" y="140" width="1080" height="34" rx="17" fill="#e3e9fb"/>
+<rect x="60" y="140" width="90" height="34" rx="17" fill="#2457d6"/>
+<rect x="150" y="140" width="720" height="34" fill="#1f8a7a"/>
+<rect x="870" y="140" width="180" height="34" fill="#6a4fd1"/>
+<rect x="1050" y="140" width="90" height="34" rx="17" fill="#c2581e"/>
+<g font-size="15" fill="#fff" font-weight="700" text-anchor="middle">
+<text x="105" y="163">0-5</text><text x="510" y="163">5-50 menit</text><text x="960" y="163">50-55</text><text x="1095" y="163">55-60</text>
+</g>
+<g font-size="17" fill="#13235a">
+<rect x="60" y="210" width="250" height="300" rx="16" fill="#fff" stroke="#2457d6" stroke-width="3"/>
+<text x="84" y="250" font-weight="700" font-size="20" fill="#2457d6">1. Pembuka</text>
+<text x="84" y="284">Sapa penonton yang</text><text x="84" y="308">masuk, sebut tema</text><text x="84" y="332">LIVE dan alasan</text><text x="84" y="356">untuk bertahan.</text>
+<text x="84" y="400" fill="#3b4a7a">Jangan menunggu</text><text x="84" y="424" fill="#3b4a7a">ramai dulu baru</text><text x="84" y="448" fill="#3b4a7a">mulai bicara.</text>
+<rect x="335" y="210" width="250" height="300" rx="16" fill="#fff" stroke="#1f8a7a" stroke-width="3"/>
+<text x="359" y="250" font-weight="700" font-size="20" fill="#1f8a7a">2. Siklus produk</text>
+<text x="359" y="284">Tunjukkan produk,</text><text x="359" y="308">jelaskan manfaat,</text><text x="359" y="332">jawab komentar,</text><text x="359" y="356">sebut cara beli.</text>
+<text x="359" y="400" fill="#3b4a7a">Ulangi untuk</text><text x="359" y="424" fill="#3b4a7a">penonton yang baru</text><text x="359" y="448" fill="#3b4a7a">bergabung.</text>
+<rect x="610" y="210" width="250" height="300" rx="16" fill="#fff" stroke="#6a4fd1" stroke-width="3"/>
+<text x="634" y="250" font-weight="700" font-size="20" fill="#6a4fd1">3. Tanya jawab</text>
+<text x="634" y="284">Kumpulkan pertanyaan</text><text x="634" y="308">yang belum terjawab,</text><text x="634" y="332">bahas satu per satu</text><text x="634" y="356">dengan menyebut nama.</text>
+<text x="634" y="400" fill="#3b4a7a">Moderator bantu</text><text x="634" y="424" fill="#3b4a7a">menyaring komentar</text><text x="634" y="448" fill="#3b4a7a">yang mengganggu.</text>
+<rect x="885" y="210" width="255" height="300" rx="16" fill="#fff" stroke="#c2581e" stroke-width="3"/>
+<text x="909" y="250" font-weight="700" font-size="20" fill="#c2581e">4. Penutup</text>
+<text x="909" y="284">Rangkum produk,</text><text x="909" y="308">ulangi cara beli,</text><text x="909" y="332">umumkan jadwal</text><text x="909" y="356">LIVE berikutnya.</text>
+<text x="909" y="400" fill="#3b4a7a">Lalu ketuk Akhiri</text><text x="909" y="424" fill="#3b4a7a">LIVE dan Akhiri</text><text x="909" y="448" fill="#3b4a7a">sekarang.</text>
+</g>
+</svg>

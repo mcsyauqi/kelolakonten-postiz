@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 540" font-family="Figtree,Inter,Segoe UI,Arial,sans-serif">
+<rect width="1200" height="540" fill="#f4f7ff"/>
+<text x="60" y="62" font-size="28" font-weight="700" fill="#13235a">Checklist 30 menit sebelum menekan Siarkan LIVE</text>
+<text x="60" y="96" font-size="18" fill="#3b4a7a">Daftar saran praktis Kelola Konten untuk LIVE jualan UMKM</text>
+<g font-size="18" fill="#13235a">
+<rect x="60" y="130" width="520" height="370" rx="16" fill="#fff" stroke="#2457d6" stroke-width="3"/>
+<text x="88" y="172" font-size="21" font-weight="700" fill="#2457d6">Teknis</text>
+<g fill="none" stroke="#2457d6" stroke-width="3"><rect x="88" y="198" width="24" height="24" rx="5"/><rect x="88" y="248" width="24" height="24" rx="5"/><rect x="88" y="298" width="24" height="24" rx="5"/><rect x="88" y="348" width="24" height="24" rx="5"/><rect x="88" y="398" width="24" height="24" rx="5"/><rect x="88" y="448" width="24" height="24" rx="5"/></g>
+<text x="128" y="217">Baterai penuh atau HP dicolok daya</text>
+<text x="128" y="267">Tes kecepatan internet di titik siaran</text>
+<text x="128" y="317">HP di tripod, kamera sejajar mata</text>
+<text x="128" y="367">Cahaya dari depan, bukan dari belakang</text>
+<text x="128" y="417">Mode jangan ganggu, notifikasi senyap</text>
+<text x="128" y="467">Tes suara: bicara dari jarak siaran</text>
+<rect x="620" y="130" width="520" height="370" rx="16" fill="#fff" stroke="#c2581e" stroke-width="3"/>
+<text x="648" y="172" font-size="21" font-weight="700" fill="#c2581e">Konten dan tim</text>
+<g fill="none" stroke="#c2581e" stroke-width="3"><rect x="648" y="198" width="24" height="24" rx="5"/><rect x="648" y="248" width="24" height="24" rx="5"/><rect x="648" y="298" width="24" height="24" rx="5"/><rect x="648" y="348" width="24" height="24" rx="5"/><rect x="648" y="398" width="24" height="24" rx="5"/><rect x="648" y="448" width="24" height="24" rx="5"/></g>
+<text x="688" y="217">Produk tersusun sesuai urutan bahas</text>
+<text x="688" y="267">Harga, stok, dan cara beli dicatat</text>
+<text x="688" y="317">Judul LIVE jelas menyebut temanya</text>
+<text x="688" y="367">Moderator ditambahkan di Pengaturan</text>
+<text x="688" y="417">Kata kunci terlarang sudah difilter</text>
+<text x="688" y="467">Jadwal sudah diumumkan di video</text>
+</g>
+</svg>
