@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 322" width="1200" height="322" role="img" aria-labelledby="t d">
+<title id="t">Enam sumber ide dalam tiga kelompok</title>
+<desc id="d">Enam sumber ide: chat dan DM, komentar, ulasan marketplace dari pelanggan; proses kerja harian dari usaha; kalender musiman serta pencarian dan tren dari luar.</desc>
+<rect width="1200" height="322" fill="#f4f7ff"/>
+<g font-family="Inter, Arial, sans-serif">
+<text x="40" y="50" font-size="26" fill="#13235a" font-weight="700">Enam sumber ide dalam tiga kelompok</text>
+<text x="40" y="82" font-size="17" fill="#4a5680">Sumber ini terisi sendiri selama usaha berjalan</text>
+<rect x="40" y="116" width="357" height="172" rx="12" fill="#ffffff" stroke="#2457d6" stroke-width="2"/><text x="58" y="152" font-size="19" fill="#2457d6" font-weight="700">Dari pelanggan</text><circle cx="64" cy="179" r="4" fill="#2457d6"/><text x="78" y="184" font-size="16" fill="#13235a">Chat WhatsApp dan DM</text><circle cx="64" cy="211" r="4" fill="#2457d6"/><text x="78" y="216" font-size="16" fill="#13235a">Komentar di posting</text><circle cx="64" cy="243" r="4" fill="#2457d6"/><text x="78" y="248" font-size="16" fill="#13235a">Ulasan marketplace</text><rect x="421" y="116" width="357" height="172" rx="12" fill="#e8eefc" stroke="#2457d6" stroke-width="2"/><text x="439" y="152" font-size="19" fill="#2457d6" font-weight="700">Dari dapur usaha</text><circle cx="445" cy="179" r="4" fill="#2457d6"/><text x="459" y="184" font-size="16" fill="#13235a">Proses kerja harian</text><circle cx="445" cy="211" r="4" fill="#2457d6"/><text x="459" y="216" font-size="16" fill="#13235a">Bahan datang, produksi, pengemasan</text><rect x="802" y="116" width="357" height="172" rx="12" fill="#ffffff" stroke="#2457d6" stroke-width="2"/><text x="820" y="152" font-size="19" fill="#2457d6" font-weight="700">Dari luar usaha</text><circle cx="826" cy="179" r="4" fill="#2457d6"/><text x="840" y="184" font-size="16" fill="#13235a">Kalender musiman</text><circle cx="826" cy="211" r="4" fill="#2457d6"/><text x="840" y="216" font-size="16" fill="#13235a">Pencarian dan tren</text>
+</g>
+</svg>
