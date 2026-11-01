@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 430" width="1200" height="430" role="img" aria-labelledby="t d">
+<title id="t">Followers organik dibanding followers beli</title>
+<desc id="d">Dua kolom: followers organik berasal dari orang yang tertarik, ikut berinteraksi, dan bisa menjadi pembeli. Followers beli menurunkan rasio interaksi, berisiko dihapus, dan bisa membuat akun tidak direkomendasikan.</desc>
+<rect width="1200" height="430" fill="#f4f7ff"/>
+<g font-family="Inter, Arial, sans-serif">
+<text x="40" y="50" font-size="26" fill="#13235a" font-weight="700">Mengapa jalan pintas justru memperlambat</text>
+<text x="40" y="82" font-size="17" fill="#4a5680">Angka followers sama, dampaknya berbeda</text>
+<rect x="40" y="110" width="545" height="290" rx="14" fill="#ffffff" stroke="#1f8a7a" stroke-width="2.5"/>
+<rect x="40" y="110" width="545" height="54" rx="14" fill="#1f8a7a"/>
+<rect x="40" y="140" width="545" height="24" fill="#1f8a7a"/>
+<text x="64" y="145" font-size="20" fill="#ffffff" font-weight="700">Followers organik</text>
+<g font-size="17" fill="#13235a">
+<text x="64" y="204">+  Datang karena tertarik pada isi akun</text>
+<text x="64" y="244">+  Menyukai, menyimpan, dan membagikan</text>
+<text x="64" y="284">+  Rasio interaksi tetap sehat</text>
+<text x="64" y="324">+  Bisa bertanya, memesan, dan kembali</text>
+<text x="64" y="364">+  Data Insight bisa dipakai untuk keputusan</text>
+</g>
+<rect x="615" y="110" width="545" height="290" rx="14" fill="#ffffff" stroke="#c2581e" stroke-width="2.5"/>
+<rect x="615" y="110" width="545" height="54" rx="14" fill="#c2581e"/>
+<rect x="615" y="140" width="545" height="24" fill="#c2581e"/>
+<text x="639" y="145" font-size="20" fill="#ffffff" font-weight="700">Followers beli atau aplikasi pihak ketiga</text>
+<g font-size="17" fill="#13235a">
+<text x="639" y="204">-  Tidak tertarik, jadi tidak berinteraksi</text>
+<text x="639" y="244">-  Rasio interaksi turun karena pembagi membesar</text>
+<text x="639" y="284">-  Aktivitas tidak autentik bisa dihapus Instagram</text>
+<text x="639" y="324">-  Akun bisa tidak direkomendasikan ke non-pengikut</text>
+<text x="639" y="364">-  Berbagi kata sandi membuat akun rawan</text>
+</g>
+</g>
+</svg>

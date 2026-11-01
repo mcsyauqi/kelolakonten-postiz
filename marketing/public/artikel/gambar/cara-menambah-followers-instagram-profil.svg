@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" width="1200" height="520" role="img" aria-labelledby="t d">
+<title id="t">Enam bagian profil yang dicek calon pengikut</title>
+<desc id="d">Sketsa profil Instagram dengan enam bagian bernomor: foto profil, nama tampilan berisi kata kunci, bio tiga baris, tautan, sorotan cerita, dan unggahan yang disematkan.</desc>
+<rect width="1200" height="520" fill="#f4f7ff"/>
+<g font-family="Inter, Arial, sans-serif">
+<text x="40" y="50" font-size="26" fill="#13235a" font-weight="700">Enam bagian profil yang dibaca dalam beberapa detik</text>
+<text x="40" y="82" font-size="17" fill="#4a5680">Sketsa umum, bukan tampilan aplikasi yang persis</text>
+<rect x="40" y="110" width="440" height="380" rx="22" fill="#ffffff" stroke="#13235a" stroke-width="2"/>
+<circle cx="110" cy="180" r="42" fill="#e8eefc" stroke="#2457d6" stroke-width="3"/>
+<rect x="180" y="155" width="140" height="14" rx="7" fill="#13235a"/>
+<rect x="180" y="185" width="240" height="10" rx="5" fill="#c9d3ee"/>
+<rect x="70" y="240" width="300" height="10" rx="5" fill="#13235a"/>
+<rect x="70" y="260" width="330" height="10" rx="5" fill="#c9d3ee"/>
+<rect x="70" y="280" width="260" height="10" rx="5" fill="#c9d3ee"/>
+<rect x="70" y="300" width="200" height="10" rx="5" fill="#2457d6"/>
+<circle cx="95" cy="345" r="20" fill="#ffffff" stroke="#6a4fd1" stroke-width="3"/>
+<circle cx="155" cy="345" r="20" fill="#ffffff" stroke="#6a4fd1" stroke-width="3"/>
+<circle cx="215" cy="345" r="20" fill="#ffffff" stroke="#6a4fd1" stroke-width="3"/>
+<rect x="70" y="385" width="122" height="88" fill="#e8eefc" stroke="#c2581e" stroke-width="3"/>
+<rect x="199" y="385" width="122" height="88" fill="#e8eefc"/>
+<rect x="328" y="385" width="122" height="88" fill="#e8eefc"/>
+<g fill="#ffffff" stroke="#13235a" stroke-width="2">
+<circle cx="70" cy="140" r="15"/><circle cx="430" cy="162" r="15"/><circle cx="430" cy="270" r="15"/><circle cx="290" cy="305" r="15"/><circle cx="260" cy="345" r="15"/><circle cx="460" cy="400" r="15"/>
+</g>
+<g font-size="15" font-weight="700" fill="#13235a" text-anchor="middle">
+<text x="70" y="145">1</text><text x="430" y="167">2</text><text x="430" y="275">3</text><text x="290" y="310">4</text><text x="260" y="350">5</text><text x="460" y="405">6</text>
+</g>
+<g font-size="17">
+<text x="540" y="140" fill="#13235a" font-weight="700">1. Foto profil</text>
+<text x="540" y="164" fill="#4a5680">Logo atau wajah yang tetap terbaca di ukuran kecil.</text>
+<text x="540" y="200" fill="#13235a" font-weight="700">2. Nama tampilan</text>
+<text x="540" y="224" fill="#4a5680">Nama usaha plus kata yang dicari, misalnya "Kue Kering Solo".</text>
+<text x="540" y="260" fill="#13235a" font-weight="700">3. Bio tiga baris</text>
+<text x="540" y="284" fill="#4a5680">Apa yang Anda bagikan, untuk siapa, dan alasan mengikuti.</text>
+<text x="540" y="320" fill="#13235a" font-weight="700">4. Tautan</text>
+<text x="540" y="344" fill="#4a5680">Satu tujuan utama: katalog, WhatsApp, atau formulir.</text>
+<text x="540" y="380" fill="#13235a" font-weight="700">5. Sorotan cerita</text>
+<text x="540" y="404" fill="#4a5680">Testimoni, cara pesan, dan pertanyaan yang sering muncul.</text>
+<text x="540" y="440" fill="#13235a" font-weight="700">6. Unggahan disematkan</text>
+<text x="540" y="464" fill="#4a5680">Tiga konten terbaik yang menjelaskan isi akun Anda.</text>
+</g>
+</g>
+</svg>

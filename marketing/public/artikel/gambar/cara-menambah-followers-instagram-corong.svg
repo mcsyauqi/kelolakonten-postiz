@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="1200" height="360" role="img" aria-labelledby="t d">
+<title id="t">Empat tahap orang menjadi pengikut</title>
+<desc id="d">Empat tahap: ditemukan lewat Reels, Explore, Search, atau saran akun; membuka profil; menekan ikuti; lalu bertahan karena konten berikutnya tetap berguna.</desc>
+<rect width="1200" height="360" fill="#f4f7ff"/>
+<g font-family="Inter, Arial, sans-serif">
+<text x="40" y="50" font-size="26" fill="#13235a" font-weight="700">Dari orang asing menjadi pengikut</text>
+<text x="40" y="82" font-size="17" fill="#4a5680">Setiap tahap punya pekerjaan sendiri. Followers bocor di tahap yang paling lemah.</text>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#2457d6"/></marker></defs>
+<rect x="40" y="120" width="250" height="196" rx="12" fill="#ffffff" stroke="#2457d6" stroke-width="2"/>
+<text x="58" y="152" font-size="18" fill="#2457d6" font-weight="700">1. Ditemukan</text>
+<text x="58" y="184" font-size="16" fill="#4a5680">Reels, Explore, Search,</text>
+<text x="58" y="206" font-size="16" fill="#4a5680">dan saran akun membawa</text>
+<text x="58" y="228" font-size="16" fill="#4a5680">orang yang belum</text>
+<text x="58" y="250" font-size="16" fill="#4a5680">mengikuti Anda.</text>
+<text x="58" y="292" font-size="15" fill="#1f8a7a" font-weight="700">Tugas: konten layak dibagikan</text>
+<line x1="294" y1="218" x2="326" y2="218" stroke="#2457d6" stroke-width="2.5" marker-end="url(#a)"/>
+<rect x="330" y="120" width="250" height="196" rx="12" fill="#e8eefc" stroke="#2457d6" stroke-width="2"/>
+<text x="348" y="152" font-size="18" fill="#2457d6" font-weight="700">2. Buka profil</text>
+<text x="348" y="184" font-size="16" fill="#4a5680">Orang mengecek bio,</text>
+<text x="348" y="206" font-size="16" fill="#4a5680">foto profil, dan sembilan</text>
+<text x="348" y="228" font-size="16" fill="#4a5680">unggahan teratas.</text>
+<text x="348" y="292" font-size="15" fill="#1f8a7a" font-weight="700">Tugas: profil jelas</text>
+<line x1="584" y1="218" x2="616" y2="218" stroke="#2457d6" stroke-width="2.5" marker-end="url(#a)"/>
+<rect x="620" y="120" width="250" height="196" rx="12" fill="#ffffff" stroke="#2457d6" stroke-width="2"/>
+<text x="638" y="152" font-size="18" fill="#2457d6" font-weight="700">3. Ikuti</text>
+<text x="638" y="184" font-size="16" fill="#4a5680">Orang menekan ikuti</text>
+<text x="638" y="206" font-size="16" fill="#4a5680">kalau yakin konten</text>
+<text x="638" y="228" font-size="16" fill="#4a5680">berikutnya juga</text>
+<text x="638" y="250" font-size="16" fill="#4a5680">berguna baginya.</text>
+<text x="638" y="292" font-size="15" fill="#1f8a7a" font-weight="700">Tugas: janji yang konsisten</text>
+<line x1="874" y1="218" x2="906" y2="218" stroke="#2457d6" stroke-width="2.5" marker-end="url(#a)"/>
+<rect x="910" y="120" width="250" height="196" rx="12" fill="#e8eefc" stroke="#2457d6" stroke-width="2"/>
+<text x="928" y="152" font-size="18" fill="#2457d6" font-weight="700">4. Bertahan</text>
+<text x="928" y="184" font-size="16" fill="#4a5680">Pengikut tetap tinggal</text>
+<text x="928" y="206" font-size="16" fill="#4a5680">kalau unggahan rutin</text>
+<text x="928" y="228" font-size="16" fill="#4a5680">dan sesuai janji di bio.</text>
+<text x="928" y="292" font-size="15" fill="#1f8a7a" font-weight="700">Tugas: jadwal dan balasan</text>
+</g>
+</svg>
