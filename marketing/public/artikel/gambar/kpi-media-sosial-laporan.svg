@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 480" width="1200" height="480" role="img" aria-labelledby="t d">
+<title id="t">Lembar KPI bulanan satu halaman</title>
+<desc id="d">Kerangka laporan bulanan dengan enam baris: KPI utama, target, hasil, konten terbaik, konten terlemah, dan keputusan bulan depan.</desc>
+<rect width="1200" height="480" fill="#f4f7ff"/>
+<g font-family="Inter, Arial, sans-serif">
+<text x="40" y="50" font-size="26" fill="#13235a" font-weight="700">Lembar KPI bulanan satu halaman</text>
+<text x="40" y="82" font-size="17" fill="#4a5680">Cukup enam baris yang bisa dibaca dalam lima menit</text>
+<rect x="40" y="116" width="1120" height="48" rx="8" fill="#ffffff" stroke="#c9d4f2"/><text x="60" y="146" font-size="17" fill="#13235a" font-weight="400">1. KPI utama bulan ini</text><rect x="40" y="174" width="1120" height="48" rx="8" fill="#e8eefc" stroke="#c9d4f2"/><text x="60" y="204" font-size="17" fill="#13235a" font-weight="400">2. Target dan hasil</text><rect x="40" y="232" width="1120" height="48" rx="8" fill="#ffffff" stroke="#c9d4f2"/><text x="60" y="262" font-size="17" fill="#13235a" font-weight="400">3. Perubahan dari bulan lalu</text><rect x="40" y="290" width="1120" height="48" rx="8" fill="#e8eefc" stroke="#c9d4f2"/><text x="60" y="320" font-size="17" fill="#13235a" font-weight="400">4. Konten terbaik dan alasannya</text><rect x="40" y="348" width="1120" height="48" rx="8" fill="#ffffff" stroke="#c9d4f2"/><text x="60" y="378" font-size="17" fill="#13235a" font-weight="400">5. Konten terlemah dan alasannya</text><rect x="40" y="406" width="1120" height="48" rx="8" fill="#e8eefc" stroke="#c9d4f2"/><text x="60" y="436" font-size="17" fill="#13235a" font-weight="700">6. Keputusan untuk bulan depan</text>
+</g>
+</svg>

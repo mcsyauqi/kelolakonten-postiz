@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 512" width="1200" height="512" role="img" aria-labelledby="t d">
+<title id="t">Cara menetapkan target dari angka sendiri</title>
+<desc id="d">Tiga kotak: rata-rata tiga bulan terakhir 40 chat per bulan, kenaikan yang masuk akal 15 persen, target bulan depan 46 chat per bulan.</desc>
+<rect width="1200" height="512" fill="#f4f7ff"/>
+<g font-family="Inter, Arial, sans-serif">
+<text x="40" y="50" font-size="26" fill="#13235a" font-weight="700">Cara menetapkan target dari angka sendiri</text>
+<text x="40" y="82" font-size="17" fill="#4a5680">Contoh berlabel, angka karangan untuk menunjukkan cara hitung</text>
+<rect x="40" y="140" width="340" height="170" rx="10" fill="#ffffff" stroke="#c9d4f2"/><text x="58" y="172" font-size="18" font-weight="700" fill="#2457d6">Patokan</text><text x="58" y="200" font-size="15" fill="#13235a">Rata-rata 3 bulan terakhir</text><text x="58" y="224" font-size="15" fill="#13235a">40 chat per bulan</text><line x1="380" y1="225" x2="422" y2="225" stroke="#4a5680" stroke-width="2"/><path d="M420 219 L430 225 L420 231 Z" fill="#4a5680"/><rect x="430" y="140" width="340" height="170" rx="10" fill="#ffffff" stroke="#c9d4f2"/><text x="448" y="172" font-size="18" font-weight="700" fill="#2457d6">Kenaikan masuk akal</text><text x="448" y="200" font-size="15" fill="#13235a">Dipilih tim, misalnya 15 persen</text><text x="448" y="224" font-size="15" fill="#13235a">40 x 1,15 = 46</text><line x1="770" y1="225" x2="812" y2="225" stroke="#4a5680" stroke-width="2"/><path d="M810 219 L820 225 L810 231 Z" fill="#4a5680"/><rect x="820" y="140" width="340" height="170" rx="10" fill="#ffffff" stroke="#c9d4f2"/><text x="838" y="172" font-size="18" font-weight="700" fill="#1f8a7a">Target bulan depan</text><text x="838" y="200" font-size="15" fill="#13235a">46 chat per bulan</text><text x="838" y="224" font-size="15" fill="#13235a">Ditinjau akhir bulan</text><text x="40" y="380" font-size="17" fill="#13235a">Contoh ilustrasi. Pakai data akun Anda sendiri, jangan pakai angka ini sebagai tolok ukur.</text>
+</g>
+</svg>
