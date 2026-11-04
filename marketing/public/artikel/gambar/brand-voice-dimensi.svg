@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 512" width="1200" height="512" role="img" aria-labelledby="t d">
+<title id="t">Empat dimensi nada suara</title>
+<desc id="d">Empat garis spektrum: lucu ke serius, formal ke santai, sopan ke nakal, antusias ke apa adanya, masing-masing dengan satu titik contoh.</desc>
+<rect width="1200" height="512" fill="#f4f7ff"/>
+<g font-family="Inter, Arial, sans-serif">
+<text x="40" y="50" font-size="26" fill="#13235a" font-weight="700">Empat dimensi nada suara</text>
+<text x="40" y="82" font-size="17" fill="#4a5680">Tandai posisi merek Anda di tiap garis</text>
+<text x="40" y="156" font-size="18" fill="#13235a" font-weight="600">Lucu</text><line x1="220" y1="150" x2="980" y2="150" stroke="#2457d6" stroke-width="3"/><circle cx="676" cy="150" r="11" fill="#c2581e"/><text x="1010" y="156" font-size="18" fill="#13235a" font-weight="600">Serius</text><text x="40" y="232" font-size="18" fill="#13235a" font-weight="600">Formal</text><line x1="220" y1="226" x2="980" y2="226" stroke="#2457d6" stroke-width="3"/><circle cx="790" cy="226" r="11" fill="#c2581e"/><text x="1010" y="232" font-size="18" fill="#13235a" font-weight="600">Santai</text><text x="40" y="308" font-size="18" fill="#13235a" font-weight="600">Sopan</text><line x1="220" y1="302" x2="980" y2="302" stroke="#2457d6" stroke-width="3"/><circle cx="372" cy="302" r="11" fill="#c2581e"/><text x="1010" y="308" font-size="18" fill="#13235a" font-weight="600">Nakal</text><text x="40" y="384" font-size="18" fill="#13235a" font-weight="600">Antusias</text><line x1="220" y1="378" x2="980" y2="378" stroke="#2457d6" stroke-width="3"/><circle cx="638" cy="378" r="11" fill="#c2581e"/><text x="1010" y="384" font-size="18" fill="#13235a" font-weight="600">Apa adanya</text><text x="40" y="460" font-size="15" fill="#4a5680">Titik oranye adalah contoh posisi. Dimensi mengikuti kerangka Nielsen Norman Group, label Indonesia dari Kelola Konten.</text>
+</g>
+</svg>

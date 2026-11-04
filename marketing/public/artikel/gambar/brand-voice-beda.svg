@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 512" width="1200" height="512" role="img" aria-labelledby="t d">
+<title id="t">Voice tetap, tone berubah</title>
+<desc id="d">Satu kotak voice bertuliskan hangat, jelas, dan membumi mengarah ke tiga situasi: promo dengan nada ceria, keluhan dengan nada tenang dan bertanggung jawab, serta pengumuman dengan nada lugas.</desc>
+<rect width="1200" height="512" fill="#f4f7ff"/>
+<g font-family="Inter, Arial, sans-serif">
+<text x="40" y="50" font-size="26" fill="#13235a" font-weight="700">Voice tetap, tone berubah</text>
+<text x="40" y="82" font-size="17" fill="#4a5680">Satu kepribadian, nada menyesuaikan situasi pembaca</text>
+<rect x="40" y="180" width="300" height="150" rx="10" fill="#ffffff" stroke="#c9d4f2"/><text x="58" y="212" font-size="18" font-weight="700" fill="#2457d6">Voice merek</text><text x="58" y="240" font-size="15" fill="#13235a">Hangat, jelas, membumi</text><text x="58" y="264" font-size="15" fill="#13235a">Tidak berubah</text><line x1="340" y1="255" x2="412" y2="255" stroke="#4a5680" stroke-width="2"/><path d="M410 249 L420 255 L410 261 Z" fill="#4a5680"/><rect x="420" y="116" width="740" height="92" rx="10" fill="#ffffff" stroke="#c9d4f2"/><text x="438" y="148" font-size="18" font-weight="700" fill="#2457d6">Promo: nada ceria</text><text x="438" y="176" font-size="15" fill="#13235a">Stok baru sudah datang, yuk pilih warna favoritmu.</text><rect x="420" y="216" width="740" height="92" rx="10" fill="#ffffff" stroke="#c9d4f2"/><text x="438" y="248" font-size="18" font-weight="700" fill="#c2581e">Keluhan: nada tenang</text><text x="438" y="276" font-size="15" fill="#13235a">Maaf pesananmu terlambat. Kami cek sekarang dan kabari hari ini.</text><rect x="420" y="316" width="740" height="92" rx="10" fill="#ffffff" stroke="#c9d4f2"/><text x="438" y="348" font-size="18" font-weight="700" fill="#1f8a7a">Pengumuman: nada lugas</text><text x="438" y="376" font-size="15" fill="#13235a">Toko tutup pada 25 Desember dan buka lagi pada 26 Desember.</text><text x="40" y="460" font-size="15" fill="#4a5680">Contoh kalimat buatan Kelola Konten untuk toko fiktif.</text>
+</g>
+</svg>
