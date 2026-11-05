@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 480" width="1200" height="480" role="img" aria-labelledby="t d">
+<title id="t">Tangga peran di tim media sosial</title>
+<desc id="d">Empat kotak bertingkat dari admin, content creator, specialist, sampai manager dengan penjelasan fokus tiap peran.</desc>
+<rect width="1200" height="480" fill="#f4f7ff"/>
+<g font-family="Inter, Arial, sans-serif">
+<text x="40" y="50" font-size="26" fill="#13235a" font-weight="700">Tangga peran di tim media sosial</text>
+<text x="40" y="82" font-size="17" fill="#4a5680">Ilustrasi konsep; pembagian di tiap perusahaan bisa berbeda</text>
+<rect x="40" y="120" width="1120" height="72" rx="10" fill="#ffffff" stroke="#c9d4f2"/><text x="60" y="150" font-size="18" font-weight="700" fill="#1f8a7a">Admin media sosial</text><text x="60" y="175" font-size="15" fill="#13235a">Mengunggah, membalas, merapikan</text><rect x="130" y="204" width="1030" height="72" rx="10" fill="#ffffff" stroke="#c9d4f2"/><text x="150" y="234" font-size="18" font-weight="700" fill="#6a4fd1">Content creator</text><text x="150" y="259" font-size="15" fill="#13235a">Memproduksi foto dan video</text><rect x="220" y="288" width="940" height="72" rx="10" fill="#ffffff" stroke="#c9d4f2"/><text x="240" y="318" font-size="18" font-weight="700" fill="#c2581e">Social media specialist</text><text x="240" y="343" font-size="15" fill="#13235a">Menjalankan satu keahlian atau satu kanal</text><rect x="310" y="372" width="850" height="72" rx="10" fill="#ffffff" stroke="#c9d4f2"/><text x="330" y="402" font-size="18" font-weight="700" fill="#2457d6">Social media manager</text><text x="330" y="427" font-size="15" fill="#13235a">Menentukan arah dan bertanggung jawab atas hasil</text>
+</g>
+</svg>
