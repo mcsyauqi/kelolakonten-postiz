@@ -205,5 +205,15 @@
     "label": "Strategi",
     "judul": "Tugas social media manager",
     "ringkasan": "Rincian job desk, ritme kerja mingguan, alat, dan contoh pembagian tugas untuk UMKM."
+  },
+  "sop-media-sosial": {
+    "label": "Operasional",
+    "judul": "Contoh SOP media sosial",
+    "ringkasan": "Templat SOP siap salin: alur konten, persetujuan, hak akses, keamanan login, balasan, dan eskalasi."
+  },
+  "cara-membuat-carousel-instagram": {
+    "label": "Instagram",
+    "judul": "Cara membuat carousel Instagram",
+    "ringkasan": "Batas 20 slide, rasio yang didukung, struktur tujuh slide, dan langkah unggah dari HP atau komputer."
   }
 }
