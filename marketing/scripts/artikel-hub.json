@@ -215,5 +215,10 @@
     "label": "Instagram",
     "judul": "Cara membuat carousel Instagram",
     "ringkasan": "Batas 20 slide, rasio yang didukung, struktur tujuh slide, dan langkah unggah dari HP atau komputer."
+  },
+  "cara-membalas-komentar-negatif": {
+    "label": "Komunitas",
+    "judul": "Cara membalas komentar negatif",
+    "ringkasan": "Memilah komentar, 5 template balasan, fitur sembunyikan dan batasi, serta kapan eskalasi."
   }
 }
