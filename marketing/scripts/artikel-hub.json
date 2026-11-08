@@ -220,5 +220,10 @@
     "label": "Komunitas",
     "judul": "Cara membalas komentar negatif",
     "ringkasan": "Memilah komentar, 5 template balasan, fitur sembunyikan dan batasi, serta kapan eskalasi."
+  },
+  "link-bio-instagram": {
+    "label": "Instagram",
+    "judul": "Link bio Instagram untuk bisnis",
+    "ringkasan": "Cara menambah hingga 5 tautan, memilih jenis link bio, memasang UTM, dan mengukur klik."
   }
 }
