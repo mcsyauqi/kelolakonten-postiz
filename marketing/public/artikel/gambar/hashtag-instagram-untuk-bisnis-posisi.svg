@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 350" width="1200" height="350" role="img" aria-labelledby="t d">
+<title id="t">Cara menempatkan hashtag</title>
+<desc id="d">Dua kolom: yang disarankan dan yang perlu dihindari saat memakai hashtag</desc>
+<rect width="1200" height="350" fill="#f4f7ff"/>
+<g font-family="Inter, Arial, sans-serif">
+<text x="40" y="50" font-size="26" fill="#13235a" font-weight="700">Cara menempatkan hashtag</text>
+<text x="40" y="82" font-size="17" fill="#4a5680">Ringkasan praktik pemakaian tagar untuk akun bisnis</text>
+<rect x="40" y="120" width="540" height="200" rx="10" fill="#ffffff" stroke="#c9d4f2"/><text x="58" y="152" font-size="18" font-weight="700" fill="#1f8a7a">Disarankan</text><text x="58" y="180" font-size="15" fill="#13235a">Tagar di akhir caption, setelah ajakan</text><text x="58" y="202" font-size="15" fill="#13235a">Maksimal 5, semuanya relevan</text><text x="58" y="224" font-size="15" fill="#13235a">Tagar merek konsisten di semua postingan</text><text x="58" y="246" font-size="15" fill="#13235a">Kata kunci juga ditulis di kalimat caption</text><rect x="620" y="120" width="540" height="200" rx="10" fill="#ffffff" stroke="#c9d4f2"/><text x="638" y="152" font-size="18" font-weight="700" fill="#c2581e">Hindari</text><text x="638" y="180" font-size="15" fill="#13235a">Tagar umum seperti #reels atau #explore</text><text x="638" y="202" font-size="15" fill="#13235a">Tagar yang tidak sesuai isi konten</text><text x="638" y="224" font-size="15" fill="#13235a">Menyalin set yang sama tanpa melihat isi</text><text x="638" y="246" font-size="15" fill="#13235a">Tagar yang halamannya penuh spam</text>
+</g>
+</svg>
