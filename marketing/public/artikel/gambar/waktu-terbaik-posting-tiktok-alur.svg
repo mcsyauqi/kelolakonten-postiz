@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="1200" height="340" role="img" aria-labelledby="t d">
+<title id="t">Alur uji waktu posting TikTok</title>
+<desc id="d">Lima langkah: baca data jam aktif, pilih dua slot, uji empat minggu, bandingkan median views, kunci slot pemenang ke kalender</desc>
+<rect width="1200" height="340" fill="#f4f7ff"/>
+<g font-family="Inter, Arial, sans-serif">
+<text x="40" y="50" font-size="26" fill="#13235a" font-weight="700">Alur uji waktu posting TikTok</text>
+<text x="40" y="82" font-size="17" fill="#4a5680">Dari data akun sendiri, bukan tebakan</text>
+<rect x="30" y="130" width="205" height="130" rx="10" fill="#ffffff" stroke="#c9d4f2"/><text x="48" y="162" font-size="18" font-weight="700" fill="#2457d6">1. Baca data</text><text x="48" y="192" font-size="15" fill="#13235a">Lihat jam aktif</text><text x="48" y="214" font-size="15" fill="#13235a">pengikut di Analitik</text><line x1="237" y1="195" x2="258" y2="195" stroke="#4a5680" stroke-width="2"/><polygon points="258,195 249,199.3 249,190.7" fill="#4a5680"/>
+<rect x="260" y="130" width="205" height="130" rx="10" fill="#ffffff" stroke="#c9d4f2"/><text x="278" y="162" font-size="18" font-weight="700" fill="#1f8a7a">2. Pilih 2 slot</text><text x="278" y="192" font-size="15" fill="#13235a">Satu slot pagi/siang,</text><text x="278" y="214" font-size="15" fill="#13235a">satu slot malam</text><line x1="467" y1="195" x2="488" y2="195" stroke="#4a5680" stroke-width="2"/><polygon points="488,195 479,199.3 479,190.7" fill="#4a5680"/>
+<rect x="490" y="130" width="205" height="130" rx="10" fill="#ffffff" stroke="#c9d4f2"/><text x="508" y="162" font-size="18" font-weight="700" fill="#6a4fd1">3. Uji 4 minggu</text><text x="508" y="192" font-size="15" fill="#13235a">Jenis konten sama,</text><text x="508" y="214" font-size="15" fill="#13235a">jumlah posting sama</text><line x1="697" y1="195" x2="718" y2="195" stroke="#4a5680" stroke-width="2"/><polygon points="718,195 709,199.3 709,190.7" fill="#4a5680"/>
+<rect x="720" y="130" width="205" height="130" rx="10" fill="#ffffff" stroke="#c9d4f2"/><text x="738" y="162" font-size="18" font-weight="700" fill="#c2581e">4. Bandingkan</text><text x="738" y="192" font-size="15" fill="#13235a">Median views 24 jam</text><text x="738" y="214" font-size="15" fill="#13235a">dan rata-rata tonton</text><line x1="927" y1="195" x2="948" y2="195" stroke="#4a5680" stroke-width="2"/><polygon points="948,195 939,199.3 939,190.7" fill="#4a5680"/>
+<rect x="950" y="130" width="205" height="130" rx="10" fill="#ffffff" stroke="#c9d4f2"/><text x="968" y="162" font-size="18" font-weight="700" fill="#13235a">5. Kunci jadwal</text><text x="968" y="192" font-size="15" fill="#13235a">Slot pemenang masuk</text><text x="968" y="214" font-size="15" fill="#13235a">kalender, uji ulang</text>
+<text x="40" y="310" font-size="15" fill="#4a5680">Ilustrasi konsep. Dibuat oleh Kelola Konten.</text>
+</g></svg>
