@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500" width="1200" height="500" role="img" aria-labelledby="t d">
+<title id="t">Rumus ROI media sosial</title>
+<desc id="d">Rumus ROI media sosial dan contoh hitung berlabel: nilai Rp6.000.000, biaya Rp4.000.000, ROI 50 persen</desc>
+<rect width="1200" height="500" fill="#f4f7ff"/>
+<g font-family="Inter, Arial, sans-serif">
+<text x="40" y="50" font-size="26" fill="#13235a" font-weight="700">Rumus ROI media sosial</text><text x="40" y="82" font-size="17" fill="#4a5680">Nilai yang dihasilkan dikurangi biaya, dibagi biaya, dikali 100%</text>
+<rect x="40" y="112" width="420" height="52" rx="8" fill="#13235a"/><text x="58" y="145" font-size="17" fill="#ffffff" font-weight="700">Rumus</text><rect x="470" y="112" width="690" height="52" rx="8" fill="#ffffff" stroke="#c9d4f2"/><text x="488" y="145" font-size="17" fill="#13235a">ROI = (nilai yang dihasilkan - biaya) / biaya x 100%</text>
+<rect x="40" y="176" width="420" height="52" rx="8" fill="#1f8a7a"/><text x="58" y="209" font-size="17" fill="#ffffff" font-weight="700">Contoh nilai (rekaan)</text><rect x="470" y="176" width="690" height="52" rx="8" fill="#ffffff" stroke="#c9d4f2"/><text x="488" y="209" font-size="17" fill="#13235a">Laba kotor dari penjualan via media sosial: Rp6.000.000</text>
+<rect x="40" y="240" width="420" height="52" rx="8" fill="#c2581e"/><text x="58" y="273" font-size="17" fill="#ffffff" font-weight="700">Contoh biaya (rekaan)</text><rect x="470" y="240" width="690" height="52" rx="8" fill="#ffffff" stroke="#c9d4f2"/><text x="488" y="273" font-size="17" fill="#13235a">Iklan + produksi + alat + jam kerja: Rp4.000.000</text>
+<rect x="40" y="304" width="420" height="52" rx="8" fill="#6a4fd1"/><text x="58" y="337" font-size="17" fill="#ffffff" font-weight="700">Hitungan</text><rect x="470" y="304" width="690" height="52" rx="8" fill="#ffffff" stroke="#c9d4f2"/><text x="488" y="337" font-size="17" fill="#13235a">(6.000.000 - 4.000.000) / 4.000.000 x 100% = 50%</text>
+<rect x="40" y="368" width="420" height="52" rx="8" fill="#2457d6"/><text x="58" y="401" font-size="17" fill="#ffffff" font-weight="700">Artinya</text><rect x="470" y="368" width="690" height="52" rx="8" fill="#ffffff" stroke="#c9d4f2"/><text x="488" y="401" font-size="17" fill="#13235a">Setiap Rp1 biaya kembali Rp1,50 nilai, untung bersih Rp0,50</text>
+<text x="40" y="478" font-size="15" fill="#4a5680">Rumus dari Hootsuite. Angka contoh rekaan, bukan data usaha nyata. Dibuat oleh Kelola Konten.</text>
+</g></svg>
