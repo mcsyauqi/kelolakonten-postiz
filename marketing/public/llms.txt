@@ -1,19 +1,71 @@
 # Kelola Konten
 
-Kelola Konten adalah ruang kerja konten sosial untuk UMKM, kreator, dan agensi Indonesia.
+Kelola Konten adalah ruang kerja konten sosial untuk UMKM, kreator, dan agensi Indonesia: kalender, draft, review, approval, penjadwalan, dan analitik dalam satu tempat.
 
 ## Produk
 - Kalender, draft, review, approval, penjadwalan, dan analitik sesuai koneksi platform.
 - TikTok dan YouTube otomatis hanya tayang setelah aplikasi lolos audit platform.
 - Unified external DM, competitor analytics, dan laporan PDF berlogo agensi berstatus segera.
 
-## Sumber
-- Public source fork: https://github.com/mcsyauqi/kelolakonten-postiz
-- AGPL-3.0: https://github.com/mcsyauqi/kelolakonten-postiz/blob/main/LICENSE
+## Alat
+- Cek Engagement Rate: https://kelolakonten.com/alat/cek-engagement-rate
+- Template kalender konten: https://kelolakonten.com/alat/template-kalender
+
+## Halaman
+- Beranda: https://kelolakonten.com/
+- Fitur: https://kelolakonten.com/fitur
+- Harga (daftar tunggu): https://kelolakonten.com/harga
+- Sumber terbuka (AGPL-3.0): https://github.com/mcsyauqi/kelolakonten-postiz
 - WhatsApp: https://wa.me/6285136212005
-- Artikel: https://kelolakonten.com/artikel/
-- Content pillar: cara menentukan 3 sampai 5 pilar konten untuk brand kecil: https://kelolakonten.com/artikel/content-pillar
-- Waktu terbaik posting Instagram: cara membaca jam aktif pengikut di Insight dan menguji dua slot selama empat minggu: https://kelolakonten.com/artikel/jam-posting-instagram
-- Cara menulis caption Instagram jualan: struktur hook, manfaat, bukti, ajakan, dan pengujian caption: https://kelolakonten.com/artikel/cara-menulis-caption-instagram-jualan
-- Cara menaikkan engagement Instagram tanpa membeli like: 12 langkah, pengukuran, dan batas kebijakan: https://kelolakonten.com/artikel/cara-menaikkan-engagement-instagram
-- 60 ide konten Instagram untuk UMKM: ide per pilar dengan format, ajakan, dan jadwal 30 hari: https://kelolakonten.com/artikel/ide-konten-instagram-untuk-umkm
+
+## Artikel
+- Algoritma Instagram: Cara Kerja Feed, Reels, dan Explore: https://kelolakonten.com/artikel/algoritma-instagram
+- Alur Approval Konten dengan Klien: Draft sampai Terjadwal: https://kelolakonten.com/artikel/alur-approval-konten-klien
+- Batching Konten Media Sosial untuk UMKM: https://kelolakonten.com/artikel/batching-konten-media-sosial
+- Brand Voice untuk Media Sosial: Cara Menentukan dan Menuliskannya: https://kelolakonten.com/artikel/brand-voice
+- Brief Konten: Cara Membuat Content Brief yang Jelas: https://kelolakonten.com/artikel/brief-konten
+- Cara Bikin Konten TikTok untuk Bisnis, Langkah demi Langkah: https://kelolakonten.com/artikel/cara-bikin-konten-tiktok
+- Cara Live TikTok: Syarat, Langkah, dan Tips Jualan: https://kelolakonten.com/artikel/cara-live-tiktok
+- Cara Membalas Komentar Negatif di Media Sosial: 5 Template dan Kapan Eskalasi: https://kelolakonten.com/artikel/cara-membalas-komentar-negatif
+- Cara Membuat Carousel Instagram yang Dibaca sampai Slide Terakhir: https://kelolakonten.com/artikel/cara-membuat-carousel-instagram
+- Cara Membuat Kalender Konten: Panduan Alur Kerja Tim: https://kelolakonten.com/artikel/cara-membuat-kalender-konten
+- Cara Menaikkan Engagement Instagram Tanpa Beli Like: https://kelolakonten.com/artikel/cara-menaikkan-engagement-instagram
+- Cara Menambah Followers Instagram Tanpa Beli Followers: https://kelolakonten.com/artikel/cara-menambah-followers-instagram
+- Rumus Engagement Rate Instagram: Cara Menghitung dan Contoh: https://kelolakonten.com/artikel/cara-menghitung-engagement-rate-instagram
+- Cara Menghitung ROI Media Sosial untuk UMKM: Rumus dan Contoh: https://kelolakonten.com/artikel/cara-menghitung-roi-media-sosial
+- Cara Mengubah Akun IG Bisnis ke Pribadi dan Dampaknya: https://kelolakonten.com/artikel/cara-mengubah-akun-ig-bisnis-ke-pribadi
+- Cara Menulis Caption Instagram Jualan yang Membuat Orang Pesan: https://kelolakonten.com/artikel/cara-menulis-caption-instagram-jualan
+- Cara Repurpose Konten: Satu Ide Jadi Banyak Format: https://kelolakonten.com/artikel/cara-repurpose-konten
+- Content Creator Adalah: Tugas, Skill, dan Cara Memulai: https://kelolakonten.com/artikel/content-creator
+- Content Marketing Adalah: Pengertian, Strategi, dan Contoh: https://kelolakonten.com/artikel/content-marketing-adalah
+- Content Pillar: Cara Menentukan 3 sampai 5 Pilar Konten untuk Brand Kecil: https://kelolakonten.com/artikel/content-pillar
+- Content Planner untuk UMKM: Dari Ide ke Jadwal: https://kelolakonten.com/artikel/content-planner-untuk-umkm
+- Cover Highlight Instagram: Cara Membuat, Ukuran, dan Ide: https://kelolakonten.com/artikel/cover-highlight-instagram
+- Engagement Rate TikTok: Rumus, Contoh, dan Cara Membacanya: https://kelolakonten.com/artikel/engagement-rate-tiktok
+- FYP TikTok: Cara Kerja For You dan Cara Masuk FYP: https://kelolakonten.com/artikel/fyp-tiktok
+- Hashtag Instagram untuk Bisnis: Cara Riset, Jumlah, dan Penempatan: https://kelolakonten.com/artikel/hashtag-instagram-untuk-bisnis
+- Hook Konten: Cara Membuat Pembuka Video yang Ditonton: https://kelolakonten.com/artikel/hook-konten
+- Ide Konten 12.12 untuk Online Shop: Kalender 3 Minggu: https://kelolakonten.com/artikel/ide-konten-12-12
+- Ide Konten Akhir Tahun untuk Bisnis: Recap, Terima Kasih, dan Teaser Tahun Baru: https://kelolakonten.com/artikel/ide-konten-akhir-tahun
+- 60 Ide Konten Instagram untuk UMKM yang Bisa Dijadwalkan Sebulan: https://kelolakonten.com/artikel/ide-konten-instagram-untuk-umkm
+- Ide Konten TikTok untuk Jualan: 30 Format yang Bisa Dibuat dengan HP: https://kelolakonten.com/artikel/ide-konten-tiktok-untuk-jualan
+- Ide Konten untuk UMKM: 40 Ide Posting dari Bisnis Sendiri: https://kelolakonten.com/artikel/ide-konten-umkm
+- Inbox Komentar Media Sosial: Batas API dan Workflow: https://kelolakonten.com/artikel/inbox-komentar-media-sosial
+- Insight Instagram: Cara Melihat dan Membaca Datanya: https://kelolakonten.com/artikel/insight-instagram
+- Jadwal Konten TikTok untuk Bisnis: Direct Post dan Audit: https://kelolakonten.com/artikel/jadwal-konten-tiktok-untuk-bisnis
+- Jadwal Posting Instagram dari Laptop untuk Tim Kecil: https://kelolakonten.com/artikel/jadwal-posting-instagram-dari-laptop
+- Waktu Terbaik Posting Instagram: Cara Cari Jam Posting Akun Anda: https://kelolakonten.com/artikel/jam-posting-instagram
+- Konten Edukasi: Jenis, Cara Membuat, dan Ide untuk Bisnis: https://kelolakonten.com/artikel/konten-edukasi
+- KPI Media Sosial untuk UMKM: 8 Metrik dan Cara Menetapkan Target: https://kelolakonten.com/artikel/kpi-media-sosial
+- Laporan Media Sosial untuk Klien: Struktur yang Bisa Diaudit: https://kelolakonten.com/artikel/laporan-media-sosial-untuk-klien
+- Link Bio Instagram untuk Bisnis: Pilihan, UTM, dan Cara Mengukur Klik: https://kelolakonten.com/artikel/link-bio-instagram
+- Pilar Konten Media Sosial: Cara Menentukan untuk Bisnis: https://kelolakonten.com/artikel/pilar-konten-media-sosial
+- Reach dan Impression: Beda, Cara Membaca, dan Kapan Dipakai: https://kelolakonten.com/artikel/reach-dan-impression
+- Social Media Marketing Adalah: Pengertian dan Strategi UMKM: https://kelolakonten.com/artikel/social-media-marketing-adalah
+- Contoh SOP Media Sosial untuk Tim Kecil dan Agensi (Bisa Disalin): https://kelolakonten.com/artikel/sop-media-sosial
+- Tools Media Sosial untuk Agensi: Rubrik Evaluasi: https://kelolakonten.com/artikel/tools-media-sosial-untuk-agensi
+- Tugas Social Media Manager: Job Desk, Alur Kerja, dan Alatnya: https://kelolakonten.com/artikel/tugas-social-media-manager
+- Ukuran Feed Instagram: Rasio dan Piksel yang Aman: https://kelolakonten.com/artikel/ukuran-feed-instagram
+- Upload Video YouTube Otomatis: OAuth dan Batasannya: https://kelolakonten.com/artikel/upload-video-youtube-otomatis
+- User Generated Content: Cara Mengajak Pelanggan dan Izin Repost: https://kelolakonten.com/artikel/user-generated-content
+- Waktu Terbaik Posting TikTok untuk Bisnis: Cara Menemukannya dari Data Akun: https://kelolakonten.com/artikel/waktu-terbaik-posting-tiktok
