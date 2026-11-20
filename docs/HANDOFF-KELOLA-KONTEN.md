@@ -9,9 +9,9 @@ Diperbarui 13 Oktober 2026. Dokumen ini untuk developer yang melanjutkan Kelola 
 | Situs marketing | HTML statis + server Node kecil (waitlist, redirect www/http) | `marketing/` (`marketing/public/` untuk halaman, artikel di `marketing/public/artikel/`) | https://kelolakonten.com |
 | Aplikasi | Fork Postiz (Next.js frontend, NestJS backend, orchestrator Temporal) yang di-rebrand | `apps/`, `libraries/`, `docker-compose.kelolakonten.yaml` | https://app.kelolakonten.com |
 
-Hosting: Coolify pribadi `coolify.mcsyauqi.com` (VPS Hostinger 72.61.143.148), DNS di Cloudflare (DNS-only, SSL Let's Encrypt via Coolify).
+Hosting: Coolify pribadi `coolify.creativism.id` (VPS Hostinger 72.61.143.148), DNS di Cloudflare (DNS-only, SSL Let's Encrypt via Coolify).
 
-- App marketing: Coolify uuid `svuje7kxurw8exrvuj6gyjbj` (Dockerfile `marketing/Dockerfile`, volume persisten `/app/data` untuk waitlist lama).
+- App marketing: Coolify uuid `gnb0ac3pq2nqutg0skdqj9aq` (Dockerfile `marketing/Dockerfile`, volume persisten `/app/data` untuk waitlist lama).
 - App Postiz: Coolify uuid `akiajnygc6oe6cbuir9ocupm` (docker compose `docker-compose.kelolakonten.yaml`: postiz, postgres, redis, temporal + db + elasticsearch). Build dari source sekitar 25 menit.
 - Instance pribadi `postiz.mcsyauqi.com` adalah milik Syauqi dan TERPISAH. Jangan diubah.
 

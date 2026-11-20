@@ -1,6 +1,6 @@
 name: Kelola Konten deploy
 
-# Push ke main otomatis men-deploy bagian yang berubah ke Coolify (coolify.mcsyauqi.com).
+# Push ke main otomatis men-deploy bagian yang berubah ke Coolify (coolify.creativism.id).
 # - marketing/**                         -> app kelolakonten-marketing (kelolakonten.com)
 # - apps/**, libraries/**, compose, deps -> app kelolakonten-postiz (app.kelolakonten.com, build ~25 menit)
 # Secret COOLIFY_DEPLOY_TOKEN hanya punya izin deploy (tidak bisa membaca env atau resource lain).
@@ -25,8 +25,8 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 60
     env:
-      COOLIFY: https://coolify.mcsyauqi.com/api/v1
-      MARKETING_UUID: svuje7kxurw8exrvuj6gyjbj
+      COOLIFY: https://coolify.creativism.id/api/v1
+      MARKETING_UUID: gnb0ac3pq2nqutg0skdqj9aq
       APP_UUID: akiajnygc6oe6cbuir9ocupm
     steps:
       - uses: actions/checkout@v4

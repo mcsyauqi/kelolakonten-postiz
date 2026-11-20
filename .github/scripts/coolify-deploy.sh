@@ -2,7 +2,7 @@
 # Picu deploy satu aplikasi Coolify (dengan coba ulang) dan cetak nomor deployment-nya.
 # Token di sini hanya punya izin deploy, jadi status build tidak bisa dibaca dari sini:
 # cek hasilnya di situs live (marketing ~1 menit, app ~25 menit) atau di dashboard Coolify.
-# Pemakaian: TOKEN=... COOLIFY=https://coolify.mcsyauqi.com/api/v1 bash coolify-deploy.sh <app-uuid>
+# Pemakaian: TOKEN=... COOLIFY=https://coolify.creativism.id/api/v1 bash coolify-deploy.sh <app-uuid>
 set -euo pipefail
 uuid="$1"
 for i in 1 2 3 4 5; do
