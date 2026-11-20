@@ -12,7 +12,7 @@ Diperbarui 13 Oktober 2026. Dokumen ini untuk developer yang melanjutkan Kelola 
 Hosting: Coolify pribadi `coolify.creativism.id` (VPS Hostinger 72.61.143.148), DNS di Cloudflare (DNS-only, SSL Let's Encrypt via Coolify).
 
 - App marketing: Coolify uuid `gnb0ac3pq2nqutg0skdqj9aq` (Dockerfile `marketing/Dockerfile`, volume persisten `/app/data` untuk waitlist lama).
-- App Postiz: Coolify uuid `akiajnygc6oe6cbuir9ocupm` (docker compose `docker-compose.kelolakonten.yaml`: postiz, postgres, redis, temporal + db + elasticsearch). Build dari source sekitar 25 menit.
+- App Postiz: Coolify uuid `it5s4f4tczb8xcyhetx9uy3f` (docker compose `docker-compose.kelolakonten.yaml`: postiz, postgres, redis, temporal + db + elasticsearch). Build dari source sekitar 25 menit.
 - Instance pribadi `postiz.mcsyauqi.com` adalah milik Syauqi dan TERPISAH. Jangan diubah.
 
 ## Deploy

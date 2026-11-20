@@ -13,7 +13,7 @@ Jangan menulis kunci atau secret di file ini. Nilainya hanya diisi di environmen
 | Instagram app ID (Instagram Login) | `836475935883075` |
 | Threads app ID | `877659928390300` |
 | Domain aplikasi | `https://app.kelolakonten.com` |
-| Tempat kunci | Coolify, app `kelolakonten-postiz` (uuid `akiajnygc6oe6cbuir9ocupm`), tab Environment Variables |
+| Tempat kunci | Coolify, app `kelolakonten-postiz` (uuid `it5s4f4tczb8xcyhetx9uy3f`), tab Environment Variables |
 
 Yang harus diubah agar Meta mengarah ke production ada di empat tempat: redirect URI di dashboard Meta, environment Coolify, data dasar app, dan App Review. Urutannya di bawah.
 

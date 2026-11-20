@@ -27,7 +27,7 @@ jobs:
     env:
       COOLIFY: https://coolify.creativism.id/api/v1
       MARKETING_UUID: gnb0ac3pq2nqutg0skdqj9aq
-      APP_UUID: akiajnygc6oe6cbuir9ocupm
+      APP_UUID: it5s4f4tczb8xcyhetx9uy3f
     steps:
       - uses: actions/checkout@v4
         with:
