@@ -85,6 +85,7 @@
 .hv-msg{min-height:1.2em;margin-top:8px;font-size:var(--fs-xs);color:var(--muted)}
 .hv-msg[data-state=error]{color:#B4232A}.hv-msg[data-state=success]{color:#227A4B}
 .hv-hero-fine{position:relative;margin:4px auto 0;max-width:34em;font-size:var(--fs-xs);color:var(--muted)}
+.hv-hero-def{position:relative;margin:18px auto 0;max-width:38em;font-size:var(--fs-sm);line-height:1.6;color:var(--muted)}
 
 /* ----- Proof marquee ----- */
 .hv-proof{padding-top:calc(var(--sec)*.6)}
