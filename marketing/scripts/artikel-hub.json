@@ -275,5 +275,15 @@
     "label": "Meta",
     "judul": "Meta Business Suite",
     "ringkasan": "Fungsi resmi, syarat portofolio bisnis, cara menjadwalkan, dan batasnya untuk tim serta agensi."
+  },
+  "instagram-ads": {
+    "label": "Iklan",
+    "judul": "Instagram Ads",
+    "ringkasan": "Promosikan postingan atau Pengelola Iklan, enam tujuan iklan, penempatan, dan aturan anggaran minimal dari Meta."
+  },
+  "tiktok-ads": {
+    "label": "Iklan",
+    "judul": "TikTok Ads",
+    "ringkasan": "Promote atau Ads Manager, struktur tiga tingkat, anggaran minimal $50 dan $20, serta cara mengukur hasil."
   }
 }
