@@ -36,6 +36,8 @@
     window.gtag('consent', 'update', { analytics_storage: 'granted' });
     window.gtag('config', measurementId, { anonymize_ip: true, allow_google_signals: false, allow_ad_personalization_signals: false });
     loadGoogleTag();
+    // Microsoft Clarity session recording (project zi5851zn4t), only after the same analytics consent.
+    (function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "zi5851zn4t");
   };
 
   window.kelolaDenyAnalytics = function () {
