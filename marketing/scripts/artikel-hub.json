@@ -285,5 +285,15 @@
     "label": "Iklan",
     "judul": "TikTok Ads",
     "ringkasan": "Promote atau Ads Manager, struktur tiga tingkat, anggaran minimal $50 dan $20, serta cara mengukur hasil."
+  },
+  "aplikasi-manajemen-media-sosial-open-source": {
+    "label": "Alat",
+    "judul": "Aplikasi manajemen media sosial open source",
+    "ringkasan": "Postiz, Mixpost, dan Socioboard dibandingkan, plus arti lisensi AGPL dan pekerjaan yang pindah ke tim saat self-host."
+  },
+  "alternatif-buffer": {
+    "label": "Alat",
+    "judul": "Alternatif Buffer untuk tim Indonesia",
+    "ringkasan": "Enam alternatif Buffer dengan harga resmi bertanggal, biaya untuk 10 kanal, dan rubrik memilih."
   }
 }
