@@ -96,10 +96,13 @@
   };
 
   document.addEventListener('click', (event) => {
-    const link = event.target.closest?.('a[data-wa-cta], a[href*="wa.me/"]');
+    const link = event.target.closest?.('a[data-wa-cta], a[href*="wa.me/"], a[href*="api.whatsapp.com/"], a[href*="web.whatsapp.com/"], a[href^="whatsapp:"]');
     if (link) window.kelolaTrack('wa_cta_click', { placement: link.dataset.waCta || `${placementOf(link)}_${window.location.pathname.split('/').filter(Boolean)[0] || 'home'}` });
     const source = event.target.closest?.('a[href*="github.com/mcsyauqi/kelolakonten-postiz"]');
     if (source) window.kelolaTrack('source_link_click', { placement: source.dataset.sourcePlacement || placementOf(source) });
+    // Klik email: hanya domain tujuan yang dikirim, alamat lengkap tidak (cleanParams menolak "@").
+    const mail = event.target.closest?.('a[href^="mailto:"]');
+    if (mail) window.kelolaTrack('email_click', { email_domain: (mail.getAttribute('href').slice(7).split('?')[0].split('@')[1] || '').toLowerCase(), placement: `${placementOf(mail)}_${window.location.pathname.split('/').filter(Boolean)[0] || 'home'}` });
     const signup = event.target.closest?.('a[href^="https://app.kelolakonten.com/auth"]');
     if (signup) window.kelolaTrack(signup.href.includes('/auth/login') ? 'login_click' : 'sign_up_click', { placement: `${placementOf(signup)}_${window.location.pathname.split('/').filter(Boolean)[0] || 'home'}` });
   });
