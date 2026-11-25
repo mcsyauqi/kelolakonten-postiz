@@ -144,6 +144,11 @@ services:
       ES_SEEDS: kelolakonten-temporal-es
       ES_VERSION: v7
       TEMPORAL_NAMESPACE: default
+      # Coolify also attaches this container to its own network, so `hostname -i` (the auto-setup
+      # default bind IP) can pick the wrong interface and postiz gets ECONNREFUSED on :7233
+      # (seen 2026-11-25). Listen on every interface; single node, so loopback broadcast is fine.
+      BIND_ON_IP: 0.0.0.0
+      TEMPORAL_BROADCAST_ADDRESS: 127.0.0.1
     networks: [kelolakonten-temporal]
 
 volumes:
