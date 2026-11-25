@@ -25,14 +25,26 @@ export class NodeMailerProvider implements EmailInterface {
     subject: string,
     html: string,
     emailFromName: string,
-    emailFromAddress: string
+    emailFromAddress: string,
+    replyTo?: string
   ) {
+    // Kelola Konten: versi teks biasa + reply-to resmi (sama seperti ResendProvider).
+    const text = html
+      .replace(/<style[\s\S]*?<\/style>/gi, '')
+      .replace(/<a [^>]*href="([^"]+)"[^>]*>([\s\S]*?)<\/a>/gi, '$2 ($1)')
+      .replace(/<br\s*\/?>/gi, '\n')
+      .replace(/<\/(p|div|h1|h2)>/gi, '\n')
+      .replace(/<[^>]+>/g, '')
+      .replace(/[ \t]+/g, ' ')
+      .replace(/\n\s*\n+/g, '\n\n')
+      .trim();
     const sends = await transporter.sendMail({
-      from: `${emailFromName} <${emailFromAddress}>`, // sender address
-      to: to, // list of receivers
-      subject: subject, // Subject line
-      text: html, // plain text body
-      html: html, // html body
+      from: `${emailFromName} <${emailFromAddress}>`,
+      to,
+      subject,
+      text,
+      html,
+      replyTo: replyTo || process.env.EMAIL_REPLY_TO || undefined,
     });
 
     return sends;

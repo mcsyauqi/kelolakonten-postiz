@@ -52,6 +52,12 @@ services:
       EMAIL_PROVIDER: ${EMAIL_PROVIDER:-}
       EMAIL_REPLY_TO: ${EMAIL_REPLY_TO:-hello@kelolakonten.com}
       RESEND_API_KEY: ${RESEND_API_KEY:-}
+      # EMAIL_PROVIDER=nodemailer: ForwardEmail SMTP (smtp.forwardemail.net:465, alias noreply@kelolakonten.com).
+      EMAIL_HOST: ${EMAIL_HOST:-}
+      EMAIL_PORT: ${EMAIL_PORT:-465}
+      EMAIL_SECURE: ${EMAIL_SECURE:-true}
+      EMAIL_USER: ${EMAIL_USER:-}
+      EMAIL_PASS: ${EMAIL_PASS:-}
       EMAIL_FROM_ADDRESS: ${EMAIL_FROM_ADDRESS:-}
       EMAIL_FROM_NAME: ${EMAIL_FROM_NAME:-Kelola Konten}
     volumes:
