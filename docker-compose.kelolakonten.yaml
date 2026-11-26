@@ -11,6 +11,13 @@ services:
     expose:
       - "5000"
     restart: always
+    # nginx + pm2-runtime + three node apps in one container: an init reaps orphaned children.
+    init: true
+    # Normal use is about 0.8 GB (backend, orchestrator, frontend, pm2, nginx); the heap and
+    # restart caps in var/docker/ecosystem.config.js keep each app under this.
+    # memswap_limit = mem_limit: no swap, so a runaway app is restarted instead of dragging the host.
+    mem_limit: 2g
+    memswap_limit: 2g
     environment:
       MAIN_URL: ${MAIN_URL:?set https://app.kelolakonten.com}
       FRONTEND_URL: ${FRONTEND_URL:?set https://app.kelolakonten.com}
@@ -77,6 +84,8 @@ services:
   kelolakonten-postgres:
     image: postgres:17-alpine
     restart: always
+    mem_limit: 512m
+    memswap_limit: 512m
     environment:
       POSTGRES_PASSWORD: ${POSTIZ_DB_PASSWORD:?set a unique password}
       POSTGRES_USER: postiz_user
@@ -93,6 +102,8 @@ services:
   kelolakonten-redis:
     image: redis:7.2
     restart: always
+    mem_limit: 256m
+    memswap_limit: 256m
     command: [redis-server, --appendonly, yes]
     volumes:
       - kelolakonten-redis:/data
@@ -103,24 +114,11 @@ services:
       timeout: 5s
       retries: 5
 
-  kelolakonten-temporal-es:
-    image: elasticsearch:7.17.27
-    restart: always
-    environment:
-      discovery.type: single-node
-      xpack.security.enabled: "false"
-      ES_JAVA_OPTS: -Xms256m -Xmx256m
-      cluster.routing.allocation.disk.threshold_enabled: "true"
-      cluster.routing.allocation.disk.watermark.low: 512mb
-      cluster.routing.allocation.disk.watermark.high: 256mb
-      cluster.routing.allocation.disk.watermark.flood_stage: 128mb
-    volumes:
-      - kelolakonten-temporal-es:/usr/share/elasticsearch/data
-    networks: [kelolakonten-temporal]
-
   kelolakonten-temporal-pg:
     image: postgres:16
     restart: always
+    mem_limit: 512m
+    memswap_limit: 512m
     environment:
       POSTGRES_PASSWORD: ${TEMPORAL_DB_PASSWORD:?set a unique password}
       POSTGRES_USER: temporal
@@ -131,18 +129,21 @@ services:
   kelolakonten-temporal:
     image: temporalio/auto-setup:1.28.1
     restart: always
+    mem_limit: 512m
+    memswap_limit: 512m
     depends_on:
       - kelolakonten-temporal-pg
-      - kelolakonten-temporal-es
     environment:
       DB: postgres12
       DB_PORT: "5432"
       POSTGRES_USER: temporal
       POSTGRES_PWD: ${TEMPORAL_DB_PASSWORD:?set a unique password}
       POSTGRES_SEEDS: kelolakonten-temporal-pg
-      ENABLE_ES: "true"
-      ES_SEEDS: kelolakonten-temporal-es
-      ES_VERSION: v7
+      # Visibility (workflow search by postId) lives in PostgreSQL (advanced visibility, postgres12
+      # plugin, database temporal_visibility) instead of an Elasticsearch container (~700 MB RSS).
+      # auto-setup creates that database on boot; the backend re-registers the postId and
+      # organizationId search attributes on start (temporal.register.ts).
+      ENABLE_ES: "false"
       TEMPORAL_NAMESPACE: default
       # Coolify also attaches this container to its own network, so `hostname -i` (the auto-setup
       # default bind IP) can pick the wrong interface and postiz gets ECONNREFUSED on :7233
@@ -157,6 +158,8 @@ volumes:
   kelolakonten-pg:
   kelolakonten-redis:
   kelolakonten-temporal-pg:
+  # No longer mounted (Elasticsearch visibility was replaced by PostgreSQL). Kept declared so the
+  # volume and its data stay in place for a rollback.
   kelolakonten-temporal-es:
 
 networks:
@@ -164,9 +167,3 @@ networks:
     internal: true
   kelolakonten-temporal:
     internal: true
-
-
-
-
-
-
