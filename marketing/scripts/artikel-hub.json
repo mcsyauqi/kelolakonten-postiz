@@ -300,5 +300,10 @@
     "label": "TikTok",
     "judul": "Ukuran video TikTok",
     "ringkasan": "Rasio 9:16, resolusi minimum, format, durasi, dan batas berkas dari dokumentasi resmi TikTok, plus pengaturan ekspor yang aman."
+  },
+  "ukuran-thumbnail-youtube": {
+    "label": "YouTube",
+    "judul": "Ukuran thumbnail YouTube",
+    "ringkasan": "Resolusi, rasio, format, dan batas berkas thumbnail untuk video, Shorts, dan podcast dari Bantuan YouTube, plus syarat unggah dan uji A/B."
   }
 }
