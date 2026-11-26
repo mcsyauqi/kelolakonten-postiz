@@ -6,9 +6,10 @@
 // instead of the app, so max_memory_restart never saw the real process.
 // The container has no .env file: all settings come from the compose environment.
 //
-// Memory: --max-old-space-size caps the V8 heap of each app; max_memory_restart restarts
-// an app whose RSS keeps growing past it. Both sit well under the container mem_limit
-// in docker-compose.kelolakonten.yaml.
+// Memory: max_memory_restart restarts an app whose RSS grows past it (checked by pm2 about
+// every 30s). The thresholds add up to 2.15 GB, under the 2560m container mem_limit in
+// docker-compose.kelolakonten.yaml. The V8 heap cap (--max-old-space-size) sits above the
+// heap share of each threshold so a growing app gets a clean restart, not a heap crash.
 const path = require('path');
 
 const root = path.resolve(__dirname, '../..');
@@ -20,6 +21,8 @@ const app = (name, dir, script, args, heapMb, restartAt) => ({
   args,
   node_args: ['--experimental-require-module', `--max-old-space-size=${heapMb}`],
   max_memory_restart: restartAt,
+  // the orchestrator's Temporal worker and Nest shutdown hooks need a few seconds on SIGTERM
+  kill_timeout: 8000,
   // the orchestrator exits when Temporal is unreachable at boot; back off between retries
   exp_backoff_restart_delay: 1000,
   // logs go to the container stdout through pm2-runtime only
@@ -29,8 +32,8 @@ const app = (name, dir, script, args, heapMb, restartAt) => ({
 
 module.exports = {
   apps: [
-    app('backend', 'apps/backend', './dist/apps/backend/src/main.js', '', 768, '1000M'),
-    app('orchestrator', 'apps/orchestrator', './dist/apps/orchestrator/src/main.js', '', 640, '850M'),
-    app('frontend', 'apps/frontend', path.join(root, 'node_modules/next/dist/bin/next'), 'start -p 4200', 384, '512M'),
+    app('backend', 'apps/backend', './dist/apps/backend/src/main.js', '', 896, '1000M'),
+    app('orchestrator', 'apps/orchestrator', './dist/apps/orchestrator/src/main.js', '', 704, '800M'),
+    app('frontend', 'apps/frontend', path.join(root, 'node_modules/next/dist/bin/next'), 'start -p 4200', 256, '350M'),
   ],
 };

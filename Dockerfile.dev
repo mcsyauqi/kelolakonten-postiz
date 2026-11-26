@@ -15,7 +15,8 @@ RUN addgroup --system www \
  && chown -R www:www /www /var/lib/nginx
 
 
-RUN npm --no-update-notifier --no-fund --global install pnpm@10.6.1 pm2
+# pm2 pinned: CMD relies on pm2-runtime --format and the ecosystem keys in var/docker
+RUN npm --no-update-notifier --no-fund --global install pnpm@10.6.1 pm2@7.1.2
 
 WORKDIR /app
 

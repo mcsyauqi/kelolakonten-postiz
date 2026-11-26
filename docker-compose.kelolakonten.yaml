@@ -13,11 +13,12 @@ services:
     restart: always
     # nginx + pm2-runtime + three node apps in one container: an init reaps orphaned children.
     init: true
-    # Normal use is about 0.8 GB (backend, orchestrator, frontend, pm2, nginx); the heap and
-    # restart caps in var/docker/ecosystem.config.js keep each app under this.
+    # Normal use is about 1.3 GB (backend ~630 MB, orchestrator ~500 MB, frontend ~150 MB, pm2,
+    # nginx). The per-app restart thresholds in var/docker/ecosystem.config.js add up to 2.15 GB,
+    # so pm2 restarts a growing app before this cgroup limit is reached.
     # memswap_limit = mem_limit: no swap, so a runaway app is restarted instead of dragging the host.
-    mem_limit: 2g
-    memswap_limit: 2g
+    mem_limit: 2560m
+    memswap_limit: 2560m
     environment:
       MAIN_URL: ${MAIN_URL:?set https://app.kelolakonten.com}
       FRONTEND_URL: ${FRONTEND_URL:?set https://app.kelolakonten.com}
@@ -144,6 +145,10 @@ services:
       # auto-setup creates that database on boot; the backend re-registers the postId and
       # organizationId search attributes on start (temporal.register.ts).
       ENABLE_ES: "false"
+      # PostgreSQL visibility has only 3 Text search-attribute slots per namespace and the app
+      # needs 2 (postId, organizationId). auto-setup otherwise adds sample attributes
+      # (CustomTextField, CustomStringField: 2 more Text) and the app registration then fails.
+      SKIP_ADD_CUSTOM_SEARCH_ATTRIBUTES: "true"
       TEMPORAL_NAMESPACE: default
       # Coolify also attaches this container to its own network, so `hostname -i` (the auto-setup
       # default bind IP) can pick the wrong interface and postiz gets ECONNREFUSED on :7233
