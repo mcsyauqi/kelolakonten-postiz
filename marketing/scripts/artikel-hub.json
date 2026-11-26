@@ -295,5 +295,10 @@
     "label": "Alat",
     "judul": "Alternatif Buffer untuk tim Indonesia",
     "ringkasan": "Enam alternatif Buffer dengan harga resmi bertanggal, biaya untuk 10 kanal, dan rubrik memilih."
+  },
+  "ukuran-video-tiktok": {
+    "label": "TikTok",
+    "judul": "Ukuran video TikTok",
+    "ringkasan": "Rasio 9:16, resolusi minimum, format, durasi, dan batas berkas dari dokumentasi resmi TikTok, plus pengaturan ekspor yang aman."
   }
 }
