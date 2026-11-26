@@ -21,3 +21,6 @@ dist
 .git
 .github
 reports
+# Kelola Konten: the marketing site (its own Coolify app) and docs are not part of the app build
+/marketing
+/docs
