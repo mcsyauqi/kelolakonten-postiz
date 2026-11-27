@@ -305,5 +305,10 @@
     "label": "YouTube",
     "judul": "Ukuran thumbnail YouTube",
     "ringkasan": "Resolusi, rasio, format, dan batas berkas thumbnail untuk video, Shorts, dan podcast dari Bantuan YouTube, plus syarat unggah dan uji A/B."
+  },
+  "ukuran-banner-youtube": {
+    "label": "YouTube",
+    "judul": "Ukuran banner YouTube",
+    "ringkasan": "Dimensi minimum, rekomendasi 2560 x 1440, area aman teks dan logo, batas 6 MB, dan cara mengganti banner di YouTube Studio."
   }
 }
